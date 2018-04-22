@@ -1,3 +1,5 @@
+[[https://waffle.io/StevenTammen/steventammen.com][https://badge.waffle.io/StevenTammen/steventammen.com.svg?columns=all]]
+
 * Rough Overview
 
 - Written in [[https://orgmode.org/][Org]].
