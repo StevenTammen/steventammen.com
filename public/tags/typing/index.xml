@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Typing on StevenTammen.com</title>
+    <link>https://www.steventammen.com/tags/typing/</link>
+    <description>Recent content in Typing on StevenTammen.com</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 18 Mar 2018 17:53:27 -0400</lastBuildDate>
+    
+	<atom:link href="https://www.steventammen.com/tags/typing/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Keyboards</title>
+      <link>https://www.steventammen.com/pages/keyboards/</link>
+      <pubDate>Sun, 18 Mar 2018 17:53:27 -0400</pubDate>
+      
+      <guid>https://www.steventammen.com/pages/keyboards/</guid>
+      <description>Good Options  Iris Keyboard Dactyl Keyboard Kinesis Advantage 2 Unikeyboard Diverge 3 ErgoDox EZ Let&#39;s Split  TODO Complete Outline  Optimization Considerations   Differences in Hand Morphology Differences in Optimization Goals (speed vs ergonomics)   Physical Layout Design Variables   Why Physical Layout Design Must Come Before Character Design Design Philosophy: Everything is a Variable Comfort/Ergonomics   Split-Hand Design Columnar Key Layout Adjustable Wrist Pronation (&#34;</description>
+    </item>
+    
+  </channel>
+</rss>

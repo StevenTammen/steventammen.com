@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Optimization on StevenTammen.com</title>
+    <link>https://www.steventammen.com/tags/optimization/</link>
+    <description>Recent content in Optimization on StevenTammen.com</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 18 Mar 2018 17:52:26 -0400</lastBuildDate>
+    
+	<atom:link href="https://www.steventammen.com/tags/optimization/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Material Things Evaluation</title>
+      <link>https://www.steventammen.com/pages/material-things-evaluation/</link>
+      <pubDate>Sun, 18 Mar 2018 17:52:26 -0400</pubDate>
+      
+      <guid>https://www.steventammen.com/pages/material-things-evaluation/</guid>
+      <description>Variables  There will be different variables for different items. The first step when researching a particular item or class of item should always be the identification of variables that will be important to optimize around. You will also want to identify the specifics of your particular use case, and weight variables accordingly. &#34;Best&#34; is relative to what the item will be used for -- a really good pair of tactical cargo pants probably won&#39;t be the best pants to go with your suit.</description>
+    </item>
+    
+  </channel>
+</rss>

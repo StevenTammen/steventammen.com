@@ -6,71 +6,440 @@
     <description>Recent content in Tags on StevenTammen.com</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 17 Mar 2018 18:04:37 -0400</lastBuildDate>
+    <lastBuildDate>Sun, 18 Mar 2018 17:57:39 -0400</lastBuildDate>
     
 	<atom:link href="https://www.steventammen.com/tags/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title></title>
-      <link>https://www.steventammen.com/tags/</link>
-      <pubDate>Sat, 17 Mar 2018 18:04:37 -0400</pubDate>
+      <title>80/20</title>
+      <link>https://www.steventammen.com/tags/80/20/</link>
+      <pubDate>Sun, 18 Mar 2018 17:57:39 -0400</pubDate>
       
-      <guid>https://www.steventammen.com/tags/</guid>
+      <guid>https://www.steventammen.com/tags/80/20/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Development</title>
-      <link>https://www.steventammen.com/tags/development/</link>
-      <pubDate>Wed, 02 Apr 2014 00:00:00 +0000</pubDate>
+      <title>Blogging</title>
+      <link>https://www.steventammen.com/tags/blogging/</link>
+      <pubDate>Sat, 20 Jan 2018 09:46:32 -0400</pubDate>
       
-      <guid>https://www.steventammen.com/tags/development/</guid>
+      <guid>https://www.steventammen.com/tags/blogging/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Go</title>
-      <link>https://www.steventammen.com/tags/go/</link>
-      <pubDate>Wed, 02 Apr 2014 00:00:00 +0000</pubDate>
+      <title>Clothing</title>
+      <link>https://www.steventammen.com/tags/clothing/</link>
+      <pubDate>Sun, 18 Mar 2018 17:58:06 -0400</pubDate>
       
-      <guid>https://www.steventammen.com/tags/go/</guid>
+      <guid>https://www.steventammen.com/tags/clothing/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Golang</title>
-      <link>https://www.steventammen.com/tags/golang/</link>
-      <pubDate>Wed, 02 Apr 2014 00:00:00 +0000</pubDate>
+      <title>Computers</title>
+      <link>https://www.steventammen.com/tags/computers/</link>
+      <pubDate>Sun, 18 Mar 2018 17:56:11 -0400</pubDate>
       
-      <guid>https://www.steventammen.com/tags/golang/</guid>
+      <guid>https://www.steventammen.com/tags/computers/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Hugo</title>
-      <link>https://www.steventammen.com/tags/hugo/</link>
-      <pubDate>Wed, 02 Apr 2014 00:00:00 +0000</pubDate>
+      <title>Diets</title>
+      <link>https://www.steventammen.com/tags/diets/</link>
+      <pubDate>Sun, 18 Mar 2018 17:52:56 -0400</pubDate>
       
-      <guid>https://www.steventammen.com/tags/hugo/</guid>
+      <guid>https://www.steventammen.com/tags/diets/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Templates</title>
-      <link>https://www.steventammen.com/tags/templates/</link>
-      <pubDate>Wed, 02 Apr 2014 00:00:00 +0000</pubDate>
+      <title>Display</title>
+      <link>https://www.steventammen.com/tags/display/</link>
+      <pubDate>Sun, 18 Mar 2018 18:01:38 -0400</pubDate>
       
-      <guid>https://www.steventammen.com/tags/templates/</guid>
+      <guid>https://www.steventammen.com/tags/display/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Themes</title>
-      <link>https://www.steventammen.com/tags/themes/</link>
-      <pubDate>Wed, 02 Apr 2014 00:00:00 +0000</pubDate>
+      <title>Edc</title>
+      <link>https://www.steventammen.com/tags/edc/</link>
+      <pubDate>Sun, 18 Mar 2018 18:02:19 -0400</pubDate>
       
-      <guid>https://www.steventammen.com/tags/themes/</guid>
+      <guid>https://www.steventammen.com/tags/edc/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Essential Gear</title>
+      <link>https://www.steventammen.com/tags/essential-gear/</link>
+      <pubDate>Sun, 18 Mar 2018 18:03:28 -0400</pubDate>
+      
+      <guid>https://www.steventammen.com/tags/essential-gear/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Gear Cluster</title>
+      <link>https://www.steventammen.com/tags/gear-cluster/</link>
+      <pubDate>Sun, 18 Mar 2018 17:58:06 -0400</pubDate>
+      
+      <guid>https://www.steventammen.com/tags/gear-cluster/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Genetic Algorithms</title>
+      <link>https://www.steventammen.com/tags/genetic-algorithms/</link>
+      <pubDate>Sun, 18 Mar 2018 17:53:14 -0400</pubDate>
+      
+      <guid>https://www.steventammen.com/tags/genetic-algorithms/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Handwriting</title>
+      <link>https://www.steventammen.com/tags/handwriting/</link>
+      <pubDate>Sun, 18 Mar 2018 17:50:11 -0400</pubDate>
+      
+      <guid>https://www.steventammen.com/tags/handwriting/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Health</title>
+      <link>https://www.steventammen.com/tags/health/</link>
+      <pubDate>Sun, 18 Mar 2018 17:52:56 -0400</pubDate>
+      
+      <guid>https://www.steventammen.com/tags/health/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Hobbies</title>
+      <link>https://www.steventammen.com/tags/hobbies/</link>
+      <pubDate>Sun, 18 Mar 2018 17:56:22 -0400</pubDate>
+      
+      <guid>https://www.steventammen.com/tags/hobbies/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Human Computer Interaction</title>
+      <link>https://www.steventammen.com/tags/human-computer-interaction/</link>
+      <pubDate>Sun, 18 Mar 2018 18:01:38 -0400</pubDate>
+      
+      <guid>https://www.steventammen.com/tags/human-computer-interaction/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Linguistics</title>
+      <link>https://www.steventammen.com/tags/linguistics/</link>
+      <pubDate>Sun, 18 Mar 2018 17:49:40 -0400</pubDate>
+      
+      <guid>https://www.steventammen.com/tags/linguistics/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Logic</title>
+      <link>https://www.steventammen.com/tags/logic/</link>
+      <pubDate>Sun, 18 Mar 2018 17:54:03 -0400</pubDate>
+      
+      <guid>https://www.steventammen.com/tags/logic/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Metalearning</title>
+      <link>https://www.steventammen.com/tags/metalearning/</link>
+      <pubDate>Sun, 18 Mar 2018 17:53:47 -0400</pubDate>
+      
+      <guid>https://www.steventammen.com/tags/metalearning/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Methodology</title>
+      <link>https://www.steventammen.com/tags/methodology/</link>
+      <pubDate>Sun, 18 Mar 2018 17:52:26 -0400</pubDate>
+      
+      <guid>https://www.steventammen.com/tags/methodology/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Neuroscience</title>
+      <link>https://www.steventammen.com/tags/neuroscience/</link>
+      <pubDate>Sun, 18 Mar 2018 17:53:47 -0400</pubDate>
+      
+      <guid>https://www.steventammen.com/tags/neuroscience/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Nutrition</title>
+      <link>https://www.steventammen.com/tags/nutrition/</link>
+      <pubDate>Sun, 18 Mar 2018 17:52:56 -0400</pubDate>
+      
+      <guid>https://www.steventammen.com/tags/nutrition/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Optimization</title>
+      <link>https://www.steventammen.com/tags/optimization/</link>
+      <pubDate>Sun, 18 Mar 2018 17:52:26 -0400</pubDate>
+      
+      <guid>https://www.steventammen.com/tags/optimization/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Optimization Variables</title>
+      <link>https://www.steventammen.com/tags/optimization-variables/</link>
+      <pubDate>Sun, 18 Mar 2018 17:53:14 -0400</pubDate>
+      
+      <guid>https://www.steventammen.com/tags/optimization-variables/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Outdoor Gear</title>
+      <link>https://www.steventammen.com/tags/outdoor-gear/</link>
+      <pubDate>Sun, 18 Mar 2018 17:49:04 -0400</pubDate>
+      
+      <guid>https://www.steventammen.com/tags/outdoor-gear/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Philosophy</title>
+      <link>https://www.steventammen.com/tags/philosophy/</link>
+      <pubDate>Sun, 18 Mar 2018 17:54:03 -0400</pubDate>
+      
+      <guid>https://www.steventammen.com/tags/philosophy/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Planning</title>
+      <link>https://www.steventammen.com/tags/planning/</link>
+      <pubDate>Sun, 18 Mar 2018 17:57:39 -0400</pubDate>
+      
+      <guid>https://www.steventammen.com/tags/planning/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Prioritization</title>
+      <link>https://www.steventammen.com/tags/prioritization/</link>
+      <pubDate>Sun, 18 Mar 2018 17:57:39 -0400</pubDate>
+      
+      <guid>https://www.steventammen.com/tags/prioritization/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Purpose</title>
+      <link>https://www.steventammen.com/tags/purpose/</link>
+      <pubDate>Sun, 18 Mar 2018 17:54:03 -0400</pubDate>
+      
+      <guid>https://www.steventammen.com/tags/purpose/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Rain Gear</title>
+      <link>https://www.steventammen.com/tags/rain-gear/</link>
+      <pubDate>Sun, 18 Mar 2018 17:49:04 -0400</pubDate>
+      
+      <guid>https://www.steventammen.com/tags/rain-gear/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Rationality</title>
+      <link>https://www.steventammen.com/tags/rationality/</link>
+      <pubDate>Sun, 18 Mar 2018 18:01:12 -0400</pubDate>
+      
+      <guid>https://www.steventammen.com/tags/rationality/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Reality</title>
+      <link>https://www.steventammen.com/tags/reality/</link>
+      <pubDate>Sun, 18 Mar 2018 18:00:47 -0400</pubDate>
+      
+      <guid>https://www.steventammen.com/tags/reality/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Remote Work</title>
+      <link>https://www.steventammen.com/tags/remote-work/</link>
+      <pubDate>Mon, 22 Jan 2018 11:03:22 -0400</pubDate>
+      
+      <guid>https://www.steventammen.com/tags/remote-work/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Rethinking Standards</title>
+      <link>https://www.steventammen.com/tags/rethinking-standards/</link>
+      <pubDate>Sun, 18 Mar 2018 18:01:38 -0400</pubDate>
+      
+      <guid>https://www.steventammen.com/tags/rethinking-standards/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Rsi Prevention</title>
+      <link>https://www.steventammen.com/tags/rsi-prevention/</link>
+      <pubDate>Sun, 18 Mar 2018 18:03:28 -0400</pubDate>
+      
+      <guid>https://www.steventammen.com/tags/rsi-prevention/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Self Defense</title>
+      <link>https://www.steventammen.com/tags/self-defense/</link>
+      <pubDate>Sun, 18 Mar 2018 17:52:46 -0400</pubDate>
+      
+      <guid>https://www.steventammen.com/tags/self-defense/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Skepticism</title>
+      <link>https://www.steventammen.com/tags/skepticism/</link>
+      <pubDate>Sun, 18 Mar 2018 18:00:47 -0400</pubDate>
+      
+      <guid>https://www.steventammen.com/tags/skepticism/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Software</title>
+      <link>https://www.steventammen.com/tags/software/</link>
+      <pubDate>Sun, 18 Mar 2018 17:49:40 -0400</pubDate>
+      
+      <guid>https://www.steventammen.com/tags/software/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Stenography</title>
+      <link>https://www.steventammen.com/tags/stenography/</link>
+      <pubDate>Sun, 18 Mar 2018 17:49:40 -0400</pubDate>
+      
+      <guid>https://www.steventammen.com/tags/stenography/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Systems of Deception</title>
+      <link>https://www.steventammen.com/tags/systems-of-deception/</link>
+      <pubDate>Sun, 18 Mar 2018 18:00:47 -0400</pubDate>
+      
+      <guid>https://www.steventammen.com/tags/systems-of-deception/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Text Processing</title>
+      <link>https://www.steventammen.com/tags/text-processing/</link>
+      <pubDate>Sun, 18 Mar 2018 17:49:40 -0400</pubDate>
+      
+      <guid>https://www.steventammen.com/tags/text-processing/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Thought Patterns</title>
+      <link>https://www.steventammen.com/tags/thought-patterns/</link>
+      <pubDate>Sun, 18 Mar 2018 18:01:12 -0400</pubDate>
+      
+      <guid>https://www.steventammen.com/tags/thought-patterns/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Transportation</title>
+      <link>https://www.steventammen.com/tags/transportation/</link>
+      <pubDate>Sun, 18 Mar 2018 17:56:22 -0400</pubDate>
+      
+      <guid>https://www.steventammen.com/tags/transportation/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Typing</title>
+      <link>https://www.steventammen.com/tags/typing/</link>
+      <pubDate>Sun, 18 Mar 2018 17:53:27 -0400</pubDate>
+      
+      <guid>https://www.steventammen.com/tags/typing/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Ui</title>
+      <link>https://www.steventammen.com/tags/ui/</link>
+      <pubDate>Sun, 18 Mar 2018 18:01:38 -0400</pubDate>
+      
+      <guid>https://www.steventammen.com/tags/ui/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Weapons</title>
+      <link>https://www.steventammen.com/tags/weapons/</link>
+      <pubDate>Sun, 18 Mar 2018 17:52:46 -0400</pubDate>
+      
+      <guid>https://www.steventammen.com/tags/weapons/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Web Design</title>
+      <link>https://www.steventammen.com/tags/web-design/</link>
+      <pubDate>Sat, 20 Jan 2018 14:27:34 -0400</pubDate>
+      
+      <guid>https://www.steventammen.com/tags/web-design/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Workflow</title>
+      <link>https://www.steventammen.com/tags/workflow/</link>
+      <pubDate>Mon, 22 Jan 2018 11:03:22 -0400</pubDate>
+      
+      <guid>https://www.steventammen.com/tags/workflow/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Worthy Projects</title>
+      <link>https://www.steventammen.com/tags/worthy-projects/</link>
+      <pubDate>Sun, 18 Mar 2018 18:04:31 -0400</pubDate>
+      
+      <guid>https://www.steventammen.com/tags/worthy-projects/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Writing Gear</title>
+      <link>https://www.steventammen.com/tags/writing-gear/</link>
+      <pubDate>Sun, 18 Mar 2018 17:57:15 -0400</pubDate>
+      
+      <guid>https://www.steventammen.com/tags/writing-gear/</guid>
       <description></description>
     </item>
     

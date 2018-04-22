@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Transportation on StevenTammen.com</title>
+    <link>https://www.steventammen.com/tags/transportation/</link>
+    <description>Recent content in Transportation on StevenTammen.com</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 18 Mar 2018 17:56:22 -0400</lastBuildDate>
+    
+	<atom:link href="https://www.steventammen.com/tags/transportation/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Motorcycles</title>
+      <link>https://www.steventammen.com/pages/motorcycles/</link>
+      <pubDate>Sun, 18 Mar 2018 17:56:22 -0400</pubDate>
+      
+      <guid>https://www.steventammen.com/pages/motorcycles/</guid>
+      <description>Safety  Motorcycles are inherently more dangerous than cars due to no barrier between you and other (sometimes incompetent) motorists driving 2-ton metal cages. On the other hand, motorcycles are inherently safer than cars due to 1) better vision (higher up on bikes with upright seating position, no blind spots, can easily head-check), 2) better acceleration, maneuverability, and handling, 3) better attention forced by being more &#34;present&#34; in the act of driving, and 4) better risk awareness: motorcycles make you assume less about your safety and therefore take less risks/be more risk conscious.</description>
+    </item>
+    
+  </channel>
+</rss>

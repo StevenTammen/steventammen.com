@@ -3,129 +3,535 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://www.steventammen.com/posts/creating-a-new-theme/</loc>
-    <lastmod>2014-09-28T00:00:00+00:00</lastmod>
+    <loc>https://www.steventammen.com/pages/immaterial-things-worthy-projects/</loc>
+    <lastmod>2018-03-18T18:04:31-04:00</lastmod>
   </url>
   
   <url>
-    <loc>https://www.steventammen.com/posts/migrate-from-jekyll/</loc>
-    <lastmod>2014-03-10T00:00:00+00:00</lastmod>
+    <loc>https://www.steventammen.com/pages/material-things-worthy-projects/</loc>
+    <lastmod>2018-03-18T18:03:44-04:00</lastmod>
   </url>
   
   <url>
-    <loc>https://www.steventammen.com/pages/bpage/</loc>
-    <lastmod>2018-03-17T18:04:37-04:00</lastmod>
+    <loc>https://www.steventammen.com/pages/work-environment/</loc>
+    <lastmod>2018-03-18T18:03:28-04:00</lastmod>
   </url>
   
   <url>
-    <loc>https://www.steventammen.com/pages/apage/</loc>
-    <lastmod>2018-03-17T18:04:29-04:00</lastmod>
+    <loc>https://www.steventammen.com/pages/watches/</loc>
+    <lastmod>2018-03-18T18:02:19-04:00</lastmod>
   </url>
   
   <url>
-    <loc>https://www.steventammen.com/links/testlink1/</loc>
-    <lastmod>2018-03-17T17:07:26-04:00</lastmod>
+    <loc>https://www.steventammen.com/pages/screen-reading/</loc>
+    <lastmod>2018-03-18T18:01:38-04:00</lastmod>
   </url>
   
   <url>
-    <loc>https://www.steventammen.com/pages/testpage1/</loc>
-    <lastmod>2018-03-17T17:07:13-04:00</lastmod>
+    <loc>https://www.steventammen.com/links/fallibility-of-human-reason/</loc>
+    <lastmod>2018-03-18T18:01:12-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.steventammen.com/links/skepticism/</loc>
+    <lastmod>2018-03-18T18:00:47-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.steventammen.com/pages/rain-gear/</loc>
+    <lastmod>2018-03-18T17:58:06-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.steventammen.com/pages/priorities/</loc>
+    <lastmod>2018-03-18T17:57:39-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.steventammen.com/pages/pencils/</loc>
+    <lastmod>2018-03-18T17:57:15-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.steventammen.com/pages/pencil-leads/</loc>
+    <lastmod>2018-03-18T17:57:03-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.steventammen.com/pages/pants/</loc>
+    <lastmod>2018-03-18T17:56:52-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.steventammen.com/pages/multitools/</loc>
+    <lastmod>2018-03-18T17:56:33-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.steventammen.com/pages/motorcycles/</loc>
+    <lastmod>2018-03-18T17:56:22-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.steventammen.com/pages/monitors/</loc>
+    <lastmod>2018-03-18T17:56:11-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.steventammen.com/pages/life-purpose/</loc>
+    <lastmod>2018-03-18T17:54:03-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.steventammen.com/pages/learning-styles/</loc>
+    <lastmod>2018-03-18T17:53:47-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.steventammen.com/pages/keyboards/</loc>
+    <lastmod>2018-03-18T17:53:27-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.steventammen.com/pages/keyboard-layouts/</loc>
+    <lastmod>2018-03-18T17:53:14-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.steventammen.com/pages/keto/</loc>
+    <lastmod>2018-03-18T17:52:56-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.steventammen.com/pages/guns/</loc>
+    <lastmod>2018-03-18T17:52:46-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.steventammen.com/pages/material-things-evaluation/</loc>
+    <lastmod>2018-03-18T17:52:26-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.steventammen.com/pages/fabrics/</loc>
+    <lastmod>2018-03-18T17:51:36-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.steventammen.com/pages/every-day-carry/</loc>
+    <lastmod>2018-03-18T17:51:01-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.steventammen.com/pages/erasers/</loc>
+    <lastmod>2018-03-18T17:50:31-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.steventammen.com/pages/english-letterforms/</loc>
+    <lastmod>2018-03-18T17:50:11-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.steventammen.com/pages/dictionary-generator/</loc>
+    <lastmod>2018-03-18T17:49:40-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.steventammen.com/pages/clothing/</loc>
+    <lastmod>2018-03-18T17:49:13-04:00</lastmod>
   </url>
   
   <url>
     <loc>https://www.steventammen.com/about/</loc>
-    <lastmod>2014-04-09T00:00:00+00:00</lastmod>
+    <lastmod>2018-03-18T17:49:04-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.steventammen.com/pages/backpacks/</loc>
+    <lastmod>2018-03-18T17:49:04-04:00</lastmod>
   </url>
   
   <url>
     <loc>https://www.steventammen.com/contact/</loc>
-    <lastmod>2014-04-09T00:00:00+00:00</lastmod>
+    <lastmod>2018-03-18T17:49:04-04:00</lastmod>
   </url>
   
   <url>
-    <loc>https://www.steventammen.com/posts/goisforlovers/</loc>
-    <lastmod>2014-04-02T00:00:00+00:00</lastmod>
+    <loc>https://www.steventammen.com/settings/</loc>
+    <lastmod>2018-03-18T17:48:15-04:00</lastmod>
   </url>
   
   <url>
-    <loc>https://www.steventammen.com/posts/hugoisforlovers/</loc>
-    <lastmod>2014-04-02T00:00:00+00:00</lastmod>
+    <loc>https://www.steventammen.com/posts/using-putty-and-emacs-tramp-on-windows/</loc>
+    <lastmod>2018-01-22T11:03:22-04:00</lastmod>
   </url>
   
   <url>
-    <loc>https://www.steventammen.com/tags/</loc>
-    <lastmod>2018-03-17T18:04:37-04:00</lastmod>
+    <loc>https://www.steventammen.com/posts/having-a-website-and-complications-therein/</loc>
+    <lastmod>2018-01-20T14:27:34-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.steventammen.com/posts/starting-up-a-blog/</loc>
+    <lastmod>2018-01-20T09:46:32-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.steventammen.com/tags/80/20/</loc>
+    <lastmod>2018-03-18T17:57:39-04:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://www.steventammen.com/tags/development/</loc>
-    <lastmod>2014-04-02T00:00:00+00:00</lastmod>
+    <loc>https://www.steventammen.com/tags/blogging/</loc>
+    <lastmod>2018-01-20T09:46:32-04:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://www.steventammen.com/tags/go/</loc>
-    <lastmod>2014-04-02T00:00:00+00:00</lastmod>
+    <loc>https://www.steventammen.com/categories/</loc>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://www.steventammen.com/tags/golang/</loc>
-    <lastmod>2014-04-02T00:00:00+00:00</lastmod>
+    <loc>https://www.steventammen.com/tags/clothing/</loc>
+    <lastmod>2018-03-18T17:58:06-04:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://www.steventammen.com/tags/hugo/</loc>
-    <lastmod>2014-04-02T00:00:00+00:00</lastmod>
+    <loc>https://www.steventammen.com/tags/computers/</loc>
+    <lastmod>2018-03-18T17:56:11-04:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.steventammen.com/tags/diets/</loc>
+    <lastmod>2018-03-18T17:52:56-04:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.steventammen.com/tags/display/</loc>
+    <lastmod>2018-03-18T18:01:38-04:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.steventammen.com/tags/edc/</loc>
+    <lastmod>2018-03-18T18:02:19-04:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.steventammen.com/tags/essential-gear/</loc>
+    <lastmod>2018-03-18T18:03:28-04:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.steventammen.com/tags/gear-cluster/</loc>
+    <lastmod>2018-03-18T17:58:06-04:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.steventammen.com/categories/general-knowledge/</loc>
+    <lastmod>2018-03-18T18:01:38-04:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.steventammen.com/tags/genetic-algorithms/</loc>
+    <lastmod>2018-03-18T17:53:14-04:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.steventammen.com/tags/handwriting/</loc>
+    <lastmod>2018-03-18T17:50:11-04:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.steventammen.com/tags/health/</loc>
+    <lastmod>2018-03-18T17:52:56-04:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.steventammen.com/tags/hobbies/</loc>
+    <lastmod>2018-03-18T17:56:22-04:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.steventammen.com/tags/human-computer-interaction/</loc>
+    <lastmod>2018-03-18T18:01:38-04:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.steventammen.com/categories/immaterial-things/</loc>
+    <lastmod>2018-03-18T18:04:31-04:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.steventammen.com/tags/linguistics/</loc>
+    <lastmod>2018-03-18T17:49:40-04:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://www.steventammen.com/links/</loc>
-    <lastmod>2018-03-17T17:07:26-04:00</lastmod>
+    <lastmod>2018-03-18T18:01:12-04:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.steventammen.com/tags/logic/</loc>
+    <lastmod>2018-03-18T17:54:03-04:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.steventammen.com/categories/material-things/</loc>
+    <lastmod>2018-03-18T18:03:44-04:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.steventammen.com/tags/metalearning/</loc>
+    <lastmod>2018-03-18T17:53:47-04:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.steventammen.com/tags/methodology/</loc>
+    <lastmod>2018-03-18T17:52:26-04:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.steventammen.com/tags/neuroscience/</loc>
+    <lastmod>2018-03-18T17:53:47-04:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.steventammen.com/tags/nutrition/</loc>
+    <lastmod>2018-03-18T17:52:56-04:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.steventammen.com/tags/optimization/</loc>
+    <lastmod>2018-03-18T17:52:26-04:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.steventammen.com/tags/optimization-variables/</loc>
+    <lastmod>2018-03-18T17:53:14-04:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.steventammen.com/tags/outdoor-gear/</loc>
+    <lastmod>2018-03-18T17:49:04-04:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://www.steventammen.com/pages/</loc>
-    <lastmod>2018-03-17T18:04:37-04:00</lastmod>
+    <lastmod>2018-03-18T18:04:31-04:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.steventammen.com/tags/philosophy/</loc>
+    <lastmod>2018-03-18T17:54:03-04:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.steventammen.com/tags/planning/</loc>
+    <lastmod>2018-03-18T17:57:39-04:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://www.steventammen.com/posts/</loc>
-    <lastmod>2014-09-28T00:00:00+00:00</lastmod>
+    <lastmod>2018-01-22T11:03:22-04:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.steventammen.com/tags/prioritization/</loc>
+    <lastmod>2018-03-18T17:57:39-04:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.steventammen.com/categories/processes/</loc>
+    <lastmod>2018-03-18T18:01:12-04:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.steventammen.com/tags/purpose/</loc>
+    <lastmod>2018-03-18T17:54:03-04:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.steventammen.com/tags/rain-gear/</loc>
+    <lastmod>2018-03-18T17:49:04-04:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.steventammen.com/tags/rationality/</loc>
+    <lastmod>2018-03-18T18:01:12-04:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.steventammen.com/tags/reality/</loc>
+    <lastmod>2018-03-18T18:00:47-04:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.steventammen.com/tags/remote-work/</loc>
+    <lastmod>2018-01-22T11:03:22-04:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.steventammen.com/tags/rethinking-standards/</loc>
+    <lastmod>2018-03-18T18:01:38-04:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.steventammen.com/tags/rsi-prevention/</loc>
+    <lastmod>2018-03-18T18:03:28-04:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.steventammen.com/tags/self-defense/</loc>
+    <lastmod>2018-03-18T17:52:46-04:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.steventammen.com/categories/self-knowledge/</loc>
+    <lastmod>2018-03-18T17:54:03-04:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.steventammen.com/tags/skepticism/</loc>
+    <lastmod>2018-03-18T18:00:47-04:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.steventammen.com/tags/software/</loc>
+    <lastmod>2018-03-18T17:49:40-04:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.steventammen.com/tags/stenography/</loc>
+    <lastmod>2018-03-18T17:49:40-04:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://www.steventammen.com/</loc>
-    <lastmod>2014-09-28T00:00:00+00:00</lastmod>
+    <lastmod>2018-03-18T18:04:31-04:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.steventammen.com/tags/systems-of-deception/</loc>
+    <lastmod>2018-03-18T18:00:47-04:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://www.steventammen.com/tags/</loc>
-    <lastmod>2018-03-17T18:04:37-04:00</lastmod>
+    <lastmod>2018-03-18T17:57:39-04:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://www.steventammen.com/tags/templates/</loc>
-    <lastmod>2014-04-02T00:00:00+00:00</lastmod>
+    <loc>https://www.steventammen.com/tags/text-processing/</loc>
+    <lastmod>2018-03-18T17:49:40-04:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://www.steventammen.com/tags/themes/</loc>
-    <lastmod>2014-04-02T00:00:00+00:00</lastmod>
+    <loc>https://www.steventammen.com/tags/thought-patterns/</loc>
+    <lastmod>2018-03-18T18:01:12-04:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://www.steventammen.com/topics/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.steventammen.com/tags/transportation/</loc>
+    <lastmod>2018-03-18T17:56:22-04:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.steventammen.com/tags/typing/</loc>
+    <lastmod>2018-03-18T17:53:27-04:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.steventammen.com/tags/ui/</loc>
+    <lastmod>2018-03-18T18:01:38-04:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.steventammen.com/tags/weapons/</loc>
+    <lastmod>2018-03-18T17:52:46-04:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.steventammen.com/tags/web-design/</loc>
+    <lastmod>2018-01-20T14:27:34-04:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.steventammen.com/tags/workflow/</loc>
+    <lastmod>2018-01-22T11:03:22-04:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.steventammen.com/tags/worthy-projects/</loc>
+    <lastmod>2018-03-18T18:04:31-04:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.steventammen.com/tags/writing-gear/</loc>
+    <lastmod>2018-03-18T17:57:15-04:00</lastmod>
     <priority>0</priority>
   </url>
   

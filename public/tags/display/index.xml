@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Display on StevenTammen.com</title>
+    <link>https://www.steventammen.com/tags/display/</link>
+    <description>Recent content in Display on StevenTammen.com</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 18 Mar 2018 18:01:38 -0400</lastBuildDate>
+    
+	<atom:link href="https://www.steventammen.com/tags/display/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Screen Reading</title>
+      <link>https://www.steventammen.com/pages/screen-reading/</link>
+      <pubDate>Sun, 18 Mar 2018 18:01:38 -0400</pubDate>
+      
+      <guid>https://www.steventammen.com/pages/screen-reading/</guid>
+      <description>Recommended Reading General print vs screens  http://www.newyorker.com/science/maria-konnikova/being-a-better-online-reader https://www.scientificamerican.com/article/reading-paper-screens/ https://www.wired.com/2014/05/reading-on-screen-versus-paper/ https://www.lezen.nl/sites/default/files/On%20reading%20in%20the%20digital%20age.pdf http://www.academia.edu/2244249/Mangen_A._2008_._Hypertext_fiction_reading_haptics_and_immersion http://www.sciencedirect.com/science/article/pii/S0883035512001127 http://scholarworks.sjsu.edu/cgi/viewcontent.cgi?article=1186&amp;context=slissrj http://www.cdmc.ucla.edu/PG_Media_biblio_files/A250%20Subrahmanyam%20Michikyan%20et%20al%202014%20(paper%20vs%20screens)%5B1%5D.pdf http://www.tandfonline.com/doi/full/10.1080/00220973.2016.1143794?src=recsys https://news.ycombinator.com/item?id=8882481  Cognitive maps  https://www.researchgate.net/publication/309562571_Cognitive_map_or_medium_materiality_Reading_on_paper_and_screen http://www.sciencedirect.com/science/article/pii/S1071581905001722  My Hypotheses and Thoughts Cognitive Maps Cognitive maps are the determinative factor in organizing information efficiently (leading to better short term operational capacity and better long term memory encoding). When taking in information, we want to make it easiest to form cognitive maps. Some guidelines:
+ Display two pages side by side like in print.</description>
+    </item>
+    
+    <item>
+      <title>Monitors</title>
+      <link>https://www.steventammen.com/pages/monitors/</link>
+      <pubDate>Sun, 18 Mar 2018 17:56:11 -0400</pubDate>
+      
+      <guid>https://www.steventammen.com/pages/monitors/</guid>
+      <description>Essential Features  OLED 4k resolution At least a 60 Hz refresh rate Capable of of 4:4:4 chroma 40+ inches Ability to sleep without messing with windows Low input lag  Preferable Features  Curved (to better fill field of vision at close distances) Smart TV functionality/has remote Modes dependent upon activity (e.g., TV, gaming, etc.). Be able to customize modes.  4k vs Multiple HD Monitors  Having one large 4k monitor lets you use the monitor as a TV It also avoids unecessary bezels in normal computing tasks Assuming you have a good tiling window manager, the ease of laying out windows should not be significantly different between the two configurations  Size and Resolution  Increased screen size without matching increases in resolution has diminishing returns.</description>
+    </item>
+    
+  </channel>
+</rss>

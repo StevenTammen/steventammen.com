@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Rain Gear on StevenTammen.com</title>
+    <link>https://www.steventammen.com/tags/rain-gear/</link>
+    <description>Recent content in Rain Gear on StevenTammen.com</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 18 Mar 2018 17:49:04 -0400</lastBuildDate>
+    
+	<atom:link href="https://www.steventammen.com/tags/rain-gear/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Backpacks</title>
+      <link>https://www.steventammen.com/pages/backpacks/</link>
+      <pubDate>Sun, 18 Mar 2018 17:49:04 -0400</pubDate>
+      
+      <guid>https://www.steventammen.com/pages/backpacks/</guid>
+      <description>Optimization Variables TODO: determine best order to go through variables. Alphabetically?
+TODO: decide if having some sort of weighting scheme would be appropriate, or if leaving it to individuals and their circumstances would be better.
+Sweat Management When wearing a backpack for an extended period of time, especially on hot and humid days, it is best to have some way to minimize pack contact with your back. Failing to have such a system leads to excessive sweat buildup, and, over time, smell.</description>
+    </item>
+    
+  </channel>
+</rss>

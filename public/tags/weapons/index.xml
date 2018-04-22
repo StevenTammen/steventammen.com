@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Weapons on StevenTammen.com</title>
+    <link>https://www.steventammen.com/tags/weapons/</link>
+    <description>Recent content in Weapons on StevenTammen.com</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 18 Mar 2018 17:52:46 -0400</lastBuildDate>
+    
+	<atom:link href="https://www.steventammen.com/tags/weapons/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Guns</title>
+      <link>https://www.steventammen.com/pages/guns/</link>
+      <pubDate>Sun, 18 Mar 2018 17:52:46 -0400</pubDate>
+      
+      <guid>https://www.steventammen.com/pages/guns/</guid>
+      <description>Caliber  9mm for compromise between weight, capacity, muzzle velocity (less drop at distance) Jacketed Hollow Point (JHP) rounds nullify many of the advantages that .45 has over 9mm, namely, less overpenetration and wider wound paths (more stopping power). Cheaper for plinking  Frame  Want a double stack for capacity. Makes EDCing a spare mag uneccessary (plus not having to change for more shots is faster than having to change).</description>
+    </item>
+    
+  </channel>
+</rss>

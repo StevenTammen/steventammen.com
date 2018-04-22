@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Workflow on StevenTammen.com</title>
+    <link>https://www.steventammen.com/tags/workflow/</link>
+    <description>Recent content in Workflow on StevenTammen.com</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 22 Jan 2018 11:03:22 -0400</lastBuildDate>
+    
+	<atom:link href="https://www.steventammen.com/tags/workflow/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Using Putty and Emacs&#39; Tramp on Windows</title>
+      <link>https://www.steventammen.com/posts/using-putty-and-emacs-tramp-on-windows/</link>
+      <pubDate>Mon, 22 Jan 2018 11:03:22 -0400</pubDate>
+      
+      <guid>https://www.steventammen.com/posts/using-putty-and-emacs-tramp-on-windows/</guid>
+      <description>Introduction and Motivation Windows doesn&#39;t support a lot of common Unix commands, ssh included.
+There are several ways to overcome this fact. The Windows Subsystem for Linux is one option. I&#39;ve used it and it&#39;s certainly a big step up over native windows shells. But to get any GUI applications you have to set up an X server or somesuch (to my knowledge -- which is admittedly limited at present). It&#39;s also a bit of a pain to interface natively with normal Windows files, since you have to use /mnt/c/ to get to to them.</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Genetic Algorithms on StevenTammen.com</title>
+    <link>https://www.steventammen.com/tags/genetic-algorithms/</link>
+    <description>Recent content in Genetic Algorithms on StevenTammen.com</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 18 Mar 2018 17:53:14 -0400</lastBuildDate>
+    
+	<atom:link href="https://www.steventammen.com/tags/genetic-algorithms/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Keyboard Layouts</title>
+      <link>https://www.steventammen.com/pages/keyboard-layouts/</link>
+      <pubDate>Sun, 18 Mar 2018 17:53:14 -0400</pubDate>
+      
+      <guid>https://www.steventammen.com/pages/keyboard-layouts/</guid>
+      <description>Tentative Eventual Structure For This Page  Pre-optimization Considerations   Reasons Why You Should Optimize   Reduced Typing Effort Reduced Risk of RSI Increased Typing Speed   Reasons Why You Should Not Optimize   Priorities You May Type Too Little For Optimization/Switching To Be Worth It You May Be Better Served By Learning Stenography The Difficulty of Retraining Your Fingers QWERTY&#39;s Ubiquitousness The Animosity of Others Most Speed Considerations Are Layout Agnostic   People Who Should Always Learn An Optimized Layout Prior Studies of Keyboard Layouts   Optimization Considerations   Differences in Hand Morphology   My Hand Morphology   Differences in Optimization Goals (speed vs ergonomics)   My Optimization Goals (balance)   Differences in Textual Corpus   My Textual Corpus (Latin, Greek, Hebrew, Markdown, Org, LaTeX, programming, number entry)   The Unavoidability of Opportunity Cost: Coming to an &#34;</description>
+    </item>
+    
+  </channel>
+</rss>

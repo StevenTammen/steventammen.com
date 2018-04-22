@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Linguistics on StevenTammen.com</title>
+    <link>https://www.steventammen.com/tags/linguistics/</link>
+    <description>Recent content in Linguistics on StevenTammen.com</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 18 Mar 2018 17:49:40 -0400</lastBuildDate>
+    
+	<atom:link href="https://www.steventammen.com/tags/linguistics/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Dictionary Generator</title>
+      <link>https://www.steventammen.com/pages/dictionary-generator/</link>
+      <pubDate>Sun, 18 Mar 2018 17:49:40 -0400</pubDate>
+      
+      <guid>https://www.steventammen.com/pages/dictionary-generator/</guid>
+      <description>Disclaimer I have been watching Plover for a long time, but haven&#39;t actually learned very much steno yet (at least physically). Part of this is because the SOFT/HRUF is still yet to ship, and part of it also is because I have been very busy. What I&#39;m trying to say is that my comments should be taken with a large helping of salt. It is entirely possible that there are things in the software that I&#39;m not aware of or am misinformed about.</description>
+    </item>
+    
+  </channel>
+</rss>
