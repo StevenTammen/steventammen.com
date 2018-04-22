@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Pages on StevenTammen.com</title>
+    <link>https://www.steventammen.com/pages/</link>
+    <description>Recent content in Pages on StevenTammen.com</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 17 Mar 2018 18:04:37 -0400</lastBuildDate>
+    
+	<atom:link href="https://www.steventammen.com/pages/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Bpage</title>
+      <link>https://www.steventammen.com/pages/bpage/</link>
+      <pubDate>Sat, 17 Mar 2018 18:04:37 -0400</pubDate>
+      
+      <guid>https://www.steventammen.com/pages/bpage/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Apage</title>
+      <link>https://www.steventammen.com/pages/apage/</link>
+      <pubDate>Sat, 17 Mar 2018 18:04:29 -0400</pubDate>
+      
+      <guid>https://www.steventammen.com/pages/apage/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Testpage1</title>
+      <link>https://www.steventammen.com/pages/testpage1/</link>
+      <pubDate>Sat, 17 Mar 2018 17:07:13 -0400</pubDate>
+      
+      <guid>https://www.steventammen.com/pages/testpage1/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

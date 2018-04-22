@@ -1,0 +1,14 @@
+{{ partial "header-content.html" . }}
+
+<div class="header">
+  <h1>{{ .Title }}</h1>
+  <h2>{{ .Description }}</h2>
+</div>
+<div class="content">
+  {{ partial "post_meta.html" . }}
+  {{ partial "toc.html" . }}
+  {{ if (eq .Params.inprogress true) }} {{ partial "in-progress.html" . }} {{ end }}
+  {{ .Content }}
+</div>
+
+{{ partial "footer.html" . }}

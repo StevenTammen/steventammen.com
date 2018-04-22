@@ -1,0 +1,70 @@
+---
+title: "Guns"
+description: ""
+date: 2018-03-18T17:52:46-04:00
+categories: ["Material Things"]
+tags: ["self-defense", "weapons", "hobbies"]
+inprogress: true
+---
+
+** Caliber
+
+- 9mm for compromise between weight, capacity, muzzle velocity (less drop at distance)
+- Jacketed Hollow Point (JHP) rounds nullify many of the advantages that .45 has over 9mm, namely, less overpenetration and wider wound paths (more stopping power).
+- Cheaper for plinking
+
+** Frame
+
+- Want a double stack for capacity. Makes EDCing a spare mag uneccessary (plus not having to change for more shots is faster than having to change).
+- Big enough to hold comfortably, but small enough to be easily concealable. Mid range barrel length for best compromise between muzzle velocity/resistance to flip and recoil and concealability.
+- Low bore axis
+- Polymer frame for weight
+
+** Trigger/Safeties
+
+- No matter how you look at it, lock safeties slow you down on the draw. Having to disengage before you fire will always be slower than not having to disengage.
+- Thus, it must be evaluated whether or not the additional peace of mind is worth the unavoidable delays they cause.
+- Lock safeties make more sense on guns that you carry cocked and locked with hair triggers (i.e., most 1911's), but on medium pull guns (4ish lbs) with other built in trigger safeties, they become unecessary. Practicing proper gun discipline (not pointing your gun at things you don't want to destroy, keeping your finger off the trigger until ready to shoot, etc.), when paired with guns with trigger safeties that resist accidental discharges and drop discharges, lets you handle firearms safely without compromising draw speed.
+
+  - Unfortunately, most triggers with built in safeties (e.g., Glock triggers), are not as nice as 1911 triggers, and tend to have heavier pulls, more travel to break, and more creep. This basically means that you'll have to do a trigger job to get a good crisp trigger on a gun without a lock safety. (Worth it in my opinion).
+
+- In terms of trigger mechanics:
+
+  - Trigger pull should be light (but not too light), around 4 lbs. Less resistance means you'll be less likely to pull your shots, but too little makes accidental discharges much more likely.
+  - The trigger should have a nice clean break (think: glass rod breaking) with little creep. Breaks that are not clean can lead to poor accuracy due to building resistance tipping your body off to the impending shot; your body will tend to flinch and throw off your aim.
+  - The intake should be short but not too short. Intakes that are too short (i.e., pull-boom) lead to accidental discharges, particularly in stressful situations when hand control can be a bit sketchier. Intakes that are too long delay the shot unecessarily and can lead to the anticipation effect described above.
+  - The reset distace should be very short, but not unnoticeable. You want to be able to quickly fire clusters of shots if necessary, but a reset that is too short can lead to unintentional double-taps (e.g., Walther PPQ).
+  - The reset itself should be quite distinct (e.g., Glock), and also require little force. You want to know exactly when the reset has finished and be able to engage the trigger immediately without a heavy reset pull throwing off the placement of followup shots.
+  - The physical trigger should have a clean, linear pull. Angular pulls can make your vertical aim shift.
+  - All the variables mentioned should be 100% /consistent/. Accuracy is born of consistency: in shooting form, in draw, in sighting, and in the trigger mechanics above.
+
+- Apex trigger kits provide good trigger mechanics for most guns that don't aready have good triggers out of the box. Glocks and M&Ps probably benefit the most. There are other good aftermarket trigger sets out there too.
+
+** Sights
+
+- Many, many people advocate learning to shoot with iron sights "in case you ever need them."
+- Iron sights require you to focus on the front sight and lose focus of your target and your target's surroundings. Furthermore, iron sights require eyes that can quickly focus between near (front sight) and far (target)... eyes which all eventually lose with age (and some sooner due to bad vision).
+- Thus, the question is not whether iron sights are better than alternates (reflex sights, holographic sights, laser sights), but whether the dependability of iron sights makes their disadvantages worth putting up with.
+- In my opinion, this is not the case: modern sighting methods are no longer unreliable and fragile. Statistically speaking, assuming proper maintenance and battery checking, the probability of catastrophic failure of modern sighting methods during an emergency (particularly for those of us who don't make a habit of getting into emergencies -- i.e., not military or LE), is so low that the advantages of modern sighting methods and the disadvatages of iron sights make abandoning iron sights the only logical decision. Furthermore, you can run multiple modern sighting systems at the same time (i.e., laser + 1), making the probability of /both/ systems failing astronomically low (altough it's worth pointing out that irons are better than laser sights in many situations). Thus the question becomes which of the modern sights to adapt as the primary replacement for iron sights.
+
+  - Laser sights are worth having on a gun because they allow shooting from unconventional positions (i.e., when acquiring a typical sight picture is not possible), and they can serve as a backup sighting system in case the primary system fails (although they are somewhat suboptimal for this purpose, for reasons discussed below -- they are not a full replacement for a good reflex/holographic sight, or even iron sights for that matter). A laser right below the bore axis (typically in the guide-rod position) can also provide a sight exactly in line with the travel of the bullet (rather than a sight aligned with a specific distance). This isn't exactly perfect, however: at short distances, the laser dot will be a little lower than the actual POI (off by exactly the distance between the bore axis and the guide rod), and at long distances, bullet drop will become more of a problem. At moderate distances, however, this type of laser sight can be extremely accurate.
+  - For all their advantages, laser sights suffer from four major disadvantages: 1) the dot's visibility is low in high-illumination situations (such as sunlight), even for more visible green lasers 2) the dot's visibility drops off with distance since it depends on reflected light, 3) normal hand vibrations are amplified with distance, making the dot appear to "jump around" more than the dots of reflex and holographic sights, 4) the dot can jump between your target and terrain behind your target, making it difficult to aim at moving targets accurately (i.e., difficult to lead shots effectively).
+  - Holographic sights and reflex sights are very similar, with the main differences being that holographic sights use a laser to project a targeting pattern on a flat screen while reflex sights use a wavelength specific concave mirror to reflect a LED light source of a specific color. While both systems can use patterns other than plain dots (such as dots with crosshairs) on larger ams like assault rifles, small arms reflex sights are mostly limited to dots due to design constraints, and there are no small arms holographic sights (at least not any ones worth having) according to my knowledge. Both sighting systems have low-no parallax (depending on distance) and are basically unrestricted by viewing angles (i.e., you don't have to be looking at the sight head-on for the dot to be pointing at the gun's firing line). Their biggest advantage comes from being able to focus on your target and their surroundings at all times (rather than the front sight). With practice, you can also keep both eyes open, which gives you a much bigger field of view. Because the sight is fixed rather than painted on a target (as with laser sights), all four of the laser sight disadvantages are solved.
+  - The main disadvantage of both of these types of sight is that they depend on translucent screens that can get dirty/water spattered and obstruct vision. This flaw can be minimized by using high quality hydrophic/oleophobic coatings on the screens. It is worth pointing out that this whole "reflex/holographic sights can get dirty and obstruct vision !?!" argument does not provide much justification for using iron sights, since iron sights /constantly/ obstruct vision. As long as you can see the dot, you can aim with dirty/wet reflex/holographic sights -- even if you can't see as well as you can when they aren't dirty/wet, you can probably still get a better sight picture than you could using iron sights. Some reflex sights and all holographic sights also have the disadvantage of relying on batteries for operation, meaning that they can fail. However, with very long battery lives, if you are diligent in swapping out the batteries, electronic failure is extremely unlikely. Finally, these types of sights can get washed out if you are facing an extremely bright light source (especially if your eyes are night adjusted in such a circumstance). Newer versions of these sights typically have the option of auto-adjusting lighting to make the dots brighter when facing light.
+  - The main advantage of holographic sights is that holographic sights can maintain their MOA when viewed through a scope, unlike reflex sights which get amplified. This allows for much more precision at high ranges, particularly with high magnification scopes. This ability makes holographic sights popular on rifles and carbines that can pull double duty as short and long range weapons (such as the AR-15).
+  - However, this ability comes with some downsides: holographic sights eat batteries much faster than battery-based reflex sights (particularly those with a single LED dot), and they are arguably more fragile (though fragility of course needs to be evaluated on a case-by-case basis, and high quality holographic sights from Eotech and the like hardly need to be coddled). Furthermore, holographic sights do not have the option of having a batteryless tritium/fiber-optic powered sight like some varities of the reflex sight (e.g., certain Trijicon sights). The batteryless option gives this particular kind of reflex sight about the same dependaility as iron sights -- but with all the benefits that come from a reflex sight.
+
+  TODO: Do tritium/fiber optic Trijicon optic sights wash out (worse than LED optic sights) in light? (Esp. illumination from weapon light in dark room ahead)?
+
+** Weapon Lights
+
+- Some people advocate the use of a separate primary light when shooting. The problem with this approach is that it leaves you shooting with one hand, or "one and a half" at best. Trying to hold a light in your offhand will invariably be less accurate than shooting with two hands.
+- Another advantage of having a weapon light is that it enables a certain degree of "point and shoot": light up the bad guy, and pull the trigger. This "instinctual aiming" is faster than lining up even a reflex/holographic sight, and gives you the option of really quick shots at close ranges. (The effect can hold for longer ranges too depending on your weapon light's throw).
+- It is worth pointing out that your weapon light should /not/ be your only light. Using your gun as a flashlight is a very poor idea because it means you point it at anything you want to illuminate. It is much wiser to carry a dedicated flashlight in your offhand (using it to illuminate things that you don't want to point a gun at or aren't sure about -- like investigating a noise in the night that could be an armed burglar, or could be your kid) and drop it to get into firing position if you encounter a threat. It is /shooting/ with a light in your offhand that is suboptimal, not having one there before the shooting starts.
+- Having a weapon light that automatically turns on when you draw (like many Crimson Trace weapon lights) is a good idea because it is one less thing you need to worry about in a high stress situation. (Unlike laser sights -- which are useful only in very specific circumstances and can interfere with reflex/holographic sight aiming -- weapon lights are useful or at least neutral in all circumstances). You should always carry it with the auto-on activated, but it is useful to have the option to toggle it off for when you are training and don't want to waste batteries. Additionally, it is a good idea to have some way to temporarily suspend the light if you don't want to give away your position. (Crimson Trace weapon lights let you do this by easing up on the grip).
+- You want the light bright enough to make identification fast and easy and to aid in aim, but not too bright (right around 100 lumens works well). While it is true that a really bright light (300+ lumens) can disorient a target (especially if strobed), it will also disorient you and nuke your night vision. In tactical situations, it is always best not to cripple yourself because unexpected things can happen (e.g., bad guy #2 -- who didn't get blinded by your strobing light -- comes around the corner and knifes you because you can't see anything).
+- A bigger battery capacity is ideal, since it will give you a longer operation time (if needed) and will give you greater wiggle room in swapping out batteries.
+
+** My Picks
+
+[[https://us.glock.com/products/model/g19][Glock 19]] (with [[https://store.apextactical.com/WebDirect/Products/Details/192369][Apex Trigger]], [[https://www.trijicon.com/na_en/products/product3.php?pid=RM05G][Trijicon RMR Sight]], [[https://www.crimsontrace.com/01-7040][Crimson Trace Auto-On Weapon Light]], [[http://www.lasermax.com/products/guide-rod-lasers/lms-1131g][LaserMax Guide Rod Laser]]).

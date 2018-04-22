@@ -1,0 +1,98 @@
+---
+title: "Every Day Carry"
+description: ""
+date: 2018-03-18T17:51:01-04:00
+categories: ["Material Things"]
+tags: ["essential gear", "gear cluster", "edc"]
+inprogress: true
+---
+
+** Distinction between Every Day Carry and Everyday Carry
+
+- This page is discussing the former, which includes the latter
+
+** Components
+
+- Essentials
+
+  - [[https://www.amazon.com/gp/product/B01N6AV8PQ/][Wallet]]
+  - Phone
+  - [[https://www.mykeyport.com/slide3][Keys]]
+  - [[https://www.amazon.com/gp/product/B003X9WKOO/][Plain Edge Folder]]
+  - [[https://www.amazon.com/gp/product/B0002T5YNW/][Multitool]]
+  - [[https://www.amazon.com/gp/product/B013QHN1CM/][Flashlight]]
+  - [[https://www.amazon.com/gp/product/B00KMAH4IE/][Bandana]]
+
+- Keychain
+
+  - [[https://gearward.com/collections/frontpage/products/keychain-duct-tape][Gorilla Tape]]
+  - [[https://www.amazon.com/Apricorn-Validated-256-bit-Encryption-ASK3-16GB/dp/B01AJNGF4W/][Hardware Encrypted Flash Drive]]
+  - [[https://www.amazon.com/Yubico-Y-072-YubiKey-NEO/dp/B00LX8KZZ8/][Yubikey]]
+  - [[https://www.amazon.com/Leatherman-831195-Squirt-Black-Keychain/dp/B0032Y2OT6/][Leatherman Squirt]]
+  - [[https://www.amazon.com/gp/product/B017R560WC/][Keychain Light]]
+  - [[https://www.amazon.com/Lot-Mini-Ebony-Black-Lighters/dp/B00863W71I/][Bic Mini]] (and [[https://gearward.com/products/ranger-bic][a waterproofing/tinder solution]])
+  - [[https://www.amazon.com/Caffeine-L-Theanine-Smooth-Energy-Focus/dp/B01921TUGC/][Caffiene/L-Theanine Pills]] and emergency cash in a 2.6" [[https://gearward.com/collections/frontpage/products/go-tube-2-6][Go Tube]]. (Wrap with glow-in-the-dark tape).
+  - Safety pins
+
+- Cordage/Utility Materials
+
+  - [[https://www.amazon.com/gp/product/B003E2WV80/][Locking Carabiner]]
+  - [[https://gearward.com/collections/frontpage/products/compact-survival-cord-mini-technora][600lb Technora Cord]]
+  - [[https://gearward.com/collections/frontpage/products/compact-survival-cord-mini][200lb Kevlar 3-Strand Cord]]
+  - Velcro Ties
+  - Zip ties
+  - [[https://gearward.com/collections/frontpage/products/ranger-bands][Ranger bands]]
+  - Binder Clips
+  - Superglue
+  - Scotch tape
+  - Masking tape
+  - Sharpie
+  - Ziploc bags
+
+- Writing Materials
+
+  - [[https://www.amazon.com/gp/product/B00A6VRZZG/][Dot-Pad Notebook]]
+  - Sticky Notes
+  - [[https://www.amazon.com/Westcott-6-Inch-Clear-Shatterproof-45016/dp/B002U33WBO/][6" Ruler]]
+  - [[https://www.amazon.com/gp/product/B0050YP6JG/][Pen Holder Clip]]
+  - [[https://www.amazon.com/gp/product/B00F9M2QKG/][Multipen]]
+  - [[https://www.amazon.com/gp/product/B001AX7SYW/][Fountain Pen]]
+  - [[http://www.pentel.com/store/quicker-clicker-mechanical-pencil-original-config][Mechanical Pencil]] (discontinued but available on eBay)
+
+- First Aid Materials
+
+  - Stuff like [[https://store.itstactical.com/its-boo-boo-kit.html][ITS Boo Boo Kit]] (expand pill selection).
+  - [[https://store.itstactical.com/its-edc-trauma-kit.html][ITS EDC Trauma Kit]]
+
+- Wearable
+
+  - [[https://www.roaveyewear.com/products/earhart-black-g15][Sunglasses]]
+  - [[https://ultimateear.com/products/soundear-motorcyclist][Molded In Ear Headphones]]
+  - [[https://www.amazon.com/gp/product/B00M0ESOCA/][Ana-Digi Watch]]
+  - [[http://watchworx.co.uk/pages/lwb/NatoG10.htm][High Quaity NATO Watch Band]]
+  - [[https://www.roadid.com/builder/id/default.aspx?styleid=346#/stylize][Road ID]]
+
+** Distribution
+
+- Assuming a shirt with hidden zipper pockets behind two cargo pockets (like the [[https://www.railriders.com/men-versatac-light-shirt-p-1021.html?cPath=104_111][RailRiders Versatac Light Shirt]]), and 6 pocket cargo pants/shorts.
+- Shirt
+
+  - Right hidden zipper pocket: phone.
+  - Left hidden zipper pocket: wallet.
+  - Right cargo pocket: sunglasses and headphones (when not being worn).
+  - Left cargo pocket: writing materials.
+
+- Pants/shorts
+
+  - Right front slash pocket: plain-edge folder (pocket clip), keys.
+  - Left front slash pocket: flashlight (pocket clip), keychain.
+  - Right cargo pocket: cordage/utility materials.
+  - Left cargo pocket: first aid materials.
+  - Right back pocket: bandana.
+  - Left back pocket: free for miscellaneous storage.
+
+- Belt
+
+  - Multitool
+
+- Anything that cannot get wet goes in the shirt, since a fully waterproof rain shell will be worn more than rain pants.

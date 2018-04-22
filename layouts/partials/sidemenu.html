@@ -1,0 +1,102 @@
+<!-- Menu toggle -->
+<a href="#menu" id="menuLink" class="menu-link">
+  <!-- Hamburger icon -->
+  <span></span>
+</a>
+<div id="menu">
+
+  <div class="pure-menu">
+    <ul class="pure-menu-list">
+      {{ range .Site.Menus.navigation }}
+      {{ if .HasChildren }}
+        <li class="pure-menu-item pure-menu-has-children">
+          <a class="pure-menu-link" href="#">{{ .Pre }}{{ .Name }}</a>
+          <ul class="pure-menu-children">
+            {{ range .Children }}
+            <li class="pure-menu-item">
+              <a href="{{ .URL }}">{{ .Name }}</a>
+            </li>
+            {{ end }}
+          </ul>
+      {{else}}
+        <li class="pure-menu-item">
+          <a class="pure-menu-link" {{ printf "href=%q" .URL | safeHTMLAttr }}>{{ .Pre }}{{ .Name }}</a>
+      {{end}}
+        </li>
+      {{end}}
+    </ul>
+  </div>
+
+  <div class="pure-menu">
+  	<br/>
+	<b>&nbsp Content</b>
+    <ul class="pure-menu-list">
+      {{ range .Site.Menus.content }}
+      {{ if .HasChildren }}
+        <li class="pure-menu-item pure-menu-has-children">
+          <a class="pure-menu-link" href="#">{{ .Pre }}{{ .Name }}</a>
+          <ul class="pure-menu-children">
+            {{ range .Children }}
+            <li class="pure-menu-item">
+              <a href="{{ .URL }}">{{ .Name }}</a>
+            </li>
+            {{ end }}
+          </ul>
+      {{else}}
+        <li class="pure-menu-item">
+          <a class="pure-menu-link" {{ printf "href=%q" .URL | safeHTMLAttr }}>{{ .Pre }}{{ .Name }}</a>
+      {{end}}
+        </li>
+      {{end}}
+    </ul>
+  </div>
+  
+  <div class="pure-menu">
+  	<br/>
+	<b>&nbsp Site</b>
+    <ul class="pure-menu-list">
+      {{ range .Site.Menus.site }}
+      {{ if .HasChildren }}
+        <li class="pure-menu-item pure-menu-has-children">
+          <a class="pure-menu-link" href="#">{{ .Pre }}{{ .Name }}</a>
+          <ul class="pure-menu-children">
+            {{ range .Children }}
+            <li class="pure-menu-item">
+              <a href="{{ .URL }}">{{ .Name }}</a>
+            </li>
+            {{ end }}
+          </ul>
+      {{else}}
+        <li class="pure-menu-item">
+          <a class="pure-menu-link" {{ printf "href=%q" .URL | safeHTMLAttr }}>{{ .Pre }}{{ .Name }}</a>
+      {{end}}
+        </li>
+      {{end}}
+    </ul>
+  </div>
+  
+  <div class="pure-menu">
+    <br/>
+	<b>&nbsp Author</b>
+    <ul class="pure-menu-list">
+      {{ range .Site.Menus.author }}
+      {{ if .HasChildren }}
+        <li class="pure-menu-item pure-menu-has-children">
+          <a class="pure-menu-link" href="#">{{ .Pre }}{{ .Name }}</a>
+          <ul class="pure-menu-children">
+            {{ range .Children }}
+            <li class="pure-menu-item">
+              <a href="{{ .URL }}">{{ .Name }}</a>
+            </li>
+            {{ end }}
+          </ul>
+      {{else}}
+        <li class="pure-menu-item">
+          <a class="pure-menu-link" {{ printf "href=%q" .URL | safeHTMLAttr }}>{{ .Pre }}{{ .Name }}</a>
+      {{end}}
+        </li>
+      {{end}}
+    </ul>
+  </div>
+  
+</div>

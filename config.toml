@@ -1,0 +1,102 @@
+baseurl = "https://www.steventammen.com/"
+languageCode = "en-us"
+title = "StevenTammen.com"
+theme = "blackburn"
+author = "Steven Tammen"
+# copyright = "&copy; 2018. All rights reserved."
+canonifyurls = true
+paginate = 10
+
+[indexes]
+  tag = "tags"
+  category = "categories"
+  topic = "topics"
+
+[params]
+  # Shown in the home page
+  subtitle = "Writings from the mind of Steven Tammen. Occasionally comprehensible."
+  brand = "Steven Tammen"
+  # googleAnalytics = "Your Google Analytics tracking ID"
+  disqus = "steventammen"
+  # CSS name for highlight.js
+  highlightjs = "androidstudio"
+  dateFormat = "02 Jan 2006, 15:04"
+
+[menu]
+
+  # Shown in the side menu.
+  [[menu.navigation]]
+    name = "Home"
+    pre = "<i class='fa fa-home fa-fw'></i>"
+    weight = 1
+    identifier = "home"
+    url = "/"
+	
+  [[menu.content]]
+    name = "Posts"
+    pre = "<i class='fa fa-picture-o fa-fw'></i>"
+    weight = 2
+    identifier = "posts"
+    url = "/posts/"
+  [[menu.content]]
+    name = "Pages"
+    pre = "<i class='fa fa-file-text fa-fw'></i>"
+    weight = 3
+    identifier = "pages"
+    url = "/pages/"
+  [[menu.content]]
+    name = "Links"
+    pre = "<i class='fa fa-link fa-fw'></i>"
+    weight = 4
+    identifier = "links"
+    url = "/links/"
+  [[menu.content]]
+    name = "Tags"
+    pre = "<i class='fa fa-tags fa-fw'></i>"
+    weight = 5
+    identifier = "tags"
+    url = "/tags/"
+  [[menu.content]]
+    name = "Categories"
+    pre = "<i class='fa fa-folder fa-fw'></i>"
+    weight = 6
+    identifier = "categories"
+    url = "/categories/"
+	
+  [[menu.site]]  
+    name = "About"
+    pre = "<i class='fa fa-sitemap fa-fw'></i>"
+    weight = 7
+    identifier = "about"
+    url = "/about/"
+  [[menu.site]]  
+    name = "Roadmap"
+    pre = "<i class='fa fa-trello fa-fw'></i>"
+    weight = 8
+    identifier = "roadmap"
+    url = "https://waffle.io/StevenTammen/steventammen.github.io"
+  [[menu.site]]  
+    name = "Settings"
+    pre = "<i class='fa fa-cog fa-fw'></i>"
+    weight = 9
+    identifier = "settings"
+    url = "/settings/"
+	
+  [[menu.author]]
+    name = "Projects"
+    pre = "<i class='fa fa-code fa-fw'></i>"
+    weight = 10
+	identifier = "projects"
+    url = "/projects/"
+  [[menu.author]]
+    name = "Resume"
+    pre = "<i class='fa fa-file-pdf-o fa-fw'></i>"
+    weight = 11
+	identifier = "resume"
+    url = "/resume.pdf/"
+  [[menu.author]]
+    name = "Contact"
+    pre = "<i class='fa fa-phone fa-fw'></i>"
+    weight = 12
+	identifier = "contact"
+    url = "/contact/"
