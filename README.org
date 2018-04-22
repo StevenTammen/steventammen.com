@@ -1,0 +1,7 @@
+* Rough Overview
+
+- Written in [[https://orgmode.org/][Org]].
+- Produced with [[https://gohugo.io/][Hugo]] via [[https://github.com/chaseadamsio/goorgeous][Goorgeous]]
+- Hosted on [[https://www.netlify.com/][Netlify]], with [[https://www.netlify.com/docs/continuous-deployment/][continuos deployment]]. Netlify also handles the DNS, since having them handle it integrates well with their CDN.
+- The base theme is [[https://github.com/yoshiharuyamashita/blackburn][Blackburn]], with heavy customization on top.
+- The table of contents is shamelesslessly copied from [[https://github.com/Ircama/osm-carto-tutorials][OpenStreetMap Carto Tutorials]], which in turn customized the plugin from [[https://afeld.github.io/bootstrap-toc/][Table of Contents plugin for Bootstrap]] (ScrollSpy plugin), (c) 2015 Aidan Feldman, licensed MIT.
