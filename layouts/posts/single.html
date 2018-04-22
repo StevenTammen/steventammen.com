@@ -1,20 +1,24 @@
 {{ partial "header-content.html" . }}
 
 <div class="header">
-  <h1>{{ .Title }}</h1>
-  <h2>{{ .Description }}</h2>
+  <h1 data-toc-skip>{{ .Title }}</h1>
+  <h2 data-toc-skip>{{ .Description }}</h2>
 </div>
 <div class="content">
-
-  {{ partial "post_meta.html" . }}
-
-  {{ partial "toc.html" . }}
-  {{ .Content }}
-
-  {{ partial "prev_next_post.html" . }}
-
-  {{ partial "disqus.html" . }}
-
+	<div class="container">
+	  {{ partial "post_meta.html" . }}
+	  {{ .Content }}
+	  {{ partial "prev_next_post.html" . }}
+	</div>
 </div>
+
+<!-- Latest compiled and minified Bootstrap JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+<!-- Table of Content -->
+<script src="{{ .Site.BaseURL }}js/bootstrap-toc.js"></script>
+
+<!-- Site Functions -->
+<script src="{{ .Site.BaseURL }}js/site-functions.js"></script>
 
 {{ partial "footer.html" . }}

@@ -26,6 +26,7 @@
 
   <link rel="stylesheet" href="/css/blackburn.css">
   <link rel="stylesheet" href="/css/toc.css">
+  <link rel="stylesheet" href="https://cdn.rawgit.com/afeld/bootstrap-toc/v0.4.1/dist/bootstrap-toc.min.css">
 
   <!-- Icons -->
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -35,7 +36,7 @@
 
   <!-- MathJax -->
   <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
-
+  
  <!-- RSS -->
   {{ if .RSSLink }}
   <link rel="alternate" type="application/rss+xml" title="{{ .Site.Title }}" href="{{ .RSSLink }}" />
@@ -58,5 +59,8 @@
   {{ range .Site.Params.custom_js }}
     <script src="{{ $.Site.BaseURL }}{{ . }}"></script>
   {{ end }}
+  
+  <!-- JQuery -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
 
 </head>

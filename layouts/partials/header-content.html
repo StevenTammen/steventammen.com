@@ -3,9 +3,10 @@
 
 {{ partial "head.html" . }}
 
-<body>
+<body data-spy="scroll" data-target="#toc">
 <div id="layout">
 
   {{ partial "sidemenu-content.html" . }}
+  <div class="sticky"><nav id="toc"></nav></div>
 
   <div id="main">
