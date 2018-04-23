@@ -114,7 +114,7 @@ I want to be transparent about this: all contributions to this site are subject 
 
 **  Copyright and Terms of Use
 
-The contents of this site are licensed under the [[http://creativecommons.org/licenses/by-sa/4.0/][Creative Commons Attribution-ShareAlike 4.0 International License]]. Code associated with subprojects will likely be licensed under the [[href="http://www.gnu.org/licenses/gpl.html"][GNU General Public License v3]] (since I am supportive of forceful copyleft), but sometimes it may be licensed under MIT, Apache, etc. To be sure in any case, you should check the project repositories and their LICENSE files. 
+The contents of this site are licensed under the [[http://creativecommons.org/licenses/by-sa/4.0/][Creative Commons Attribution-ShareAlike 4.0 International License]]. Code associated with subprojects will likely be licensed under the [[http://www.gnu.org/licenses/gpl.html][GNU General Public License v3]] (since I am supportive of forceful copyleft), but sometimes it may be licensed under MIT, Apache, etc. To be sure in any case, you should check the project repositories and their LICENSE files. 
 
 #+BEGIN_HTML
 <br/>
