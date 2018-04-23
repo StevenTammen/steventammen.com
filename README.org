@@ -1,12 +1,5 @@
 [[https://waffle.io/StevenTammen/steventammen.com][https://badge.waffle.io/StevenTammen/steventammen.com.svg?columns=all]]
 
-** Rough Overview
-
-- Written in [[https://orgmode.org/][Org]].
-- Produced with [[https://gohugo.io/][Hugo]] via [[https://github.com/chaseadamsio/goorgeous][Goorgeous]]
-- Hosted on [[https://www.netlify.com/][Netlify]], with [[https://www.netlify.com/docs/continuous-deployment/][continuos deployment]]. Netlify also handles the DNS, since having them handle it integrates well with their CDN.
-- The table of contents is shamelesslessly copied from [[https://github.com/Ircama/osm-carto-tutorials][OpenStreetMap Carto Tutorials]], which in turn customized the plugin from [[https://afeld.github.io/bootstrap-toc/][Table of Contents plugin for Bootstrap]] (ScrollSpy plugin), (c) 2015 Aidan Feldman, licensed MIT.
-
 ** Technical Overview
 
 *** Content
@@ -21,7 +14,7 @@ This site uses [[https://gohugo.io/][Hugo]] as its static site generator. Posts,
 
 This site has the source content located in a [[https://github.com/StevenTammen/steventammen.com/][Github repository]], with the generated files being hosted on [[https://www.netlify.com/][Netlify]]. Netlify has an extremely fast global content delivery Network (CDN) that caches the entire site, since everything is static. I am using Netlify as my DNS as well, since having the DNS through them lets the CDN work at maximum effectiveness with little configuration.
 
-Netlify also allows for continuous deployment by means of a build command. [[https://github.com/StevenTammen/steventammen.com/blob/master/netlify.toml][Netlify.toml]] contains information relating to the continuous deployment I use via Netlify (mainly information pertaining to the Hugo command to run on their server). Whenever a build is triggered (I push to the Github repository containing the source), Netlify automatically updates all the cache fingerprints for assets, so only the most recent files are on the CDN. Not having have to worry about invalidating out of date assets has been one of my favorite things about this current workflow.
+Netlify also allows for continuous deployment by means of a build command. [[https://github.com/StevenTammen/steventammen.com/blob/master/netlify.toml][Netlify.toml]] contains information relating to the continuous deployment I use via Netlify (mainly information pertaining to the Hugo command to run on their server). Whenever a build is triggered (I push to the Github repository containing the source), Netlify automatically updates all the cache fingerprints for assets, so only the most recent files are on the CDN. Not having to worry about invalidating out of date assets has been one of my favorite things about this current workflow.
 
 *** Domain redirects and subdomains
 
@@ -70,7 +63,7 @@ I shamelessly copied the table of contents from [[https://ircama.github.io/osm-c
 
 *** Planned Contributions
 
-I use a Kanban-esque [[https://waffle.io/StevenTammen/steventammen.github.io][Waffle.io board]] to track all of the things that I am currently working on, plan to work on soon, or plan to work on eventually. Put simply, this is where you should start if you want to contribute to this site, because this is the roadmap for the future. If you see something you want to help with, I'd be happy to have your assistance.
+I use a Kanban-esque [[https://waffle.io/StevenTammen/steventammen.com][Waffle.io board]] to track all of the things that I am currently working on, plan to work on soon, or plan to work on eventually. Put simply, this is where you should start if you want to contribute to this site, because this is the roadmap for the future. If you see something you want to help with, I'd be happy to have your assistance.
 
 This is the side of contribution that is structured: groups of people work together to achieve planned goals in an orderly fashion.
 
@@ -121,8 +114,9 @@ I want to be transparent about this: all contributions to this site are subject 
 
 **  Copyright and Terms of Use
 
-The contents of this site are licensed under the [[http://creativecommons.org/licenses/by-sa/4.0/][Creative Commons Attribution-ShareAlike 4.0 International License]]. Code associated with subprojects will likely be licensed under the [[href="http://www.gnu.org/licenses/gpl.html][GNU General Public License v3]] (since I am supportive of forceful copyleft), but sometimes it may be licensed under MIT, Apache, etc. To be sure in any case, you should check the project repositories and their LICENSE files. 
+The contents of this site are licensed under the [[http://creativecommons.org/licenses/by-sa/4.0/][Creative Commons Attribution-ShareAlike 4.0 International License]]. Code associated with subprojects will likely be licensed under the [[href="http://www.gnu.org/licenses/gpl.html"][GNU General Public License v3]] (since I am supportive of forceful copyleft), but sometimes it may be licensed under MIT, Apache, etc. To be sure in any case, you should check the project repositories and their LICENSE files. 
 
 #+BEGIN_HTML
+<br/>
 <a rel="license", href="http://creativecommons.org/licenses/by-sa/4.0/"><img src="https://i.creativecommons.org/l/by-sa/4.0/88x31.png", alt="Creative Commons License"></a> &nbsp; &nbsp; &nbsp; <a rel="license", href="http://www.gnu.org/licenses/gpl.html"><img src="http://www.gnu.org/graphics/gplv3-88x31.png", alt="GNU GPLv3 License")></a>
 #+END_HTML

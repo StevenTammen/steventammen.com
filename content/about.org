@@ -36,11 +36,11 @@ If you believe any writing on the site is truly biased, please tell me, so that 
 
 ** Backend
 
-A concise technical summary of this site's operation may be found in the [[https://github.com/StevenTammen/steventammen.com/#technical-summary][Technical Summary Section]] of the [[https://github.com/StevenTammen/steventammen.com/blob/master/README.org][Readme]] in the site's [[https://github.com/StevenTammen/steventammen.com/][Github repository]].
+A concise technical summary of this site's operation may be found in the [[https://github.com/StevenTammen/steventammen.com/#technical-overview][Technical Overview Section]] of the [[https://github.com/StevenTammen/steventammen.com/blob/master/README.org][Readme]] in the site's [[https://github.com/StevenTammen/steventammen.com/][Github repository]].
 
 ** Publishing In-Progress Pages
 
-I believe in publishing in-progress pages for two reasons: 1) waiting until pages are "finished" before publishing means that they aren't useful to anyone else until the very end of the research and writing process, and 2) I am far from a perfect writer (and my knowledge in many areas is less than complete), so giving other people opportunities to critique my writing from the very beginning of the process will help improve the content more than waiting until some arbitrary point of "good enough for others to see." To use an anology, open source code projects don't wait until their code is "good enough" to push to GitHub, they start open source from the get go, and are better for it. Obviously prose is not code, but the same general logic applies:
+I believe in publishing in-progress pages for two reasons: 1) waiting until pages are "finished" before publishing means that they aren't useful to anyone else until the very end of the research and writing process, and 2) I am far from a perfect writer (and my knowledge in many areas is less than complete), so giving other people opportunities to critique my writing from the very beginning of the process will help improve the content more than waiting until some arbitrary point of "good enough for others to see." To use an analogy, open source code projects don't wait until their code is "good enough" to push to GitHub, they start open source from the get go, and are better for it. Obviously prose is not code, but the same general logic applies:
 
 1. Multiple people working on the same thing will yield better results than a single individual
 2. This is true at all stages of the creative process, not just for edits of an already-finished work
