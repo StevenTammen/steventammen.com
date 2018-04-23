@@ -73,6 +73,10 @@ Cognitive maps are the determinative factor in organizing information efficientl
   - The near perfect cognitive map in the recently read window is in /short term memory/ -- it will fade quickly with time. Forcing attention away (e.g., engaging in a different activity) will likely make the cognitive map decay faster. After this "short-term cognitive map" decays completely, differences in recall/information location will fade or at least be significantly reduced. ⇒ Discrimination between "recent" (i.e., in window = very complete cognitive map) and "not recent" (i.e., not in window = less complete cognitive map) is /temporary/ and not encoded in memory for longer term information retention.
   - This concept likely works on a spectrum, with a less clear cut window (i.e., it is likely a continuum towards less good cognitive maps rather than a one-and-done cutoff point). General idea:
 
+
+[[https://www.steventammen.com/pages/screen-reading/cognitive-maps.png]]
+
+
 - The magnitude of the enhanced cognitive map due to recent reading effect, the range of reading that effect applies too, how long it takes to decay under normal conditons, and how long it takes to decay with changes in attention probably all vary on continuums according to individual and circumstantial factors.
 - Recap: Ability to judge information location as "recent" or "not recent" stems from enhanced cognitive maps that are an artifact of recent reading and will fade over time. After a certain cutoff point (going back in text(s) read), there will be no discernable difference in ability to locate information over "baseline" levels. After sufficient time has past/someone has focused on something else to the detriment of temporary cognitive maps long enough (or some combination thereof), all text will be at the baseline level.
 
@@ -92,7 +96,7 @@ Cognitive maps are the determinative factor in organizing information efficientl
 
 - Ought to have intuitive highlighting, underlining, annotation (with ability to link to words, sentences, or paragraphs; ability to convert handwriting to text --- for search etc. --- but keep handwriting; ability to put links in notes; ability to customize how/when annotations show, hover bahvior, etc.), bookmarking (with instantaneous ability to set and remove multiple bookmarks, some means for bookmarks to be descriptive of the text they mark, and easy commands to go to specific bookmarks). Should be able to press and drag for highlighting and underlining, but also be able to use tap selection: 1 tap = word, 2 taps = sentence, 3 taps = paragraph. (Be able to adjust how fast taps must be in succession to register).
 
-  - Have a look at a project called [[https://web.hypothes.is/][Hypothes.sis]] for some good starting ideas about digital annotation.
+  - Have a look at a project called [[https://web.hypothes.is/][Hypothes.is]] for some good starting ideas about digital annotation.
 
 - MUST be able to flip more than one page at a time --- to emulate flipping through pages like a print book when skimming / looking for something. Holding down a button like flipping pages --- customizable speed. Should also be able to flip "chunks".
 - eBook "Extras" --- built in (English) dictionary, links to wikipedia, links to other works in library and links to internet (but ability to disguise/turn off links if desired to minimize cognitive load / undesired hypertext), lexicons/foreign language dictionaries with parsing as appropriate, dictionaries/encyclopedias, full text searches, text searches on title/header content, fuzzy searches, regex-enabled fine grain searches, scrolling in-line notes (either personal --- see annotation --- or external like scholarly commentaries or textual apparatuses), features like Kindle x-ray for identifying characters and usage across a text, vocab builder tools.
