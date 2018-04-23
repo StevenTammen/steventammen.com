@@ -74,7 +74,7 @@ Cognitive maps are the determinative factor in organizing information efficientl
   - This concept likely works on a spectrum, with a less clear cut window (i.e., it is likely a continuum towards less good cognitive maps rather than a one-and-done cutoff point). General idea:
 
 
-[[https://www.steventammen.com/pages/screen-reading/cognitive-maps.png]]
+[[file:/pages/screen-reading/cognitive-maps.png][Cognitive maps visual description]]
 
 
 - The magnitude of the enhanced cognitive map due to recent reading effect, the range of reading that effect applies too, how long it takes to decay under normal conditons, and how long it takes to decay with changes in attention probably all vary on continuums according to individual and circumstantial factors.

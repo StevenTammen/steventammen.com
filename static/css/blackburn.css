@@ -28,6 +28,11 @@ td, th {
   text-align: left; 
 }
 
+img {
+	max-width: 100%;
+	height: auto;
+}
+
 /* ----------------------------------- */
 
 .small-print {
