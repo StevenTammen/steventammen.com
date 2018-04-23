@@ -103,26 +103,16 @@
 	<br/>
 	<b>&nbsp Webpage</b>
 	<ul class="pure-menu-list">
-	
-		<!-- Table of contents -->
 		<li class="pure-menu-item">
-			<a class="pure-menu-link" {{ printf "href=%s%s" .URL  "#TableOfContents" | safeHTMLAttr }}>
-				<i class='fa fa-list fa-fw'></i>Table Of Contents
+			<a class="pure-menu-link" {{ printf "href=%s%s" .URL  "#" | safeHTMLAttr }}>
+				<i class='fa fa-list fa-fw'></i>Back to Top
 			</a>
 		</li>
-		
-		<!-- Edit on Github and Prose.io -->
-			<li class="pure-menu-item">
-				<a class="pure-menu-link" {{ printf "href=https://github.com/StevenTammen/steventammen.com/edit/master%s.md" (strings.TrimSuffix "/" .URL) | safeHTMLAttr }}>
-					<i class='fa fa-github fa-fw'></i>Edit on GitHub
-				</a>
-			</li>
-			<li class="pure-menu-item">
-				<a class="pure-menu-link" {{ printf "href=https://prose.io/#StevenTammen/steventammen.com/edit/master%s.md" (strings.TrimSuffix "/" .URL) | safeHTMLAttr }}>
-					<i class='fa fa-pencil fa-fw'></i>Edit on Prose.io
-				</a>
-			</li>
-			
+		<li class="pure-menu-item">
+			<a class="pure-menu-link" {{ printf "href=https://github.com/StevenTammen/steventammen.com/edit/master/content%s.org" (strings.TrimSuffix "/" .URL) | safeHTMLAttr }}>
+				<i class='fa fa-github fa-fw'></i>Edit on GitHub
+			</a>
+		</li>
 	</ul>
   </div>
   

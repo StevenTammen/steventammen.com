@@ -3,7 +3,6 @@ languageCode = "en-us"
 title = "StevenTammen.com"
 theme = "blackburn"
 author = "Steven Tammen"
-# copyright = "&copy; 2018. All rights reserved."
 canonifyurls = true
 paginate = 10
 
@@ -15,7 +14,6 @@ paginate = 10
 [params]
   # Shown in the home page
   subtitle = "Writings from the mind of Steven Tammen. Occasionally comprehensible."
-  brand = "Steven Tammen"
   # googleAnalytics = "Your Google Analytics tracking ID"
   disqus = "steventammen"
   # CSS name for highlight.js
@@ -74,7 +72,7 @@ paginate = 10
     pre = "<i class='fa fa-trello fa-fw'></i>"
     weight = 8
     identifier = "roadmap"
-    url = "https://waffle.io/StevenTammen/steventammen.github.io"
+    url = "https://waffle.io/StevenTammen/steventammen.com"
   [[menu.site]]  
     name = "Settings"
     pre = "<i class='fa fa-cog fa-fw'></i>"
@@ -93,7 +91,7 @@ paginate = 10
     pre = "<i class='fa fa-file-pdf-o fa-fw'></i>"
     weight = 11
 	identifier = "resume"
-    url = "/resume.pdf/"
+    url = "/resume.pdf"
   [[menu.author]]
     name = "Contact"
     pre = "<i class='fa fa-phone fa-fw'></i>"

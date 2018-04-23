@@ -8,6 +8,6 @@ To allow for selective forwarding and automatic categorization, I have several d
 
 | Reason                 | Address                   |
 |------------------------+---------------------------|
-| Professional Matters   | steven@steventammen.com   |
-| Content Improvements   | edits@steventammen.com    |
-| Design Improvements    | design@steventammen.com   |
+| Professional Matters   | [[mailto:steven@steventammen.com][steven@steventammen.com]]   |
+| Content Improvements   | [[mailto:edits@steventammen.com][edits@steventammen.com]]    |
+| Design Improvements    | [[mailto:design@steventammen.com][design@steventammen.com]]   |
