@@ -570,98 +570,63 @@ Anyhow, we ended up talking for quite a long time, with our conversation ranging
 - [[https://www.steventammen.com/posts/electric-skates-vs-normal-inline-skates/part-3.mp3][Part 3]]
 - [[https://steventammen.com/posts/electric-skates-vs-normal-inline-skates/part-4.mp3][Part 4]]
 
-** Discussion and conclusions
 
-My thinking on these things has changed significantly since I first got interested in skating. I started out pretty convinced that electric skates were the answer, and that these were definitely what I would buy, but then as time went on, I became less and less enamored with them. There are some good reasons for this, but essentially, it boils down to individual use case. I do not in any way think that Thundrblade (or the idea of electric skates in general) are a waste of money, but at the same time, I do think that the additional expense and complexity they add must be justified, and that they are only the right choice for some people.
+** Discussion
+
+Note: I significantly changed this section soon after I published this page. I was afraid this would happen with blog posts. Oh well. I had previously made a stronger case against high speeds, but as I continued to reread my post and think about things, I am less sure of myself, and stuck more to basic observations rather than judgments about them.
 
 *** Things electric skates allow
 
-To my mind, here are the things that electric skates enable that inline skates do not (note that these are not all necessarily pros just things that are not possible on regular inline skates):
+To my mind, here are the things that electric skates enable that inline skates do not:
 
 - Skating without exertion, or skating with less exertion.
 - Faster speeds, particularly when confronting uphills of any gradient.
 - Higher speeds in situations where there is very little side-to-side space. (The more horizontal space, the faster you can go on manpower alone due to wider pushes).
-- Braking with electric brakes takes less skill (you do not need good single foot balance, e.g.), and does not put you off balance as much, especially if you get in a scissor stance and stay low. It also requires marginally less space than drag stopping, and noticeably less space than many slide stop variations.
+- Safer braking requiring less precision. Braking with electric brakes takes less skill (you do not need good single foot balance, e.g.), and does not put you off balance as much, especially if you get in a scissor stance and stay low. It also requires marginally less space than drag stopping, and noticeably less space than many slide stop variations.
 
-And... that's about it. To be honest I thought there would be more.
-
-*** But are these things all significant pros?
-
-Let's go one at a time:
+*** Examining these things one by ones
 
 **** Exertion
 
-One of the whole reasons I am picking up skating is for exercise. Minimizing the amount of work I have to do is not something that I personally value... at all. I've seen people argue that being able to commute without effort is important to be presentable arriving at the office. I guess this depends on the individual. I would rather get my workout in and freshen up a little bit in the restroom (and, to be perfectly honest, not care what busybody coworkers think) than forgo exercise due to social pressure. If my company has a problem with that, then I better find a new company. (One of Steven's life rules: if you can't be yourself around people, they are not worth being around, no matter how much they pay you. Self-respect is always more important than money, in my book).
+One of the whole reasons I am picking up skating is for exercise. Minimizing the amount of work I have to do is not something that I personally rate high on my list.
 
-A lot of the potentially problematic consequences of exercise can be solved by dressing and packing appropriately. Carry a towel around with you to wipe off sweat. Only wear clothes that don't collect odors (e.g., Merino wool is excellent for this purpose. Merino underwear and dress shirts are available -- using these cover both the armpits and groin area, which are the locations of the main apocrine sweat glands in humans).
+However, there may be times and places where I am tired or otherwise not at my fullest capacity. If I misjudge distances and find myself exhausted on my skates, having the ability to skate without further effort is a boost to safety. People make poor decisions when tired, reflexes slow, and muscle fatigue can lead to situations in which you would ordinarily be able to do something but cannot under present conditions -- a mismatch of expectations to reality can cause errors in judgment.
 
-Cultivating a disdain for the judgmental opinions of others also helps.
+Electric skates that allow for drivetrain resistance to be completely eliminated by decoupling the drivetrain and the skates do not /force/ you to either skate with lots of resistance or forgo exercise. So for such skates, having the option of reducing exertion is a pro without cons.
 
 **** Faster speeds
 
-This one is definitely usage dependent.
+Faster speeds are a double edged sword. They are more fun (psychological benefits), but also come with increased risk (higher impact forces, more abrasion from sliding, reduced reaction times = higher likelihood of unexpected events to cause crashes).
 
-Too slow, and skating is no fun. Try putting shoddy bearings in 78mm wheels: you'll get a plenty good workout (with all the reduced impact force benefits over jogging), but you'll also find that going slow without the ability to glide is seriously boring and tedious. You have to get a certain level of speed and free-rolling for the real psychological benefits of skating to be realized, in my opinion.
+Electric skates allow for two important things that may matter for you: 1) they let you be less of a traffic hazard if you are skating in traffic since you can better match the speed of city vehicles (particularly going uphill), 2) they enable much longer potential commutes, in the higher double-digits of miles, for a given commute time.
 
-However, past a certain point, too much speed gets scary. Most people seriously underestimate how damaging asphalt is. I happen to have a done a lot of research on road rash and the like since I plan on getting a motorcycle eventually (if circumstances demand a real motor vehicle, that is). Most motorcycle crashes actually happen at lower speeds, but the injuries are still horrifying. If you are not wearing things that are legitimately abrasion resistant when you take a spill at speeds at or above 25mph, you will lose skin. A lot of it.
-
-Now, we could all go around wearing Kevlar long johns, but the truth is, real abrasion resistant gear is kind of a pain in the butt to manage in everyday life. It is more realistic to carry around knee pads, elbow pads, and slider gloves/wrist-guards since they can be taken on and off easily and add little bulk and weight to a pack. But these won't save you if you fall going at high speed and happen to slide for a long distance. Personally, I am always astounded by cyclists and speed skaters that go around wrapped in Lycra. At the speed these people go, all that is standing between them and a nasty skin graft is one unlucky fall.
-
-Of course, there are several other factors to consider. Going faster makes evaporative cooling from wind much more effective, which is another reason I like skating a lot better than jogging for low-mid intensity (e.g., 30% to 60% VO2 max) cardio. But I would argue again here that there is a balance to be had between better cooling and safety.
-
-Finally, there is the matter of effective exercise times. If I want to get some exercise on my commute, I could always jog. The reason I am skating is because it is like 500x more fun, and therefore has psychological benefits in addition to the physical exercise benefits. But if I am always buzzing around at 25mph, and my commute is only a few miles in the city, I get no exercise. Of course you could always just skate around in circles or whatever to get more exercise, but that begs the question of why you payed hundreds of dollars to be able to waste electricity going at riskier high speeds. If you want more exercise with non-electric skates, you just skate more, and nothing is wasted. But with electric skates, you effectively wasted money, since the electric bit isn't helping at all in this regard.
-
-So, as you can see, this is not as cut and dry as "high speeds are always better." However, I do want to be clear that electric skates allow for two important things that may matter for you: 1) they let you be less of a traffic hazard if you are skating in traffic since you can better match the speed of city vehicles (particularly going uphill), 2) they enable much longer potential commutes, in the higher double-digits of miles. Note that I don't really consider going slower in a bike lane being a traffic hazard, since you can and should step up on sidewalks to let faster bikers pass if they wish. (Even for skaters going in the 20s, most bikers will want to go faster if there are downhills).
-
-I never plan on riding in traffic because I don't trust the capabilities of drivers in America. Riding with cars is incontrovertibly more dangerous, and you have to be willing to accept that risk to do it on a regular basis. I personally do not think the benefits are worth the risks, so I plan to stick to bike lanes and sidewalks unless lanes are open (at which point riding on the street is better due to more space and less unpredictability from pedestrians/bikers). But as soon as there are cars, back off the road I go.
-
-The commuting range point is an interesting one. I am not settled yet (still in college), so it's hard for me to say what future commutes will look like (if I end up in a city, that is). But I would have to live a very long way away for me to value speed over more exercise; in other words, even if I had a 10 mile commute, I'd probably still rather go slower and get more exercise than be able to do the commute in less time.
-
-**** But Steven, 90mm wheels are still fast. According to what you are saying, wouldn't smaller wheels be better?
-
-Once I get around to more formally writing up how skates work (courtesy of my conversations with Leon), it should become more clear why it is worth going with a 4x90mm (what I settled on) or 4x100mm setup (if you want somewhat more speed).
-
-The biggest factors here are stability and maneuverability. Bigger wheel skates give you a larger frame length (and are more stable, consequently), but a natural rocker still allows for them to be more maneuverable (as measured by turning radius) than flat setups with smaller wheels. On level ground, it is possible to go reasonably fast on 4x90mm skates, but you have to work at it a whole lot more than with 4x110mm skates or 3x125mm skates. Bigger wheels are more efficient, have less rolling resistance, and maintain speed better which means they always end up going faster than smaller wheels.
-
-90mm wheels (that have a relatively small core with lots of urethane and a softish durometer, like 82a) are a good compromise size: you get wheels big enough that you can handle somewhat rougher roads (although not nearly to the degree that 125mm wheels can) and keep up a "fun" speed, but not so large that you end up going extremely fast, with all the attendant risks.
+I still have not yet decided what speeds I want my skating experience to center around. But if you want to have the option of going fast uphills, only electric motors can give you that.
 
 **** Higher speeds in tight spaces
 
-As should be clear by now, I don't view speed as a necessary good. So right off the bat, this becomes less of a disadvantage and more of an observation.
+Generally speaking, tight spaces are more dangerous, and due to this increased risk, should be taken at appropriately reduced speeds, in my opinion. Particularly if by "tight spaces" we mean "crowds of people." Skating responsibly requires looking out for the well-being of others before ourselves. I would never want to be responsible for injuring an innocent bystander because I lost control due to speed.
 
-However, there's more. Tight spaces like this mostly mean narrow bike lanes and crowds of people. In both cases, higher speeds are more dangerous than they are even in normal skating since you have less space to work with if things go south. In other words, you /ought/ to be going slower in these circumstances anyway.
+However, I can certainly conceive of situations in which you may want to maintain speeds, but have little side to side room. Perhaps you are in traffic with cars on both sides but no way to gracefully get off the road, and not enough room to get a good stride. Perhaps you are in a bike lane with a biker behind you who might want to pass if you go too slow -- forcing them pass puts them at significantly higher risk. And so forth.
 
-There is also the matter of exactly how tight we are talking. There are some spaces so narrow that it would be essentially impossible to take them at highish speeds on normal inline skates. In such circumstances I can concede that electric inline skates are useful. But from all the skate videos I have watched (and my observation of local pavement where I live at the moment), these extremely narrow sections appear to be rare.
+Electric skates give you this option.
 
 **** Braking prowess
 
-Ah, braking. Now this is the thing that drew me to electric skates initially, and to be perfectly honest, the only thing that kept me looking at them as long as I did. There's no way around it: pushing a button to brake, with both feet firmly on the ground in a stable scissor stance, is easier and more idiotproof than drag braking. Full stop. Additionally, adjusting braking level (i.e., braking more or less) is definitely easier on the remote than learning how to properly transfer weight in friction stops with wheels.
+Taking away the skill component for braking on skates is not just for beginning skaters. Braking techniques that require balance, precision in weight transfer, and a stance less stable than a spaced scissor stance (i.e., all braking techniques) are inherently more dangerous braking methods than electric brakes, because there are many more ways in which they may go wrong. Full stop.
 
-But, the thing this, if you get good, the advantages go away. You cannot make the argument that drag braking is strictly inferior on a practical level, since experienced skaters can do it in a wide variety of circumstances and essentially never fall. And slide stops are always better than electric brakes in some ways, no matter how you slice it. Electric brakes require you to keep traction (think cars and ABS brakes), otherwise you lose control. Slide stops are essentially a voluntary loss of control, but /you expect it and control it/. The two things are entirely different beasts. Safety is born of consistency: knowing when you are going to lose traction and doing it intentionally makes the loss of control in slide stops distinctly less dangerous than the loss of control in electric braking if you brake too hard too fast. Which means in situations where loss of control is inevitable (extreme emergency braking), slide stops are just straight up better because they are more consistent.
+Of course, once you get good at drag braking (T-braking), slide stops, and speed shedding techniques (slaloming down hills, e.g.), you don't "need" electric brakes. People have bombed hills for years now without electric brakes. But being able to brake without electric brakes does not mean that electric brakes are not useful.
 
-Now, I don't want to dump on electric brakes too much. The truth is, not everyone has the time and inclination to learn how to safely stop at high speeds on skates. It takes skill, and lots and lots of practice, there's no denying it. This means that electric brakes will be 110% better for a certain group of people. They will /always/ be the right choice if they allow you to stop safely when you skate, when you otherwise would not be able to.
+Electric brakes can also handle tight spaces better than other braking methods.
 
-The truth of the matter is, many people commute on bikes not because they are better for commuting (if you go back up and read my analysis in my email exchange with Daniel Souza of Thundrblade, I argue that skates are in many ways superior), but because they have simple braking that requires no skill. In other words, they are popular for commuting because most people can learn to use them safely without lots of coordination and practice. But the time investment to get "commuting ready" on skates is /significantly/ longer and the preparation harder, and there may even be a group of individuals, bless their souls, who are uncoordinated enough that they should probably never even try to skate seriously in a city.
-
-At a bare minimum, a skater wishing to commute in the city needs to have a very practiced and steady drag stop, and be able to shed lots of speed if necessary with some sort of slide stop (power stop, magic slide, parallel slide, etc.). Developing these skills to the point where they are automatic and in muscle memory (which is essential for emergency situations in which reflexes take over) takes months, if not years. We are talking hours upon hours of practice, and probably some nice bumps and bruises along the way. 
-
-For people who don't wish to do all this, or who simply don't think they have the requisite coordination to learn these things safely and effectively, electric skates with electric brakes make sense. They get all the benefits of skate commuting, but can rely on the electric brakes rather than skill. This, in my opinion, is why electric skates should exist. They take away the skill barrier to make skating much more accessible to the less hardcore and driven among us.
-
-So take heed hardcore inline skaters: you should buy a Thundrblade t-shirt even if you won't use the skates, since a successful electric skate company would expand the number of people interested in our pursuit by possibly quite a bit.
-
-**** A comparison with electric skateboards
-
-Electric skateboards provide an excellent parallel. There are many more people who feel comfortable riding a Boosted Board that wouldn't ever dare touch foot on a normal longboard since stopping on normal longboards requires foot braking (which requires lots of practice and balance, not to mention specialish shoes) and often powersliding as well (which, by my understanding, is even harder on skateboards than skates). So the recent explosion of longboarders everywhere isn't because the general population suddenly got better at longboarding, but because electric longboards are a skill equalizer: the effortless, safe electric braking they provide make longboards much more accessible to normal humans that can't do a 360 powerslide when bombing a hill at 40mph.
-
-So too with electric skates. But skates are somewhat of a different beast than longboards since they are actually usable at higher speeds without electric motors. Once you get going a certain speed on longboards, pushing is kinda sketchy. This means that longboards are pretty meh as a source of exercise, and also that electric motors are necessary to attain "fun" speeds on flat surfaces with longboards. Where I'm going with this is that normal inline skates are a whole lot less crippled relative to electric skates than normal longboards are relative to electric longboards.
+With all this being said, there is a time for slide stops even with electric brakes, in my opinion. Why? Electric brakes require you to keep traction (think cars and ABS brakes), otherwise you lose control. Slide stops are essentially a voluntary loss of control, but /you expect it and control it/. The two things are entirely different beasts. Safety is born of consistency: knowing when you are going to lose traction and doing it intentionally makes the loss of control in slide stops distinctly less dangerous than the loss of control in electric braking if you brake too hard too fast. Which means in situations where loss of control is inevitable (extreme emergency braking), slide stops are just straight up better because they are more consistent. At least in theory.
 
 *** How about cons?
 
 Electric skates
 
-1. Will always be heavier than non-electric skates.
-2. Will always be bulkier in some way than non-electric skates (due to the battery + drivetrain). If the batteries are not skate-mounted the extra space required for the drivetrain is probably less of an issue.
-3. Will always be more expensive than non-electric skates (by quite a bit). This is the biggie.
+1. Will always be heavier than non-electric skates, by at least some.
+2. Will always be bulkier in some way than non-electric skates (due to the battery + drivetrain). If the batteries are not skate-mounted the extra space required for the drivetrain is probably less of an issue, depending on the system.
+3. Will always be more expensive than non-electric skates (by quite a bit).
 
 If there is an anti-rocker setup (with the batteries in the middle of the frames), there are even more disadvantages:
 
@@ -670,21 +635,11 @@ If there is an anti-rocker setup (with the batteries in the middle of the frames
 - Since the wheels are on the outside edges of the skate, there is no pivot point when turning. The best you can do is transfer weight to the back wheel to make it easier to point the front wheel.
 - Less wheels mean less grip, which leads to less braking potential in slides. A lower number of wheels also means that more weight will be on each wheel, leading to higher deformation and higher rolling resistance. Whether or not this is a good thing or a bad things is dependent upon your use case.
 
-Assuming, hypothetically, that you combined Wizard frames with the Thundrblade drivetrain, and stored batteries in a backpack (with wires trailing down the outside of the legs in a specially designed containment system -- you would unplug the wires from the skates and batteries when not in use, and find some way to quickly add and remove them from pants), you would effectively remove the cons of anti-rocker electric skates. You would still not escape the first three, however, and in my opinion, you would need to be very sure that the electric motors would give you sufficient benefits to justify hundreds of dollars of additional expense.
+** My decisions at present and thoughts for the future
 
-Finally, the current Thundrblade design, as discussed exhaustively above, loses its effectiveness when wet. This is a problem that may never be solved completely with friction drives, which are really the only sort of drivetrain that can easily allow free-wheeling through an on-the-fly disengage. Normal inline skates, on the other hand, work normally when wet; you just have less grip and need to start braking sooner.
+I am currently in the process of setting up Wizard skates (working on finding the right boot size), and will learn how to skate with them. I am also currently pondering whether or not I want to back Thundrblade for this first go round, given the fact that I don't like the anti-rocker setup.
 
-** Conclusions and closing thoughts
+Since many of the electric skate pros don't matter as much if you are not commuting in a city with traffic, pedestrians, etc. (e.g., if you are skating in suburban neighborhoods or on wider, less crowded trails), I also do not feel like I am missing much by not having them at the present time, since I won't be skating in conditions where the benefits might matter more. I think the benefit to cost ratio becomes more of an issue in situations like this: electric braking is definitely better and more foolproof, but is it hundreds of dollars better? How about hills: skating up hills, even though it is good exercise, is no fun, and skating should be fun. But is being able to zoom up hills worth hundreds of dollars?
 
-Hopefully my research has helped shed light on this question for other people. I certainly don't pretend to be a pro (in fact, I'm just starting to skate), nor do I pretend that my use case is applicable to everybody. But for people who think like me and want to skate in a similar manner, I am convinced that my reasoning is pretty sound.
-
-My first takeaway: if you are buying skates to just use them recreationally and for exercise, you should think doubly about whether electric skates are worth the extra ~$1000 you will pay for them (give or take a few hundred depending on early bird pricing and what final retail prices end up being). The benefits of electric skates matter most in commuting when you may not get to choose exactly where you skate and what the conditions around you will be like. In such circumstances, when you can't avoid high traffic areas and crowded spaces, the electric braking in particular may be useful if you are not extremely practiced in braking techniques.
-
-My second takeaway: If you are comfortable with the expanded risk envelope from higher speeds, there's no better way to maintain speed on skates (particularly on hills) than with electric skates. You can go fast on human power alone (like speed skaters do), but you'll never be able to keep up with human power combined with electric motors. So if speed's your game, electric skates win hands down.
-
-My third takeaway: If you are not comfortable with braking techniques, and are either unable or unwilling to put in the large amounts of time and effort to become comfortable with them, electric skates will be worth it for you. If you cannot stop safely, you should not be on skates, period. If electric skates let you stop safely when you wouldn't otherwise be able to, then they are the only kind of skates you should be getting.
-
-My fourth takeaway: If you are like me and value exercise and safety over raw speed, and are willing to put in the time and effort to get good at braking, then electric skates make little sense. Being willing to skate up hills and on your own power for exercise makes the exertion-reduction benefits of electric skates unimportant; keeping speeds fun but moderate makes the speed benefits of electric skates unimportant; and mastering proper braking technique makes the electric braking benefits of electric skates unimportant. So if you don't get much from them, but add additional weight, additional skate bulk, and a whole lot of extra cost (and forgo many things if you opt for an anti-rocker configuration), what's the point? It's simply not worth it.
-
-So that concludes my overly long and complex analysis of this particular issue. Now go and buy a Thundrblade t-shirt (or just support the campaign) so that we can get more people on skates!
+So at the present time, I think it makes the most sense to have the good natural rocker of the Wizard frames (rather than the anti-rockered setup of Thundrblade), while learning how to brake and maneuverable without electrical assistance. I can always buy electric skates later too.
 
