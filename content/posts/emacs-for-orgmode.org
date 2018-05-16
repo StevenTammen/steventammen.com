@@ -1,0 +1,127 @@
+---
+title: "Emacs for Orgmode"
+description: ""
+date: 2018-05-16T15:23:41-04:00
+categories: ["Processes"]
+tags: ["workflow", "software", "org mode"]
+---
+
+** The purpose and scope of this post
+
+Since I recently decided to start doing all my major software development inside of JetBrains IDEs like IntelliJ and PyCharm (why is for another post), I no longer needed as many packages inside of Emacs.
+
+This post will go through step-by-step how I set up a minimal Spacemacs installation on Windows 10 to work with Org files. I write basically everything in Org mode nowadays, but since I no longer need syntax checking, Magit, etc., I want to keep my .spacemacs file as small as possible for performance reasons. This means the only layers in use will be helm (for navigation/integration with Spacemacs framework), org mode (for obvious reasons), and spell checking (flyspell/ispell).
+
+As with my last post, make sure you have Git installed and on your Path.
+
+** 1. Get a good x64 Windows version of Emacs
+
+I like this one: [[https://sourceforge.net/projects/emacsbinw64/]]
+
+Extract it with [[https://www.7-zip.org/][7-Zip]] and put it somewhere.
+
+** 2. Add the binaries to your Path
+
+Open system environment variables, then find the user variables. (Unless you want to change the Path for all users installed, in which case modify the system Path).
+
+Then click on Path --> Edit --> New --> paste the path to the bin folder of your recently extracted Emacs installation.
+
+For example, I have been putting all the software that doesn't go automatically into Program Files into my Local AppData directory. So the path I entered when I modified my Path variable was =C:\Users\steve\AppData\Local\emacs\bin=.
+
+Note that AppData is hidden by default. So if you are using Windows Explorer you may need to toggle its visibility with View --> Hidden items.
+
+** 3. Clone the Spacemacs .emacs.d into your home directory
+
+If you already have an .emacs.d (and you know who you are), you should back it up first and then copy over your configuration once Spacemacs is set up.
+
+But if you are reading this guide, you probably don't. So you should open up a command prompt and =cd= to your home directory where your .emacs.d will live. At the time of writing on Windows 10 (May 2018), this is the Roaming AppData directory. So, for example, I would type =cd C:\Users\steve\AppData\Roaming=.
+
+Once here, you should run =git clone https://github.com/syl20bnr/spacemacs .emacs.d=
+
+You can look at the installation section of the Spacemacs Readme [[https://github.com/syl20bnr/spacemacs#install][here]], if you'd like.
+
+** 4. Start Emacs and select your Spacemacs options
+
+Packages should automatically install. I use helm, but you could use Ivy too. I highly recommend you use Vim bindings over Emacs bindings. (Let that be an opinion at present. There are reasons for this selection, but they are for another post).
+
+** 5. Download hunspell
+
+Emacs doesn't ship with spell checking. Since were are using this Emacs setup for writing, we definitely want spell checking.
+
+You have the option of using three different spell-checking programs: ispell, aspell, and hunspell. I chose hunspell after reading [[https://emacs.stackexchange.com/a/28352][this StackOverflow page]].
+
+You can download hunspell from [[https://sourceforge.net/projects/ezwinports/files/?source=navbar][this page]] (scroll down to find it). After you unzip it, you can put it wherever you like. I put this too in my Local AppData directory.
+
+You'll need to add the hunspell executable binaries to your Path. Following a similar procedure as with Emacs, you'll end up with another value in your User Path. I added =C:\Users\steve\AppData\Local\hunspell\bin=.
+
+** 6. Customize Spacemacs by editing your .spacemacs file
+
+The .spacemacs file lives in the Roaming AppData directory. For me: =C:\Users\steve\AppData\Roaming\.spacemacs=.
+
+First, you should find the layer section and uncomment the org and spell-checking layers. I only have the helm, org, and spell-checking layers uncommented, since I only use Emacs for Org mode, but you may want more layers.
+
+I also recommend changing the font, since unless you download the Source Code Pro font, Spacemacs will complain. I use Verdana for legibility, but some people hate it. YMMV. I commented out the font size to make Emacs use a font size according to the screen resolution (since my high-res screen was pretty puny at the default size of 13).
+
+#+BEGIN_SRC lisp
+dotspacemacs-default-font '("Verdana"
+                             ;; :size 13
+                             :weight normal
+                             :width normal
+                             :powerline-scale 1.1)
+#+END_SRC
+
+I also recommend using the Solarized themes (you can switch between them with =SPC T n=) and enabling relative line numbers (if you are a vimmer):
+
+#+BEGIN_SRC lisp
+dotspacemacs-themes '(solarized-light
+                       solarized-dark)
+#+END_SRC
+
+#+BEGIN_SRC lisp
+dotspacemacs-line-numbers 'relative
+#+END_SRC
+
+Finally, there a few things to add to the user-config section. To get hunspell operational, I have the following:
+
+#+BEGIN_SRC lisp
+;; Hunspell
+(setenv "LANG" "en_US")
+(setq-default  ispell-program-name "C:/Users/steve/AppData/Local/hunspell/bin/hunspell.exe")
+(with-eval-after-load "ispell"
+  (setq ispell-really-hunspell t)
+  (setq ispell-program-name "hunspell")
+  (setq ispell-dictionary "en_US"))
+#+END_SRC
+
+I also have a few org mode hooks for word wrapping and the like:
+
+#+BEGIN_SRC lisp
+ ;; Org mode hooks
+(add-hook 'org-mode-hook #'toggle-word-wrap)
+(add-hook 'org-mode-hook #'toggle-truncate-lines)
+(add-hook 'org-mode-hook #'org-indent-mode)
+#+END_SRC
+
+Finally, if you customize your key mapping, that would go here as well. I do quite a bit of this since I don't type on QWERTY, but many people will do something simple like Swapping CapsLock with Esc or Meta. I recommend the former if you are a vimmer and don't have a heavily customized layout that puts Esc somewhere convenient, and the latter if you are an Emacs user.
+
+** 7. Run Emacs as a server
+
+*** Motivation
+
+Running Emacs as a sever lets files be opened very quickly as long as the server is running. Think of it like flipping a switch that makes Emacs open as fast as Vim.
+
+To run the Emacs server, you can make shortcuts like the following.
+
+*** Only start the server
+
+=C:\Users\steve\AppData\Local\emacs\bin\runemacs.exe --daemon=
+
+*** Start the server and open the homescreen buffer
+
+=C:\Users\steve\AppData\Local\emacs\bin\emacsclientw.exe -c -n -a ""=
+
+*** Default file handler
+
+Finally, you should set the default program to open org files to =emacsclientw.exe= (right click on a file --> "open with" --> "Always use this app to open .org files" and navigate to the emacsclientw executable).
+
+As long as you make sure you have a server instance running before trying to open an org file (i.e., use one of the shortcuts above before trying to open an org file), opening org files should happen extremely quickly.
