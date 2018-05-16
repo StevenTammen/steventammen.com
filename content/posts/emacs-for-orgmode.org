@@ -1,5 +1,5 @@
 ---
-title: "Emacs for Orgmode"
+title: "Emacs for orgmode"
 description: ""
 date: 2018-05-16T15:23:41-04:00
 categories: ["Processes"]
@@ -10,7 +10,7 @@ tags: ["workflow", "software", "org mode"]
 
 Since I recently decided to start doing all my major software development inside of JetBrains IDEs like IntelliJ and PyCharm (why is for another post), I no longer needed as many packages inside of Emacs.
 
-This post will go through step-by-step how I set up a minimal Spacemacs installation on Windows 10 to work with Org files. I write basically everything in Org mode nowadays, but since I no longer need syntax checking, Magit, etc., I want to keep my .spacemacs file as small as possible for performance reasons. This means the only layers in use will be helm (for navigation/integration with Spacemacs framework), org mode (for obvious reasons), and spell checking (flyspell/ispell).
+This post will go through step-by-step how I set up a minimal Spacemacs installation on Windows 10 to work with org files. I write basically everything in org mode nowadays, but since I no longer need syntax checking, Magit, etc., I want to keep my .spacemacs file as small as possible for performance reasons. This means the only layers in use will be helm (for navigation/integration with Spacemacs framework), org mode (for obvious reasons), and spell checking (flyspell/ispell).
 
 As with my last post, make sure you have Git installed and on your Path.
 
@@ -42,11 +42,11 @@ You can look at the installation section of the Spacemacs Readme [[https://githu
 
 ** 4. Start Emacs and select your Spacemacs options
 
-Packages should automatically install. I use helm, but you could use Ivy too. I highly recommend you use Vim bindings over Emacs bindings. (Let that be an opinion at present. There are reasons for this selection, but they are for another post).
+Packages should automatically install. I use helm, but you could use ivy too. I highly recommend you use Vim bindings over Emacs bindings. (Let that be an opinion at present. There are reasons for this selection, but they are for another post).
 
 ** 5. Download hunspell
 
-Emacs doesn't ship with spell checking. Since were are using this Emacs setup for writing, we definitely want spell checking.
+Emacs doesn't ship with spell checking. Since we are using this Emacs setup for writing, we definitely want spell checking.
 
 You have the option of using three different spell-checking programs: ispell, aspell, and hunspell. I chose hunspell after reading [[https://emacs.stackexchange.com/a/28352][this StackOverflow page]].
 
@@ -58,9 +58,9 @@ You'll need to add the hunspell executable binaries to your Path. Following a si
 
 The .spacemacs file lives in the Roaming AppData directory. For me: =C:\Users\steve\AppData\Roaming\.spacemacs=.
 
-First, you should find the layer section and uncomment the org and spell-checking layers. I only have the helm, org, and spell-checking layers uncommented, since I only use Emacs for Org mode, but you may want more layers.
+First, you should find the layer section and uncomment the org and spell checking layers. I only have the helm, org, and spell checking layers uncommented, since I only use Emacs for org mode, but you may want more layers.
 
-I also recommend changing the font, since unless you download the Source Code Pro font, Spacemacs will complain. I use Verdana for legibility, but some people hate it. YMMV. I commented out the font size to make Emacs use a font size according to the screen resolution (since my high-res screen was pretty puny at the default size of 13).
+You should probably also change the font, since unless you download the Source Code Pro font, Spacemacs will complain. I use Verdana for legibility, but some people hate it. YMMV. I commented out the font size to make Emacs use a font size according to the screen resolution (since the text on my high-res screen was pretty puny at the default size of 13).
 
 #+BEGIN_SRC lisp
 dotspacemacs-default-font '("Verdana"
@@ -70,12 +70,14 @@ dotspacemacs-default-font '("Verdana"
                              :powerline-scale 1.1)
 #+END_SRC
 
-I also recommend using the Solarized themes (you can switch between them with =SPC T n=) and enabling relative line numbers (if you are a vimmer):
+I also recommend using the Solarized themes (you can switch between them with =SPC T n=):
 
 #+BEGIN_SRC lisp
 dotspacemacs-themes '(solarized-light
                        solarized-dark)
 #+END_SRC
+
+And if you are a vimmer, relative line numbers are useful:
 
 #+BEGIN_SRC lisp
 dotspacemacs-line-numbers 'relative
@@ -102,7 +104,7 @@ I also have a few org mode hooks for word wrapping and the like:
 (add-hook 'org-mode-hook #'org-indent-mode)
 #+END_SRC
 
-Finally, if you customize your key mapping, that would go here as well. I do quite a bit of this since I don't type on QWERTY, but many people will do something simple like Swapping CapsLock with Esc or Meta. I recommend the former if you are a vimmer and don't have a heavily customized layout that puts Esc somewhere convenient, and the latter if you are an Emacs user.
+Finally, if you customize your key mapping, that would go here as well. I do quite a bit of this since I don't type on QWERTY, but many people will do something simple like swapping CapsLock with Esc or Control/Meta. I recommend the former if you are a vimmer and don't have a heavily customized layout that puts Esc somewhere convenient, and the latter if you are an Emacs user.
 
 ** 7. Run Emacs as a server
 
