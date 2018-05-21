@@ -1,5 +1,5 @@
 ---
-title: "New Computer 2018"
+title: "New Computer: 2018"
 description: ""
 date: 2018-05-20T21:43:18-04:00
 categories: ["Material Things"]
@@ -8,7 +8,7 @@ tags: ["computers", "workflow", "rethinking standards"]
 
 ** The impetus
 
-So, the next few posts here are going to be a very rough approximation of my thought process as I picked out a new computer. My old Lenovo laptop broke at the hinge and the bezel started popping off the screen... making it impossible to close and thus transport anywhere.
+So, the next few posts here are going to be a very rough approximation of my thought process as I picked out a new computer (I ended up going with [[https://www.microsoft.com/en-us/store/d/surface-pro/8nkt9wttrbjk/C0HL][a Dual-core i5, 8GB RAM, 128GB SSD Microsoft Surface Pro]]). My old Lenovo laptop broke at the hinge and the bezel started popping off the screen... making it impossible to close and thus transport anywhere.
 
 I hope designers decide sometime in the future to use case components on low-mid range computers that cost at least a few dollars, so that no little plastic bits fail, relegating otherwise perfectly-functional computers to sitting-at-home duty. This isn't a problem if you shell out the money for more premium products, but there really is no reason for some little plastic hinge piece to be the thing that bricks laptops.
 
