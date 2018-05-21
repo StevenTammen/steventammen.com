@@ -1,5 +1,5 @@
 ---
-title: "Basic Wsl Setup"
+title: "Basic WSL Setup"
 description: ""
 date: 2018-05-16T12:52:23-04:00
 categories: ["Processes"]

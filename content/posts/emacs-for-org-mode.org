@@ -1,5 +1,5 @@
 ---
-title: "Emacs for orgmode"
+title: "Emacs for Org Mode"
 description: ""
 date: 2018-05-16T15:23:41-04:00
 categories: ["Processes"]
@@ -127,3 +127,9 @@ To run the Emacs server, you can make shortcuts like the following.
 Finally, you should set the default program to open org files to =emacsclientw.exe= (right click on a file --> "open with" --> "Always use this app to open .org files" and navigate to the emacsclientw executable).
 
 As long as you make sure you have a server instance running before trying to open an org file (i.e., use one of the shortcuts above before trying to open an org file), opening org files should happen extremely quickly.
+
+*** Avoid crashes
+
+I was puzzled for a while when I first started using this Emacs server setup since I was getting what appeared to be random crashes, crashes wherein I'd have to kill the whole Emacs process, server and all.
+
+As I spent some time debugging, I was finally able to replicate the issue consistently (although I haven't figured out a way to solve it completely). Evidently, if you close out of the Emacs window (with the button on the window) without killing the current buffer or using =:q=, and then try to open the same file that is already open but not currently displayed (since you closed out of the window), you break something and Emacs wigs out. So just remember to kill buffers (=SPC b d= for Spacemacs) instead of closing the Emacs window, or =:q= out, and you should be good to go.
