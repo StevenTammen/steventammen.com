@@ -23,6 +23,8 @@ sudo apt-get upgrade
 
 Download wsltty from [[https://github.com/mintty/wsltty]]. Wsltty is based off of Cygwin's mintty terminal emulator.
 
+If you have problems with wsltty not recognizing the WSL distro you have installed and so forth, I found [[https://github.com/mintty/wsltty/issues/72][this thread]] helpful. If you uninstall and reinstall a WSL distro (because you broke something) you may have to deal with this.
+
 ** Getting Solarized colors
 
 #+BEGIN_SRC bash
