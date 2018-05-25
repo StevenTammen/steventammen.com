@@ -82,7 +82,7 @@ I googled around about xterm latency and came across these two articles: [[https
 
 So what did I learn from all this?
 
-Essentially, latency is the measure of how "laggy" something is. To make programs as responsible as possible, you want to minimize latency.
+Essentially, latency is the measure of how "laggy" something is. To make programs as responsive as possible, you want to minimize latency.
 
 Based on the all the articles and research above, here are the best options for various use cases:
 
