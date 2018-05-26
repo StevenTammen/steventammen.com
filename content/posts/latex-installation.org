@@ -30,7 +30,7 @@ tlmgr install capt-of
 tlmgr install cm-super
 tlmgr install ec
 tlmgr install marvosym
-tlmgr install masysym
+tlmgr install wasysym
 tlmgr install wasy
 #+END_SRC
 
