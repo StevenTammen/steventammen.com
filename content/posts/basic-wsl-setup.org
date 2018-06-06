@@ -8,7 +8,7 @@ tags: ["workflow", "software"]
 
 ** Background and software prerequisites
 
-For anyone wishing to set up the Ubuntu environment on Windows 10, this is a very brief guide to how I set it up my first time. I now have a dotfiles repository that I will clone for future setups, but this was how I did it before I got that up and running. A post on the dotfiles method will be coming shortly.
+For anyone wishing to set up the Ubuntu environment on Windows 10, this is a very brief guide to how I set it up my first time. I now have a [[https://github.com/StevenTammen/dotfiles][dotfiles repository]] that I will clone for future setups, but this was how I did it before I got that up and running (I do things a little bit differently now). You can see how to get things up and running using the dotfiles repository by looking at the Readme in the repo.
 
 This post assumes that you [[https://docs.microsoft.com/en-us/windows/wsl/install-win10][have the Ubuntu WSL installed]], and that you have Git for Windows installed and on your Path (if you don't know what that is, just make sure you check the box when installing Git that says "include Git on Path" or whatever).
 
