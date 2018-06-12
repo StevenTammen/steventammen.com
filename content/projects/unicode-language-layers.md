@@ -58,9 +58,9 @@ I could go on. It is definitely important to note that I am an edge case user in
 
 Now, I'd like to finish this section by stating that I'm not trying to denigrate any of the programs out there that handle similar problems. I've used many of them, and will likely shamelessly copy much of what they do (as legality allows) in my own grappling with the issues at hand. I just feel that there is room for another program out there, particularly one that is open source and community-driven.
 
-## Soon to be on this page
+## Update #1
 
-Once I finish finals and gear up for my research fellowship this summer, I will update this page to include more basic information about the project. At this point I am still discussing with faculty and my University sponsors whether or not the academic paper associated with this research will live in the public repository with the code (and be visible through all parts of the process), or be closed-off until publication. There are concerns of intellectual property (contributions would end up under my name, for example), and also of the fact that I am taking a research class for credit... and the University might be concerned with other people people "helping" me write my paper. Or whatever.
+Today, 6/12/18, I created a post about the [survey results](https://www.steventammen.com/posts/initial-greek-survey-analysis/), and informed people on the mailing list. I also added sections to the README of the [project's GitHub repository](https://github.com/StevenTammen/unicode-language-layers) about installing and using the in-progress Greek script, and contributing to the project.
 
 
 
