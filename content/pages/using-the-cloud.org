@@ -1,0 +1,87 @@
+---
+title: "Using the Cloud"
+description: ""
+date: 2018-06-26T20:16:59-04:00
+categories: ["Computers/Software"]
+tags: ["cloud", "workflow", "rsync"]
+inprogress: true
+---
+
+** Motivation
+
+Some people want to use cloud storage options for collaboration; some people want to use cloud storage options for storing images of VMs; and some people want a simple way to make sure that they have family pictures and videos backed up for future access. All of these are equally valid and sensible uses of the cloud. But they are definitely /not/ identical usages. We shouldn't expect one service to accomplish all things inherently (even though it would be possible in theory).
+
+** Collaboration
+
+Since I only work with text based datatypes and live in my editors (NeoVim, Emacs for Org mode, IntelliJ/PyCharm/etc. for code), [[https://floobits.com/][Floobits]] looks like a good collaboration choice. Far superior to hackish support via Dropbox concurrent editing, and far less crippled than Google Docs or Office online. (Not because these are necessarily crippled for most people, but they are in terms of the Org mode files and code files I work with/plan to work with).
+
+** Sync
+
+I have a primary work tablet with a 128 GB SSD. Due to installed software (some of which includes HD images of Greek manuscripts that take up a lot of space), I only have about 35 GB of usable space from the get go.
+
+After bumping into the idea of a cloud file system that only downloads files locally during use (e.g., ODrive, Dropbox's smart sync, Google's file stream), I was sold instantly. Why should I buy a whole bunch of physical storage if can get by with keeping most of files in the cloud? I was going to keep a set of my files in the cloud anyway for backup purposes and irregular access (from a computer I don't own and what have you), so why not just forgo expensive internal SSDs to begin with?
+
+** Some initial thoughts/research links for the brave and motivated
+
+*** General cloud storage
+
+- [[https://www.cloudwards.net/comparison/]]
+- block-level sync is mandatory for performance reasons. See deduplication below.
+- "smart sync" (sync only what you need, dynamically) is important, in my opinion. If not automatic, absolutely must be scriptable with some sort of API.
+- link sharing (expiration, passwords), app integrations, Zapier/IFTTT support, (zero-knowledge) encryption, etc. are all also factors.
+
+*** P2P is maybe a good idea? Over LAN?
+
+- [[https://www.resilio.com/]]
+
+*** Deduplication
+
+- [[https://www.reddit.com/r/linux/comments/3nhx0p/rsync_block_level_incremental_backup/]]
+- [[https://rsync.samba.org/]]
+- [[https://www.cis.upenn.edu/~bcpierce/unison/]]
+- For interfacing with cloud storage options [[https://rclone.org/]]
+- S3-based paranoid backup [[https://www.tarsnap.com/usage.html]]
+- Attic and borg also
+
+*** Cheap storage options
+
+- [[https://www.backblaze.com/b2/cloud-storage.html]] (only half a cent per GB of storage and a cent per GB transfer, a lot lower than Amazon S3/Google Cloud/Microsoft Azure/etc.)
+- [[http://www.vmwareblog.org/looking-affordable-cloud-storage-aws-vs-azure-vs-backblaze-b2/]]
+- [[https://www.soyoustart.com/us/server-storage/]]
+
+*** ZFS replication as an ideal solution? Fascinating stuff.
+
+- [[https://arstechnica.com/information-technology/2014/01/bitrot-and-atomic-cows-inside-next-gen-filesystems/?comments=1]]
+- [[https://arstechnica.com/information-technology/2015/12/rsync-net-zfs-replication-to-the-cloud-is-finally-here-and-its-fast/]]
+- [[https://github.com/jimsalterjrs/sanoid/]]
+- [[https://news.ycombinator.com/item?id=10751269]]
+- [[https://www.reddit.com/r/sysadmin/comments/3x7wr1/rsyncnet_zfs_replication_to_the_cloud_is_finally/]]
+- [[https://slashdot.org/story/15/12/22/026209/zfs-replication-to-the-cloud-is-finally-here-and-its-fast]]
+
+*** Rsync.net
+
+- [[https://www.rsync.net/index.html]]
+- Apparently you get root access inside your slice of the pie. But can you run a shell if SSH in? Install stuff (Python, CLIs for stuff, etc.) like a normal VM?
+- Would allow for ZFS replication workflow
+- Support from real sysadmins not phone-answering people
+- Need to email them for more info.
+
+*** Legit Linux servers for sure
+
+- [[https://www.linode.com/]]
+- Expensive for just cloud storage. But you could definitely host a website/webapp/etc. on this. Again, need to figure out exactly what you can do on Rsync.net (to see if it is a full-blown VM that you can use over SSH or something more crippled).
+
+*** SSHFS
+
+- might be too slow? Not so bad if you use a stream cipher? Is RC4 secure (is there something better?)? [[http://www.admin-magazine.com/HPC/Articles/Sharing-Data-with-SSHFS]]
+- Could always have the cloud mounted and then ZFS replicate over files you know you are going to use to local? Mirror directory structure and one-way copy with rsync maybe?
+
+*** Compression and encryption
+
+- Save bandwidth. Tradeoff with CPU cycles/processing time? Faster to just transfer the files straight?
+- Does zero-knowledge encryption slow things down? Can you do block-level sync with encrypted archives? Would VeraCrypt work?
+- Assuming a secure datacenter does encryption even matter?
+
+*** Multiple clouds
+
+- Is geographic redundancy necessary or just statistically a waste of money (and electricity etc. on the environmental side from duplicate servers)?
