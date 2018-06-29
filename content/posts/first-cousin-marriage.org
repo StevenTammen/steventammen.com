@@ -30,10 +30,8 @@ However, one cannot simply parrot this statistic without noting its context. Due
 
 This is a crucial observation since some cultural groups that practice first-cousin marriage do it with enough frequency that it is not possible to assume roughly population-level base genetic diversity. For example, the [[https://en.wikipedia.org/wiki/British_Pakistanis#Cousin_marriages_and_health_risks][British Pakistanis]].
 
-** Chromosomal  crossover during sexual reproduction
+** The odds for related cousins without shared DNA
 
 I read an interesting article during the course of my Googling about exactly how much DNA close cousins share. [[https://thegeneticgenealogist.com/2016/10/03/second-cousins-or-closer-that-dont-share-dna/][The article]] bluntly asserts that no second cousins or closer have ever come forward that do not share a measurable amount of DNA. The standards to show a genealogical relationship without shared DNA (presented in the article) are quite rigorous. Essentially, you have to show that the cousins in questions do not share DNA with each other, but do share DNA with their respective parents at an expected level, and that their (related) parents also share DNA with each other at an expected level.
-
-This situation can be puzzling if you are unfamiliar with [[https://en.wikipedia.org/wiki/Genetic_recombination][genetic recombination]] and [[https://en.wikipedia.org/wiki/Chromosomal_crossover][chromosomal crossover]] among homologous chromosomes during sexual reproduction. Since chromosomes are not typically inherited as is, it would be an incredible anomaly for two cousins to actually be related (as opposed to misattributed parentage) but share no DNA or at least very small amounts of DNA. Not only would limited crossover be required for this situation to obtain, but the cousins would have to have inherited in large part only the chromosomes of their unrelated parents.
 
 Given that there are somewhere around 7.5 billion people in the world at time of writing, it is not impossible that some people somewhere fit the bill. But in general, it is never safe to assume that related cousins are genetically different enough to produce offspring without any additional risk of genetic defects.
