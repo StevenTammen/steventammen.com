@@ -58,6 +58,13 @@ After bumping into the idea of a cloud file system that only downloads files loc
 - [[https://www.reddit.com/r/sysadmin/comments/3x7wr1/rsyncnet_zfs_replication_to_the_cloud_is_finally/]]
 - [[https://slashdot.org/story/15/12/22/026209/zfs-replication-to-the-cloud-is-finally-here-and-its-fast]]
 
+Here are some more links in this area from another round of research. Most of this is still a bit above me:
+
+- [[https://sixfeetup.com/blog/backing-up-using-zfs-snapshots-and-replication]]
+- [[https://serverfault.com/questions/842531/how-to-perform-incremental-continuous-backups-of-zfs-pool]]
+- [[https://github.com/ewwhite/zfs-ha/wiki]]
+- [[http://www.bolthole.com/solaris/zrep/]]
+
 *** Rsync.net
 
 - [[https://www.rsync.net/index.html]]
