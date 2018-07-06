@@ -4,9 +4,14 @@ description: ""
 date: 2018-04-25T00:32:11-04:00
 ---
 
-## Subscribing to updates, staying informed, and beta-testing
+## [Download current release (Windows only)](https://www.steventammen.com/projects/unicode-language-layers/unicode-language-layers.zip)
 
-Significant milestones for this project will be posted to this page as the ball gets rolling. I have also created a mailing list you can subscribe to if you are interested in staying informed of what is going on. You may sign up using this form:
+The header above is a link to a .zip archive of this project. As long as you have AutoHotkey installed (download it [here](https://autohotkey.com/download/)), you can unzip this archive wherever you like, and double clicking the file `remap.ahk` should start the program. (You can exit the program by right clicking it in the system tray and selecting "Exit").
+
+
+## Subscribing to updates and staying informed
+
+I have created a mailing list you can subscribe to if you are interested in staying informed of what is going on in the life of this project. Emails are rather infrequent and only for important updates. You may sign up using this form:
 
 
 <!-- Begin MailChimp Signup Form -->
@@ -19,7 +24,7 @@ Significant milestones for this project will be posted to this page as the ball 
 <div id="mc_embed_signup">
 <form action="https://steventammen.us18.list-manage.com/subscribe/post?u=8975ea5632e637433df8c5866&amp;id=7ae9d95967" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
     <div id="mc_embed_signup_scroll">
-	<h2>Subscribe to our mailing list</h2>
+	<h2>Subscribe to the mailing list</h2>
 <div class="mc-field-group">
 	<label for="mce-EMAIL">Email Address </label>
 	<input type="email" value="" name="EMAIL" class="required email" id="mce-EMAIL">
@@ -37,30 +42,25 @@ Significant milestones for this project will be posted to this page as the ball 
 <!--End mc_embed_signup-->
 
 
-Depending on how quickly I finish core program functionality, there may be beta-testing opportunities for those interested in providing feedback and testing out the ideas I have. People on the mailing list will be notified, but anyone is welcome to participate.
+## Beta testing
 
-Everyone is free to [look at the source code](https://github.com/StevenTammen/unicode-language-layers) and contribute (please do!). Additionally, you may find it helpful to look at the project's [Kanban board](https://waffle.io/StevenTammen/unicode-language-layers) to see what is being worked on and what is in the works.
+Beta testing is now live, and anyone who has the time and inclination can fill out a [Google form survey](https://goo.gl/forms/qO4hMc4KnL6xTfxA3) regarding the current project state. This form will remain open until such a point as I feel that the project has stabilized enough to start packaging the code as stable releases.
+
+People who wish to Beta test probably ought to read several of the sections in the [project's Readme file](https://github.com/StevenTammen/unicode-language-layers/blob/master/README.org) before starting:
+
+- [Installation Instructions](https://github.com/StevenTammen/unicode-language-layers/blob/master/README.org#installation-instructions)
+- [Usage Instructions](https://github.com/StevenTammen/unicode-language-layers/blob/master/README.org#usage-instructions)
+- [Customization Instructions](https://github.com/StevenTammen/unicode-language-layers/blob/master/README.org#customization-instructions)
 
 
-## Introduction and motivation
+## Update #1: 6/12/18
 
-This project is born out my own frustrations concerning text entry options of polytonic Greek and vowel-pointed Hebrew on computers. I have switched to doing as much academic work as possible on computers, and found several serious obstacles facing me in terms of typing Greek and Hebrew. Here's a brief list:
+Today, I created a post about the [survey results](https://www.steventammen.com/posts/initial-greek-survey-analysis/), and informed people on the mailing list. I also added sections to the README of the [project's GitHub repository](https://github.com/StevenTammen/unicode-language-layers) about installing and using the in-progress Greek script, and contributing to the project.
 
-- I type on a very custom non-standard keyboard layout (i.e., not QWERTY). All of my letters are in different places. This means that any homophonic keyboards for other languages (that match characters in the target language with English letters) are mnemonically useless for me, since they are all based on QWERTY. Combined with a lack of customizability of system keyboard layouts, I essentially cannot use a Greek keyboard layout on the operating system level if I wish for it to be homophonic.
-- None of the options that I am presently aware of allow for what I consider the "trifecta" of mandatory features: a customizable homophonic letter layout, *intuitive* (but customizable) entry of diacritical marks, and universality (meaning it can be used in all applications seamlessly without having to copy-paste in and out of some window). Some present layouts may have one or two of these characteristics, but I am not aware of any option on the market at present that combines all three. Cutomizability is the biggest sticking point -- particularly with diacritics, you are basically stuck with whatever systems the designers of layouts choose (which, for whatever reason, seem to usually revolve around arcane key chords).
-- None of the options I am presently aware of allow for users to tailor entry order to their own preferences. For example, people may wish to type some diacritical marks in a certain order (accents before vowels instead of after them, for example).
 
-I could go on. It is definitely important to note that I am an edge case user in that I actually *want* to get into nuts and bolts and tweak things to my liking. If you type on QWERTY and are content accepting whatever systems of diacritical entry are presented to you, there are already existing options that will you get you most of the way there. Even with these though, there are some concerns:
+## Update #2: 7/6/18
 
-- Many are not free. Keyboard layouts, which are essentially defining tables of keys (scancodes) and values (characters) for the operating system to map, are simple enough on the software end of things that it feels philosophically wrong to pay for them, particularly if the amount is anything substantial.
-- I am not aware of any open source projects with active development (like this one will be), so there is no guarantee of long term stability. In my preliminary research, I came across many abandoned projects and 404'd pages. Maintaining software takes time, and my guess is that many keyboard projects in the past have come from an individual's frustration with the product space, just like mine. But since the code isn't public, when these people lose interest or simply move on to other things, the projects atrophy. (Open source isn't a panacea, by the way, but having the code accessible means that at least if development dries up, people won't have to reinvent the wheel).
-- Finally, most programs only focus on one language. It is not uncommon for people studying Classics and/or Ancient Near East to pick up multiple languages with complex alphabets (including, but certainly not limited to, Greek, Hebrew, Arabic, Syriac, and Sanskrit). A lack of consistency in approaches can be frustrating, particularly if one has to go through the bother of installing and updating text entry solutions for all these languages on all the computers used for writing. One unified interface with boxes you check for languages you'd like to support would be much better in this regard, particularly for folks who would rather deal with computers as little as possible (which is fine by the way -- we all have different interests and strengths).
-
-Now, I'd like to finish this section by stating that I'm not trying to denigrate any of the programs out there that handle similar problems. I've used many of them, and will likely shamelessly copy much of what they do (as legality allows) in my own grappling with the issues at hand. I just feel that there is room for another program out there, particularly one that is open source and community-driven.
-
-## Update #1
-
-Today, 6/12/18, I created a post about the [survey results](https://www.steventammen.com/posts/initial-greek-survey-analysis/), and informed people on the mailing list. I also added sections to the README of the [project's GitHub repository](https://github.com/StevenTammen/unicode-language-layers) about installing and using the in-progress Greek script, and contributing to the project.
+Today I added sections in the project's Readme describing how to install, use, and customize the software. I also created a second Google form to gather user feedback on the current project state in a round of Beta testing, and added a download link to this page for a pre-packaged .zip archive of the software in its current iteration. People on the mailing list were informed about all of this.
 
 
 
