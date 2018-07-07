@@ -17,16 +17,18 @@ Since I only work with text based datatypes and live in my editors (NeoVim, Emac
 
 ** Sync
 
-I have a primary work tablet with a 128 GB SSD. Due to installed software (some of which includes HD images of Greek manuscripts that take up a lot of space), I only have about 35 GB of usable space from the get go.
+I have a primary work tablet with a 128 GB SSD. Due to installed software (some of which includes HD images of Greek manuscripts that take up a lot of space), I only have about 25 GB of usable space from the get go.
 
 After bumping into the idea of a cloud file system that only downloads files locally during use (e.g., ODrive, Dropbox's smart sync, Google's file stream), I was sold instantly. Why should I buy a whole bunch of physical storage if can get by with keeping most of files in the cloud? I was going to keep a set of my files in the cloud anyway for backup purposes and irregular access (from a computer I don't own and what have you), so why not just forgo expensive internal SSDs to begin with?
+
+This is different from mounting remote filesystems through SFTP with a persistent connection (cf. SSHFS). You only need an internet connection when downloading copies locally and when syncing these local copies back up to the cloud. Unstable connections do not present as much of a problem for the local + sync model as they do for the remote file system model. 
 
 ** Some initial thoughts/research links for the brave and motivated
 
 *** General cloud storage
 
 - [[https://www.cloudwards.net/comparison/]]
-- block-level sync is mandatory for performance reasons. See deduplication below.
+- block-level sync is mandatory for performance reasons. If you change one byte in a 4 GB file, why you should you need to resync the whole file? That's dumb.
 - "smart sync" (sync only what you need, dynamically) is important, in my opinion. If not automatic, absolutely must be scriptable with some sort of API.
 - link sharing (expiration, passwords), app integrations, Zapier/IFTTT support, (zero-knowledge) encryption, etc. are all also factors.
 
@@ -48,6 +50,14 @@ After bumping into the idea of a cloud file system that only downloads files loc
 - [[https://www.backblaze.com/b2/cloud-storage.html]] (only half a cent per GB of storage and a cent per GB transfer, a lot lower than Amazon S3/Google Cloud/Microsoft Azure/etc.)
 - [[http://www.vmwareblog.org/looking-affordable-cloud-storage-aws-vs-azure-vs-backblaze-b2/]]
 - [[https://www.soyoustart.com/us/server-storage/]]
+- FreeNAS
+
+*** Inotify + rsync idea
+
+- [[https://serverfault.com/questions/7969/is-there-a-working-linux-backup-solution-that-uses-inotify]]
+- [[https://github.com/JayGoldberg/birsync]]
+- [[https://bartsimons.me/sync-folders-and-files-on-linux-with-rsync-and-inotify/]]
+- [[https://github.com/axkibe/lsyncd]]
 
 *** ZFS replication as an ideal solution? Fascinating stuff.
 
@@ -65,10 +75,20 @@ Here are some more links in this area from another round of research. Most of th
 - [[https://github.com/ewwhite/zfs-ha/wiki]]
 - [[http://www.bolthole.com/solaris/zrep/]]
 
+ZFS vs btfrs performance
+
+- [[https://www.diva-portal.org/smash/get/diva2:822493/FULLTEXT01.pdf]]
+
+ZFS on Linux performance (vs. something like FreeBSD)
+
+- [[https://www.phoronix.com/scan.php?page=article&item=ubuntu-xenial-zfs&num=2]]
+- [[https://hardforum.com/threads/has-anyone-compared-freebsd-zfs-vs-zfs-on-linux.1819266/]]
+- [[https://www.reddit.com/r/zfs/comments/6f5cqn/is_performance_using_zfsonlinux_the_same_as/]]
+
 *** Rsync.net
 
 - [[https://www.rsync.net/index.html]]
-- Apparently you get root access inside your slice of the pie. But can you run a shell if SSH in? Install stuff (Python, CLIs for stuff, etc.) like a normal VM?
+- Apparently you get root access inside your slice of the pie. But can you run a shell if you SSH in? Install stuff (Python, CLIs for stuff, etc.) like a normal VM?
 - Would allow for ZFS replication workflow
 - Support from real sysadmins not phone-answering people
 - Need to email them for more info.
