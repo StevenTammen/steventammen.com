@@ -1,11 +1,9 @@
 /*---------------------------------------------------------------------------*/
 
-  // Create Table of Content (invoking Toc.init and then scrollspy)
+  // Create Table of Content (invoking scrollspy)
 
 $(function() {
   var navSelector = '#toc';
-  var $myNav = $(navSelector);
-  Toc.init($myNav, { headings: 'h1,h2,h3,h4,h5,h6' } );
   $('body').scrollspy({
     target: navSelector,
     offset: 220

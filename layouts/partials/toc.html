@@ -1,4 +1,3 @@
-<div id="toc_container">
-  <p class="toc_title">Contents</p>
-  {{.TableOfContents}}
-</div>
+<!-- {{ replace .TableOfContents "id=\"TableOfContents\"" "id=\"toc\" data-toggle=\"toc\"" | safeHTML }} -->
+
+{{ .TableOfContents | replaceRE "<ul>[[:space:]]*<li>[[:space:]]*<ul>" "<ul>" | replaceRE "</ul>[[:space:]]*</li>[[:space:]]*</ul>" "</ul>" | replaceRE "id=\"TableOfContents\"" "id=\"toc\" data-toggle=\"toc\"" | safeHTML }}

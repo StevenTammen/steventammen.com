@@ -1,9 +1,9 @@
----
-title: "{{ replace .Name "-" " " | title }}"
-description: ""
-date: {{ .Date }}
-categories: [""]
-tags: [""]
-inprogress: true
----
+#+HUGO_BASE_DIR: ../../
+#+HUGO_SECTION: links
+
+#+TITLE: {{ replace .Name "-" " " | title }}
+#+DATE: {{ .Date }}
+#+HUGO_CATEGORIES: 
+#+HUGO_TAGS: 
+#+HUGO_CUSTOM_FRONT_MATTER: :inprogress true
 

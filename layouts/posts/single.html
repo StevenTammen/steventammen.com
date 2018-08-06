@@ -6,17 +6,14 @@
 </div>
 <div class="content">
 	<div class="container">
-	  {{ partial "post_meta.html" . }}
-	  {{ .Content }}
-	  {{ partial "prev_next_post.html" . }}
+		{{ partial "post_meta.html" . }}
+		{{ .Content }}
+		{{ partial "prev_next_post.html" . }}
 	</div>
 </div>
 
 <!-- Latest compiled and minified Bootstrap JavaScript -->
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-
-<!-- Table of Content -->
-<script src="{{ .Site.BaseURL }}js/bootstrap-toc.js"></script>
 
 <!-- Site Functions -->
 <script src="{{ .Site.BaseURL }}js/site-functions.js"></script>
