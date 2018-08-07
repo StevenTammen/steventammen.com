@@ -1,18 +1,18 @@
-+++
-title = "Unicode Language Layers"
-date = 2018-04-25T00:32:11-04:00
-draft = false
-+++
+#+HUGO_BASE_DIR: ../../
+#+HUGO_SECTION: projects
 
-## [Download current release (Windows only)](https://www.steventammen.com/projects/unicode-language-layers/unicode-language-layers.zip) {#download-current-release--windows-only}
+#+TITLE: "Unicode Language Layers"
+#+DATE: 2018-04-25T00:32:11-04:00
 
-The header above is a link to a .zip archive of this project. As long as you have AutoHotkey installed (download it [here](https://autohotkey.com/download/)), you can unzip this archive wherever you like, and double clicking the file `remap.ahk` should start the program. (You can exit the program by right clicking it in the system tray and selecting "Exit").
+* [[https://www.steventammen.com/projects/unicode-language-layers/unicode-language-layers.zip][Download current release (Windows only)]]
 
+The header above is a link to a .zip archive of this project. As long as you have AutoHotkey installed (download it [[https://autohotkey.com/download/][here]]), you can unzip this archive wherever you like, and double clicking the file =remap.ahk= should start the program. (You can exit the program by right clicking it in the system tray and selecting "Exit").
 
-## Subscribing to updates and staying informed {#subscribing-to-updates-and-staying-informed}
+* Subscribing to updates and staying informed
 
 I have created a mailing list you can subscribe to if you are interested in staying informed of what is going on in the life of this project. Emails are rather infrequent and only for important updates. You may sign up using this form:
 
+#+begin_export html
 <!-- Begin MailChimp Signup Form -->
 <link href="//cdn-images.mailchimp.com/embedcode/classic-10_7.css" rel="stylesheet" type="text/css">
 <style type="text/css">
@@ -38,26 +38,28 @@ I have created a mailing list you can subscribe to if you are interested in stay
 </form>
 </div>
 <!--End mc_embed_signup-->
+#+end_export
 
+* Beta testing
 
-## Beta testing {#beta-testing}
+Beta testing is now live, and anyone who has the time and inclination can fill out a [[https://goo.gl/forms/qO4hMc4KnL6xTfxA3][Google form survey]] regarding the current project state. This form will remain open until such a point as I feel that the project has stabilized enough to start packaging the code as stable releases.
 
-Beta testing is now live, and anyone who has the time and inclination can fill out a [Google form survey](https://goo.gl/forms/qO4hMc4KnL6xTfxA3) regarding the current project state. This form will remain open until such a point as I feel that the project has stabilized enough to start packaging the code as stable releases.
+People who wish to Beta test probably ought to read several of the sections in the [[https://github.com/StevenTammen/unicode-language-layers/blob/master/README.org][project's Readme file]] before starting:
 
-People who wish to Beta test probably ought to read several of the sections in the [project's Readme file](https://github.com/StevenTammen/unicode-language-layers/blob/master/README.org) before starting:
+- [[https://github.com/StevenTammen/unicode-language-layers/blob/master/README.org#installation-instructions][Installation Instructions]]
+- [[https://github.com/StevenTammen/unicode-language-layers/blob/master/README.org#usage-instructions][Usage Instructions]]
+- [[https://github.com/StevenTammen/unicode-language-layers/blob/master/README.org#customization-instructions][Customization Instructions]]
 
--   [Installation Instructions](https://github.com/StevenTammen/unicode-language-layers/blob/master/README.org#installation-instructions)
--   [Usage Instructions](https://github.com/StevenTammen/unicode-language-layers/blob/master/README.org#usage-instructions)
--   [Customization Instructions](https://github.com/StevenTammen/unicode-language-layers/blob/master/README.org#customization-instructions)
+* Update #1: 6/12/18
 
+Today, I created a post about the [[https://www.steventammen.com/posts/initial-greek-survey-analysis/][survey results]], and informed people on the mailing list. I also added sections to the README of the [[https://github.com/StevenTammen/unicode-language-layers][project's GitHub repository]] about installing and using the in-progress Greek script, and contributing to the project.
 
-## Update #1: 6/12/18 {#update-1-6-12-18}
-
-Today, I created a post about the [survey results](https://www.steventammen.com/posts/initial-greek-survey-analysis/), and informed people on the mailing list. I also added sections to the README of the [project's GitHub repository](https://github.com/StevenTammen/unicode-language-layers) about installing and using the in-progress Greek script, and contributing to the project.
-
-
-## Update #2: 7/6/18 {#update-2-7-6-18}
+* Update #2: 7/6/18
 
 Today I added sections in the project's Readme describing how to install, use, and customize the software. I also created a second Google form to gather user feedback on the current project state in a round of Beta testing, and added a download link to this page for a pre-packaged .zip archive of the software in its current iteration. People on the mailing list were informed about all of this.
 
+
+# Put at end to avoid conflicts with scrollspy TOC. ???
+#+begin_export html
 <script type='text/javascript' src='//s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js'></script><script type='text/javascript'>(function($) {window.fnames = new Array(); window.ftypes = new Array();fnames[0]='EMAIL';ftypes[0]='email';fnames[1]='FNAME';ftypes[1]='text';fnames[2]='LNAME';ftypes[2]='text';fnames[3]='ADDRESS';ftypes[3]='address';fnames[4]='PHONE';ftypes[4]='phone';}(jQuery));var $mcj = jQuery.noConflict(true);</script>
+#+end_export
