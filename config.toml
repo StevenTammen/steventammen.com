@@ -13,7 +13,7 @@ paginate = 10
 [params]
   # Shown in the home page
   subtitle = "Writings from the mind of Steven Tammen. Occasionally comprehensible."
-  # googleAnalytics = "Your Google Analytics tracking ID"
+  googleAnalytics = "UA-123565799-1"
   disqus = "steventammen"
   # CSS name for highlight.js
   highlightjs = "androidstudio"
