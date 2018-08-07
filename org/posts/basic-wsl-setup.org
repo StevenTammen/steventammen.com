@@ -1,0 +1,115 @@
+#+HUGO_BASE_DIR: ../../
+#+HUGO_SECTION: posts
+
+#+TITLE: "Basic WSL Setup"
+#+DATE: 2018-05-16T12:52:23-04:00
+#+HUGO_CATEGORIES: "Computers/Software"
+#+HUGO_TAGS: "workflow", "windows" 
+
+* Background and software prerequisites
+
+For anyone wishing to set up the Ubuntu environment on Windows 10, this is a very brief guide to how I set it up my first time. I now have a [[https://github.com/StevenTammen/dotfiles][dotfiles repository]] that I will clone for future setups, but this was how I did it before I got that up and running (I do things a little bit differently now). You can see how to get things up and running using the dotfiles repository by looking at the Readme in the repo.
+
+This post assumes that you [[https://docs.microsoft.com/en-us/windows/wsl/install-win10][have the Ubuntu WSL installed]], and that you have Git for Windows installed and on your Path (if you don't know what that is, just make sure you check the box when installing Git that says "include Git on Path" or whatever).
+
+If you haven't updated your installation prior to reading this post, you should probably do that first.
+
+#+BEGIN_SRC bash
+sudo apt-get update
+sudo apt-get upgrade
+#+END_SRC
+
+* Getting a terminal emulator
+
+Download wsltty from [[https://github.com/mintty/wsltty]]. Wsltty is based off of Cygwin's mintty terminal emulator.
+
+If you have problems with wsltty not recognizing the WSL distro you have installed and so forth, I found [[https://github.com/mintty/wsltty/issues/72][this thread]] helpful. If you uninstall and reinstall a WSL distro (because you broke something) you may have to deal with this.
+
+* Getting Solarized colors
+
+#+BEGIN_SRC bash
+git clone https://github.com/karlin/mintty-colors-solarized.git
+mv mintty-colors-solarized/ .mintty-colors-solarized/
+#+END_SRC
+
+* Solarized dir colors
+
+#+BEGIN_SRC bash
+wget https://raw.githubusercontent.com/seebi/dircolors-solarized/master/dircolors.256dark  
+mv dircolors.256dark .dir_colors
+#+END_SRC
+
+* Fish shell
+
+#+BEGIN_SRC bash
+sudo apt-add-repository ppa:fish-shell/release-2
+sudo apt-get update
+sudo apt-get install fish
+#+END_SRC
+
+Once you have the shell installed, put the following in your .bashrc file (at the end works fine, e.g.):
+
+#+BEGIN_SRC bash
+# Launch Fish
+if [ -t 1 ]; then
+  exec fish
+fi
+#+END_SRC
+
+* Oh-My-Fish
+
+#+BEGIN_SRC bash
+curl -L http://get.oh-my.fish | fish
+#+END_SRC
+
+* Pure prompt
+
+#+BEGIN_SRC bash
+omf install pure
+#+END_SRC
+
+* Pulling everything together in the config file
+
+First, open the fish config file. For example:
+
+#+BEGIN_SRC bash
+vim ~/.config/fish/conf.d/omf.fish
+#+END_SRC
+
+Then add these lines to the end of it:
+
+#+BEGIN_SRC bash
+# Set up colors
+source ~/.mintty-colors-solarized/mintty-solarized-light.sh
+eval (dircolors -c ~/.dir_colors | sed 's/>&\/dev\/null$//')
+
+# Aliases
+alias night "source ~/.mintty-colors-solarized/mintty-solarized-dark.sh"
+alias day "source ~/.mintty-colors-solarized/mintty-solarized-light.sh"
+#+END_SRC
+
+You can now switch between the Solarized light and Solarized dark themes by typing "day" and "night" (respectively) into the shell. You would want to do this depending on environmental light levels.
+
+* Installing ranger
+
+One of the cool things about using the WSL is that you can use [[https://wiki.archlinux.org/index.php/Ranger][ranger]] as a keyboard driven file manager.
+
+I didn't get around to fully integrating it with Windows until I set up my dotfiles, but installing it is easy enough:
+
+#+BEGIN_SRC bash
+sudo apt-get install ranger
+#+END_SRC
+
+* Setting up custom aliases
+
+If you can think of anything you might want to abbreviate, you should add aliases to your fish config file. For example, I end up cd'ing to my Dropbox directory a lot, so I set up this one:
+
+#+BEGIN_SRC bash
+alias dbox "cd /mnt/c/Users/steve/Dropbox"
+#+END_SRC
+
+* Discussion
+
+And there you have it. If you are familiar with the command line and what config files are (so you don't have to Google up what some of this means), you should be able to get a prettyish, functional version of the WSL up and running in like 15 minutes.
+
+You can, of course, choose to use bash instead of fish. I just find bash's syntax (and, by extension, zsh's, ksh's, etc.) bug-prone and unreadable, and like fish's better. I also like the support for arrays as a first-class data type, and all the syntax highlighting, completion, etc. that comes with fish out of the box. I'm not wedded to fish though, and will probably switch over to the [[https://github.com/redox-os/ion][ion shell]] eventually once it is less alpha and has better completions.
