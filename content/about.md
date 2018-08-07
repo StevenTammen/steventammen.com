@@ -6,11 +6,9 @@ draft = false
 
 ## Author {#author}
 
-My name is Steven Tammen and I am an undergraduate student at the University of Georgia. I am triple majoring in Computer Science, Classical Culture, and Ancient Greek, although I will have also taken several semesters of Hebrew by the time I graduate. (There is no degree program or minor for Hebrew at UGA).
+My name is Steven Tammen and I am an undergraduate student at the University of Georgia. I am triple majoring in Computer Science, Classical Culture, and Ancient Greek, although I will have also taken a couple semesters of Hebrew by the time I graduate. (There is no degree program or minor for Hebrew at UGA).
 
 My other activities cluster around the pursuit of perfection -- in design, in thought patterns, in character, and so forth. This takes the form of research and thought on a wide variety of categories in engineering, cognitive psychology, philosophy, and other disciplines as necessary.
-
-More specific information about me can be found in [my CV](https://www.steventammen.com/CV.pdf).
 
 
 ## Purpose {#purpose}
