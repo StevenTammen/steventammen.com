@@ -29,6 +29,7 @@ paginate = 10
     identifier = "home"
     url = "/"
 	
+	
   [[menu.content]]
     name = "Posts"
     pre = "<i class='fa fa-picture-o fa-fw'></i>"
@@ -60,40 +61,48 @@ paginate = 10
     identifier = "categories"
     url = "/categories/"
 	
+	
+  [[menu.site]]  
+    name = "RSS"
+    pre = "<i class='fa fa-rss fa-fw'></i>"
+    weight = 7
+    identifier = "rss"
+    url = "/index.xml"
   [[menu.site]]  
     name = "About"
     pre = "<i class='fa fa-sitemap fa-fw'></i>"
-    weight = 7
+    weight = 8
     identifier = "about"
     url = "/about/"
   [[menu.site]]  
     name = "Roadmap"
     pre = "<i class='fa fa-trello fa-fw'></i>"
-    weight = 8
+    weight = 9
     identifier = "roadmap"
     url = "https://waffle.io/StevenTammen/steventammen.com"
   [[menu.site]]  
     name = "Settings"
     pre = "<i class='fa fa-cog fa-fw'></i>"
-    weight = 9
+    weight = 10
     identifier = "settings"
     url = "/settings/"
+	
 	
   [[menu.author]]
     name = "Projects"
     pre = "<i class='fa fa-code fa-fw'></i>"
-    weight = 10
+    weight = 11
 	identifier = "projects"
     url = "/projects/"
   [[menu.author]]
     name = "Resume"
     pre = "<i class='fa fa-file-pdf-o fa-fw'></i>"
-    weight = 11
+    weight = 12
 	identifier = "resume"
     url = "/resume.pdf"
   [[menu.author]]
     name = "Contact"
     pre = "<i class='fa fa-phone fa-fw'></i>"
-    weight = 12
+    weight = 13
 	identifier = "contact"
     url = "/contact/"
