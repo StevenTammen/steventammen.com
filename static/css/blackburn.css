@@ -16,10 +16,18 @@ a:visited {
 
 /* added to theme */
 
+table {
+	margin: auto
+}
+
 th { 
   background: #333; 
   color: #f7f7f7; 
   font-weight: bold; 
+}
+
+tr:nth-child(even) {
+	background-color: #e8e8e8;
 }
 
 td, th { 
