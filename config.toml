@@ -16,7 +16,9 @@ paginate = 10
   googleAnalytics = "UA-123565799-1"
   disqus = "steventammen"
   # CSS name for highlight.js
-  highlightjs = "androidstudio"
+  highlightjs = "solarized-dark"
+  # additional languages for highlight.js (for all pages)
+  highlightjs_extra_languages = ["lisp", "r", "autohotkey"]
   dateFormat = "02 Jan 2006, 15:04"
 
 [menu]
