@@ -3,4 +3,6 @@
 
 #+TITLE: {{ replace .Name "-" " " | title }}
 #+DATE: {{ .Date }}
+#+HUGO_CATEGORIES: 
+#+HUGO_TAGS: 
 

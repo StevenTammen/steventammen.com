@@ -1,6 +1,8 @@
 +++
 title = "Unicode Language Layers"
 date = 2018-04-25T00:32:11-04:00
+tags = ["greek", "unicode", "keyboard layouts"]
+categories = ["Computers/Software"]
 draft = false
 +++
 

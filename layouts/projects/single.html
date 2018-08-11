@@ -6,6 +6,7 @@
 </div>
 <div class="content">
 	<div class="container">
+		{{ partial "post_meta.html" . }}
 		{{ .Content }}
 		{{ partial "disqus.html" . }}
 	</div>

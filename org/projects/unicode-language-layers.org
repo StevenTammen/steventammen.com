@@ -3,6 +3,8 @@
 
 #+TITLE: "Unicode Language Layers"
 #+DATE: 2018-04-25T00:32:11-04:00
+#+HUGO_CATEGORIES: "Computers/Software"
+#+HUGO_TAGS: "greek" "unicode" "keyboard layouts"
 
 * [[https://www.steventammen.com/projects/unicode-language-layers/unicode-language-layers.zip][Download current release (Windows only)]]
 
