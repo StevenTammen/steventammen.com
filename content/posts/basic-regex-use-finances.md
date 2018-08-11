@@ -21,10 +21,10 @@ I can do this Excel system since I worked a semester as a Business Analyst for a
 
 My credit card is through [Chase](https://www.chase.com/). The statements are in a PDF form that does not paste tab-separated out of the box. Here is an example of what the data looks like (from a real statement of mine):
 
-> 03/20 UGA FOOD SVC Q02 ATHENS GA 7.60
-> 03/23 THE UPS STORE 3778 ATHENS GA 13.92
-> 03/23 JIMMY JOHNS - 313 ATHENS GA 7.05
-> 03/22 UGA CHICK FIL A ATHENS GA 8.44
+> 03/20 UGA FOOD SVC Q02 ATHENS GA 7.60 <br />
+> 03/23 THE UPS STORE 3778 ATHENS GA 13.92 <br />
+> 03/23 JIMMY JOHNS - 313 ATHENS GA 7.05 <br />
+> 03/22 UGA CHICK FIL A ATHENS GA 8.44 <br />
 
 Most of my expenses end up being boring administrative stuff like this -- food, shipping, and so forth. Now, the problem is, in 6 months of use, we are talking hundreds of charges to the card.
 
