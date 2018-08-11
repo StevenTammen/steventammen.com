@@ -11,9 +11,9 @@ A question I have gotten from several people in the few months I've had my site 
 
 ## Bad Reasons To Have a Website {#bad-reasons-to-have-a-website}
 
-First, some reasons I think are lame. A lot of people recommend you have a website to showcase your CV/Resume, your projects, and "what skills and experience you bring to the table." (You know the type of arguments, and the nauseating language employed therein).
+First, some reasons I think are lame. A lot of people recommend you have a website to showcase your CV/Resume, your projects, and "what skills and experience you can use to empower your fellow man." (You know the type of arguments, and the language employed therein).
 
-To be perfectly honest, this is exactly the sort of corporate standardization and conformity that drives me nuts. In other words, this is _exactly the opposite of a good reason_ for having your own website. Anyone who has been around me in real life knows that marketing and public relations are two of the things in life that make me legitimately wrathful. You can couch them in terms of "communicating the benefits of your product," "customer management," etc., but when it comes down to it, the disciplines teach you how to spin blatant lies and nonsense. They are mediums of unethical manipulation of vulnerable people that aren't aware of the bias in presentation, either due to systemic enforcement of ignorance by companies, the government, and so forth for selfish gain, or simply because they have never had the corruption of the system exposed to them in a stark, no-holds-barred, manner. See [here](https://steventammen.com/reading-list/#escaping-the-cave) for some recommended reading on the subject.
+To be perfectly honest, this is exactly the sort of corporate standardization and conformity that drives me nuts. In other words, this is _exactly the opposite of a good reason_ for having your own website. Anyone who has been around me in real life knows that marketing and public relations are two of the things in life that make me legitimately wrathful. You can couch them in terms of "communicating the benefits of your product," "customer management," etc., but when it comes down to it, the disciplines teach you how to spin blatant lies and nonsense. They are mediums of unethical manipulation of vulnerable people that aren't aware of the bias in presentation, either due to systemic enforcement of ignorance by companies, the government, and so forth for selfish gain, or simply because they have never had the corruption of the system exposed to them in a stark, no-holds-barred, manner. See [here](https://www.steventammen.com/links/skepticism/) for some links relating to these things.
 
 All this to say, I think it is a very bad idea to create a website and publish content solely to make yourself appear like a qualified, interesting person. That's falseness and insincerity, and if you do it, shame on you. With as little truth as there is in how we interact with each other nowadays, making up stuff to sound intelligent is all the more despicable. Particularly if it leads to you getting a job/promotion over a more qualified person who was unwilling to "play the game" of truth twisting and self-aggrandizement.
 
@@ -46,11 +46,11 @@ But there's benefit to publishing these "essays," these stabs at the truth. What
 
 ## Hypocrisy {#hypocrisy}
 
-An astute observer might note that I have actually published my CV/Resume on my website, and do mention my side projects in what I write. What gives then? I thought websites were to put your thoughts out there to make them better? How does posting such things help?
+An astute observer might note that I have actually published my Resume on my website, and do mention my side projects in what I write. What gives then? I thought websites were to put your thoughts out there to make them better? How does posting such things help?
 
-You see, the thing is, I'm not against resumes, or portfolios, or other things of the sort. I'm against websites existing simply because people want to paint themselves as more educated or qualified than they really are. That is, I'm against these things serving as a marketing medium, not the things themselves.
+You see, the thing is, I'm not against Resumes, or portfolios, or other things of the sort. I'm against websites existing simply because people want to paint themselves as more educated or qualified than they really are. That is, I'm against these things serving as a marketing medium, not the things themselves.
 
-Here's how I view it: an ethically constructed resume or CV accurately records skills, experiences and qualifications for an individual without embellishing or misrepresenting. It is concise, factual, and descriptive. It is not vague and does not promise more than what is there. A person should be prepared to defend the exact wording of every phrase included in the document without qualification.
+Here's how I view it: an ethically constructed resume or CV accurately records skills, experiences and qualifications for an individual without embellishing or misrepresenting. It is concise, factual, and descriptive. It is not vague and does not promise more than what is there. A person should be prepared to defend the exact wording of every phrase included in the document, without qualification.
 
 The same thing would go for the now-ubiquitous "elevator pitch." It is a decidedly good thing to be able to briefly summarize why you are an attractive value proposition -- to objectively lay out what things you bring to the table. But there should not be rhetoric or showboating or anything like that in this. It should be kept matter-of-fact. And people who lie or misrepresent themselves in any part of the job-seeking process should be punished swiftly and severely.
 
@@ -61,7 +61,7 @@ Having an uncommon enough last name let me obtain firstlast.com, which I think i
 
 The thing common to this website is me. I don't have any one particular interest, so a website named after any one of them singularly (e.g., efficient-text-entry.com) would prove to be misleading in many circumstances. An arbitrary name works fine for large companies (e.g., Amazon) or specific projects (e.g., [hypothes.is](https://web.hypothes.is/)), but doesn't make a lot of sense for individuals.
 
-If you make a habit of tooting your own horn in everything you write then that is obnoxious and you should stop. But I'm not going to change my website name to something unrelated to my personal name (or feel bad about setting things up this way) since I am the thing that most clearly ties all the content together on this site: these are _my_ thoughts.
+If you make a habit of tooting your own horn in everything you write then that is obnoxious and you should stop. But as long as that is not the purpose of firstlast.com, I see nothing wrong with having such a website name (i.e., a name relating to yourself).
 
 
 ## On Anonymity {#on-anonymity}

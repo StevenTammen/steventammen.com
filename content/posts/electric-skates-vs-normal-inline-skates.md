@@ -12,6 +12,8 @@ Because I always like to examine things in the abstract absent actual products (
 
 [Thundrblade](http://thundrblade.com/), the electric skate that has a crowdfunding campaign launching May 2018, is currently the only serious electric skate company that I am aware of. So there is that.
 
+(Edit: unfortunately Thundrblade didn't make it through crowdfunding. So that makes this post little more than abstract theorizing; you can't actually buy electric skates).
+
 
 ## Talking to the pros {#talking-to-the-pros}
 

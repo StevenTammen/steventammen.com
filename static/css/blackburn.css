@@ -27,7 +27,7 @@ th {
 }
 
 tr:nth-child(even) {
-	background-color: #e8e8e8;
+	background-color: #f2f2f2;
 }
 
 td, th { 
@@ -42,7 +42,7 @@ img {
 }
 
 code {
-	background: #e8e8e8;
+	background: #e4e4e4;
 	border-radius: 3px;
 }
 
