@@ -29,10 +29,14 @@
 
 The visuals below are helpful (the photos aren't mine: just linked -- follow the links for proper credit). You can find a reasonable introduction to lead sizes [[http://www.penheaven.co.uk/blog/lead-sizes-for-mechanical-pencils/][here]].
 
-[[file:https://images-na.ssl-images-amazon.com/images/I/31Eyi2EJShL.jpg][file:https://images-na.ssl-images-amazon.com/images/I/31Eyi2EJShL.jpg]]
-[[file:http://4.bp.blogspot.com/_AfrPaG3Klqo/SuNBGXZZXKI/AAAAAAAAEXA/swgvOhG3fc8/s640/Photo+002.jpg][file:http://4.bp.blogspot.com/_AfrPaG3Klqo/SuNBGXZZXKI/AAAAAAAAEXA/swgvOhG3fc8/s640/Photo+002.jpg]]
-[[file:https://s-media-cache-ak0.pinimg.com/736x/71/7a/a2/717aa23e3094fd95f9c1974c69cc628e.jpg][file:https://s-media-cache-ak0.pinimg.com/736x/71/7a/a2/717aa23e3094fd95f9c1974c69cc628e.jpg]]
-[[file:https://images-na.ssl-images-amazon.com/images/I/419o3xKhaLL.jpg][file:https://images-na.ssl-images-amazon.com/images/I/419o3xKhaLL.jpg]]
+#+CAPTION: A comparison of 0.35mm, 0.5mm, and 0.7mm lead. Picture courtesy of Dave's Mechanical Pencils.
+[[http://davesmechanicalpencils.blogspot.com/2009/10/rotring-tikky-mechanical-pencil-review.html][file:/pages/pencil-leads/daves-mechanical-pencils-lead-comparison.jpg]]
+
+#+CAPTION: A comparison of some small lead sizes. Picture courtesy of JetPens.
+[[https://www.jetpens.com/Pentel-Orenz-Mechanical-Pencil-0.2-mm-Black/pd/11961][file:/pages/pencil-leads/orenz-lead-comparison.jpg]]
+
+#+CAPTION: A comparison of commonly used lead sizes. Picture courtesy of Amazon.
+[[https://www.amazon.com/Pentel-Automatic-Retractable-Professional-Description/dp/B00NBF7AN6/][file:/pages/pencil-leads/graph-gear-lead-comparison.jpg]]
 
 * My Pick
 

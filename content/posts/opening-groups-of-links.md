@@ -55,9 +55,9 @@ As the use cases above might have suggested, Linkclump lets you select between s
 
 I currently use the "Opened as New Tabs" and "Copied to clipboard" options. I prefer to keep all my browsing in one window, and switch between tabs with [Vimium](https://chrome.google.com/webstore/detail/vimium/dbepggeogbaibhgnhhndojpepiihcmeb) and Chrome keyboard shortcuts (`Ctrl+Tab` for next tab, `Ctrl+Shift+Tab` for previous tab). For people who want the same sort of title-based tab-switching functionality that Vimium provides without the whole Vim thing: have a look at the Chrome extension [Fast Tab Switcher](https://chrome.google.com/webstore/detail/fast-tab-switcher/jkhfenkikopkkpboaipgllclaaehgpjf). I used this extension for a while before I started using Vimium. Vimium works essentially the same way as the Fast Tab Switcher extension, but adds a bunch of other functionality that you may or may not use. Since I am working toward fully keyboard-centric browsing, Vimium makes sense for me, but it might not make sense for you.
 
-I currently have the "Opened as New Tabs" action set up on `A+Left mouse drag`, and the "Copied to clipboard" action set up on `E+Left mouse drag`. If you want to use modifiers (like Ctrl, Alt, etc.), you may need to disable Linkclump when using web applications that depend on these modifier keys (an example that comes to mind based on my personal interests is <http://www.keyboard-layout-editor.com/>). Here's a screenshot of what my settings look like:
+I currently have the "Opened as New Tabs" action set up on `A+Left mouse drag`, and the "Copied to clipboard" action set up on `E+Left mouse drag`. If you want to use modifiers (like Ctrl, Alt, etc.), you may need to disable Linkclump when using web applications that depend on these modifier keys (an example that comes to mind based on my personal interests is <http://www.keyboard-layout-editor.com/>). Here's a screenshot:
 
-{{< figure src="/posts/opening-groups-of-links/linkclump-actions.png" link="/posts/opening-groups-of-links/linkclump-actions.png" >}}
+{{< figure src="/posts/opening-groups-of-links/linkclump-actions.png" caption="Figure 1: Steven's settings for Linkclump" link="/posts/opening-groups-of-links/linkclump-actions.png" >}}
 
 
 ## Additional thoughts {#additional-thoughts}

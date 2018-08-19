@@ -73,7 +73,7 @@ Cognitive maps are the determinative factor in organizing information efficientl
   - The near perfect cognitive map in the recently read window is in /short term memory/ -- it will fade quickly with time. Forcing attention away (e.g., engaging in a different activity) will likely make the cognitive map decay faster. After this "short-term cognitive map" decays completely, differences in recall/information location will fade or at least be significantly reduced. ⇒ Discrimination between "recent" (i.e., in window = very complete cognitive map) and "not recent" (i.e., not in window = less complete cognitive map) is /temporary/ and not encoded in memory for longer term information retention.
   - This concept likely works on a spectrum, with a less clear cut window (i.e., it is likely a continuum towards less good cognitive maps rather than a one-and-done cutoff point). General idea:
 
-
+#+CAPTION: A rough outline of how cognitive maps work
 [[file:/pages/screen-reading/cognitive-maps.png][file:/pages/screen-reading/cognitive-maps.png]]
 
 
