@@ -2,3 +2,4 @@
 #+HUGO_SECTION: drafts
 
 #+TITLE: {{ replace .Name "-" " " | title }}
+
