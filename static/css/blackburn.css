@@ -36,7 +36,8 @@ td, th {
   text-align: left; 
 }
 
-img, figure {
+img, figure, figure img {
+	display: block;
 	max-width: 100%;
 	height: auto;
 	margin: auto;
