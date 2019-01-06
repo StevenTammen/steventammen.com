@@ -1,10 +1,10 @@
 #+HUGO_BASE_DIR: ../../
 #+HUGO_SECTION: posts
 
-#+TITLE: Liss Cardio Thoughts
+#+TITLE: LISS Cardio Thoughts
 #+DATE: 2019-01-05T21:50:27-05:00
-#+HUGO_CATEGORIES: 
-#+HUGO_TAGS: 
+#+HUGO_CATEGORIES: "Gear"
+#+HUGO_TAGS: "cardio" "elliptigo" "skating"
 
 * The need for fun, effective LISS cardio
 

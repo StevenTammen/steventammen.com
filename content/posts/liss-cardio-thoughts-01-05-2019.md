@@ -1,6 +1,8 @@
 +++
-title = "Liss Cardio Thoughts"
+title = "LISS Cardio Thoughts"
 date = 2019-01-05T21:50:27-05:00
+tags = ["cardio", "elliptigo", "skating"]
+categories = ["Gear"]
 draft = false
 +++
 
