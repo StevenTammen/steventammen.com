@@ -38,6 +38,8 @@ I currently use [uBlock Origin](https://chrome.google.com/webstore/detail/ublock
 
 I like the resource utilization and philosophy of uBlock (over, say, Adblock Plus). In terms of the other two, I haven't done enough research to say as to whether I'll stick with LastPass long term instead of something else, and whether I'll end up with some other Vim browser extension (of which there are many). But these are what I use right now.
 
+Nowadays I also use [Linkclump](https://chrome.google.com/webstore/detail/linkclump/lfpjkncokllnfokkgpkobnkbkmelfefj?hl=en) for [opening groups of links](https://www.steventammen.com/posts/opening-groups-of-links/), [Copy-All-URLs](https://chrome.google.com/webstore/detail/copy-all-urls/djdmadneanknadilpjiknlnanaolmbfk/related?hl=en) for [copying the URLs of tabs](https://www.steventammen.com/posts/copying-urls-of-tabs/), and [Just Read](https://chrome.google.com/webstore/detail/just-read/dgmanlpmmkibanfdgjocnabmcaclkmod?hl=en) for cleaning up webpages for reading (with custom CSS).
+
 
 #### Search engines {#search-engines}
 
@@ -97,13 +99,9 @@ I started out using Gmail in the browser, and have never found a need to change 
 I am interested in learning more about email from the command line like [Mutt](http://www.mutt.org/), but need to do more research.
 
 
-### Music player: [Spotify Web Player](https://open.spotify.com/) {#music-player-spotify-web-player}
+### Music player: [Spotify](https://www.spotify.com/us/) {#music-player-spotify}
 
-Using a desktop browser with uBlock, almost all ads are avoided. Spotify is easy and convenient, and lacks very few songs and albums that I personally am interested in.
-
-Sometimes I want to lisen to random songs (use a radio), but sometimes I also want to listen to specific things. Hence Spotify and not Pandora.
-
-When I am on my phone (which doesn't have as simple a way to get rid of ads), I sometimes listen to music I own, or free music that I have downloaded. I mostly listen to podcasts I have downloaded when I am out and about, however.
+I used to use the Spotify web player with an ad-blocker, but now I pay $5/month for Spotify premium (I get it cheaper since I'm still a student). I use Spotify on my computer when I'm working on my computer, and on my phone as well if I'm listening to music on the go.
 
 
 ### Quick-and-dirty text wrangling: [NeoVim](https://neovim.io/) {#quick-and-dirty-text-wrangling-neovim}
@@ -162,7 +160,9 @@ F.lux is a program for reducing blue-light emmissions around night time to preve
 
 I've used Skype for years with my family, and have never had problems with it. It just works.
 
-Unlike [Facetime](https://support.apple.com/en-us/HT204380) you are not forced to use a specific platform (Mac or iOS). Unlike Google's options, Skype has been stable and unchanging.
+Unlike [FaceTime](https://support.apple.com/en-us/HT204380) you are not forced to use a specific platform (Mac or iOS). Unlike Google's options, Skype has been stable and unchanging. I find that I really don't use Skype on my phone that much, instead using my Windows Surface tablet (with its built in mic and front camera).
+
+Note that there still isn't a good way to use FaceTime on Android. [Joy of Android](https://joyofandroid.com/) has [a good article that talks about this](https://joyofandroid.com/facetime-for-android/). I keep thinking that Apple will allow this someday, but I guess still not yet.
 
 
 ### Recording calls: [Amolto Call Recorder](https://amolto.com/) {#recording-calls-amolto-call-recorder}
@@ -182,19 +182,21 @@ The best typing training program I've come across. Good statistics and lesson ge
 
 ### Scripting and customization: [AutoHotkey](https://www.autohotkey.com/) {#scripting-and-customization-autohotkey}
 
-AutoHotkey is almost good enough alone to make me ditch Linux and embrace Windows despite all its flaws. AutoHotkey is incredible and I cannot recommend it enough if you have to use Windows machines.
+AutoHotkey (AHK) is almost good enough alone to make me ditch Linux and embrace Windows despite all its flaws. AHK is incredible and I cannot recommend it enough if you have to use Windows machines.
+
+Recent progress in my AHK projects are making me reconsider the Linux switch even more. I am making pretty heavy use of AHK to implement behavior like Vim movement/visual mode across the whole OS environment, and I'm not sure if there would be as clean a way for me to do this on Linux.
 
 
 ### Custom keyboard shortcuts, text expansion, etc.: [AutoHotkey](https://www.autohotkey.com/) {#custom-keyboard-shortcuts-text-expansion-etc-dot-autohotkey}
 
-You can use dedicated programs to accomplish similar things, but the benefit of using AutoHotkey is that it is incredibly flexible. You can define a key sequence that looks something up on Google, for example, or opens a particular window, puts the computer to sleep, etc.
+You can use dedicated programs to accomplish similar things, but the benefit of using AHK is that it is incredibly flexible. You can define a key sequence that looks something up on Google, for example, or opens a particular window, puts the computer to sleep, etc.
 
 The dowside is that you have to learn the scripting language. Which I suppose is a bit daunting for non-programmers. But it's really not bad at all, and the documentation is pretty good.
 
 
 ### Virtual desktops: [VirtuaWin](http://virtuawin.sourceforge.net/) {#virtual-desktops-virtuawin}
 
-Virtual desktops let you organize windows by use case. I personally use one virtual desktop for programming, one virtual desktop for writing, and one virtual desktop for research. YMMV.
+Virtual desktops let you organize windows by use case. I personally use 18 different named virtual desktops that I can switch to using custom AHK scripts and Keypirinha (see below).
 
 I like VirtuaWin more than the default implementation built into Windows 10. It is more flexible and customizable.
 
@@ -203,7 +205,7 @@ Learning how to use virtual desktops can greatly increase productivity by helpin
 
 ### Window switcher: [Iswitchw](https://github.com/tvjg/iswitchw) {#window-switcher-iswitchw}
 
-For changing window focus across many windows. I have customized the original program to only display windows on the current virtual desktop.
+For changing window focus across many windows. I have customized the original program to only display windows on the current virtual desktop (but use the default version too to be able to switch windows across all virtual desktops).
 
 I use this mostly when I have multiple documentation/code windows open when programming. I tile windows using hotkeys, so try not to have layered windows, but when I have multiple files open for reference, it is faster to switch between them by matching on window title and description than by trying to find them manually (with Alt+Tab, for example).
 
@@ -213,9 +215,9 @@ I use this mostly when I have multiple documentation/code windows open when prog
 Keyboard-driven multi-column file managers make lots of sense. I have Ranger set up on the WSL with open commands configured for Windows programs. See my [dotfiles repository](https://github.com/StevenTammen/dotfiles).
 
 
-### File and application launcher: [Launchy](http://www.launchy.net/) {#file-and-application-launcher-launchy}
+### File and application launcher: [Keypirinha](http://keypirinha.com/index.html) {#file-and-application-launcher-keypirinha}
 
-I'm planning on using [Rofi](https://github.com/DaveDavenport/rofi) once I switch over to Linux. But in the meantime, Launchy is open source and works well enough. The support for high-DPI screens is somewhat lacking, and requires a bit of hacking to implement.
+I'm planning on using [Rofi](https://github.com/DaveDavenport/rofi) once I switch over to Linux. Keypirinha (KP) is basically the same thing for Windows, and it is very customizable. Combining directories of AHK scripts with KP's [FilesCatalog package](http://keypirinha.com/packages/filescatalog.html) allows for extremely powerful workflows, like the virtual desktop workflow I use (mentioned above).
 
 This is another type of application that pays huge dividends once you learn how to use it.
 

@@ -57,7 +57,7 @@ Here are all the components necessary to run the portable monitor setup that I d
 -   [Elevate aluminum monitor stand](https://www.amazon.com/gp/product/B01MXD21HP/)
 -   x4 [MountEra monitor clamps](https://www.amazon.com/gp/product/B01LQT1RBO/)
 
-Note that this setup only works if you use a separate keyboard from your tablet, rather than using an integrated typecover. I personally use a [Kinesis Advantage2 keyboard](https://www.kinesis-ergo.com/shop/advantage2-lfq/) (with Cherry red switches) and a [Logitech M570 thumb trackball](https://www.logitech.com/en-us/product/wireless-trackball-m570). I'll write about these next post.
+Note that this setup only works if you use a separate keyboard from your tablet, rather than using an integrated typecover. I personally use a [Kinesis Advantage2 keyboard](https://www.kinesis-ergo.com/shop/advantage2-lfq/) (with Cherry red switches) and a [Logitech M570 thumb trackball](https://www.logitech.com/en-us/product/wireless-trackball-m570). I'll write about these in the next post in the series.
 
 Note also that you need to counterweight the aluminum stand when supporting three monitors all clamped together; if you don't, the stand will tip forwards. (It was designed for a single monitor). You don't need anything special to do this: I just place the two monitor cases and my tablet case on the base of the stand, and that keeps it sturdy and stable.
 
