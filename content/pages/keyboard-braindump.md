@@ -27,26 +27,37 @@ I'm probably going to make a new branch for the refactor and rebuild things from
 
 #### To get to the point where I can make the full-time switch {#to-get-to-the-point-where-i-can-make-the-full-time-switch}
 
--   Add Expd2, mess with VK presses to ensure everything works w/ GetKeyState() (i.e., make sure not using VKs that appear to be unused but actually do weird things).
-    -   Rework so that only Dual keys use VKs, and the rest are just global variables passed among scripts with Config.ini via IniRead() and IniWrite()
--   Finish window mods for switching with hotkeys and keeping track of the four positions across all virtual desktops
+-   Add AHK scripts and KP to startup sequence so that they start automatically on boot. Make sure they start up in the right order (KP -> remap -> expand -> statusbar -> iswitchw curr. desktop -> iswitchw all desktops).
+-   Finish window mods for switching with hotkeys
+    -   Add closing window by hotkey
     -   Make sure closing windows by hotkey also removes the info from the virtual desktop associative arrays
-    -   Always switch into normal mode for the window you are leaving
     -   Movement hotkeys as well. I.e., move to appropriate of 4 window locations, corrected for monitor clamp overhang on tablet.
         -   Handle case of one external monitor connected = 27" monitor
         -   Also handle case of 2 external monitors connected = portable monitor setup.
         -   in the future will also need to handle 4k display. Maybe conditional based on monitor resolution and number of monitors connected?
--   Fix/check/add as necessary alternative behavior hotstrings for unpaired mode. This has been one of the big barriers for me adopting the layout: I need to be able to make headlines etc. in Org mode.
-    -   Also fix Backspace for unpaired mode. Another biggie.
--   Rework conditionals to always be in raw mode in IDE Windows
+-   Set up desktop automatic set up scripts for tasks, comm, writing, and code. Opens all the windows for the desktop, moves them to correct monitor positions, and adds them to correct window associative array locations (see virtualDesktops.ahk).
+-   Set up right number row key followed by {Space} behavior.
+    -   Followed by {Space} resets hand position and is really fast because of hand alternation.
+    -   index (switch windows): switch windows across all desktops. Pull in unaltered iswitchw script to use alongside the one edited for current desktop only.
+    -   middle (open Org): open a frequently accessed directory in desktop's dedicated ranger terminal window. (Separate from the desktop's dedicated terminal itself).
+    -   ring (open Code): open Everything search. Will also have to set up Everything search in KP.
+    -   pinky (switch desktops): return to previous desktop. Will have to create a keybinding in VirtuaWin. Will allow for jumping to Spotify, email, etc. with switch wins across desktops, then jumping back to what you were doing by number row pinky + {Space}. Very fast.
+-   Add \* behavior to support things like `**` and `****` for Org headlines. `if closingChar = *, add another *` (or something like that).
+    -   Also add briefs. `[\n]3lh` for `**`, etc.
+-   Add mouse warp to window focusing: mouse goes to the center of the window focused by hotkey. Makes keeping track of the pointer easier across 3+ ascreens.
+-   Add function key layer on double-tap of Expd1 (left Expd key).
+    -   This will be the Expd key used for code constructs so that it can be reliably double-tapped for function keys without messing with completion menus = what the other Expd key will get used for in IDEs.
+-   Rework so that only Dual keys use VKs, and the rest are just global variables passed among scripts with Config.ini via IniRead() and IniWrite()
 -   Rework conditionals to support two behavioral branches: Org markup, and terminal markup. Terminal markup will have operators like + - \* / = etc. autospaced _as operators_, rather than pairing them as in Org markup. We don't need a third behavioral branch for coding specifically, since IDEs will handle all the autospacing (and do it on a language-by-language basis). Other people may need different things, so Markdown etc. may get supported in the future.
     -   Org, terminal, and raw cover all the modes I will need to use in the short term. Should make the project basically complete for me.
 -   Add save, expansion, and symbol double taps. Set up with Keypirinha + AHK script selectors. Maybe write KP package in long term, or look into using text expansion package.
--   Setup only the most basic sequence behavior
+-   Setup only the most basic KP behavior
     -   Double tap for basic KP
-    -   Switch windows on current virtual desktop, switch windows across all virtual desktops
     -   Web searches (DDG, Google, Wikipedia, Amazon, Google images, Google videos)
-    -   Opening Org, Code, Applications
+    -   Opening Applications
+    -   Calculator, currency, etc. -- tools
+-   Set up application-specific KP + AHK workflow for commands and leader sequences (bottom row ring and pinky keys, respectively).
+-   Set up Greek and Hebrew double taps and layers. Might be a waste of time to do this before refactoring to support GUI configuration.
 
 
 #### Finish basic Vim layer stuff, also essential {#finish-basic-vim-layer-stuff-also-essential}
