@@ -1,12 +1,12 @@
 +++
-title = "Unicode Language Layers"
+title = "Language Layers"
 date = 2018-04-25T00:32:11-04:00
 tags = ["greek", "unicode", "keyboard layouts"]
 categories = ["Computers/Software"]
 draft = false
 +++
 
-## [Download current release (Windows only)](https://www.steventammen.com/projects/unicode-language-layers/unicode-language-layers.zip) {#download-current-release--windows-only}
+## [Download current release (Windows only)](https://www.steventammen.com/projects/language-layers/language-layers.zip) {#download-current-release--windows-only}
 
 The header above is a link to a .zip archive of this project. As long as you have AutoHotkey installed (download it [here](https://autohotkey.com/download/)), you can unzip this archive wherever you like, and double clicking the file `remap.ahk` should start the program. (You can exit the program by right clicking it in the system tray and selecting "Exit").
 
@@ -46,16 +46,16 @@ I have created a mailing list you can subscribe to if you are interested in stay
 
 Beta testing is now live, and anyone who has the time and inclination can fill out a [Google form survey](https://goo.gl/forms/qO4hMc4KnL6xTfxA3) regarding the current project state. This form will remain open until such a point as I feel that the project has stabilized enough to start packaging the code as stable releases.
 
-People who wish to Beta test probably ought to read several of the sections in the [project's Readme file](https://github.com/StevenTammen/unicode-language-layers/blob/master/README.org) before starting:
+People who wish to Beta test probably ought to read several of the sections in the [project's Readme file](https://github.com/BlizzardWorks/language-layers/blob/master/README.org) before starting:
 
--   [Installation Instructions](https://github.com/StevenTammen/unicode-language-layers/blob/master/README.org#installation-instructions)
--   [Usage Instructions](https://github.com/StevenTammen/unicode-language-layers/blob/master/README.org#usage-instructions)
--   [Customization Instructions](https://github.com/StevenTammen/unicode-language-layers/blob/master/README.org#customization-instructions)
+-   [Installation Instructions](https://github.com/BlizzardWorks/language-layers/blob/master/README.org#installation-instructions)
+-   [Usage Instructions](https://github.com/BlizzardWorks/language-layers/blob/master/README.org#usage-instructions)
+-   [Customization Instructions](https://github.com/BlizzardWorks/language-layers/blob/master/README.org#customization-instructions)
 
 
 ## Update #1: 6/12/18 {#update-1-6-12-18}
 
-Today, I created a post about the [survey results](https://www.steventammen.com/posts/initial-greek-survey-analysis/), and informed people on the mailing list. I also added sections to the README of the [project's GitHub repository](https://github.com/StevenTammen/unicode-language-layers) about installing and using the in-progress Greek script, and contributing to the project.
+Today, I created a post about the [survey results](https://www.steventammen.com/posts/initial-greek-survey-analysis/), and informed people on the mailing list. I also added sections to the README of the [project's GitHub repository](https://github.com/BlizzardWorks/language-layers) about installing and using the in-progress Greek script, and contributing to the project.
 
 
 ## Update #2: 7/6/18 {#update-2-7-6-18}
