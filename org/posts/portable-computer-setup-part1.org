@@ -216,9 +216,15 @@ This is mostly a problem for line numbers, since the tablet screen has to go on 
 
 ** Do you recommend using this at home and at work?
 
-No. I would recommend using a 4k TV with low input lag as a computer monitor. You'll want one that is big enough to display 4 portrait windows side by side without being so large that you have to move your head a lot. I think that 49" or 55" TVs work well, if you sit a ways back from them. (I don't speak from experience, since I don't own a 4k TV yet -- I plan to get one in the not-so-distant future). If you have a dock, you can also plug in your tablet and peripherals with very minimal set up time, unlike the stand + clamps monitor configuration.
+I don't really think this setup is ideal when you have the ability to have larger monitors in a static location: the parameters are simply different. For this setup, portability is a factor. For most monitors in general, it is not. It makes sense then that what works best in a portable context is not necessarily the same as what works best in a static context (although much of the discussion relating to PLP and so forth still holds).
 
-The problem with TVs like this is that they are not portable. The setup described in this post can (hypothetically) be taken anywhere.
+There are a [[https://www.guru99.com/best-monitor-programming.html][wide variety of monitors to choose from when programming]] -- some big, some small, some wide, some "normally" proportioned. While context will of course determine what is best for individuals, I think using a 4k TV with low input lag as a computer monitor makes a lot of sense /at home/, since that way you can use the same display as both a TV and a computer monitor, saving money and space.
+
+If you decide to go this route, you'll want a display that is big enough to display 4 portrait windows side by side without being so large that you have to move your head a lot. I think that 49" or 55" TVs work well, if you sit a ways back from them. (I don't speak from experience, since I don't own a 4k TV yet -- I plan to get one in the not-so-distant future). If you have a dock, you can also plug in your tablet and peripherals with very minimal set up time, unlike the stand + clamps monitor configuration.
+
+Using something like this on the job also works well since you don't have to deal with bezels, but combining multiple smaller monitors works too (and multiple smaller monitors have the advantage of being easier to shift around with employee turnover, and are better able to deal with monitor damage, since ruining one screen won't ruin all of them -- it's not always easy to guarantee that employees and clients will be careful around screens).
+
+The main problem with larger monitor options is that they are not portable. The setup described in this post can (hypothetically) be taken anywhere.
 
 ** Isn't this... a bit much?
 
