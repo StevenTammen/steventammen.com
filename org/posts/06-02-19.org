@@ -1,0 +1,88 @@
+#+HUGO_BASE_DIR: ../../
+#+HUGO_SECTION: posts
+
+#+TITLE: 06-02-19
+#+DATE: 2019-06-02T16:08:15-04:00
+#+HUGO_CATEGORIES: "Travel"
+#+HUGO_TAGS: "rome-2019" "rome"
+
+I'll figure out how to rotate the images properly once I'm less jet-lagged and sleep-deprived.
+
+* Outbound flight
+
+Today I flew to Rome for a Classics study abroad program.
+
+There was not too much traffic through the Atlanta airport when I went through the international terminal on my way to Rome. Checking the bag was easy, getting to the gate was easy, and getting settled in the proper seat at the proper time just required paying a bit of attention to the announcements to make sure I was boarding with the correct group.
+
+As to the flight itself, I was rather cramped in the small amount of space allocated to me (it doesn't help that I am almost six-foot-five). Even on an aisle seat, I found that there simply was not any way for me to get comfortable. This made sleeping rather difficult, and thus, despite having a sleep mask and Bose noise canceling headphones getting rid of most of the engine noise and taking the edge off of other noise (such as crying infants, inconsiderate people laughing -- presumably at movies or suchlike -- at the equivalent of 3:00 in the morning, and so on), I only got a fitful hour or two. 
+
+* International customs
+
+I literally walked through a set of doors. Much less eventful than I thought it was going to be.
+
+* At the hotel
+
+We are staying at the [[http://hotelercoli.com-roma.com/en/][Hotel Ercoli]].
+
+** Room layout
+
+The room I'm sharing with two other guys is small but sufficient.
+
+[[https:www.steventammen.com/posts/06-02-19/room.JPG][file:/posts/06-02-19/room.JPG]]
+
+I also set up the travel monitor setup I am currently rolling with.
+
+[[https:www.steventammen.com/posts/06-02-19/monitors.JPG][file:/posts/06-02-19/monitors.JPG]]
+
+** WiFi
+
+With 30 data-happy Americans crowding onto the WiFi (phones and computers both), things in the hotel have been pretty slow. Being accustomed to ubiquitous, fast university WiFi, this has been frustrating.
+
+* First tour of the neighborhood
+
+** General street view
+
+Coming from relatively open suburban streets in America, the streets in Rome seem like they are in valleys between buildings. It's quite catching visually, and also provides a good deal of shade.
+
+
+[[https:www.steventammen.com/posts/06-02-19/street-view-1.JPG][file:/posts/06-02-19/street-view-1.JPG]]
+
+
+[[https:www.steventammen.com/posts/06-02-19/street-view-2.JPG][file:/posts/06-02-19/street-view-2.JPG]]
+
+
+** Things nearby
+
+Within a block of the Ercoli there are numerous interesting things. Essentially right outside the front door are the [[https://en.wikipedia.org/wiki/Gardens_of_Sallust][gardens of Sallust]]. One structure shows the layering of the city's architecture: over centuries, deposition of debris has buried older structures, and new ones are built on top. Digging a hole in Rome is like going backwards in time.
+
+[[https:www.steventammen.com/posts/06-02-19/layered-buildings-2.JPG][file:/posts/06-02-19/layered-buildings-2.JPG]]
+
+The long, narrow, red brickwork is ancient. It blends almost seamlessly into things built on top of it.
+
+[[https:www.steventammen.com/posts/06-02-19/layered-buildings-1.JPG][file:/posts/06-02-19/layered-buildings-1.JPG]]
+
+Aside from the ruins, there are also numerous restaurants (sandwiches, pizza), [[https://en.wikipedia.org/wiki/Gelato][gelato]] places, and grocery stores within a block or two, with bus stops nearby that have lines that go to the heart of historic Rome, as well as the train station.
+
+** Borghese park
+
+[[https:www.steventammen.com/posts/06-02-19/borghese-park-1.JPG][file:/posts/06-02-19/borghese-park-1.JPG]]
+
+This place is absolutely huge, yet it still managed to be crowded. There were kids everywhere on these pedal go-cart type things, some slalom cones set up for inline skates, pedal cars, couples sitting on benches, and so on. A beautiful mess of people enjoying the weather and open, scenic space.
+
+There were several objects in the park: statues, an obelisk, a villa that the wealthy aristocratic family who owned the land used previously to host guests.
+
+[[https:www.steventammen.com/posts/06-02-19/borghese-park-2.JPG][file:/posts/06-02-19/borghese-park-2.JPG]]
+
+** Pincian hill terrace
+
+After walking through much of the park, we came to a terrace on the top of the [[https://en.wikipedia.org/wiki/Pincian_Hill][Pincian hill]], overlooking the Campus Martius. I'll let the view speak for itself.
+
+
+[[https:www.steventammen.com/posts/06-02-19/pincian-hill-terrace-1.JPG][file:/posts/06-02-19/pincian-hill-terrace-1.JPG]]
+
+
+[[https:www.steventammen.com/posts/06-02-19/pincian-hill-terrace-2.JPG][file:/posts/06-02-19/pincian-hill-terrace-2.JPG]]
+
+
+[[https:www.steventammen.com/posts/06-02-19/pincian-hill-terrace-3.JPG][file:/posts/06-02-19/pincian-hill-terrace-3.JPG]]
+
