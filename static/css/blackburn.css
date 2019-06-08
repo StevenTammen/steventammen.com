@@ -36,11 +36,18 @@ td, th {
   text-align: left; 
 }
 
-img, figure, figure img {
-	display: block;
-	max-width: 100%;
-	height: auto;
-	margin: auto;
+img, figure {
+  display: block;
+  height: 100%;
+  width: 100%;
+  max-height: 100vh;
+  max-width: 100vh;
+  object-fit: contain;
+  margin: 10px auto;
+}
+
+figure img {
+  margin: 0px;
 }
 
 figure.captioned {
