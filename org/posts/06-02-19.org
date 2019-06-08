@@ -6,8 +6,6 @@
 #+HUGO_CATEGORIES: "Travel"
 #+HUGO_TAGS: "rome-2019" "rome"
 
-I'll figure out how to rotate the images properly once I'm less jet-lagged and sleep-deprived.
-
 * Outbound flight
 
 Today I flew to Rome for a Classics study abroad program.
