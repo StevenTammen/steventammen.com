@@ -1,0 +1,271 @@
+#+HUGO_BASE_DIR: ../../
+#+HUGO_SECTION: posts
+
+#+TITLE: 06-07-19
+#+DATE: 2019-06-08T08:08:30-04:00
+#+HUGO_CATEGORIES: "Travel"
+#+HUGO_TAGS: "rome-2019" "rome"
+
+Today we talked about a wide variety of things: Tiber island, a couple temples near the Forum Boarium, the Campus Martius and triumphs, the Largo Argentina and the victory temples therein, the theater of Pompey, and Giordiano Bruno, whose statue is in the Campo de' Fiori.
+
+* Tiber island
+
+** Background
+
+[[https://www.steventammen.com/posts/06-07-19/tiber-river.JPG/][file:/posts/06-07-19/tiber-river.JPG]]
+
+- 19th century walls around Tiber: Rome suffered from devastating floods of the Tiber; the walls help prevent this.
+- Flooding is perhaps another reason why Rome is built so much out of stone and cement.
+   - Waterproof Roman cement: middle of republic. 
+- Only island on the length of the Tiber.
+- Can ford the Tiber near the island (happens to be the only place where fording is possible). 
+- Bend in the river leads to a deposition of sand.
+- Tiber island was always considered as something slightly apart from the city of Rome, something a bit isolated. 
+   - Reason: 290 BC there was a serious plague.
+   - The consuls at the time consulted the Sybilline books to see what they ought to do.
+   - Answer (supposedly): send embassy to the Greeks, beg for a talisman from Greece, get it, and bring it back; then the plague will be lifted.
+      - Aesklepios: Greek healing god.
+   - Priests of Aesklepios give the embassy a snake.
+      - Snake as symbol of rebirth/resurrection: not negative connotation.
+   - Embassy carry sacred snake back to Rome in a basket. 
+   - Once they are at the city, the snake is knocked out of the basket and it swims in the Tiber to the island and stays, happily sunning itself. Superstitious Romans: "Aesklepios has chosen this island as his home."
+   - Thereafter, shrine to Aesklepios there.
+- Makes tremendous pragmatic sense:
+   - Effective treatment of epidemic -- quarantine.
+- The island has had a fairly consistent usage since antiquity (continuity of use). There has been a hospital on the island for centuries, from the Renaissance forward.
+- Scholars hypothesize that the temple to Aesklepios is under the church on the island. As in other cases, the church would have been built on top of an ancient temple. 
+- The island looks like the shape of a ship's hull.
+- At some point someone added a travertine block to make the front of the island look more like a brow of a ship than it already does. It is unclear if this was "officially sanctioned," so to speak, or not.
+   - Obelisk in the center of the island ~ mast.
+   - Bridges to island ~ oars.
+
+** Bridges
+
+- Pons Cestius
+   - Built in 40 BC.
+   - Almost nothing on the current bridge is ancient.
+- Pons Fabricius
+   - Build in the mid 60s BC.
+   - Largely intact from antiquity, but has undergone some refurbishments.
+   - Only still-functioning ancient bridge in Rome.
+- Both of these bridges were public benefactions.
+   - Built late republic.
+   - People trying to compete for attention.
+   - Were in office; finished bridges in tenure of office; bid for re-election: "I can do more things like this if you re-elect me."
+- Fabricius inscription
+   - Advertising his building of the bridge; taking credit for it. 
+   - Literacy: 10–15% at best.
+   - "Cooperative literacy" = illiterate people having literate people read things for them.
+   - "Inscriptional literacy" = repetitive forms, not as hard as real texts. People who couldn't read longform prose might be able to handle inscriptions just fine.
+
+* Temple of Portunus
+
+[[https://www.steventammen.com/posts/06-07-19/temple-of-portunus.JPG/][file:/posts/06-07-19/temple-of-portunus.JPG]]
+
+- One of few well-preserved structures from the republic.
+   - Much of what we have is imperial: more durable materials. The later construction (and thus shorter passage of time and closer proximity to the present) helps as well, of course.
+- Romans discovered a very effective form of concrete during the mid republic.
+   - Mix volcanic material: leads to a concrete that is cheap (relative to quarried rock), strong, sets faster, waterproof.
+- Portunus = god of harbors (among other associations).
+- Ocean-going ships had to move cargo to river ships/barges. This particular temple is associated with the "river harbor" where these river ships came, not the more distant harbor that dealt with ocean-going vessels.
+- The temple was surrounded by a portico.
+   - Sold flowers, flower garlands.
+   - The Romans really liked flowers.
+      - Religious rituals (temples). 
+      - Taking flowers to graves (cf. European and American traditions).
+      - Thus, the flowers thing is not as unexpected as you might think initially.
+- Nearby: forum of the vegetables, Forum Boarium.
+- One of the only republican temples to stay well-preserved.
+   - Why? Because the structure got taken over by a church.
+   - Frescos, etc. added inside.
+   - But under Mussolini, all the Christian stuff got torn down, and the temple was restored to be more like its ancient form. Fascist propaganda again.
+- Antonio Muñoz
+   - Of Spanish descent.
+   - Seems to have fueled Mussolini's obsession with antiquity.
+   - A mixed figure. On the one hand, we have classical monuments preserved due to him (although sometimes the excavation was carried out in a rushed, harmful way). On the other hand, he was responsible for the destruction of a lot of post-classical Rome.
+- This temple is a good "prototype" for understanding the architecture in play. Recall that Roman architecture is a blend of Greek and Etruscan elements.
+- Etruscan elements:
+   - On raised podium.
+   - Prostyle.
+   - Have to go through front, only stairs there. 
+- Greek elements:
+   - Ionic columns, capital decoration
+   - Tufa and travertine.
+      - Stone-built, durable
+   - Proportions are very Greek
+      - Etruscan temple: broad and low
+      - Greek temple: vertical -- narrow and tall
+   - Columns all around
+      - "False peristyle"
+      - Half-columns or ("engaged columns") attached to the wall
+      - Free-standing columns in front (prostyle). 
+
+* "Round temple by the Tiber"
+
+[[https://www.steventammen.com/posts/06-07-19/round-temple-by-the-tiber.JPG/][file:/posts/06-07-19/round-temple-by-the-tiber.JPG]]
+
+- Not entirely sure who it was dedicated to. Probably Hercules. We are also not sure who built it.
+- Circular temple.
+- Tholos: style of the temple
+   - Corinthian columns, peristyle.
+   - Steps extend all the way around.
+   - Imported Greek marble.
+      - ~100 BC
+      - Would have very much stood out at this time as one of the only marble temples in Rome.
+   - Also probably would have imported architect and perhaps some of the builders. Must have been /very/ costly.
+- Would have been a public benefaction that made a big impression.
+- Some of the Corinthian columns had to get replaced because of a flood.
+   - Their carved capitals are different than the originals. 
+
+* Santa Maria in Cosmedin
+
+- A temple of Hercules is thought to be under this church.
+- [[https://en.wikipedia.org/wiki/Bocca_della_Verit%C3%A0][Bocca della Verità]]
+   - "Mouth of truth"
+   - If your stuck your hand in the mouth of the sculpture and told a lie, it would supposedly bite your hand off. (Or a hiding priest would cut your hand off if he thought you were lying).`
+   - In the narthex of Santa Maria in Cosmedin.
+
+* Fontana Tartarughe
+
+[[https://www.steventammen.com/posts/06-07-19/fontana-tartarughe.JPG/][file:/posts/06-07-19/fontana-tartarughe.JPG]]
+
+- "Fountain of the turtles"
+- Original fountain dates to Renaissance
+   - Did not originally have the statues of the boys.
+- Restoration during 1600s.
+   - Bernini got a hold a hold of it. 
+   - Master of sculpture, marble and bronze.
+- Added dolphins and boys helping turtles into the fountain.
+   - Reserved Renaissance vs. flamboyant, even whimsical/playful, Baroque. Before the restoration the fountain was somewhat muted. After the restoration, the sculpture is quite a bit busier.
+- Baroque also likes designs that are much more complicated.
+   - Individual elements that are quite complex to look at.
+   - Engage viewers with things that take some time to visually process.
+- Even though many buildings in the area around this fountain (in the southern Campus Martius) are Renaissance and Baroque in terms of architecture, the layout is very much medieval. 
+   - Twisty roads, "organic design" = spring up haphazardly rather than being planned out.
+   - Tall buildings, close together.
+
+* The Campus Martius
+
+- Floodplain of Tiber north of Forum Boarium.
+   - Many things happened here, such as the levying of the army.
+   - Votes for consuls etc. were also taken here. Large open space.
+- Throughout republic, not much built here -- space used for large gatherings as necessary.
+- Another gathering occasion: army comes back after substantial victory. Generals apply to Senate for triumph.
+   - Mechanism by which they can advertise military success.
+   - The one and only time armed Roman soldiers could cross across the sacred boundary and march through the city.
+   - Army would camp in Campus Martius while the triumph gets organized.
+   - Things for the triumph also arranged logistically here.
+
+** Triumphs 
+
+- The path of a triumph made a counterclockwise movement from around the Jewish quarter to the main forum. Something like the below:
+   - Southen Campus Martius to vegetable market to forum boarium to Circus Maximus (an already-built structure that allowed a good chunk of the population to see the triumph), left around Palatine hill... to be continued.
+- Josephus on Vespasian's/Titus' triumph from the first Jewish war: 
+   - Many different elements that are part of a triumph. 
+      - Spoils
+      - Captives
+      - Exotic animals from the conquered land
+      - Pictures/paintings of cities and landscape to show what they conquered.
+      - Roman gods
+      - parade floats: models of cities, buildings, palaces, even battles.
+   - Like a river coursing through the city.
+   - This Josephus quote is in relation to the empire. In the republic, the generals would undoubtedly use the triumph for political advantage.
+- Spoils divided among general, army, and some goes to the public as well.
+   - Generals take their portion of the spoils and and build something: public benefaction.
+   - Roads, aqueducts, fountains, etc.
+
+* Largo Argentina
+
+- Up until 1970s, this area was covered by narrow, wandering, organic streets.
+   - Mussolini decided in the 1920s that he wanted this area to be a transportation hub of the city.
+   - Muñoz convinced Mussolini to abandon the idea of a transportation hub, and to excavate the ancient remains instead.
+   - Torre del papito -- "little pope's tower" -- the only element that survives from the medieval infrastructure in the area.
+- 4 republican era temples here.
+- All of the temples are victory temples.
+   - Successful general came back to Rome after triumph: present their victory, advertise their families, show their dedication to the gods.
+   - Benefits the people, the general, and the generals descendents (who can cash in on the generated goodwill).
+      - Thought: the gods will look favorably upon the Roman people on account of the temple.
+- Looking down into the Largo Argentina: 4 podia
+   - Temples A, C, D: prostyle
+
+#+CAPTION: Temple A
+[[https://www.steventammen.com/posts/06-07-19/largo-argentina-temple-A.JPG/][file:/posts/06-07-19/largo-argentina-temple-A.JPG]]
+
+#+CAPTION: Temple C
+[[https://www.steventammen.com/posts/06-07-19/largo-argentina-temple-C.JPG/][file:/posts/06-07-19/largo-argentina-temple-C.JPG]]
+
+#+CAPTION: Temple D
+[[https://www.steventammen.com/posts/06-07-19/largo-argentina-temple-D.JPG/][file:/posts/06-07-19/largo-argentina-temple-D.JPG]]
+
+- Temple B: tophos. Perhaps the most interesting of the 4. 
+   - It is thought that the grandson of the initial general expanded the cella ofter his own triumph.
+   - Walls are added, columns become engaged, podium also expanded.
+   - Thought to be a temple to the goddess Fortuna: fortune of this very day.
+
+#+CAPTION: Temple B
+[[https://www.steventammen.com/posts/06-07-19/largo-argentina-temple-B.JPG/][file:/posts/06-07-19/largo-argentina-temple-B.JPG]]
+
+- Altars are out in front of the temples (the rectangular remains).
+- Different levels of paving.
+   - First in tufa, then in travertine.
+   - History of use spans more than 500 years. The ground level changes over time.
+   - Tremendous flood: 23 BC. Presumably changed the ground level. Massive fire also, in 80 AD.
+- Temple A: far right. Some of the columns are made from tufa, some are made from travertine. The travertine columns come from later repairs to the original structure.
+   - The columns would have been covered in stucco, so differences in material would not be as apparent as in the present.
+- We think of these monuments as static, but the Largo Argentina helps us see that these had lives that stretched over centuries.
+- Between C and D: Curia of Pompey. Curia = meeting place for the Senate. See below.
+   - The main curia was in the forum.
+   - This one was therefore a secondary meeting place
+
+* The theater of Pompey
+
+** Background
+
+- Straight road from Largo Argentina:
+   - From a structure after triple triumph of Pompey in 55 BC, a structure collectively called the "theater of Pompey."
+   - Straight roads (vs. the windy, wandering type) usually signify that there is an underlying ancient road or building side. We have the latter here.
+- Three distinct pieces:
+   - Portico: inside was a magnificent garden. Water features, paintings, sculptures.
+      - Green space for people to enjoy. Also public art collection for the lower and middle classes that would not themselves possess any art.
+   - Curia: secondary meeting place of the Senate (as above).
+   - Greek-style theater.
+      - For a long time, the Senate resisted construction of a permanent theater: worried about "importing Greek vices."
+      - Pompey was thus clever in how he approached the construction of the theater. He built a theater, then put temples on top (one to Venus), and then said "oh no, it's not a theater, just stairs to get up to the temples."
+      - The Senate accepted the inevitable. They allowed for the theater to be put up in this manner so that they did not outright contradict the traditional position and lose face. (Or so one hypothesis goes).
+      - A modern building follows the curved foundation of the seating in the theater:
+
+[[https://www.steventammen.com/posts/06-07-19/theater-of-pompey-curved-foundation.JPG/][file:/posts/06-07-19/theater-of-pompey-curved-foundation.JPG]]
+
+- The name "theater of Pompey" is metonymic: the theater is one piece of the complex, but the name refers to all three parts together.
+   - As a sidenote, this explains the common misconception that Caesar was assassinated in a theater. Caesar was assassinated in the /curia/ of the theater of Pompey -- the Senate's meeting place in the complex, rather than the theater itself.
+   - This assassination was carried out on March 15, 44 BC -- the now-infamous ides of March. Pompey was dead at this point (killed in Egypt by treachery after fleeing there after Caesar defeated him at Pharsalus), but Plutarch views the location of the assassination as Pompey's revenge nonetheless.
+- This was probably the largest public benefaction up to this point in time.
+
+** Engineering details
+
+[[https://www.steventammen.com/posts/06-07-19/barrel-vault.JPG/][file:/posts/06-07-19/barrel-vault.JPG]]
+
+- Support for the theater complex of Pompey
+   - Barrel vault = arch made three-dimensional. The most basic form of Roman vaulted architecture.
+
+[[https://www.steventammen.com/posts/06-07-19/tufa-pyramid-facing.JPG/][file:/posts/06-07-19/tufa-pyramid-facing.JPG]]
+
+- Middle of 1st century BC: pyramid-shaped pieces of tufa were driven into setting concrete to form a facing. Leads to a diamond-like pattern.
+   - Setting: concrete can stand up on its own.
+   - Curing: concrete is dry all the way through.
+- The facing served as a form of interim support for the concrete. 
+
+* Campo de' Fiori
+
+- "Field of flowers" 
+- There is statue in middle of a man named [[https://en.wikipedia.org/wiki/Giordano_Bruno][Giordiano Bruno]]. He was a Catholic priest in the late 1500s, a Jesuit by training, a man who traveled all around Europe.
+   - Some scholars: may have been a spy for the Vatican in his travels.
+- Fascinated with astronomy.
+   - Conjectured that the lights in the sky were stars like the sun, and that they might have planets around them.
+- Arrested by the inquisition, but did not recant his beliefs.
+- 1600: defrocked as a priest, stripped naked, hung upside-down, burned at the stake.
+- Late 1800s: after Italy was made a secular (rather than Catholic) nation, a society formed to protest the Catholic Church's treatment of individuals that disagreed with them.
+   - Bruno became a symbol for people persecuted for believing something that the Church said they should not believe.
+- Catholic Church protested the erection of the statue vigorously.
+   - Still never recanted on the murder of Bruno.
+
