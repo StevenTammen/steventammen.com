@@ -1,11 +1,11 @@
 nav[data-toggle='toc'] {
   border: .1rem solid #f5f5f5;
-  background-color: #ffffff;
+  background-color: #191818;
   height: 100%;
 }
 
 nav[data-toggle='toc'] ul{
-  padding: 1px 4px !important;
+  padding: 0px 2px !important;
   list-style:none !important;
   list-style-type:none !important;
 }
@@ -13,7 +13,7 @@ nav[data-toggle='toc'] ul{
 .sticky {
   position:fixed !important;
   position: absolute; /*ie6 */
-  width: 20rem;
+  width: 15rem;
   height: 100%;
   right: 0;
   z-index: 100;
@@ -36,11 +36,11 @@ nav[data-toggle='toc'] ul{
 /* Set proper spacing with .main */
 
 #main {
-	margin-right: 20rem;
+	margin-right: 15rem;
 }
 
 /* show TOC only on large screens */
-@media (max-width: 1200px) {
+@media (max-width: 75em) {
   .sticky {
   transform:translate(9999px);
   opacity: 0;
@@ -62,26 +62,37 @@ nav[data-toggle='toc'] ul{
 /* All levels of nav */
 nav[data-toggle='toc'] ul > li > a {
   display: block;
-  padding: 4px 0px 4px 4px;
-  font-size: 13px;
+  padding: 8px 0px 8px 4px;
+  font-size: 12px;
   font-weight: 500;
-  color: #767676;
+  color: #999;
 }
 nav[data-toggle='toc'] ul > li > a:hover,
 nav[data-toggle='toc'] ul > li > a:focus {
-  color: #563d7c;
+  color: #40e0d0;
   text-decoration: none;
-  background-color: #eeeeee;
+  background-color: #333;
 }
-nav[data-toggle='toc'] .active,
-nav[data-toggle='toc'] .active:hover,
-nav[data-toggle='toc'] .active:focus {
-  border-left: 2px solid #563d7c;
+
+
+nav[data-toggle='toc'] li.active {
+  border-left: 2px solid #40e0d0;
 }
+
+nav[data-toggle='toc'] li.active > a:first-child {
+  margin-left: -2px;
+  border-left: 2px solid #191818;
+  font-weight: 900;
+}
+
+nav[data-toggle='toc'] li.active > a:only-child {
+  border-left: 2px solid #40e0d0;
+}
+
 
 /* Second level */
 nav[data-toggle='toc'] ul ul > li > a {
-  padding-top: 1px;
+  padding-top: 2px;
   padding-left: 10px;
   font-size: 12px;
   font-weight: normal;
@@ -90,10 +101,11 @@ nav[data-toggle='toc'] ul ul > li > a {
 /* Third level */
 
 nav[data-toggle='toc'] ul ul ul > li > a {
-  padding-top: 1px;
   padding-left: 16px;
-  font-size: 12px;
-  font-weight: normal;
+}
+
+nav[data-toggle='toc'] ul ul ul ul > li > a {
+  padding-left: 20px;
 }
 
 /* Only show subheadings on .active */

@@ -29,12 +29,12 @@ This is the parent `<div>` that contains the menu and the content area.
     padding-left: 0;
 }
     #layout.active #menu {
-        left: 170px;
-        width: 170px;
+        left: 140px;
+        width: 140px;
     }
 
     #layout.active .menu-link {
-        left: 170px;
+        left: 140px;
     }
 /*
 The content `<div>` is where all your content goes.
@@ -80,14 +80,14 @@ appears on the left side of the page.
 */
 
 #menu {
-    margin-left: -170px; /* "#menu" width */
-    width: 170px;
+    margin-left: -140px; /* "#menu" width */
+    width: 140px;
     position: fixed;
     top: 0;
     left: 0;
     bottom: 0;
     z-index: 1000; /* so the menu or its navicon stays above all content */
-    background: #191818;
+    background-color: #191818;
     overflow-y: auto;
     -webkit-overflow-scrolling: touch;
 }
@@ -107,6 +107,7 @@ appears on the left side of the page.
      #menu .pure-menu ul {
         border: none;
         background: transparent;
+		color: #40e0d0;
     }
 
     /*
@@ -122,6 +123,8 @@ appears on the left side of the page.
         #menu .pure-menu li a:hover,
         #menu .pure-menu li a:focus {
             background: #333;
+			color: #40e0d0;
+			text-decoration: none;
         }
 
     /*
@@ -216,21 +219,21 @@ Hides the menu at `48em`, but modify this based on your app's needs.
     }
 
     #layout {
-        padding-left: 170px; /* left col width "#menu" */
+        padding-left: 140px; /* left col width "#menu" */
         left: 0;
     }
     #menu {
-        left: 170px;
+        left: 140px;
     }
 
     .menu-link {
         position: fixed;
-        left: 170px;
+        left: 140px;
         display: none;
     }
 
     #layout.active .menu-link {
-        left: 170px;
+        left: 140px;
     }
 }
 
@@ -243,6 +246,6 @@ Hides the menu at `48em`, but modify this based on your app's needs.
     */
     #layout.active {
         position: relative;
-        left: 170px;
+        left: 140px;
     }
 }
