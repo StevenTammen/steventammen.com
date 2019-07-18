@@ -13,7 +13,7 @@ nav[data-toggle='toc'] ul{
 .sticky {
   position:fixed !important;
   position: absolute; /*ie6 */
-  width: 15rem;
+  width: 35%;
   height: 100%;
   right: 0;
   z-index: 100;
@@ -35,20 +35,72 @@ nav[data-toggle='toc'] ul{
 
 /* Set proper spacing with .main */
 
-#main {
-	margin-right: 15rem;
+#layout {
+	margin-right: 35%;
 }
 
-/* show TOC only on large screens */
-@media (max-width: 75em) {
+@media (max-width: 97.5rem) {
   .sticky {
-  transform:translate(9999px);
-  opacity: 0;
+	width: 30%;
   }
-  #main {
-	margin-right: 0;
+  
+  #layout {
+	margin-right: 30%;
   }
 }
+
+@media (max-width: 91rem) {
+  .sticky {
+	width: 25%;
+  }
+  
+  #layout {
+	margin-right: 25%;
+  }
+}
+
+@media (min-width: 85rem) {
+  .sticky {
+	display: inline-block;
+  }
+}
+
+
+/* show TOC only on large screens */
+
+@media (max-width: 85rem) {
+  .sticky {
+	display: none;
+    width: 50%;
+  }
+  
+  nav[data-toggle='toc'] ul ul > li > a {
+	padding-top: 10px !important;
+	padding-bottom: 10px !important;
+  }
+
+  #layout {
+	margin-right: 0rem;
+  }
+}
+
+@media (min-width: 85rem), (max-width: 48em) {
+  #menu-toc-toggle {
+    display: none;
+  }
+}
+
+@media (max-width: 48em) {
+  .sticky {
+	margin-bottom: 50px; /* to prevent mobile bar from blocking */
+    width: 80%;
+  }
+  
+  .menu-not-bar {
+	display: none;
+  }
+}
+
 
 
 
@@ -123,5 +175,5 @@ nav[data-toggle='toc'] .active > ul {
  * Customizations of Bootstrap Table of Contents v0.4.1 (bootstrap-toc, with modifications)
  */
 nav[data-toggle='toc'] ul ul > li > a {
-  padding-bottom: 3px !important;
+  padding-bottom: 3px;
 }

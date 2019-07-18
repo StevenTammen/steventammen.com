@@ -64,6 +64,49 @@ code {
 	border-radius: 3px;
 }
 
+/* Footer with display toggles */
+
+.mobile-bar {
+  position: fixed;
+  z-index: 1000;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #191818;
+  color: #999;
+  display: flex;
+}
+
+#menu-div, #toc-div, #pgdn-div, #pgup-div {
+  flex: 1 1 0;
+  text-align: center;
+  border: 1px solid #999;
+  padding: 10px 0px;
+}
+
+#menu-div a, #toc-div a, #pgdn-div a, #pgup-div a {
+  display: inline-block;
+  width: 100%;
+  height: 100%;
+  font-size: 20px;
+  font-weight: 900;
+  color: #999;
+  text-decoration: none;
+}
+
+@media (min-width: 48em) {
+  .mobile-bar {
+	display: none;
+  }
+}
+
+@media (max-width: 48em) {
+  .mobile-bar {
+	display: flex;
+  }
+}
+
+
 /* ----------------------------------- */
 
 .small-print {

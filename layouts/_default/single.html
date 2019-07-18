@@ -1,9 +1,4 @@
-
-{{if eq .Title "About"}}
-   {{ partial "header-content.html" . }}
-{{else}}
-   {{ partial "header.html" . }}
-{{end}}
+{{ partial "header-content.html" . }}
 
 <div class="header">
   <h1 data-toc-skip>{{ .Title }}</h1>
@@ -14,6 +9,8 @@
 		{{ .Content }}
 	</div>
 </div>
+
+{{ partial "mobile-bar.html" . }}
 
 <!-- Latest compiled and minified Bootstrap JavaScript -->
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
