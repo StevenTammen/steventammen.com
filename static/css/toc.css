@@ -97,8 +97,9 @@ nav[data-toggle='toc'] ul{
 
 @media (max-width: 48em) {
   .sticky {
+	/* to prevent mobile bar from blocking */
 	height: calc(100vh - 50px);
-	margin-bottom: 50px; /* to prevent mobile bar from blocking */
+	margin-bottom: 50px;
     width: 80%;
   }
   

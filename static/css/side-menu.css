@@ -19,6 +19,7 @@ This is the parent `<div>` that contains the menu and the content area.
 #menu {
 	left: 140px;
 	width: 140px;
+	height: 100vh;
 }
 
 	
@@ -168,7 +169,9 @@ Hides the menu at `48em`, but modify this based on your app's needs.
 	}
 	
 	#menu {
-		margin-bottom: 50px; /* to prevent mobile bar from blocking */
+		/* to prevent mobile bar from blocking */
+		height: calc(100vh - 50px);
+		margin-bottom: 50px;
 		width: 80%;
         display: none;
 		left: 0px;
