@@ -1,5 +1,5 @@
 baseurl = "https://www.steventammen.com/"
-title = "StevenTammen.com"
+title = "The Blog"
 theme = "blackburn"
 author = "Steven Tammen"
 canonifyurls = true

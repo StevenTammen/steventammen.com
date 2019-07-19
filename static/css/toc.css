@@ -5,6 +5,10 @@ nav[data-toggle='toc'] {
 }
 
 nav[data-toggle='toc'] ul{
+  height: 100%;
+  overflow: auto;
+  margin-block-start: 0em;
+  margin-block-end: 0em;
   padding: 0px 2px !important;
   list-style:none !important;
   list-style-type:none !important;
@@ -14,14 +18,15 @@ nav[data-toggle='toc'] ul{
   position:fixed !important;
   position: absolute; /*ie6 */
   width: 35%;
-  height: 100%;
+  height: 100vh;
   right: 0;
   z-index: 100;
   border-top: 0;
   line-height: 1.1;
-  overflow: auto; display: inline-block; /* scrollbars */
+  display: inline-block;
   box-shadow: -3px 6px 8px 0px rgba(0,0,0,0.1);
 }
+
 
 @keyframes fadeInOpacity {
 	0% {
@@ -92,6 +97,7 @@ nav[data-toggle='toc'] ul{
 
 @media (max-width: 48em) {
   .sticky {
+	height: calc(100vh - 50px);
 	margin-bottom: 50px; /* to prevent mobile bar from blocking */
     width: 80%;
   }
