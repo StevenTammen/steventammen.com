@@ -185,4 +185,11 @@ Hides the menu at `48em`, but modify this based on your app's needs.
 	#menu .pure-menu ul > li:first-child {
 		border-top: 2px solid #999;
 	}
+	
+	/* Hide PgUp and PgDn links in menu when they are
+	   assessible in the mobile bar.
+	*/
+	.menu-not-bar {
+		display: none;
+	}
 }
