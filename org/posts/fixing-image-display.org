@@ -3,8 +3,8 @@
 
 #+TITLE: Fixing Image Display
 #+DATE: 2019-06-08T11:50:10-04:00
-#+HUGO_CATEGORIES: "Computers/Software"
-#+HUGO_TAGS: "workflow" "camera-stuff"
+#+HUGO_CATEGORIES: "Travel" "Computers/Software"
+#+HUGO_TAGS: "rome-2019" "rome" "workflow" "camera-stuff"
 
 * My camera
 
