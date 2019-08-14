@@ -10,6 +10,7 @@ draft = false
 
 -   [Lurker's Guide to Leangains](https://www.pbnation.com/showthread.php?t=3555986)
 -   [11 Reasons I Stick With Intermittent Fasting and Leangains](https://www.malandarras.com/stickwith-leangains)
+-   [What's the Difference Between Casein and Whey Protein?](https://www.healthline.com/nutrition/casein-vs-whey#bottom-line)
 
 
 ## Some nutrition ramblings {#some-nutrition-ramblings}
