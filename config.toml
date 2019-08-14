@@ -21,6 +21,9 @@ paginate = 10
   highlightjs_extra_languages = ["lisp", "r", "autohotkey"]
   dateFormat = "02 Jan 2006, 15:04"
 
+[blackfriday]
+  fractions = false
+  
 [menu]
 
   # Shown in the side menu.
