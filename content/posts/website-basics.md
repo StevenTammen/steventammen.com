@@ -13,7 +13,7 @@ A _webpage_ is a page that you can visit on the internet that has it's own addre
 
 ### Domain name registrar {#domain-name-registrar}
 
-Each web address is unique: you cannot have more than one ichthys.com. For this reason, web addresses must be registered with people known as _domain registrars_. You can think of domain registrars as having a similar function as the government entities that are responsible for the license plates of cars. Just how each car has its own unique license plate, so too does each website have its own web address.
+Each web address is unique: you cannot have more than one steventammen.com. For this reason, web addresses must be registered with people known as _domain registrars_. You can think of domain registrars as having a similar function as the government entities that are responsible for the license plates of cars. Just how each car has its own unique license plate, so too does each website have its own web address.
 
 There are various "kinds" of domains, such as .com, .net, .org, and so on. These are called _top level domains_ (TLDs). General computer users are most familiar with .com, and for this reason there is much competition to register short and mnemonic .com domains. As long as you stick with the three most common TLDs (as listed above), it does not matter so much. More exotic TLDs (like the .io domains that some startups use) cost more to keep registered (around $35 USD per year as opposed to $12 USD per year), and they are also harder for less tech-savvy people to recognize, so I would avoid them.
 
@@ -28,7 +28,7 @@ When a user visits the web address of your website, a translation happens from y
 
 The thing performing this translation is called a _DNS server_, and the people providing these servers are called _DNS providers_. After registering your domain name, you have use a DNS provider to "point" your domain at something, otherwise nothing will show up on your site.
 
-There are plenty of good, free DNS providers, but I personally use [Netlify](https://www.netlify.com/docs/dns/). Your DNS provider may influence Content Delivery Network (CDN) performance.
+There are plenty of good, free DNS providers, but I personally use [Netlify](https://www.netlify.com/docs/dns/). Your DNS provider may influence [Content Delivery Network (CDN)](#content-delivery-network--cdn) performance.
 
 
 ### Mail provider {#mail-provider}
@@ -64,7 +64,7 @@ For most people setting up their own websites, I would recommend [Let's Encrypt]
 
 A Content Delivery Network (CDN) is a system to minimize the time it takes for your page to be sent over the internet.
 
-Imagine that webpages are analogous to pizza, and a user visiting a site is like someone ordering pizza. If there were only one pizza place in an entire city, people living far away from the pizza place might get their ordered pizza much slower than people that live near the pizza place. A wise pizza company would have multiple store locations in the city so that when someone ordered pizza, a delivery guy from the nearest store would be sent to fulfill the order, rather than a delivery guy from a faraway store.
+Imagine that webpages are analogous to pizzas, and a user visiting a site is like someone ordering a pizza. If there were only one pizza place in an entire city, people living far away from the pizza place might get their ordered pizza much slower than people that live near the pizza place. A wise pizza company would have multiple store locations in the city so that when someone ordered a pizza, a delivery guy from the nearest store would be sent to fulfill the order, rather than a delivery guy from a faraway store.
 
 Setting up a CDN is basically like building more pizza places. You let your webpages be delivered from servers around the world rather than a single server that might be very far away geographically from someone visiting your website.
 
@@ -91,7 +91,7 @@ For this reason, most websites that are constructed from files under version con
 
 Now, since web browsers and web servers deal with HTML files not files written in Markdown or Org, if you want your files to be written in these markup languages, you need to convert them to HTML somehow. This is the job of the _static site generator_.
 
-Static site generators turn files written in markup languages into HTML. What makes these generators "static" is that they build these HTML files... and then these HTML files don't change over time. This works just great for webpages that are acting like text documents, but if you have an interactive web application (where a webpage might need to change depending on who is logged in and what their setting are, for example), then you really do need to support dynamically building webpages on the fly.
+Static site generators turn files written in markup languages into HTML. What makes these generators "static" is that they build these HTML files... and then these HTML files don't change over time. This works just great for webpages that are acting like text documents, but if you have an interactive web application (where a webpage might need to change depending on who is logged in and what their settings are, for example), then you really do need to support dynamically building webpages on the fly.
 
 Fully static websites can be very easily cached since the webpage seen by one user will always be the exact same as the one seen by another. When pages change depending upon different variables, they become harder to cache: every new web request leads to a new web page being built from scratch, that must then be sent from the web server building the page to the user. If you recall our discussion of CDNs in terms of pizza places, the slowdown here is twofold: having to build webpages (pizzas) upon every request is slower than having webpages (pizzas) already built and ready to send, and having to send webpages (pizzas) from a single location leads to slower delivery times for people who live far away from the place where the webpages (pizzas) are made.
 
@@ -115,16 +115,16 @@ Most all static site generators allow for good templating.
 
 _Themes_ specify what your site should look like, and can be switched out with a little work. Websites are analogous to car paint jobs: they don't change the underlying function of a site (car), but they do change how it looks.
 
-Themes are built on a concept called Cascading Style Sheets (CSS). While HTML specifies _what_ content is to appear on a webpage, CSS specifies _how_ the content appears.
+Themes are built on a concept called _Cascading Style Sheets (CSS)_. While HTML specifies _what_ content is to appear on a webpage, CSS specifies _how_ the content appears.
 
-To say that themes are just CSS is a bit of a simplification. Most themes have website navigation (menus), headers, footers, and custom home pages built-in, and all of these things require HTML to implement. In reality, themes are simply a collection of templates with some additional styling on top with CSS. It is typical to add some templates to an already-existing theme, as it fits your content.
+To say that themes are just CSS is a bit of a simplification. Most themes have website navigation (menus), headers, footers, and custom home pages built-in, and all of these things require HTML to implement. In reality, themes are simply a collection of templates with some additional styling on top with CSS. It is typical to add some additional templates to an already-existing theme, as your content requires.
 
 Most all static site generators have a good selection of themes to choose from when constructing a site.
 
 
 ### Design areas focused on practical functionality {#design-areas-focused-on-practical-functionality}
 
-Having a functioning website is quite a different thing from having a site that performs optimally. I will say that I have been personally surprised to find how suboptimal most websites across the internet are. Much of what I say below is opinionated, and some people are bound to disagree.
+Having a functioning website is quite a different thing from having a site that performs optimally. I will say that I have been personally surprised to find how suboptimal most websites across the internet are. Much of what I say below is opinionated, and some people are bound to disagree. This section is also, of course, necessarily incomplete in scope; the idea is simply to give an idea of the complexity of thoughtful website design.
 
 My ideas are implemented in my take on an optimal theme, the [Spartan Theme](https://github.com/BlizzardWorks/spartan) for Hugo.
 
@@ -142,7 +142,7 @@ The vast majority of websites make poor use of the screen real-estate available 
 
 Since all people using a landscape orientation and most tablet users using a portrait orientation have horizontal space to spare, it makes sense to make use of this space by using a narrow sidebar for navigation rather than a top bar that takes up precious vertical space (and what's worse, also doesn't let you fit as much).
 
-Within this sidebar, sections make sense, but it is silly to hide navigation items and require a click or hover to get to them. It's inefficient to do such due to a concept called information scent: navigation works best when it is dead obvious where to find a particular link. (You can get a feel for the concept in James Archer's [cogent criticism of the hamburger menu](https://jamesarcher.me/hamburger-menu)). You can't get better information scent than not hiding anything to begin with, as long as things are logically arranged.
+Within this sidebar, sections make sense, but it is silly to hide navigation items and require a click or hover to get to them. Doing such is inefficient because of a concept called _information scent_: navigation works best when it is dead obvious where to find a particular link. (You can get a feel for the concept in James Archer's [cogent criticism of the hamburger menu](https://jamesarcher.me/hamburger-menu)). You can't get better information scent than not hiding anything to begin with, as long as things are logically arranged.
 
 
 #### Icons for navigation links {#icons-for-navigation-links}
@@ -194,29 +194,31 @@ There is absolutely no excuse for a site not to have a table of contents, since 
 
 Google, as the largest search engine in the world, has a say in whether or not your site gets high visibility. Like other search engines, Google has something called page rank. Essentially, page rank determines how far up in the search results your site will appear relative to other sites (as in the top of page 1 versus the bottom of page 6). We want this to be as high as possible. Google uses many variables in determining page rank, but support for HTTPS is an especially important one.
 
-There are other design considerations relating to so-called _search engine optimization (SEO)_ that deal with how search engines score your site in their page rank algorithms. For most people, ensuring that your site is responsive, running over HTTPS, with content not duplicated across subdomains (most notably the bare domain and the www subdomain) will help your pages rank well enough that you probably shouldn't worry so much about finer points. You should also strive not to delete pages or change their names as this makes it hard for your website to build up link traffic that factors into page rank.
+There are other design considerations relating to so-called _search engine optimization (SEO)_ that deal with how search engines score your site in their page rank algorithms. For most people, ensuring that your site is responsive, running over HTTPS, with content not duplicated across subdomains (most notably the bare domain and the www subdomain) will help your pages rank well enough that you probably shouldn't worry so much about finer points. You should also strive not to delete pages or change their names as this makes it hard for your website to build up link traffic, which factors into page rank.
 
 The real key to SEO success is creating valuable content that people actually want to read and share.
 
 
 ### Paying for web design is unnecessary for text-centric websites {#paying-for-web-design-is-unnecessary-for-text-centric-websites}
 
-If you are building a text-based content-focused website -- one that does not need fancy interactive functionality (that would be implemented in a programming language called JavaScript) and probably does not require an overly complicated content layout -- it is easily possible to use a free theme and avoid paying anyone for web design.
+If you are building a text-based content-focused website -- one that does not need fancy interactive functionality (that would be implemented in a programming language called [JavaScript](https://en.wikipedia.org/wiki/JavaScript)) and probably does not require an overly complicated content layout -- it is easily possible to use a free theme and avoid paying anyone for web design.
 
-Moreover, it is possible to select a DNS provider, mail provider, web host, encryption certificate provider, and CDN such that your website's setup cost is free and only recurring cost is domain name registration through a registrar (usually on the order of $12 USD per year).
+Moreover, it is possible to select a DNS provider, mail provider, host, encryption certificate provider, and CDN such that your website's initial setup cost is free and only recurring cost is domain name registration through a registrar (usually on the order of $12 USD per year).
 
 
 ### User-friendly editor frontends {#user-friendly-editor-frontends}
 
-With this being said, setting up a website is something that is daunting if you have no knowledge of computer networks and computer science tools like [Git](https://git-scm.com/) (a version control system). A great deal of what we have discussed thus far can be completely abstracted away from content creators using something called a content management system (CMS). I have several times now mentioned the [Netlify CMS](https://www.netlifycms.org), a very good CMS using version-controlled Markdown to produce static HTML pages served over a fast CDN.
+With this being said, setting up a website is something that is daunting if you have no knowledge of computer networks and computer science tools like [Git](https://git-scm.com/) (a version control system). A great deal of what we have discussed thus far can be completely abstracted away from content creators using something called a _content management system (CMS)_. I have several times now mentioned the [Netlify CMS](https://www.netlifycms.org), a very good CMS using version-controlled Markdown to produce static HTML pages served over a fast CDN.
 
-An ideal situation, to my mind, is to find a friend or family member who is computer-savvy enough to help you with an initial website setup via Netlify (e.g., registering a domain name, setting up nameservers and mailservers, configuring the CDN), and then interacting with the live site using the Netlify CMS. Your computer-savvy buddy will not ever have to intervene once things are set up initially unless you decide you want more templates or want to tweak something about the appearance of your site, and you won't have to deal with any of the complicated programmer bits, instead making use of a slick, easy-to-use frontend.
+An ideal situation, to my mind, is to find a friend or family member who is computer-savvy enough to help you with an initial website setup via Netlify (e.g., registering a domain name, setting up nameservers and mailservers, configuring the CDN), and then interacting with the live site using the Netlify CMS. Your computer-savvy buddy will not ever have to intervene once things are set up initially unless you decide you want more templates for new content categories or want to tweak something about the appearance of your site, and you won't have to deal with any of the complicated programmer bits, instead making use of a slick, easy-to-use frontend.
 
 There is no reason why a CMS workflow cannot make use of offline Markdown files for drafting content, just pasting the finished Markdown into the CMS. I will here again plug [Typora](https://typora.io) as a good cross-platform Markdown editor.
 
 
 ### Making resources available in a wide variety of formats {#making-resources-available-in-a-wide-variety-of-formats}
 
-While this post has focused on creating content for a website, it is best to make your content available in multiple different file formats. The two other kinds of formats that are most important after HTML, to my mind, are printing formats like PDF (used by people for printing writing out to read it on paper) and eReader formats like ePub (used by people with eReaders).
+While this post has focused on creating content for a website, it is best to make your content available in multiple different file formats. The two other kinds of formats that are most important after HTML, to my mind, are printing formats like PDF (used by people for printing writing out to read it on paper) and eReader formats like ePub (used by people with eReaders).[^fn:1]
 
-You can automate the generation of these other formats from your markup language files (or even HTML files or .docx files) using an excellent tool called [Pandoc](https://pandoc.org/).
+You can streamline the generation of these other formats from your markup language files (or even HTML files or .docx files) using an excellent tool called [Pandoc](https://pandoc.org/). Pandoc is a command-line tool, making it perhaps somewhat harder for ordinary people to use, but this is also an advantage as it can easily be scripted to export to other formats completely automatically.
+
+[^fn:1]: It is probably best to support the Mobi file type in addition to ePub, since Mobi is used by [Amazon Kindle devices](https://www.amazon.com/Amazon-Kindle-Ereader-Family/b?node=6669702011), which are the most common kind of eReader. Pandoc does not export to Mobi directly at this time, but you can [use Amazon's KindleGen command-line program with Pandoc](https://puppet.com/blog/how-we-automated-our-ebook-builds-pandoc-and-kindlegen) to generate Mobi files.
