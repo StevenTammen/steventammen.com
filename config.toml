@@ -1,6 +1,6 @@
 baseurl = "https://www.steventammen.com/"
-title = "The Blog"
-theme = "blackburn"
+title = "Home"
+theme = "spartan"
 author = "Steven Tammen"
 canonifyurls = true
 paginate = 10
@@ -19,7 +19,7 @@ paginate = 10
   highlightjs = "solarized-dark"
   # additional languages for highlight.js (for all pages)
   highlightjs_extra_languages = ["lisp", "r", "autohotkey"]
-  dateFormat = "02 Jan 2006, 15:04"
+  dateFormat = "02 Jan 2006"
 
 [blackfriday]
   fractions = false
@@ -30,84 +30,152 @@ paginate = 10
   [[menu.navigation]]
     name = "Home"
     pre = "<i class='fa fa-home fa-fw'></i>"
-    weight = 1
+    weight = 0
     identifier = "home"
     url = "/"
 	
-	
-  [[menu.content]]
-    name = "Posts"
-    pre = "<i class='fa fa-picture-o fa-fw'></i>"
-    weight = 2
-    identifier = "posts"
-    url = "/posts/"
-  [[menu.content]]
-    name = "Pages"
-    pre = "<i class='fa fa-file-text fa-fw'></i>"
-    weight = 3
-    identifier = "pages"
-    url = "/pages/"
-  [[menu.content]]
-    name = "Links"
-    pre = "<i class='fa fa-link fa-fw'></i>"
-    weight = 4
-    identifier = "links"
-    url = "/links/"
-  [[menu.content]]
-    name = "Tags"
-    pre = "<i class='fa fa-tags fa-fw'></i>"
-    weight = 5
-    identifier = "tags"
-    url = "/tags/"
-  [[menu.content]]
-    name = "Categories"
-    pre = "<i class='fa fa-folder fa-fw'></i>"
-    weight = 6
-    identifier = "categories"
-    url = "/categories/"
-	
-	
-  [[menu.site]]  
-    name = "RSS"
-    pre = "<i class='fa fa-rss fa-fw'></i>"
-    weight = 7
-    identifier = "rss"
-    url = "/index.xml"
-  [[menu.site]]  
-    name = "About"
-    pre = "<i class='fa fa-sitemap fa-fw'></i>"
-    weight = 8
-    identifier = "about"
-    url = "/about/"
-  [[menu.site]]  
-    name = "Roadmap"
-    pre = "<i class='fa fa-trello fa-fw'></i>"
-    weight = 9
-    identifier = "roadmap"
-    url = "https://waffle.io/StevenTammen/steventammen.com"
-  [[menu.site]]  
-    name = "Settings"
-    pre = "<i class='fa fa-cog fa-fw'></i>"
-    weight = 10
-    identifier = "settings"
-    url = "/settings/"
-	
-	
+
   [[menu.author]]
-    name = "Projects"
-    pre = "<i class='fa fa-code fa-fw'></i>"
-    weight = 11
-	identifier = "projects"
-    url = "/projects/"
+    name = "About"
+    pre = "<i class='fas fa-user fa-fw'></i>"
+    weight = 10
+	identifier = "about-the-author"
+    url = "/about-the-author/"
   [[menu.author]]
     name = "Resume"
-    pre = "<i class='fa fa-file-pdf-o fa-fw'></i>"
-    weight = 12
+    pre = "<i class='fas fa-file-pdf fa-fw'></i>"
+    weight = 20
 	identifier = "resume"
     url = "/resume.pdf"
   [[menu.author]]
     name = "Contact"
     pre = "<i class='fa fa-phone fa-fw'></i>"
-    weight = 13
+    weight = 30
 	identifier = "contact"
     url = "/contact/"
+  [[menu.author]]
+    name = "Software"
+    pre = "<i class='fa fa-code fa-fw'></i>"
+    weight = 40
+	identifier = "software"
+    url = "/software/"
+  [[menu.author]]
+    name = "Nonfiction"
+    pre = "<i class='fas fa-book fa-fw'></i>"
+    weight = 50
+	identifier = "nonfiction"
+    url = "/nonfiction/"
+  [[menu.author]]
+    name = "Fiction"
+    pre = "<i class='fas fa-book fa-fw'></i>"
+    weight = 60
+	identifier = "fiction"
+    url = "/fiction/"
+  [[menu.author]]
+    name = "Hire me"
+    pre = "<i class='fas fa-handshake fa-fw'></i>"
+    weight = 70
+	identifier = "hire-me"
+    url = "/hire-me/"
+	
+
+  [[menu.content]]
+    name = "Pages"
+    pre = "<i class='fas fa-file-alt fa-fw'></i>"
+    weight = 110
+    identifier = "pages"
+    url = "/pages/"
+  [[menu.content]]
+    name = "Sources"
+    pre = "<i class='fas fa-file-alt fa-fw'></i>"
+    weight = 120
+    identifier = "sources"
+    url = "/sources/"
+  [[menu.content]]
+    name = "Reviews"
+    pre = "<i class='fas fa-file-alt fa-fw'></i>"
+    weight = 130
+    identifier = "reviews"
+    url = "/reviews/"
+  [[menu.content]]
+    name = "Guides"
+    pre = "<i class='fab fa-youtube fa-fw'></i>"
+    weight = 140
+    identifier = "guides"
+    url = "/guides/"
+  [[menu.content]]
+    name = "Life hacks"
+    pre = "<i class='fas fa-file-alt fa-fw'></i>"
+    weight = 150
+    identifier = "life-hacks"
+    url = "/life-hacks/"
+  [[menu.content]]
+    name = "Weekly links"
+    pre = "<i class='fas fa-file-alt fa-fw'></i>"
+    weight = 160
+    identifier = "weekly-links"
+    url = "/weekly-links/"
+  [[menu.content]]
+    name = "Blog"
+    pre = "<i class='fas fa-file-alt fa-fw'></i>"
+    weight = 170
+    identifier = "posts"
+    url = "/posts/"
+	
+	
+  [[menu.site]]  
+    name = "About"
+    pre = "<i class='fas fa-sitemap fa-fw'></i>"
+    weight = 210
+    identifier = "about-the-site"
+    url = "/about-the-site/"
+  [[menu.site]]
+    name = "Subject Index"
+    pre = "<i class='fas fa-list fa-fw'></i>"
+    weight = 220
+    identifier = "subject-index"
+    url = "/subject-index/"
+  [[menu.site]]
+    name = "Categories"
+    pre = "<i class='fa fa-folder fa-fw'></i>"
+    weight = 230
+    identifier = "categories"
+    url = "/categories/"
+  [[menu.site]]
+    name = "Tags"
+    pre = "<i class='fa fa-tags fa-fw'></i>"
+    weight = 240
+    identifier = "tags"
+    url = "/tags/"	
+  [[menu.site]]
+    name = "Settings"
+    pre = "<i class='fas fa-cog fa-fw'></i>"
+    weight = 250
+    identifier = "settings"
+    url = "/settings/"
+  [[menu.site]]  
+    name = "Mailing List"
+    pre = "<i class='fas fa-envelope fa-fw'></i>"
+    weight = 260
+    identifier = "mailing-list"
+    url = "/#mailing-list"
+  [[menu.site]]  
+    name = "RSS"
+    pre = "<i class='fas fa-rss fa-fw'></i>"
+    weight = 270
+    identifier = "rss"
+    url = "/index.xml"
+	
+	
+  [[menu.community]]
+    name = "Forums"
+    pre = "<i class='fab fa-discourse fa-fw'></i>"
+    weight = 31
+	identifier = "forums"
+    url = "/pages/about-the-author/"
+  [[menu.community]]
+    name = "Discord"
+    pre = "<i class='fab fa-discord fa-fw'></i>"
+    weight = 32
+	identifier = "discord"
+    url = "/pages/contact/"
