@@ -1,0 +1,131 @@
+#+HUGO_BASE_DIR: ../../
+#+HUGO_SECTION: pages
+
+#+TITLE: "Motorcycles"
+#+DATE: 2018-03-18T17:56:22-04:00
+#+HUGO_CATEGORIES: "Gear"
+#+HUGO_TAGS: "transportation" "rethinking standards" "hobbies"
+#+HUGO_CUSTOM_FRONT_MATTER: :inprogress true
+
+* Safety
+
+- Motorcycles are inherently more dangerous than cars due to no barrier between you and other (sometimes incompetent) motorists driving 2-ton metal cages.
+- On the other hand, motorcycles are inherently safer than cars due to 1) better vision (higher up on bikes with upright seating position, no blind spots, can easily head-check), 2) better acceleration, maneuverability, and handling, 3) better attention forced by being more "present" in the act of driving, and 4) better risk awareness: motorcycles make you assume less about your safety and therefore take less risks/be more risk conscious.
+- Many causes of injury/accidents are entirely preventable
+
+  - Alcohol/drug impairment
+  - Texting/talking on the phone
+  - Excessive speeding
+  - Overestimating cornering ability: coming in too hot
+  - Not wearing helmets
+  - Not wearing protective, abrasion resistant jackets/pants/gloves/boots
+  - Beginners (first 6 months) not being cautious enough --- people are most vulnerable when they first start.
+  - People not being cautious enough if they start riding a new motorcycle with different cornering and braking behavior.
+  - Wheelies and other reckless behavior like street racing (squidly behavior)
+
+- Some things are what I would call "less preventable"
+
+  - Loose gravel, diesel spills, stalled cars, edge traps etc. around blind corners.
+
+    - You can choose a cornering line that gives you maximum visibility and traction control and choose to never be going faster than your sight range. This way even if something unavoidable comes up you will have reduced your risk envelope significantly.
+
+  - Motorists turning left in front of you (biggest overall cause of motorcycle accidents/fatalities)
+
+    - Wear visible clothing and helmet/run visible auxiliary lights on your bike. Have retro-reflective panels for night.
+    - Don't stay in traffic near large trucks or buses as they block your view and the view other drivers have of you.
+    - Always ease off the throttle, drop a gear (if on an ICE bike), and ride the front brake when coming into intersections (shaving off 5-10 mph and being ready to stop if necessary)
+    - Learn how to make quick stops without locking up the back tire and highsiding -- you can shed most of the speed before you hit a car that pulls out in front of you if you are already on the front brake coming into an intersection.
+    - There is a mantra repeated by experienced riders: "ride like you are invisible." The takeaway from this saying is that you should expect people to pull out in front of you and that you should always be prepared to handle someone who does.
+    - Ride with a field of vision 12 seconds out; always be on the lookout of possible environmental hazards.
+    - Learn how to predict car movements: front tires move twice as fast as bumpers (so will always be pointing sideways to a degree and moving /before/ a car starts turning/merging), drivers checking mirrors and especially head-checking signals that they are about to turn/merge, etc.
+
+  - Cars changing lanes into you
+
+    - Don't ride in people's blind spots. If you can't see their eyes in the mirror, they can't see you. Not everyone will head check.
+    - Have a strong horn on your bike and don't be shy using it.
+    - Look out for "traffic sharks" (weaving cars who have no regard for speed limits or the safety of others) and avoid them by getting out of their path, falling back, etc.
+
+  - Getting rear ended (statistically rare but still happens)
+
+    - Again, visible gear, especially tail-lights
+    - When you stop behind a car ahead of you, leave enough space to take evasive actions if someone behind isn't stopping. Check your mirrors when stopped.
+    - Position yourself away from oncoming traffic, if applicable.
+
+* Electric Motorcycles
+
+- You should watch [[https://www.youtube.com/watch?v=1ggZEfq9JX4][this video]]. Electric bikes destroy ICE bikes across every single metric you can compare them on (except for ease of refueling -- which doesn't matter for ranges at or below ~100 miles -- and up-front cost). Like the guy in the video, it's not the environmental stuff or even low maintenance that draws me to electric bikes, but the instant torque at all engine RPMs and lack of shifting required, particularly when cornering: not having to shift lets you just focus on your lines instead of worrying about downshifting to get more torque, etc. The other stuff is just icing on the cake.
+- Philosophically, most of the time we only take ourselves places and have no need to haul other people or objects (outside of what can be reasonably fitted in a large top box). Passenger cars with 5 seats and a trunk that only transport one person from A to B are inherently wasteful. Smaller cars are better, as are some of the newer alternative vehicles, but motorcycles are basically the least mass that will safely get you from A to B.
+
+  - The advantage widens if the motorcycles have aerodynamic characteristics. Cars are generally more aerodynamic than motorcycles, but are still less energy efficient overall.
+
+- Internal combustion engines are inherently inefficient: most vehicle engines have an efficiency on the order of 35% ([[https://physics.stackexchange.com/questions/98966/maximum-theoretical-efficiency-of-internal-combustion-engine#98992][see here]]). More energy is lost from the transmission process (every time one gear hits another some energy is lost to friction, e.g.), so by the time wheels get moved, even the energy that the engine did not waste inherently gets whittled down. Electric engines have around 90% efficiency, and the source power comes either from clean sources (renewable, nuclear) or from higher efficiency power plants with scrubbers and such (higher efficiencies and lower emissions than vehicle ICEs).
+- Cars have a whole host of yearly maintenance that is required. Compared to motorcycles, everything is bigger and costs more (a bigger engine and 4 tires instead of 2, for example). ICE motorcycles have to maintain chains, carburators/fuel injection systems, engine oil levels, etc.; belt-driven electric motorcycles only have to maintain tires and brakes. Maintenance costs overall will be significantly lower.
+- Due to what most folks living in suburbia use transportation for, use should be optimized for low-to-mid speed traffic with some freeways and interstates thrown in occasionally. (Obviously people that have long commutes need to take them into account; most of us don't). Electric motorcycles do best in these environment, and regenerative braking can recoup energy from stop and go traffic.
+- Insurance will be lower than cars or ICE motorcycles with a displacement that would give similar power.
+- No vibration: long term riding comfort, won't shake mirrors and make looking behind you more difficult.
+- Quiet. Won't make enemies with neighbors, increased safety from hearing traffic noises around you, especially noticeable difference compared to ICE motorcycles stopped at lights. Pedestrians may not be used to quiet vehicles but that's what caution and the horn are for.
+- No energy is wasted idling. ICEs effectively waste money and create unnecessary fumes. (Some now give you the option of engine shutoff when stopped; however, it takes time for the engine to restart, so this isn't an ideal solution).
+- Electric motorcycles have high torque available at all times nearly instantaneously (with reasonable ramp up time if starting from zero for logical safety purposes). Can more easily accelerate to safety from any speed. Makes turns easier: just twist throttle to roll out, no need to worry about downshifting for torque.
+- Continuous acceleration makes getting up to speed from low/stop much smoother and mindless rather than shifting through a series of gears.
+- Frees up mental processing power from operating the clutch/shift pedal under all circumstances. Won't matter as much for experienced riders, but it will still have some impact.
+- Electric motor with one moving part + drive belt (rather than chain): few moving parts + simplicity ---> less likely to break, much less to keep track of/check, fewer points of failure.
+- Ability to tailor torque, engine braking, and top speed to circumstances dynamically on the fly with app. Setting top speed can act as built in cruise control. Can also change modes on the fly (to pass, e.g.).
+- Built in tank bag/storage, hollow top = lower center of gravity. (Assuming battery is placed low on the bike).
+- Lack of vibration enables better sense of tire grip and available traction.
+- You don't have to sit on a hot engine... very beneficial for hot, humid days.
+- No ingestion of fumes from your own vehicle (still have problems with other folks, but, well, still better).
+- No ability to put bike in gear for parking. Doodad to to lock front brake.
+
+* Windscreens and Fairings
+
+- Windscreens increases buffeting if not adjusted properly
+- For tall folks, windscreens have to be very large to get air to travel over helmet, will act as sails
+- Windscreens can make ducking into wind to take load off arms impossible because of airflow and buffeting
+- No air feedback on how fast you are going
+- Both windscreens and fairings increase /unpredicatable/ effects of crosswinds and winds from semi's passing etc.
+- Add weight and reduce handling (even if not by much).
+- Make jacket vents useless if no airflow on chest (can always layer up when raining/cold).
+- Proper full face helmet and jacket/gloves/pants/boots will protect from bugs and rocks.
+- No super extended trips means really long term comfort << safety and handling. (Use case).
+- Using it to duck down in rain is not beneficial because it adds another layer of water splattered plastic. Does keep rain off body though (with proper gear, this doesn't matter).
+- Aerodynamic helmet (properly designed) and ear plugs mean air on helmet is not problematic
+- http://www.hondashadow.net/forum/53-general-bike-discussion/55753-why-should-i-get-windshield-2.html
+- Fairings may make it easier to grip tank with legs, but may not always want this (can do it unintentionally) and change steering. Not really a significant factor for most people. Countersteering is far more important for normal bike handling.
+
+* Hand Guards
+
+- Offer more protection from rocks and debris, but good gloves already do that >> redundant, unnecessary expense
+- Add weight (if not much, still every little bit adds up, especially the higher up it is), obscure some degree of vision (again, every little bit counts)
+- Make airflow/venting to hands impossible (good in winter, bad in summer). Taking them on and off can vary in difficulty, but if you want to get the best of both worlds, you could change them out by season
+- Theoretically protect throttle in crash. Less important without clutch for electrics. Might also trap/pin hand etc. --- perhaps dual edged.
+
+* Riding Position
+
+- Upright much more closely mimics natural ergonomics of human body than sport position/reclining.
+- Higher up due to sitting up straight gives much better view of surroundings, very important for safety.
+- More visible to others, safety again.
+- Can measure speed intuitively by air resistance on body (assuming no windscreen).
+
+* Loud Pipes
+
+- While sound is omnidirectional to an extent, it is still true that it has areas of higher and lower intensity.
+
+  - Funneling sound waves through pipe reduces longitudinal waves in all directions but the exit.
+  - Exit on exhaust systems is pointing backwards; greatest threats to motorcycle safety (cars turning in front of you or merging into you) are either in front or to the side, respectively.
+  - The more things to bounce off of (buildings etc.), the less impact unidirectional sound funneling will have.
+
+- Has very concrete negative effects on other people (esp. those behind you, and even more esp. If they have to follow you for any significant distance). Loud exhaust systems are inconsiderate, and limit what you can do at certain times of the day (early morning, e.g. --- don't want to wake up neighbors).
+- Quiet motorcycles give you better situational sound awareness, with or without earplugs. Full stop. I can control what I do with additional auditory information. I can't control whether other people will do if they hear loud motorcycle exhaust (or if they hear it in the first place: radios, earbuds, etc.).
+- Excessively loud pipes (e.g., 100+ dB) can permanently cause hearing damage, sometimes even though hearing protection. To be very useful as a safety feature, greater volume is needed, especially if you are riding at higher speeds.
+- Even if your pipes are loud enough/you are close enough and some amount of sound reaches a driver, there is no guarantee that they will accurately identify the origin location and take appropriate action (cf. most people cannot immediately identify where an ambulance siren is coming from, and they have frequencies specifically designed to be heard).
+- Cars are getting more and more sound insulation straight from the factory, and aside from pure distraction, many people listen to (loud) music when driving --- there is no guarantee that your loud pipes will even get heard by certain drivers. Can't rely on them as a form of accident prevention. Furthermore, these distracted drivers/those listening to loud music are the types of individuals less likely to responsibly check before they act, so the group being targeted by your loud pipes is likely going to be the very ones that they won't help you with. (Responsible drivers will see you with or without loud pipes, especially if you wear high visability gear and run auxiliary lights).
+- A loud horn accomplishes the same purposes as loud pipes (informing others of your presence)... except only when necessary rather than all the time. As long as you aren't shy using the horn when people have a possibility of hitting you, it is arguably even more effective than pipes (proper aftermarket horns are louder than what most people consider "reasonable" loud pipes to be, even at high revs; people are conditioned to listen to/respond to horns).
+- Quieter motorcycles are less identifiable by cyclists and pedestrians if they do not properly look both ways and rely on sound alone (bad, bad idea!). Rapid use of horn in potentially problematic situations mostly solves this issue as well (but it is a legitimate area of concern). Again, there are certain individuals (the guy walking across the street blasting death metal at ear-numbing levels, the cyclist with noise cancelling earphones in so he can hear his audiobook) that would be problematic either way, and it is worth noting that these type of "damned if you, damned if you don't" individuals are the ones most likely to act without looking --- that is, the true number of cases where vehicle noise would have alerted someone to your presence that would not have otherwise come to know of your presence is actually rather low. The folks without headphones in that aren't distracted by other things (such as looking at their phones) are more likely to be the folks who also look both ways before stepping into a street... meaning they would see you even if your pipes weren't loud.
+- Cyclists and pedestrians are easier to avoid than cars, so if you operate under the assumption that increased situational awareness with respect to sound exceeds or balances any possible benefits of other drivers hearing you on account of your exhaust, it follows that you are shifting problematic objects from cars (big) to cyclists/pedestrians (small), things you are more likely to be able to avoid.
+- Many situations where loud pipes might have some use in protecting you (e.g., riding right next to someone/in their blind spot such that they have the possibility of merging into you) are completely avoided by proper defensive driving. You should strive to never be in close proximity with cars for extended distances, especially in their blindspots, unless you have to be. Same deal goes for being by bicycles: try to put space between you and them in whatever way possible. Quiet pipes won't pose as large a threat to them if you take pains to minimize the times you are near them.
+- Loud pipes can startle cyclists or other drivers and cause them to act unexpectedly (horns can arguably have the same effect, but you don't use your horns with great frequency, and drivers/cyclists/pedestrians, especially those who have been at it for a significant amount of time, have a reflex reaction to horns along the lines of --- "I better move back over / not continue walking forward, someone is already occupying/will soon occupy that space"). Surprise rarely leads to positive reactions (one of the reasons it is so important in military strategy), so thus we want to avoid surprising other people on the road. Loud pipes (especially combined with hooliganry) do the opposite. (On the other hand, quietly coming up behind someone has the potential to surprise them too, so there are arguments on both sides).
+- Wind noise at highway speed will drown out reasonably loud exhaust (in the ballpark of 80-85 dB), and hearing is thus similar to that of bikes with quiet exhaust, but at lower speeds, riders of quieter bikes will have a much better capacity to hear things around them. Most accidents happen at lower speeds in an urban (rather than freeway) environment. (The extent to which better hearing will improve your safety or the safety of others is of course debatable, but being able to hear better is certainly superior to not being able to hear well. I am of the opinion that any additional information I have is worth more than what other people have because I control myself but have no way to influence them; I can make more efficient use of additional auditory input than other drivers, on the whole).
+
+* My Pick
+
+- [[http://www.zeromotorcycles.com/zero-ds/specs.php?model=dsr][Zero DSR]]

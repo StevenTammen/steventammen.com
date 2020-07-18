@@ -1,0 +1,42 @@
++++
+title = "Hackish SSH Escaping for Rsync"
+date = 2018-07-05T13:36:29-04:00
+tags = ["ssh", "rsync"]
+categories = ["Computers/Software", "Productivity/Efficiency"]
+draft = false
++++
+
+## Motivation {#motivation}
+
+My school's remote servers are running some old version of RHEL. We have to use private Git repositories for shared projects in classes for obvious reasons (can't have other people looking at code due to academic honesty and what have you), but the version of Git installed on the aforementioned servers are old enough that it apparently doesn't support username/password authentication. (I haven't tried key authentication with SSH -- it might work).
+
+I obviously don't have root on the school servers (so can't run a package manager command like `sudo yum install`), otherwise I would do that. I also can't easily compile Git from source (I tried...), since I'd have to also manually compile a bunch of dependencies (apparently our servers don't have `curl-devel`, for example, which has some headers that are used in Git compilation). I'm sure I _could_ go through the process (and script it for progeny), but it seems like too much bother.
+
+
+## Goals {#goals}
+
+What I want to be able to do is have _one_ terminal open for compiling remotely and using Git. Since I can't use Git remotely (see above), this means I need some way to jump back and forth between my SSH session and local terminal. I also wanted some experience using rsync.
+
+Now, I could set all this up in a cleaner way than what is described in the next section. For example:
+
+-   SSHFS (or some alternate Windows package for mounting a remote filesystem over SFTP) would be less work than rsync'ing my files up. But then I don't get practice with rsync.
+-   Setting up a local CLion build chain (with a Windows C/C++ compiler like MinGW) would be even better, since I could just work locally and rsync the code up at the end to test it on the servers that our professor/TA will be running it on. Setting up CLion in my Linux VM (to use GCC/G++) and rsyncing from there would have the same effect.
+-   Using a terminal multiplexer like Tmux or GNU Screen would probably obviate the need for the workflow below. But I wanted to see if there was a way to accomplish what I wanted without one.
+-   Setting up an [SSH tunnel back to my local machine](https://serverfault.com/questions/175798/ssh-back-to-the-local-machine-from-a-remote-ssh-session) would allow the rsync command to be run remotely (since I could access my local machine remotely). This would make it easy to create a new makefile target and incorporate the rsync command (moving files from local to remote) into the build process.
+-   Etc.
+
+So basically, I'm aware that there are "better" ways to do what I describe below, but part of the fun in this is that you don't "need" any of the extra software and configuration to accomplish the same thing. It's not as clean or effortless, sure, _but you can still do it_. I think that's pretty cool, and speaks to the utility of thoughtfully designed programs.
+
+
+## The workflow {#the-workflow}
+
+1.  On your remove server, after pressing Enter, type a tilde (~). This is the [OpenSSH escape character](https://lonesysadmin.net/2011/11/08/ssh-escape-sequences-aka-kill-dead-ssh-sessions/). Following this with Ctrl-Z will temporarily background the SSH connection, and let you run commands locally.
+2.  Run an rsync command locally to send up files. I made an alias for my particular command:
+
+```bash
+alias p1="rsync -a --delete /mnt/c/Users/steve/Desktop/Projects/Tammen-Steven-p1/ tammen@nike.cs.uga.edu:/home/ugrads/tammen/Tammen-Steven-p1"
+```
+
+1.  use `fg` to pull the remote shell back up.
+
+Altogether, getting the local files sent to remote requires a sequence that looks something like `{Enter}~{Ctrl}zp1{Enter}fg{Enter}{Enter}`. Not the prettiest ever, but hey, it doesn't have dependencies other than OpenSSH and rsync, which are installed basically everywhere. So there is that.

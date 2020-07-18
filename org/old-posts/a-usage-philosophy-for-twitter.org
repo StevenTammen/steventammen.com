@@ -1,0 +1,73 @@
+#+HUGO_BASE_DIR: ../../
+#+HUGO_SECTION: posts
+
+#+TITLE: A Usage Philosophy for Twitter
+#+DATE: 2018-12-25T21:36:22-05:00
+#+HUGO_CATEGORIES: "Productivity/Efficiency"
+#+HUGO_TAGS: "workflow" "anonymity" "twitter"
+
+* General thoughts concerning personal internet presence
+
+** Lack of anonymity
+
+As the good bard says, "All the world's a stage." No more is this the case than in our modern internet age in which many people carefully craft masks to show the world. Usually there is nothing at all nefarious in this; people want to present themselves as likeable, intelligent, and so on, so they selectively post things about themselves that show them in a good light: happy, successful, thoughtful. More than this, there is a permanence to what is posted on the internet. Ill-conceived vacation pictures give employers pause, ancient political rants (or sexist, racist, etc. remarks) torpedo careers, and shallow preening from less mature years sticks around long past it represents the true measure of self-esteem one has.
+
+Most importantly, however, social media uses real names and identities. Services such as Facebook and Twitter are not generally used in an anonymous context, and therefore they become a liability of sorts. If you are not careful about what you post and what ends up visible to the public, then all it takes is one misplaced statement, and you can find yourself facing serious consequences. As unfair as it may be, context is seldom taken into account in the public eye, so essentially everything one says is fair game for someone wishing to ruin your reputation or slander you.
+
+This is not some sort of exaggerated, scaremongering view of things either. If you do your own research, you will find that these things are so.
+
+** Responsibility
+
+Aside from Facebook (which I use infrequently to communicate within various groups of interest—I have few friends and don't post anything) and Twitter (which I am just now starting to use), I use my real name on forums that I visit, on Reddit, and on my websites. 
+
+I have decided that I would rather hold myself to a standard of communication that links what I say with my real identity. Arguably, this opens one up to risks related to identity theft and fraud. However, I like transparency, and would rather that I always have the pressure to be respectful because things I say are in public view and attached to me. I have clashed with various people in my life over such a policy, but am firmly convinced in my own case that this is the right thing to do. If I am not willing to say something and have it be attached to my real name, then I probably should not be saying it in the first place. 
+
+In general, everyone is responsible for the things they say on the internet. The thing about anonymity is that it lets people think that this rule no longer applies to them: that they can say truly horrible things without repercussions. To an extent this is true. If you are not stupid about it or talking about assassinating important people or blowing things up, you will probably not get doxxed. But that doesn't make you any less responsible in a moral sense.
+
+If you decide to use your real name, then you are responsible for maintaining a professional outlook in everything you write. If you say something boneheaded, that's on you. In general, it is best to avoid discussing things relating to vitriolic issues in politics. Even if you are being respectful and thoughtful, political winds can cause issues if your positions do not accord to the "right" position. Keeping up to date on what you should avoid discussing takes a bit of reflection, but it's really not that hard. If you see something in the news a lot with multiple people shouting at each other disrespectfully in discussion, you should probably avoid the issue if you have a choice. No matter what you say, you are going to alienate some people, and may face consequences due to them disagreeing with the position you have made public. 
+
+** Free speech
+
+Free speech is an important part of the democratic process, but one would be naive to think that there is really any such thing in a personal sense—the ability to express your opinion without any negative consequences resulting from /parties other than the government/. What is protected in the first amendment to the constitution, as it is commonly debated at any rate, is protection from government censorship more than a ticket to say whatever you want without other people being able to react. In other words, while you should not be prosecuted by the government in a properly-functioning democracy for saying things (with a few logical exceptions), social (rather than legal) consequences from your speech are not something forbidden.
+
+I would wager that a misunderstanding of these things accounts for much of the current outcry about how free speech is being violated in the modern political apparatus. Different political factions may get people that disagree with them fired from their jobs, ruin their reputations, and so forth. It is unfortunate that censorship occurs in this manner, but it is not technically a violation of the first amendment inasmuch as it is not the government limiting speech.
+
+Things like anti-discrimination laws, patient confidentiality, and so on are government-imposed limitations on speech that apply in workplace environments. However, as long as they are handling these things by-the-books, companies can basically hire and fire employees for whatever speech-related reasons they want (for example, if you mention that you do not like the same baseball team as your boss on Facebook). Moreover, individuals are free to insult you (as long as said insults are not overtly discriminatory and what they say cannot be proved to be slander or libel) in whatever context they want, drag your name through the mud, and overall make your life miserable, all legally.
+
+All this is a long way of saying that there is nothing particularly noble in my mind about weighing in on political issues that are likely to cause negative personal consequences just to try to prove a point. If others were not so petty as to use statements on the internet as ammunition to cause problems for people that disagree with them, then this wouldn't be a problem. But unfortunately this is not the case.
+
+** Being open and honest
+
+There is a difference between keeping your views about certain topics to yourself for fear of disproportionate social consequences, and being fundamentally dishonest. The very nature of social media promotes dishonesty, but this doesn't mean one ought to consciously go around parroting popular opinions to gain followers or social standing
+
+To the degree that you are willing to face backlash for making your views on things known, to that extent it is not really a bad thing to not limit your speech for fear of others' reactions. There are some areas that have a legitimate reason for discussing political issues: religion, satire, history, and so forth. The idea in the discussion above was just to introduce the concept that guarding what one posts non-anonymously is a good idea, not to set hard and fast rules. I think a reasonably sound rule of thumb when considering what you discuss is asking the questions "Is this likely to offend certain people and get me in trouble?" (i.e., weighing potential consequences), and "Is this really useful for me to be talking about?" (i.e., weighing whether or not discussion of the issue in question would be actively beneficial). If you think the ratio of benefits to costs is high, then there is no problem being true to yourself.
+
+It is worth pointing out too that if you are in a position where you are able for whatever reason to bear the social consequences of speaking up about something that is being censored by various non-governmental interest groups, it is a decidedly good thing to fight back against active censorship by not remaining silent. Other people sharing your view may be unable to speak up properly since they cannot bear the consequences; if no one resists active censorship of a position, the people engaging in censorship and thought-policing win by default, and that's no good.
+
+** Dealing with old writing
+
+One final thing to say with regard to one's internet presence: it is inevitable that you will eventually change your mind about some things, and also just grow as a person and a writer. With few exceptions, I am usually rather unhappy with older writing of mine, and often wish to change things. My rule of thumb is that if it is easy and acceptable for me to edit things, then I will always do it. But editing your old posts on a forum can cause issues for people reading threads later; any time your writing is part of some wider dialogue, it is usually not good to go back and change things after the fact (at best this can be confusing, and at worst it can be downright deceptive as one side of an argument is changed to make the other side look worse). As long as what you are leaving as history is just something that is a bit out of date with your views on a rather minor topic, then most reasonable people will understand that views change as more information rolls in, and not fault you for it. You may want to adopt a less conservative stance with respect to things likely to land you in trouble, such as if you have a backlog of mean tweets and racist jokes on your Twitter account. If such things don't represent who you are now, then leaving them around for other people to dig up does you no good. Remember, of course, that once you put something on the internet, there is always the possibility that it never goes away, even if you delete it yourself.
+
+* Twitter and my uses for it
+
+I've been rather resistant to the idea of Twitter for the last couple years because I could never see the value in artificially limiting how many characters you have to express things. I am not a particularly concise person, so to me the whole concept seemed to be somewhat questionable.
+
+In the last couple months, I decided that I need a place to post links to interesting articles that I come across that I am not entirely sure that I will use in future writing. I have hundreds of bookmarks in Chrome and many links to articles and research papers for drafts in progress, but sometimes I read an interesting article but am not entirely sure if I will end up using it or not. Additionally, there are times when I am sure that I will reference something later, but am not entirely sure where I should store the link for the time being. 
+
+** Twitter as a link repository
+
+Twitter is one of the larger social media platforms. I figure that there might be some individuals out there somewhere who could benefit from a collection of links that I find interesting, so why not share? If I have a bunch of personal bookmarks or links embedded in drafts, those don't necessarily do other people any good. Of the large social media options, Twitter seems like the most natural fit for sharing links that I find interesting.
+
+Retweeting links also gives credit where credit is due. A lot of the reading I do online is via links that others post first. Manually retweeting (so that I can add my categorization tags) is a very natural way of "citing" people, so to speak.
+
+** How organized should it be? 
+
+Pretty unorganized seems best to me. The idea will be to just dump interesting links into the Twitter account, and then [[https://twitter.com/search-advanced/][search on the collection later]]. You could of course do this in other ways too (such as with project management software, spreadsheets, or even plain text files via Org mode), but having the links on Twitter makes them useful to other people. Using a Chrome extension like LastPass to save specific searches for the search form (or at least information like your account name) speeds up the search process.
+
+Using hashtags to tag content is easy, and since you can filter by user /and/ hashtags, this allows for a dead simple system for organizing similar links. The only problem with this is figuring out what hashtags you are using so that you stay consistent. Labeling something as #software doesn't do much good if you label similar things as #computerProgramming instead; in this case you are splitting like content across multiple hashtags. At the moment I am just keeping a list of all the tags I am using, but I'm guessing there would be a way to automatically generate all the tags used by a particular Twitter user via the API. Perhaps more useful for normal Twitter users would be a list of all the tags used on tweets that also contain the #linkSharing tag (or something similar).
+
+There is also the advantage that if you happen to convince friends to do something similar (and share your tag names), you could hypothetically search across multiple users to share link resources. That is something that other link-aggregation solutions would not offer (or at least would not offer as seamlessly).
+
+** Do self-links count?
+
+I am not planning on including a link to literally every single blog post and page I write, but if I think that they are particularly useful, I don't see any reason not to include links to things that I wrote myself. The truly motivated could probably set up a Zapier workflow to automatically tweet links to new posts and pages that you publish, using the same tags you already use in your static site generator or CMS as hashtags. I'm too lazy to set this up at the moment, but I'm guessing it would be possible to set up something like this, particularly if you already use RSS.

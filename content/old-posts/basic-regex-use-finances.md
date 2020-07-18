@@ -1,0 +1,47 @@
++++
+title = "Basic Regex Use: Finances"
+date = 2018-06-28T15:05:18-04:00
+tags = ["regex", "smarter not harder"]
+categories = ["Productivity/Efficiency"]
+draft = false
++++
+
+## Background {#background}
+
+Yesterday I went through my finances from the last half-year or so. I roll my own Excel system rather than using some automatic system linked to my credit card. I can set up custom filtering and sums, for example, that would be harder to manage if I didn't have the raw data.
+
+Another benefit of having fine control like this is if you are dealing with tax paperwork (as opposed to outsourcing everything out to some third party -- which costs money). My current college education is being paid for with money that relatives/parents have saved in things like [529s](https://en.wikipedia.org/wiki/529%5Fplan) and [Coverdell IRAs](http://coverdellira.com/). These are great for encouraging spending on education, but they do force a certain amount of bookkeeping in expense categories.
+
+For example, you can only use "educational money" for certain types of expenses. Paying student fees, buying textbooks, paying for room and board (of an equivalent nature to dorms and dining halls), and so forth. In my system, I have labels for various tax-relevant categories to break them out individually; this might be difficult or impossible in various "automatic" systems, or at the very least require some degree of manual intervention anyway.
+
+I can do this Excel system since I worked a semester as a Business Analyst for a consulting firm that dealt with a lot of messy financial output data from medical software programs. So things like VLOOKUP, SUMIF, and offset formulas are not strange or foreign to me. This is not to say I'm super special or anything like that, but setting something like this up might be a bit beyond basic Excel users.
+
+
+## Getting data the old way {#getting-data-the-old-way}
+
+My credit card is through [Chase](https://www.chase.com/). The statements are in a PDF form that does not paste tab-separated out of the box. Here is an example of what the data looks like (from a real statement of mine):
+
+> 03/20 UGA FOOD SVC Q02 ATHENS GA 7.60 <br />
+> 03/23 THE UPS STORE 3778 ATHENS GA 13.92 <br />
+> 03/23 JIMMY JOHNS - 313 ATHENS GA 7.05 <br />
+> 03/22 UGA CHICK FIL A ATHENS GA 8.44 <br />
+
+Most of my expenses end up being boring administrative stuff like this -- food, shipping, and so forth. Now, the problem is, in 6 months of use, we are talking hundreds of charges to the card.
+
+I had put off doing this exercise for a while now since the last couple times I've done this, I've manually edited the data from the statement PDFs to get it to behave properly in a spreadsheet format. This caused the whole process to take around 4 or 5 hours. Some of this time was me adding a short description of what the charges were, as necessary (especially for vague things like Amazon, it is helpful to know what the expense actually is rather than just knowing it is from Amazon), but a lot of it was a bunch of boring, repetitive data refactoring.
+
+
+## Using regular expressions {#using-regular-expressions}
+
+In a couple of recent projects, I've started using regex find and replace very frequently. Even for quick stuff, the ability to use capture groups can make many otherwise-tedious actions a breeze. I used to avoid regexes in general since they always seemed like a big bother, but once I sat down and made myself learn the syntax, and started using visual aids like <https://regexr.com/>, I've come to appreciate their power and relative ease of use. Backslash escaping stuff (particularly parentheses) is the only real pain point I still have with regexes.
+
+Anyhow, in this case, I decided I wanted to split the data by Date, Expense Name, and Cost. Excel has a "string to column" option that can work for space separated data, but it doesn't work here. While you could use LEFT to get the dates, you can't use RIGHT for the cost since, for example, 4.50, 14.50, and 140.50 all have different numbers of digits. Thinking about it, it is probably possible to extract the cost with a combination of MID and FIND, but all this is still much more of a pain than the consistency of regular expressions.
+
+When I started this time, I wrote a regular expression find and replace in literally a minute and a half. Here's what it looked like (Notepad++ style replacement syntax):
+
+-   Find: `([0-9]{2}\/[0-9]{2}) (.*) ([0-9.]*)`
+-   Replace: `\1\t\2\t\3`
+
+Copying the (now tab-separated) data into Excel took all of 5 seconds. Then adding my expense descriptions took probably around half an hour. All in all, I spent maybe 40 minutes start to finish, rather than 4-5 hours.
+
+I then proceeded to kick myself for not thinking of such a thing earlier, and saving myself all the pain and toil of manually reformatting my data the past few times I've done this.
