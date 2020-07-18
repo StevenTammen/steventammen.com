@@ -1,22 +1,24 @@
-{{ partial "header-list-pages.html" . }}
+{{ partial "header-content.html" . }}
 
 <div class="header">
-  <h1>{{ .Title }}</h1>
-  <h2>{{ .Site.Params.subtitle }}</h2>
+  <h1 data-toc-skip>{{ .Title }}</h1>
+  <h2 data-toc-skip>{{ .Description }}</h2>
 </div>
-
 <div class="content">
-  {{ range ( .Paginate (where .Data.Pages "Type" "posts")).Pages }}
-    {{ .Render "summary"}}
-  {{ end }}
-
-  {{ partial "pagination.html" . }}
-
+	<div class="container">
+		{{ partial "post_meta.html" . }}
+		{{ if (eq .Params.inprogress true) }} {{ partial "in-progress.html" . }} {{ end }}
+		{{ .Content }}
+		{{ partial "disqus.html" . }}
+	</div>
 </div>
 
-{{ partial "mobile-bar-list-pages.html" . }}
+{{ partial "mobile-bar.html" . }}
+
+<!-- Latest compiled and minified Bootstrap JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 
 <!-- Site Functions -->
-<script src="{{ .Site.BaseURL }}js/site-functions-list-pages.js"></script>
+<script src="{{ .Site.BaseURL }}js/site-functions.js"></script>
 
 {{ partial "footer.html" . }}
