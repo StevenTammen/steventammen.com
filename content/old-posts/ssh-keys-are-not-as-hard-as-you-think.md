@@ -1,10 +1,12 @@
 +++
 title = "SSH Keys Are Not as Hard as You Think"
 date = 2018-07-05T00:21:59-04:00
-tags = ["ssh", "workflow", "cryptography"]
-categories = ["Computers/Software"]
+tags = []
+categories = []
 draft = false
 +++
+
+[//]: # (tags = ["ssh", "workflow", "cryptography"], categories = ["Computers/Software"])
 
 ## Motivation {#motivation}
 

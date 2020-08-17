@@ -1,11 +1,13 @@
 +++
 title = "Pencils"
 date = 2018-03-18T17:57:15-04:00
-tags = ["writing gear", "essential gear"]
-categories = ["Gear"]
+tags = []
+categories = []
 draft = false
 inprogress = true
 +++
+
+[//]: # (tags = ["writing gear", "essential gear"], categories = ["Gear"])
 
 ## Basic Idea {#basic-idea}
 

@@ -1,10 +1,12 @@
 +++
 title = "SEO and Ethics"
 date = 2019-01-06T18:21:29-05:00
-tags = ["SEO", "internet marketing", "conversations with others"]
-categories = ["Philosophy"]
+tags = []
+categories = []
 draft = false
 +++
+
+[//]: # (tags = ["SEO", "internet marketing", "conversations with others"], categories = ["Philosophy"])
 
 ## The SEO offer {#the-seo-offer}
 

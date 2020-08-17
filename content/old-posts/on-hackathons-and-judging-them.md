@@ -1,10 +1,12 @@
 +++
 title = "On Hackathons and Judging Them"
 date = 2019-02-13T00:54:33-05:00
-tags = ["programming", "fairness", "hackathons"]
-categories = ["Philosophy", "Computers/Software"]
+tags = []
+categories = []
 draft = false
 +++
+
+[//]: # (tags = ["programming", "fairness", "hackathons"], categories = ["Philosophy", "Computers/Software"])
 
 ## Background {#background}
 

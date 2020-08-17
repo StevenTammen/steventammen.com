@@ -1,10 +1,12 @@
 +++
 title = "Windows vs MacOS vs Linux"
 date = 2018-05-20T22:24:18-04:00
-tags = ["workflow", "operating systems"]
-categories = ["Computers/Software", "Productivity/Efficiency"]
+tags = []
+categories = []
 draft = false
 +++
+
+[//]: # (tags = ["workflow", "operating systems"], categories = ["Computers/Software", "Productivity/Efficiency"])
 
 ## Review of last post {#review-of-last-post}
 

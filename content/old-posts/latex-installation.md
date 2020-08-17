@@ -1,10 +1,12 @@
 +++
 title = "Latex Installation"
 date = 2018-05-21T00:31:38-04:00
-tags = ["workflow", "org mode"]
-categories = ["Computers/Software", "Productivity/Efficiency"]
+tags = []
+categories = []
 draft = false
 +++
+
+[//]: # (tags = ["workflow", "org mode"], categories = ["Computers/Software", "Productivity/Efficiency"])
 
 ## Getting a lightweight LaTeX environment {#getting-a-lightweight-latex-environment}
 

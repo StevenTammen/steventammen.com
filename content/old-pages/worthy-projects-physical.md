@@ -1,11 +1,13 @@
 +++
 title = "Worthy Projects: Physical"
 date = 2018-03-18T18:03:44-04:00
-tags = ["worthy projects"]
-categories = ["Other"]
+tags = []
+categories = []
 draft = false
 inprogress = true
 +++
+
+[//]: # (tags = ["worthy projects"], categories = ["Other"])
 
 ## Physical Products {#physical-products}
 

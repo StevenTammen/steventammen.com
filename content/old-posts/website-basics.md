@@ -1,10 +1,12 @@
 +++
 title = "Website Basics"
 date = 2019-08-20T00:04:32-04:00
-tags = ["workflow", "web-development", "web-design", "static site generators"]
-categories = ["Compters and Software"]
+tags = []
+categories = []
 draft = false
 +++
+
+[//]: # (tags = ["workflow", "web-development", "web-design", "static site generators"], categories = ["Compters and Software"])
 
 ## Network services required for (most effectively) running a website {#network-services-required-for--most-effectively--running-a-website}
 

@@ -1,10 +1,12 @@
 +++
 title = "Skating Environments"
 date = 2018-05-14T17:04:33-04:00
-tags = ["skating", "commuting", "safety"]
-categories = ["Science/Knowledge"]
+tags = []
+categories = []
 draft = false
 +++
+
+[//]: # (tags = ["skating", "commuting", "safety"], categories = ["Science/Knowledge"])
 
 ## Identifying what kind of skating you want to do {#identifying-what-kind-of-skating-you-want-to-do}
 

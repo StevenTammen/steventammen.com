@@ -1,11 +1,13 @@
 +++
 title = "Keyboard Braindump"
 date = 2019-01-10T19:07:36-05:00
-tags = ["keyboard layouts", "workflow"]
-categories = ["Computers/Software", "Productivity/Efficiency"]
+tags = []
+categories = []
 draft = false
 inprogress = true
 +++
+
+[//]: # (tags = ["keyboard layouts", "workflow"], categories = ["Computers/Software", "Productivity/Efficiency"])
 
 ## Todos {#todos}
 

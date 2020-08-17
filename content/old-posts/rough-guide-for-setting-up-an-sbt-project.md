@@ -1,10 +1,12 @@
 +++
 title = "Rough Guide for Setting Up an SBT Project"
 date = 2019-08-24T15:55:01-04:00
-tags = ["workflow", "java", "scala", "git", "sbt"]
-categories = ["Computers and Software"]
+tags = []
+categories = []
 draft = false
 +++
+
+[//]: # (tags = ["workflow", "java", "scala", "git", "sbt"], categories = ["Computers and Software"])
 
 This post is targeted at CSCI 4370/6370 (Databases) people at UGA.
 

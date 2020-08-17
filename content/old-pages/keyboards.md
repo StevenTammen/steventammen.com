@@ -1,11 +1,13 @@
 +++
 title = "Keyboards"
 date = 2018-03-18T17:53:27-04:00
-tags = ["typing", "essential gear", "rsi prevention"]
-categories = ["Gear"]
+tags = []
+categories = []
 draft = false
 inprogress = true
 +++
+
+[//]: # (tags = ["typing", "essential gear", "rsi prevention"], categories = ["Gear"])
 
 ## Good Options {#good-options}
 

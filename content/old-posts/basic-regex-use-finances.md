@@ -1,10 +1,12 @@
 +++
 title = "Basic Regex Use: Finances"
 date = 2018-06-28T15:05:18-04:00
-tags = ["regex", "smarter not harder"]
-categories = ["Productivity/Efficiency"]
+tags = []
+categories = []
 draft = false
 +++
+
+[//]: # (tags = ["regex", "smarter not harder"], categories = ["Productivity/Efficiency"])
 
 ## Background {#background}
 

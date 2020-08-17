@@ -1,11 +1,13 @@
 +++
 title = "Guns"
 date = 2018-03-18T17:52:46-04:00
-tags = ["self-defense", "weapons", "hobbies"]
-categories = ["Gear"]
+tags = []
+categories = []
 draft = false
 inprogress = true
 +++
+
+[//]: # (tags = ["self-defense", "weapons", "hobbies"], categories = ["Gear"])
 
 ## Caliber {#caliber}
 

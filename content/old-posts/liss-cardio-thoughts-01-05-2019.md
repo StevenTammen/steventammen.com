@@ -1,10 +1,12 @@
 +++
 title = "LISS Cardio Thoughts"
 date = 2019-01-05T21:50:27-05:00
-tags = ["cardio", "elliptigo", "skating"]
-categories = ["Gear"]
+tags = []
+categories = []
 draft = false
 +++
+
+[//]: # (tags = ["cardio", "elliptigo", "skating"], categories = ["Gear"])
 
 ## The need for fun, effective LISS cardio {#the-need-for-fun-effective-liss-cardio}
 

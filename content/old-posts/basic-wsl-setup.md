@@ -1,10 +1,12 @@
 +++
 title = "Basic WSL Setup"
 date = 2018-05-16T12:52:23-04:00
-tags = ["workflow", ""]
-categories = ["Computers/Software"]
+tags = []
+categories = []
 draft = false
 +++
+
+[//]: # (tags = ["workflow"], categories = ["Computers/Software"])
 
 ## Background and software prerequisites {#background-and-software-prerequisites}
 

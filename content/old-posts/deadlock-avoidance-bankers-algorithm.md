@@ -1,10 +1,12 @@
 +++
 title = "Deadlock Avoidance: The Banker's Algorithm"
 date = 2019-10-17T21:16:56-04:00
-tags = ["operating systems", "process synchronization", "algorithms"]
-categories = ["Computers and Software"]
+tags = []
+categories = []
 draft = false
 +++
+
+[//]: # (tags = ["operating systems", "process synchronization", "algorithms"], categories = ["Computers and Software"])
 
 ## What's this? {#what-s-this}
 

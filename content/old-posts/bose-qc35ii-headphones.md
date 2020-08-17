@@ -1,10 +1,12 @@
 +++
 title = "Bose QuietComfort 35 II Headphones"
 date = 2018-12-07T12:58:31-05:00
-tags = ["audio", "reviews"]
-categories = ["Gear"]
+tags = []
+categories = []
 draft = false
 +++
+
+[//]: # (tags = ["audio", "reviews"], categories = ["Gear"])
 
 ## Background {#background}
 

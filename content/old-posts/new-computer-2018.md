@@ -1,10 +1,12 @@
 +++
 title = "New Computer: 2018"
 date = 2018-05-20T21:43:18-04:00
-tags = ["workflow", "rethinking standards"]
-categories = ["Gear", "Computers/Software"]
+tags = []
+categories = []
 draft = false
 +++
+
+[//]: # (tags = ["workflow", "rethinking standards"], categories = ["Gear", "Computers/Software"])
 
 ## The impetus {#the-impetus}
 

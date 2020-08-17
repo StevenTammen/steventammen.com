@@ -1,10 +1,12 @@
 +++
 title = "Purchases: Week of 9-22-19"
 date = 2019-09-29T21:27:11-04:00
-tags = ["purchases", "research", "planning"]
-categories = ["Gear"]
+tags = []
+categories = []
 draft = false
 +++
+
+[//]: # (tags = ["purchases", "research", "planning"], categories = ["Gear"])
 
 ## The reason for these posts {#the-reason-for-these-posts}
 

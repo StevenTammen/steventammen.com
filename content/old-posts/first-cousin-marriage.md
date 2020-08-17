@@ -1,10 +1,12 @@
 +++
 title = "First Cousin Marriage"
 date = 2018-06-28T15:05:40-04:00
-tags = ["genetics", "culture"]
-categories = ["Science/Knowledge"]
+tags = []
+categories = []
 draft = false
 +++
+
+[//]: # (tags = ["genetics", "culture"], categories = ["Science/Knowledge"])
 
 ## Is this even a thing? {#is-this-even-a-thing}
 

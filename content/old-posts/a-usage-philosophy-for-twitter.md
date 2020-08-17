@@ -1,10 +1,12 @@
 +++
 title = "A Usage Philosophy for Twitter"
 date = 2018-12-25T21:36:22-05:00
-tags = ["workflow", "anonymity", "twitter"]
-categories = ["Productivity/Efficiency"]
+tags = []
+categories = []
 draft = false
 +++
+
+[//]: # (tags = ["workflow", "anonymity", "twitter"], categories = ["Productivity/Efficiency"])
 
 ## General thoughts concerning personal internet presence {#general-thoughts-concerning-personal-internet-presence}
 

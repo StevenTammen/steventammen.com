@@ -1,11 +1,13 @@
 +++
 title = "Learning Styles"
 date = 2018-03-18T17:53:47-04:00
-tags = ["metalearning", "neuroscience"]
-categories = ["Science/Knowledge"]
+tags = []
+categories = []
 draft = false
 inprogress = true
 +++
+
+[//]: # (tags = ["metalearning", "neuroscience"], categories = ["Science/Knowledge"])
 
 ## Print as Superior Medium for Information Transmission {#print-as-superior-medium-for-information-transmission}
 

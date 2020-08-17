@@ -1,10 +1,12 @@
 +++
 title = "Emacs for Org Mode"
 date = 2018-05-16T15:23:41-04:00
-tags = ["workflow", "org mode"]
-categories = ["Computers/Software", "Productivity/Efficiency"]
+tags = []
+categories = []
 draft = false
 +++
+
+[//]: # (tags = ["workflow", "org mode"], categories = ["Computers/Software", "Productivity/Efficiency"])
 
 ## The purpose and scope of this post {#the-purpose-and-scope-of-this-post}
 

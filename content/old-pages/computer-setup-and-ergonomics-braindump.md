@@ -1,11 +1,13 @@
 +++
 title = "Computer Setup and Ergonomics Braindump"
 date = 2019-01-09T23:16:29-05:00
-tags = ["ergonomics", "rsi-prevention"]
-categories = ["Computers/Software", "Gear"]
+tags = []
+categories = []
 draft = false
 inprogress = true
 +++
+
+[//]: # (tags = ["ergonomics", "rsi-prevention"], categories = ["Computers/Software", "Gear"])
 
 ## Repetitive Strain Injury (RSI) {#repetitive-strain-injury--rsi}
 

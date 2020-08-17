@@ -1,10 +1,13 @@
 +++
 title = "Portable Computer Setup: Part 1"
 date = 2019-01-07T16:53:24-05:00
-tags = ["workflow", "portability", "gear cluster"]
-categories = ["Gear", "Productivity/Efficiency", "Computers/Software"]
+tags = []
+categories = []
 draft = false
 +++
+
+[//]: # (tags = ["workflow", "portability", "gear cluster"], categories = ["Gear", "Productivity/Efficiency", "Computers/Software"])
+
 
 ## This post {#this-post}
 

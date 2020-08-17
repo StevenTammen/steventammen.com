@@ -1,10 +1,12 @@
 +++
 title = "The College Brain as a Sponge"
 date = 2018-09-08T22:59:15-04:00
-tags = ["motivation", "college", "learning"]
-categories = ["Science/Knowledge"]
+tags = []
+categories = []
 draft = false
 +++
+
+[//]: # (tags = ["motivation", "college", "learning"], categories = ["Science/Knowledge"])
 
 ## Some background {#some-background}
 

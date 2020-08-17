@@ -1,11 +1,13 @@
 +++
 title = "Worthy Projects: Nonphysical"
 date = 2018-03-18T18:04:31-04:00
-tags = ["worthy projects"]
-categories = ["Other"]
+tags = []
+categories = []
 draft = false
 inprogress = true
 +++
+
+[//]: # (tags = ["worthy projects"], categories = ["Other"])
 
 ## Software Programs {#software-programs}
 

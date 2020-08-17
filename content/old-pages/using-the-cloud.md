@@ -1,11 +1,13 @@
 +++
 title = "Using the Cloud"
 date = 2018-06-26T20:16:59-04:00
-tags = ["cloud", "workflow", "rsync"]
-categories = ["Computers/Software"]
+tags = []
+categories = []
 draft = false
 inprogress = true
 +++
+
+[//]: # (tags = ["cloud", "workflow", "rsync"], categories = ["Computers/Software"])
 
 ## Motivation {#motivation}
 

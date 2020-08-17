@@ -1,10 +1,12 @@
 +++
 title = "Getting a Second Pair of Skates: Thoughts"
 date = 2018-12-02T18:44:18-05:00
-tags = ["skating", "planning purchases"]
-categories = ["Gear"]
+tags = []
+categories = []
 draft = false
 +++
+
+[//]: # (tags = ["skating", "planning purchases"], categories = ["Gear"])
 
 ## Background {#background}
 

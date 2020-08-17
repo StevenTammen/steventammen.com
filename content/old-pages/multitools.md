@@ -1,11 +1,13 @@
 +++
 title = "Multitools"
 date = 2018-03-18T17:56:33-04:00
-tags = ["essential gear", "edc"]
-categories = ["Gear"]
+tags = []
+categories = []
 draft = false
 inprogress = true
 +++
+
+[//]: # (tags = ["essential gear", "edc"], categories = ["Gear"])
 
 ## Discussed Models {#discussed-models}
 

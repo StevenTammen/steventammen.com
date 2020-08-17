@@ -1,11 +1,13 @@
 +++
 title = "Fabrics"
 date = 2018-03-18T17:51:36-04:00
-tags = ["optimization variables", "clothing"]
-categories = ["Gear"]
+tags = []
+categories = []
 draft = false
 inprogress = true
 +++
+
+[//]: # (tags = ["optimization variables", "clothing"], categories = ["Gear"])
 
 ## <span class="org-todo todo TODO">TODO</span> : Fabric Properties {#fabric-properties}
 

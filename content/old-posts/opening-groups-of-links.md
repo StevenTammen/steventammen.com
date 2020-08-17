@@ -1,10 +1,12 @@
 +++
 title = "Opening Groups of Links"
 date = 2018-08-17T20:11:49-04:00
-tags = ["smarter not harder", "browsers"]
-categories = ["Productivity/Efficiency"]
+tags = []
+categories = []
 draft = false
 +++
+
+[//]: # (tags = ["smarter not harder", "browsers"], categories = ["Productivity/Efficiency"])
 
 ## Motivation {#motivation}
 

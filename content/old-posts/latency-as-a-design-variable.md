@@ -1,10 +1,12 @@
 +++
 title = "Latency as a Design Variable"
 date = 2018-05-24T18:46:06-04:00
-tags = ["optimization variables", "rethinking standards"]
-categories = ["Computers/Software", "Productivity/Efficiency"]
+tags = []
+categories = []
 draft = false
 +++
+
+[//]: # (tags = ["optimization variables", "rethinking standards"], categories = ["Computers/Software", "Productivity/Efficiency"])
 
 ## How I bumped into the concept of latency {#how-i-bumped-into-the-concept-of-latency}
 

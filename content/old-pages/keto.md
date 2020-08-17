@@ -1,11 +1,13 @@
 +++
 title = "Keto"
 date = 2018-03-18T17:52:56-04:00
-tags = ["health", "nutrition", "diets"]
-categories = ["Science/Knowledge"]
+tags = []
+categories = []
 draft = false
 inprogress = true
 +++
+
+[//]: # (tags = ["health", "nutrition", "diets"], categories = ["Science/Knowledge"])
 
 ## About Ketosis {#about-ketosis}
 

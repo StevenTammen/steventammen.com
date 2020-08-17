@@ -1,10 +1,12 @@
 +++
 title = "Dotfiles Repository"
 date = 2018-05-20T23:02:11-04:00
-tags = ["workflow", "configuration"]
-categories = ["Computers/Software"]
+tags = []
+categories = []
 draft = false
 +++
+
+[//]: # (tags = ["workflow", "configuration"], categories = ["Computers/Software"])
 
 ## Comments on the process {#comments-on-the-process}
 

@@ -1,11 +1,13 @@
 +++
 title = "Screen Reading"
 date = 2018-03-18T18:01:38-04:00
-tags = ["UI", "human-computer interaction", "display", "rethinking standards"]
-categories = ["Science/Knowledge"]
+tags = []
+categories = []
 draft = false
 inprogress = true
 +++
+
+[//]: # (["UI", "human-computer interaction", "display", "rethinking standards"], categories = ["Science/Knowledge"])
 
 ## Recommended Reading {#recommended-reading}
 

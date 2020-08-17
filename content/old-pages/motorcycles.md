@@ -1,11 +1,13 @@
 +++
 title = "Motorcycles"
 date = 2018-03-18T17:56:22-04:00
-tags = ["transportation", "rethinking standards", "hobbies"]
-categories = ["Gear"]
+tags = []
+categories = []
 draft = false
 inprogress = true
 +++
+
+[//]: # (tags = ["transportation", "rethinking standards", "hobbies"], categories = ["Gear"])
 
 ## Safety {#safety}
 

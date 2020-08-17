@@ -1,11 +1,13 @@
 +++
 title = "Windows Software"
 date = 2018-05-24T17:43:25-04:00
-tags = ["workflow", "windows"]
-categories = ["Computers/Software"]
+tags = []
+categories = []
 draft = false
 inprogress = true
 +++
+
+[//]: # (tags = ["workflow", "windows"], categories = ["Computers/Software"])
 
 ## Purpose and Scope {#purpose-and-scope}
 

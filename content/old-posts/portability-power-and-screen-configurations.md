@@ -1,10 +1,12 @@
 +++
 title = "Portability, Power, and Screen Configurations"
 date = 2018-05-20T22:08:26-04:00
-tags = ["workflow", "rethinking standards"]
-categories = ["Gear", "Computers/Software"]
+tags = []
+categories = []
 draft = false
 +++
+
+[//]: # (tags = ["workflow", "rethinking standards"], categories = ["Gear", "Computers/Software"])
 
 ## Reading with your computer {#reading-with-your-computer}
 

@@ -1,10 +1,12 @@
 +++
 title = "Starting Up a Blog"
 date = 2018-01-20T00:00:00-05:00
-tags = ["web design", "blogging"]
-categories = ["Philosophy"]
+tags = []
+categories = []
 draft = false
 +++
+
+[//]: # (tags = ["web design", "blogging"], categories = ["Philosophy"])
 
 ## Blogging can serve a useful purpose, even if it is not perfect {#blogging-can-serve-a-useful-purpose-even-if-it-is-not-perfect}
 

@@ -1,11 +1,13 @@
 +++
 title = "Keyboard Layouts"
 date = 2018-03-18T17:53:14-04:00
-tags = ["optimization variables", "genetic algorithms", "rsi prevention"]
-categories = ["Productivity/Efficiency", "Computers/Software"]
+tags = []
+categories = []
 draft = false
 inprogress = true
 +++
+
+[//]: # (tags = ["optimization variables", "genetic algorithms", "rsi prevention"], categories = ["Productivity/Efficiency", "Computers/Software"])
 
 ## Tentative Eventual Structure For This Page {#tentative-eventual-structure-for-this-page}
 

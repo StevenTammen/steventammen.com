@@ -1,10 +1,12 @@
 +++
 title = "Using Putty and Emacs' Tramp on Windows"
 date = 2018-01-22T11:03:22-04:00
-tags = ["workflow", "ssh", "remote work"]
-categories = ["Computers/Software", "Productivity/Efficiency"]
+tags = []
+categories = []
 draft = false
 +++
+
+[//]: # (tags = ["workflow", "ssh", "remote work"], categories = ["Computers/Software", "Productivity/Efficiency"])
 
 ## Introduction and Motivation {#introduction-and-motivation}
 

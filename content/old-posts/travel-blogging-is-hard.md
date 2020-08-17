@@ -1,10 +1,12 @@
 +++
 title = "Travel Blogging Is Hard"
 date = 2019-08-05T16:05:31-04:00
-tags = ["rome-2019", "rome", "workflow"]
-categories = ["Travel", "Computers/Software"]
+tags = []
+categories = []
 draft = false
 +++
+
+[//]: # (tags = ["rome-2019", "rome", "workflow"], categories = ["Travel", "Computers/Software"])
 
 ## Background {#background}
 

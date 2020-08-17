@@ -1,11 +1,13 @@
 +++
 title = "Work Environment"
 date = 2018-03-18T18:03:28-04:00
-tags = ["essential gear", "rsi prevention"]
-categories = ["Gear", "Productivity/Efficiency"]
+tags = []
+categories = []
 draft = false
 inprogress = true
 +++
+
+[//]: # (tags = ["essential gear", "rsi prevention"], categories = ["Gear", "Productivity/Efficiency"])
 
 ## Overview {#overview}
 

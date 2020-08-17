@@ -1,11 +1,13 @@
 +++
 title = "Every Day Carry"
 date = 2018-03-18T17:51:01-04:00
-tags = ["essential gear", "gear cluster", "edc"]
-categories = ["Gear"]
+tags = []
+categories = []
 draft = false
 inprogress = true
 +++
+
+[//]: # (tags = ["essential gear", "gear cluster", "edc"], categories = ["Gear"])
 
 ## Distinction between Every Day Carry and Everyday Carry {#distinction-between-every-day-carry-and-everyday-carry}
 

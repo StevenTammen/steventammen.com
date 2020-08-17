@@ -1,11 +1,13 @@
 +++
 title = "Life Purpose"
 date = 2018-03-18T17:54:03-04:00
-tags = ["purpose", "self-knowledge", "logic"]
-categories = ["Philosophy"]
+tags = []
+categories = []
 draft = false
 inprogress = true
 +++
+
+[//]: # (tags = ["purpose", "self-knowledge", "logic"], categories = ["Philosophy"])
 
 ## Argument 1: Objective morality exists {#argument-1-objective-morality-exists}
 

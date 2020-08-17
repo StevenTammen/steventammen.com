@@ -1,11 +1,13 @@
 +++
 title = "English Letterforms"
 date = 2018-03-18T17:50:11-04:00
-tags = ["handwriting", "rethinking standards"]
-categories = ["Productivity/Efficiency"]
+tags = []
+categories = []
 draft = false
 inprogress = true
 +++
+
+[//]: # (tags = ["handwriting", "rethinking standards"], categories = ["Productivity/Efficiency"])
 
 ## Cursive Vs. Print {#cursive-vs-dot-print}
 

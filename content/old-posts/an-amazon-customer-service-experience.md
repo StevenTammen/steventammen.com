@@ -1,10 +1,12 @@
 +++
 title = "An Amazon Customer Service Experience"
 date = 2018-11-26T21:07:04-05:00
-tags = ["online shopping", "Amazon", "business ethics"]
-categories = ["Productivity/Efficiency"]
+tags = []
+categories = []
 draft = false
 +++
+
+[//]: # (tags = ["online shopping", "Amazon", "business ethics"], categories = ["Productivity/Efficiency"])
 
 ## Why I like Amazon in general {#why-i-like-amazon-in-general}
 

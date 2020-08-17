@@ -1,10 +1,12 @@
 +++
 title = "Fixing Image Display"
 date = 2019-06-08T11:50:10-04:00
-tags = ["rome-2019", "rome", "workflow", "camera-stuff"]
-categories = ["Travel", "Computers/Software"]
+tags = []
+categories = []
 draft = false
 +++
+
+[//]: # (tags = ["rome-2019", "rome", "workflow", "camera-stuff"], categories = ["Travel", "Computers/Software"])
 
 ## My camera {#my-camera}
 

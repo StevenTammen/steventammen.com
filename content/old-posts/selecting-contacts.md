@@ -1,10 +1,12 @@
 +++
 title = "Selecting Contacts"
 date = 2019-01-09T21:39:53-05:00
-tags = ["contacts"]
-categories = ["Gear"]
+tags = []
+categories = []
 draft = false
 +++
+
+[//]: # (tags = ["contacts"], categories = ["Gear"])
 
 ## Background {#background}
 

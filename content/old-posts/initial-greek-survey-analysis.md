@@ -1,10 +1,12 @@
 +++
 title = "Initial Greek Survey Analysis"
 date = 2018-06-12T15:35:10-04:00
-tags = ["greek", "typing"]
-categories = ["Science/Knowledge"]
+tags = []
+categories = []
 draft = false
 +++
+
+[//]: # (tags = ["greek", "typing"], categories = ["Science/Knowledge"])
 
 ## This post {#this-post}
 

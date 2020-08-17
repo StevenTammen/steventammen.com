@@ -1,11 +1,13 @@
 +++
 title = "Backpacks"
 date = 2018-03-18T17:49:04-04:00
-tags = ["outdoor gear", "rain gear", "essential gear"]
-categories = ["Gear"]
+tags = []
+categories = []
 draft = false
 inprogress = true
 +++
+
+[//]: # (tags = ["outdoor gear", "rain gear", "essential gear"], ["Gear"])
 
 ## Optimization Variables {#optimization-variables}
 

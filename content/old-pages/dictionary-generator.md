@@ -1,11 +1,13 @@
 +++
 title = "Dictionary Generator"
 date = 2018-03-18T17:49:40-04:00
-tags = ["worthy projects", "stenography", "linguistics", "language processing"]
-categories = ["Computers/Software"]
+tags = []
+categories = []
 draft = false
 inprogress = true
 +++
+
+[//]: # (tags = ["worthy projects", "stenography", "linguistics", "language processing"], categories = ["Computers/Software"])
 
 ## Disclaimer {#disclaimer}
 

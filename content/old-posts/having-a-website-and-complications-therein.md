@@ -1,10 +1,12 @@
 +++
 title = "Having a Website and Complications Therein"
 date = 2018-01-20T14:27:34-04:00
-tags = ["web design"]
-categories = ["Philosophy"]
+tags = []
+categories = []
 draft = false
 +++
+
+[//]: # (tags = ["web design"], categories = ["Philosophy"])
 
 A question I have gotten from several people in the few months I've had my site up is "what's the point?" It's a good question.
 

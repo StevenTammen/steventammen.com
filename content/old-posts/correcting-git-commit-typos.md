@@ -1,10 +1,12 @@
 +++
 title = "Correcting Git Commit Typos"
 date = 2018-05-27T15:47:21-04:00
-tags = ["git", "workflow"]
-categories = ["Computers/Software", "Productivity/Efficiency"]
+tags = []
+categories = []
 draft = false
 +++
+
+[//]: # (tags = ["git", "workflow"], categories = ["Computers/Software", "Productivity/Efficiency"])
 
 ## Motivation {#motivation}
 

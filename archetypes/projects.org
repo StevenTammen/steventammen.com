@@ -1,8 +1,0 @@
-#+HUGO_BASE_DIR: ../../
-#+HUGO_SECTION: projects
-
-#+TITLE: {{ replace .Name "-" " " | title }}
-#+DATE: {{ .Date }}
-#+HUGO_CATEGORIES: 
-#+HUGO_TAGS: 
-

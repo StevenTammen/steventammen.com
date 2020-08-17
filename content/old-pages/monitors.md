@@ -1,11 +1,13 @@
 +++
 title = "Monitors"
 date = 2018-03-18T17:56:11-04:00
-tags = ["essential gear", "display"]
-categories = ["Gear"]
+tags = []
+categories = []
 draft = false
 inprogress = true
 +++
+
+[//]: # (tags = ["essential gear", "display"], categories = ["Gear"])
 
 ## Essential Features {#essential-features}
 

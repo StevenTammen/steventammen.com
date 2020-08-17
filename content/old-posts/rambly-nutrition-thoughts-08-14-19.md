@@ -1,10 +1,12 @@
 +++
 title = "Rambly Nutrition Thoughts 08-14-19"
 date = 2019-08-14T01:20:36-04:00
-tags = ["leangains", "intermittent fasting", "nutrition", "dietary induced thermogenesis"]
-categories = ["Health and Fitness"]
+tags = []
+categories = []
 draft = false
 +++
+
+[//]: # (tags = ["leangains", "intermittent fasting", "nutrition", "dietary induced thermogenesis"], categories = ["Health and Fitness"])
 
 ## Some starting links {#some-starting-links}
 

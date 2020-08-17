@@ -1,11 +1,13 @@
 +++
 title = "Priorities"
 date = 2018-03-18T17:57:39-04:00
-tags = ["planning", "prioritization", "80/20"]
-categories = ["Philosophy", "Productivity/Efficiency"]
+tags = []
+categories = []
 draft = false
 inprogress = true
 +++
+
+[//]: # (tags = ["planning", "prioritization", "80/20"], categories = ["Philosophy", "Productivity/Efficiency"])
 
 ## Limited Time {#limited-time}
 

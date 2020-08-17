@@ -1,10 +1,12 @@
 +++
 title = "Copying Urls of Tabs"
 date = 2018-09-07T21:35:06-04:00
-tags = ["smarter not harder", "browsers"]
-categories = ["Productivity/Efficiency"]
+tags = []
+categories = []
 draft = false
 +++
+
+[//]: # (tags = ["smarter not harder", "browsers"], categories = ["Productivity/Efficiency"])
 
 ## Motivation {#motivation}
 

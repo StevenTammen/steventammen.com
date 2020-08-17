@@ -1,11 +1,13 @@
 +++
 title = "Rain Gear"
 date = 2018-03-18T17:58:06-04:00
-tags = ["essential gear", "gear cluster", "clothing"]
-categories = ["Gear"]
+tags = []
+categories = []
 draft = false
 inprogress = true
 +++
+
+[//]: # (tags = ["essential gear", "gear cluster", "clothing"], categories = ["Gear"])
 
 ## Waterproofing {#waterproofing}
 

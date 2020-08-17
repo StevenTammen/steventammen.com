@@ -1,10 +1,12 @@
 +++
 title = "Hackish SSH Escaping for Rsync"
 date = 2018-07-05T13:36:29-04:00
-tags = ["ssh", "rsync"]
-categories = ["Computers/Software", "Productivity/Efficiency"]
+tags = []
+categories = []
 draft = false
 +++
+
+[//]: # (tags = ["ssh", "rsync"], categories = ["Computers/Software", "Productivity/Efficiency"])
 
 ## Motivation {#motivation}
 

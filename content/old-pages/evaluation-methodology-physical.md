@@ -1,11 +1,13 @@
 +++
 title = "Evaluation Methodology: Physical"
 date = 2018-03-18T17:52:26-04:00
-tags = ["optimization", "methodology"]
-categories = ["Productivity/Efficiency"]
+tags = []
+categories = []
 draft = false
 inprogress = true
 +++
+
+[//]: # (tags = ["optimization", "methodology"], categories = ["Productivity/Efficiency"])
 
 ## Variables {#variables}
 

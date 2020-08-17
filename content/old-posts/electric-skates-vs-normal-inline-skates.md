@@ -1,10 +1,12 @@
 +++
 title = "Electric Skates vs. Normal Inline Skates"
 date = 2018-05-12T10:32:08-04:00
-tags = ["skating", "commuting"]
-categories = ["Gear"]
+tags = []
+categories = []
 draft = false
 +++
+
+[//]: # (tags = ["skating", "commuting"], categories = ["Gear"])
 
 ## How this page will proceed {#how-this-page-will-proceed}
 
