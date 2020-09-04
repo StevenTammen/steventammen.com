@@ -3,6 +3,7 @@ title: {{ replace .Name "-" " " | title }}
 date: {{ .Date }}
 categories: []
 tags: []
-inprogress: false
+weight: 
+inprogress: true
 ---
 
