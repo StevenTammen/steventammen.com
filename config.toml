@@ -160,10 +160,10 @@ paginate = 10
 #    weight = 300
 #	identifier = "forums"
 #    url = "/pages/about-the-author/"
-  [[menu.community]]
-    name = "Discord"
-    pre = "<i class='fab fa-discord fa-fw'></i>"
-    weight = 310
-	identifier = "discord"
-    url = "/discord"
+#  [[menu.community]]
+#    name = "Discord"
+#    pre = "<i class='fab fa-discord fa-fw'></i>"
+#    weight = 310
+#	identifier = "discord"
+#    url = "/discord"
 	
