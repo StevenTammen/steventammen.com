@@ -1,4 +1,4 @@
-{{ partial "header-content.html" . }}
+{{ partial "header-list-pages.html" . }}
 
 <div class="header">
   <h1 data-toc-skip>{{ .Title }}</h1>
@@ -6,8 +6,6 @@
 </div>
 <div class="content">
 	<div class="container">
-		{{ partial "post_meta.html" . }}
-		{{ if (eq .Params.inprogress true) }} {{ partial "in-progress.html" . }} {{ end }}
 		{{ .Content }}
 	</div>
 </div>
