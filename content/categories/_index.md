@@ -53,9 +53,9 @@ The [Exercise Category](/categories/exercise) deals mostly with the efficiency a
 * Injury prevention
 * Etc.
 
-## Nutrition
+## Food and Nutrition
 
-The [Nutrition Category](/categories/nutrition) deals mostly with the efficiency and improvement of nutrition, again with the goal of maximizing personal fitness.
+The [Food and Nutrition Category](/categories/food-and-nutrition) deals mostly with the efficiency and improvement of nutrition, again with the goal of maximizing personal fitness.
 
 * Macronutrients
 * Micronutrients
@@ -65,9 +65,9 @@ The [Nutrition Category](/categories/nutrition) deals mostly with the efficiency
 * Shopping lists and specific products to buy
 * Etc.
 
-## Health 
+## General Health 
 
-The [Health Category](/categories/health) deals mostly with the efficiency and improvement of health, excluding exercise and nutrition which are covered in their own separate categories (since they are so important). I am strongly supportive of the idea of preventative medicine (of the “eat lots of vegetables, exercise, and get enough sleep” variety rather than the “Eastern herbal supplements and essential oil aromatherapy” variety, e.g.), and for that reason focus more on optimal wellness than dealing with health problems. I understand and respect the need for discussion of the latter, but this site is not really targeted toward such.
+The [General Health Category](/categories/general-health) deals mostly with the efficiency and improvement of health, excluding exercise and nutrition which are covered in their own separate categories (since they are so important). I am strongly supportive of the idea of preventative medicine (of the “eat lots of vegetables, exercise, and get enough sleep” variety rather than the “Eastern mysticism and essential oil aromatherapy” variety, e.g.), and for that reason focus more on optimal wellness than dealing with health problems. I understand and respect the need for discussion of the latter, but this site is not really targeted toward such.
 
 * Optimizing sleep
 * Stress management
@@ -79,6 +79,8 @@ The [Health Category](/categories/health) deals mostly with the efficiency and i
 * Emotional needs and health
 * Improving self-esteem
 * Etc.
+
+<!--
 
 ## Science
 
@@ -117,6 +119,12 @@ The [Philosophy Category](/categories/philosophy) deals mostly with discussion a
 * Utilitarianism
 * The mind-body problem
 * Etc.
+
+-->
+
+## Finances
+
+The [Finances Category](/categories/finances) deals mostly with the efficiency and improvement of personal finance, spending, and investing. As a rule of thumb, the spending habits that I argue for are those that yield maximum added value per dollar without significant diminishing returns. You can contrast this approach with optimizing for either lowest cost (which saves money but leads to suboptimal overall utility) or highest quality (which brings maximum overall utility, but leads to unnecessary expense).
 
 ## Other
 

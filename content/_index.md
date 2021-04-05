@@ -1,17 +1,23 @@
 +++
 title = "StevenTammen.com"
-date = 2020-08-17
+date = 2021-01-31
 draft = false
 
 +++
 
+## This site is basically just launching
 
+If anyone has been reading my sometime-blog since college, you'll know that I reworked the layout of this site some months ago, unlisted all my old blog posts, and then went basically quiet.
 
-## Subscribe to the mailing list
+While consistency was never my strong suit, I haven't posted here for a while not because I have gone away or lost interest in websites, but because I've been working on a website for my Bible teaching ministry: [BibleDocs.org](https://www.bibledocs.org).
 
-If you would like to stay up to date with site happenings, you can sign up for the StevenTammen.com mailing list (you may also want to look into [the site's RSS feeds](/rss)). Here is a brief description of the list's mailing frequency and the sort of stuff that shows up in the list's messages:
+Some folks may not be interested in this, and that's cool. I'm a Christian and it's important to me, but this site was always about other things. (A great many other things, actually. I've always had a problem with that whole "pick a niche" idea because I wander off and get interested in too many different topics).
 
-- While I may occasionally send more or less emails (i.e., the frequency isn't strictly fixed), you can expect on the order of two emails a month from me. I won't spam you.
-- Messages typically involve news about the site (including, but certainly not limited to, descriptions of new content available on the site).
+After graduating college and getting settled into a nine-to-five, most of my free time (aside from working out a lot more and getting into cooking) has been sunk into the website I linked above. Some of the UI improvements and such that I worked on with regards to that other website will only stay on that site (stuff relating to displaying Bible verses, for example), but in time, many of the improvements I've sunk hours into there will find their way here.
 
-<form style="border:1px solid #ccc;margin-top:15px;padding:3px;text-align:center;" action="https://tinyletter.com/StevenTammen" method="post" target="popupwindow" onsubmit="window.open('https://tinyletter.com/StevenTammen', 'popupwindow', 'scrollbars=yes,width=800,height=600');return true"><p><label for="tlemail">Enter your email address</label></p><p><input type="text" style="width:100%;margin-bottom:15px" name="email" id="tlemail" /></p><input type="hidden" value="1" name="embed"/><input type="submit" value="Subscribe" style="margin-bottom:15px"/></form>
+I have grand, grand plans, as they say. I've been prioritizing that other site, but it is nearing its launching point, at which point I'll shift into production mode both there and here.
+
+Just now though, I decided it was about time for me to at least get the ball rolling here. I've been meaning to do it forever, but *c'est la vie*. In the same commit that added this explanation, I added some initial rough (and I mean *rough*) content to a couple of the category template pages (with more such short-term "braindumps" to come soon):
+
+- [Exercise](/categories/exercise)
+- [Food and nutrition](/categories/food-and-nutrition)
