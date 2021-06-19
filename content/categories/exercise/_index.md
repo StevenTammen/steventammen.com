@@ -93,12 +93,12 @@ To my knowledge, high-intensity interval training (HIIT) is by far the most effi
 
 ### Benefits of exercise
 
-Once you are only 20 pounds overweight (or something like that), I would advocate toning down the HIIT and starting strength training, so that you get the full range benefits from all kinds of exercise rather than just the benefits from HIIT. Here's basically what different kinds of exercise get you:
+Once you are only 20 pounds overweight (or something like that), I would advocate toning down the HIIT some and starting strength training too, so that you get the full range benefits from all kinds of exercise rather than just the benefits from HIIT. Here's basically what different kinds of exercise get you:
 
 - Flexibility training: little inherent benefit, but is super important because it makes it so you don't hurt yourself doing everything else (particularly weightlifting and HIIT, although you should always stretch before serious exercise). A lot of people also find yoga and such relaxing (stress-reducing).
 - LISS cardio: burns calories, and is good mostly in that it is better than sitting. Does not lead to as many cardiovascular changes as moderate intensity cardio and HIIT.
 - Moderate intensity cardio: way more relaxing that HIIT, which usually drains you. Makes your heart more aerobically efficient. Excellent way to relieve stress.
-- HIIT: excellent way to burn calories. Also helps improve cardiovascular health; many of the benefits overlap with moderate intensity cardio, but you get them in less time. Does that make it strictly better? It's still a good idea to do both, in my opinion. (For someone else on the idea, [see here)](https://robertsontrainingsystems.com/blog/long-duration-low-intensity-cardio/). Moderate intensity cardio trains you to do somewhat lower intensity for a longer period of time. HIIT trains you to do really high intensity for a shorter period of time. Different activities, some overlapping benefits, but also some non-overlapping benefits. Avoid extremes: do both.
+- HIIT: excellent way to burn calories. Also helps improve cardiovascular health; many of the benefits overlap with moderate intensity cardio, but you get them in less time. Does that make it strictly better? It's still a good idea to do both, in my opinion. (For someone else on the idea, [see here](https://robertsontrainingsystems.com/blog/long-duration-low-intensity-cardio/)). Moderate intensity cardio trains you to do somewhat lower intensity for a longer period of time. HIIT trains you to do really high intensity for a shorter period of time. Different activities, some overlapping benefits, but also some non-overlapping benefits. Avoid extremes: do both.
 - Strength training: prevents muscle deterioration as you age, prevents bone fragility as you age, building muscle leads to higher resting metabolic rate making maintenance a breeze if you're already in shape, and building muscle increases self-esteem and confidence way more than anything else. (Especially for dudes). Getting really shredded is more cardio and diet than lifting though. Everyone has ab muscles... but most people have a layer of fat over them. To see them well-defined, getting rid of the fat is way more effective than making the ab muscles slightly bigger.
 
 All exercise is excellent for health, in that it:
@@ -111,24 +111,23 @@ All exercise is excellent for health, in that it:
 
 ### What I do: weekly schedule
 
+{{% cautionary-note %}}
+Anyone who read earlier versions of this writeup will have noticed that I switched from mountain biking to biking to work for my main cardio. ([See below](#why-biking-to-work-for-cardio)).
+{{% /cautionary-note %}}
+
 Every week. No exceptions (unless I am pretty sick).
 
-* Every morning except Sunday (my rest day): 2+ hours of LISS cardio via walking briskly on a treadmill when working. ([See below](#why-multi-task-while-you-walk-for-liss-exercise)).
+* Every morning: 2+ hours of LISS cardio via walking briskly on a treadmill when working. ([See below](#why-multi-task-while-you-walk-for-liss-exercise)).
+* Weekday mornings/evenings: biking to/from work. Moderate intensity cardio, mostly, although I'll cycle in HIIT on off-days with lifting (only on my way back home from work, though -- I already arrive sweaty enough just doing moderate intensity cardio!). On lifting days, particularly after squatting or deadlifting, I'll take it easier on my way back home, and rely on electric assist more to get me up to 28 MPH.
 * Monday: Weightlifting day. Deadlift (specifically [trap bar](https://www.roguefitness.com/rogue-tb-1-trap-bar-2-0) deadlift -- [see here](https://www.strongerbyscience.com/trap-bar-deadlifts/)), sitting overhead press, bicep curls (with [curl bar](https://www.roguefitness.com/rogue-curl-bar)).
-* Tuesday: Cardio day -- I usually mountain bike on local trails if the weather cooperates. Mountain biking is somewhat of a mix of HIIT and moderate-intensity cardio -- pedaling up hills leads to bursts of high intensity activity, while riding the rest of the time (flats and downhills) keeps your heart rate relatively elevated (at least if you push yourself and ride fast). If the weather does not cooperate I typically do a HIIT jump rope workout inside.
 * Wednesday: Weightlifting day. Bench press, dumb bell seal rows, tricep extensions (with [curl bar](https://www.roguefitness.com/rogue-curl-bar)).
-* Thursday: Weightlifting day. Squat, pull-ups/chin-ups (with [resistance band support](https://www.roguefitness.com/rogue-monster-bands) so that I can do 3 sets of 8+ reps).
-* Friday: Cardio day -- I usually mountain bike on local trails if the weather cooperates. If the weather does not cooperate I typically do a HIIT jump rope workout inside.
-* Saturday: Cardio day -- I usually mountain bike on local trails if the weather cooperates. If the weather does not cooperate I typically do a HIIT jump rope workout inside.
+* Friday: Weightlifting day. Squat, pull-ups/chin-ups (with [resistance band support](https://www.roguefitness.com/rogue-monster-bands) so that I can do 3 sets of 8+ reps).
+* Saturday: Rest day. Walking/hiking is fine, but nothing more than that.
 * Sunday: Rest day. Walking/hiking is fine, but nothing more than that.
-
-Once I buy a house, I'm planning to get a dog, which will add 60-80 minutes of walking to my day (probably somewhat less net, as I'll forgo some of my morning standing-desk LISS to walk the dog). Dogs are an excellent way to *force* yourself to get exercise, since if you don't walk them consistently, they'll go berserk, tearing up your house and acting like moody teenagers with social issues. (Well, some dogs are kinda like that regardless, but in any case, the point is that dogs that don't get enough exercise act up, adding built-in motivation for you to get out and walk, since if you don't there will be consequences).
-
-(Sidenote: If you don't plan on walking your dog consistently, you have no business getting a dog. That's cruel for the animal).
 
 #### High volume
 
-The super high exercise volume of three days of cardio a week on top of three days of weightlifting a week (and 2+ hours of LISS cardio walking on the treadmill every morning) only works because I've taken great pains to avoid *all* activities that are high-impact (like running, e.g.) or otherwise put noticeably high repetitive forces on one's body. Overtraining and repetitive use injuries would be inevitable with this sort of volume otherwise.
+The super high exercise volume of five days of cardio a week on top of three days of weightlifting a week (and 2+ hours of LISS cardio walking on the treadmill every morning) only works because I've taken great pains to avoid *all* activities that are high-impact (like running, e.g.) or otherwise put noticeably high repetitive forces on one's body. Overtraining and repetitive use injuries would be inevitable with this sort of volume otherwise.
 
 It bears repeating that you should take things slow when starting, especially if you are overweight. (Extra bodyweight will inherently cause exercise to place higher forces on your body). Injuring yourself will be much more detrimental to your progress overall than proceeding at a bit more measured pace.
 
@@ -140,29 +139,30 @@ Stretch some every day, if you can remember, and definitely stretch relevant mus
 
 You should make an effort to lift only in flat (zero-drop) shoes without heel rise. I am a really big fan of the minimalist ultra-wide-toebox [Lems Primal 2's](https://www.lemsshoes.com/products/mens-primal-2?variant=23307304828986) (I wear these full time -- work, exercise, you name it), but they are a bit pricy, so if you already have other flat shoes with a relatively thin sole, those would work too.
 
-Never do leg-intensive cardio (like biking, jumping rope) the day before a deadlift or squat day (doing such will interfere with these lifts if your legs are sore/tired).
-
 Never deadlift and squat on days next to each other. These are the two biggest lifts, and you need to give your body a chance to recover between them, otherwise you risk overtraining or injury.
 
-Try to add 5-10 pounds a week to the big lifts (squat, deadlift), and 5 pounds every couple weeks to the upper body stuff (bench, OHP, rows), until this progression gets too hard. Add weight to bicep curls and tricep extensions once you can comfortably do 12 or so reps for three sets at the weight you are on. When you jump 5 pounds you'll probably drop down to 8 reps per set or something like that.
+Try to add 5-10 pounds a week to the big lifts (squat, deadlift), and 5 pounds every couple weeks to the upper body stuff (bench, OHP, rows), until this progression gets too hard (you can't do your reps with good form). Add weight to bicep curls and tricep extensions once you can comfortably do 12 or so reps for three sets at the weight you are on. When you jump 5 pounds you'll probably drop down to 8 reps per set or something like that.
 
 ### Why the activities I choose?
 
-For weightlifting you don't have a lot of options. You've gotta do the exercises. I prefer free weights (barbell + power rack) to a Smith machine, although if forced to use a Smith machine, I'd much rather deadlift and bench in it than squat. I've found that it's way easier to overstress my ankles when squatting in a Smith machine, as it lets you get away with much worse form (since you don't have to center and balance the weight).
+For weightlifting, you don't have a lot of options. You've gotta do the exercises. I prefer free weights (barbell + power rack) to a Smith machine, although if forced to use a Smith machine, I'd much rather deadlift and bench in it than squat. I've found that it's way easier to overstress my ankles when squatting in a Smith machine, as it lets you get away with much worse form (since you don't have to center and balance the weight).
 
-When you do cardio at a high enough intensity (moderate intensity or greater), multi-tasking (as in watching TV while you run) doesn't work so well. Doing stuff while you walk works fine though, and I can highly recommend multi-tasking while you walk (as below). I do recommend listening to music when doing moderate intensity cardio and HIIT. In fact, these are some of the times wherein I get my primary music fix for the week.
+When you do cardio at a high enough intensity (moderate intensity or greater), multi-tasking (as in typing while you run) doesn't work so well. Doing stuff while you walk works fine though, and I can highly recommend multi-tasking while you walk (as below). There are two general exceptions:
+
+- You can listen to music when doing moderate intensity cardio and HIIT. Losing yourself in music when you exercise can be quite enjoyable.
+- You can carry on a conversation on a phone call when doing moderate intensity cardio; you'll be a bit short of breath, but it will work fine. (If you are religious, praying -- carrying on a conversation with God -- works too). If you bike commute, you can be knocking out three birds with one stone -- cardio, getting to/from work, and having a conversation!
 
 Here's the short version of why I do what I do, with lengthier explanations following:
 
 - I combine LISS cardio with work (by walking on a treadmill when working) for time-efficiency's sake.
-- I mountain bike for cardio whenever the weather lets me get away with such since mountain biking beats all the other options in terms of fun. (Mountain biking offers a degree of both HIIT and moderate intensity cardio, assuming you have some elevation change on the trails you ride).
-- I do HIIT jump rope workouts when the weather is bad, since I find jumping rope to be the most fun form of cardio I can engage in inside.
+- I combine cycling with my commute (by biking to work) for time-efficiency's sake. It also lets me replace my car, and thereby save a lot of money.
+- I do HIIT jump rope workouts when traveling, since I find jumping rope to be a lot of fun, and jump ropes are very portable.
 
 #### Why multi-task while you walk for LISS exercise?
 
 Burning calories by multi-tasking when walking is great as it essentially removes all opportunity cost for fitting this kind of exercise (LISS cardio) into your day. This makes it *way* easier to sustain a calorie deficit long-term. When you combine this practice with a well-thought-out diet and consistency in strength training and more intense cardio, everything that you need for accelerated fat loss is there. All you have to do is stick with it.
 
-You could also hypothetically multi-task while operating a cycling machine, but I much prefer to do the weight-bearing activity of walking on a treadmill. You engage many more muscle groups.
+You could also hypothetically multi-task while operating an indoor cycling trainer, but I much prefer to do the weight-bearing activity of walking on a treadmill. You engage many more muscle groups.
 
 ##### Working on the computer on a treadmill
 
@@ -171,13 +171,13 @@ I own the [LifeSpan TR1200-DT3](https://www.amazon.com/gp/product/B009QHLWUK/) u
 Unfortunately, I haven't been able to use it much since I have downstairs neighbors in my apartment complex, and it is too loud. I have instead been taking my tablet to the apartment gym where there are treadmills, and working there.
 
 {{% sidenote %}}
-If I could use my treadmill at home, I'd combine it with my standing desk (to hold books/papers and a keyboard tray), and then a short-throw 4k laser projector supporting a large 150" image, [like this one](https://www.amazon.com/VAVA-Theatre-Projector-Lumens-Android/dp/B07XGM6YGQ/).
+If I could use my treadmill at home, I'd combine it with something to hold my keyboard and mouse (a full standing desk is probably overkill -- all you need a small platform), and then use a 4k low-input lag projector, [like this one](https://www.benq.com/en-us/projector/gaming-projector/tk700sti/specifications.html).
 
 Using an enormous projected image (and then walking on a treadmill far back from the image) minimizes the impact of the head-bobbing that walking causes. Recall that I choose walking rather than seated cycling (which wouldn't have as much of an issue with head-bobbing) since it is a weight-bearing activity, and a much more balanced workout overall.
 
-Having a huge image like this also gives you the option of watching movies and such at near cinema levels of awesome, pulling double duty as the best sort of TV viewing experience money can buy.
+Having a huge image like this also gives you the option of watching movies and such at cinema levels of awesome, pulling double duty as the best sort of TV viewing experience money can buy.
 
-I am planning on using this setup in the near future once I buy my own house and don't have to worry about bugging apartment neighbors with treadmill noise. I'll report back at that time.
+I am planning on using this setup in the near future -- once my own house finishes construction and I don't have to worry about bugging apartment neighbors with treadmill noise. I'll report back at that time.
 {{% /sidenote %}}
 
 I do a couple things to further enhance the free-calorie-burning idea:
@@ -190,93 +190,40 @@ I do a couple things to further enhance the free-calorie-burning idea:
 - I walk at a fairly significant incline. This greatly increases the number of calories burned without me having to walk faster. The benefit of burning more calories without having to walk faster is that your head bobs less, and thus it is simpler to keep your eyes trained on something (making reading easier).
   - When I'm on a gym treadmill, I can just set the incline on the treadmill interface. Using an under-desk treadmill at home, you can create an incline by stacking [some rubber pads](https://www.amazon.com/gp/product/B07FKVH8SN/) under the front feet of the treadmill, which elevates the front of the treadmill.
 
-#### Why mountain bike for cardio?
+#### Why biking to work for cardio?
 
 Cardio of longer duration can get boring really easily. One way I've found to combat this is to be "going places" when I do cardio: running, cycling, etc. from point A to point B. You get the wind in your hair, the sun on your face, variety from different scenery, and a good dose of fun from the sensation of speed (especially noticeable for anything with wheels, vs. running). By way of contrast, running on a treadmill while looking at a wall or swimming back and forth in a pool gets boring to me real fast.
 
-(Note: I have no experience with [Zwift](https://www.zwift.com/) or other similar ideas, but they might be an alternative to my going-places-outside line of reasoning).
-
-Just cycling around one's local neighborhood is certainly an option for cardio (you get some of the variety and "going places" benefits described above), but cycling on mountain biking trails blows it completely out of the water, in my opinion. In fact, it seems to me that while there are some other activities that can compare to mountain biking in terms of raw fun/enjoyment/adrenaline (riding motorcycles, carving at speed on electric skateboards, surfing, downhill skiing and snowboarding), it is rather unique in being extremely fun while at the same time providing a good workout (making the activity extremely time-efficient). [Cross-country skiing](https://www.youtube.com/watch?v=mjbuwmUzUhQ) also gives an excellent cardio workout, but it is nowhere near as fun as mountain biking in terms of raw enjoyment, as the speeds are slower and you don't have variation in terrain (just smooth snow).
-
-I suppose I should qualify that this exercise benefit of mountain biking only holds for up-and-down normal trail riding rather than downhill mountain biking (compare cross-country skiing and downhill skiing). Downhill mountain biking proper -- where you take lifts up the mountain and ride down -- doesn't offer the same exercise experience. You need to pedal up those hills and on flat sections of the trail to get the good workout.
-
 {{% sidenote %}}
-
-**You can still get a good workout on electric mountain bikes**
-
-Electric mountain bikes do not *necessarily* rob you of exercise when you mountain bike, but they can if you use so much assistance that it is difficult for you to contribute human power since you are already going too fast for the trail you are riding on.
-
-Rather than thinking of them as an exercise hindrance, I like thinking of electric mountain bikes mostly as a simple speed boost -- you as a human can contribute 200 watts of effort (and get a pretty similar workout) with or without the electric assistance, but you'll just be going much faster with the electric assistance. This is assuming you are using a low-ish overall amount of assistance -- so that you aren't constantly going massively too fast for the kind of trail you are riding on, like you would be if you used a high assistance level. (Technical twisty trails will be more inherently speed-limiting than flowy double track, etc.).
-
-The big difference comes with hills. Without electric assist, you have to crawl up hills in a low gear, but with electric assist, you can kick up the assist level on hills so that you go fast up them too.
-
-Thus, in getting a similar workout, you will cover a lot more ground and go a lot faster (especially uphill) on an electric mountain bike. Those are pretty large benefits in terms of fun, in my book.
-
-**Handling mismatches of greater electric assistance than you need for a given trail: braking to scrub off extra speed lets you still get good exercise**
-
-If you take pains to scrub speed with your disc brakes whenever you go into tight speed-locked corners, you can largely go ham on the pedals to your hearts content even on an electric bike. What do I mean by this? I mean that you actually *can* just about always pedal as hard as you want, even on a high level of electric assist, even on a speed-capped trail with lots of tight corners and switchbacks... you'll just be constantly braking to scrub off the excess speed generated by a level electric assistance greater than what is truly needed.
-
-The reason why pedaling harder necessarily leads to excess speed is because electric assistance on good electric mountain bikes is a function of pedal effort. That is, it amplifies pedal power, so if you pedal harder, you'll get more electric assist power too. This is definitely how you want things for intuitive electric mountain biking. The consequence of this, though, is that if you always pedal hard such that you maximize exercise, there may end up being circumstances when the large amount of amplification derived from your high level of pedal power ends up leading to more speed than you can carry through a trail. You then have to brake to get rid of excess speed.
-
-Have you lost anything from this situation? We've met our goal of still getting good exercise, and a side-effect is that you'll always be blasting through trails at just about the fastest speeds you can, which of course is excellent from a fun perspective.
-
-There are three primary downsides: First, you put more wear on your brakes and go through brake pads faster. Second, since you are constantly turning battery power into heat on your disc brakes, you end up paying for some extra electricity (wasted energy). Third, since you are constantly turning battery power into heat on your disc brakes, you get less overall battery life, and therefore a lower overall range.
-
-The first two are essentially disadvantages only in terms of money: they go away if you throw money at them. The third one is a real practical concern, however. If you ride hard in the manner I have described, you do end up turning a good bit of battery power into heat on your brakes, which reduces your range. Buying an extra battery adds a lot of weight, so isn't a catch-all solution to this issue.
-
-This ultimately comes down to how much battery you have on your bike and how long your rides typically are. For me personally, since I mountain bike multiple times a week rather than all in one longer ride (better for exercise distribution, and also spreads the fun/relaxation throughout the week), my rides always stay short enough that this problem would not end up being important. Of course, YMMV.
-
-**Upshot**
-
-I am perfectly willing to accept the proposition that adding electric assistance to mountain bikes will, in practice, probably decrease the amount of exercise you get by some amount. No matter how much you take pains to always pedal hard and just scrub speed where necessary (as above), you will probably not be perfect in this at absolutely all times.
-
-However, it is my opinion that the differences here are quite small overall. The fact that it ends up being easier in practice to zone out and fail to get good exercise does not mean that you *must* necessarily get a worse workout; it is not inherent, but a self-inflicted problem (due to "user error," as it were) that is soluble in large part. To put all this differently, you just have to be much more intentional about getting exercise on electric mountain bikes than normal mountain bikes.
-
-The main takeaway though, in my eyes, is that whatever minor decreases in overall exercise potential exist are more than made up for by the large increases in overall fun.
-
+I have no experience with [Zwift](https://www.zwift.com/) or other similar ideas, but they might be an alternative to my going-places-outside line of reasoning.
 {{% /sidenote %}}
 
-Here's some specific benefits of mountain biking:
+Now, mountain biking on single-track trails probably takes this form of fun to its maximum. For a long time, I was quite enamored with the idea of mountain biking. To this day I think it's an excellent activity -- [see here](/pages/mountain-biking). However, I have ultimately decided to bike to work instead of getting my cardio from mountain biking. I spent a lot (and I mean *a lot*) of time thinking this one through, and decided that biking to work is generally more advantageous, if you do some planning to make it work effectively.
 
-##### Mountain biking yields more time in nature
+I took great pains to map out commute routes when looking at houses, and made it one of the primary factors by which I evaluated possible places to live. Many and perhaps even most people will not have nearly as nice a bike commute as I do (in terms of scenery and safety, among other factors), in other words, and then the decision becomes a bit less clear-cut. (On the other hand, other may people may be further than 10 minutes away from mountain biking trails too). The two activities break down in the following way, as it seems to me:
 
-Mountain biking gets you out in nature more than any other form of cardio I can think of. (Maybe vigorous snorkeling is on the same level? Kayaking fast on a lake at sunset?).
+Biking to work:
 
-While there have been [some studies suggesting health benefits to spending time in nature](https://www.minnpost.com/second-opinion/2018/07/living-near-parks-or-other-green-spaces-linked-wide-ranging-health-benefits/), the observational nature (heh...) of most of the research makes determining causality difficult. Put simply, nature could be more or less a red-herring: for example, the people in the studies might be healthier not because they spent time in green spaces, but because when spending time in green spaces, they exercised more and got more social interaction, both things causally linked to positive health outcomes (such as lower cortisol levels).
+- Generally safe if you only allow yourself to ride on roads conducive to cycling (i.e., roads with low traffic, few intersections, etc. -- think twisty country roads). (Note: if you aren't careful in picking where you live, you may not have any completely safe commute paths to your place of employment!)
+- Very minimal time opportunity cost. (If your commute is primarily on ~40 MPH roads, and the kind of electric bike you get is a speed pedelec that can maintain 28 MPH, you don't really lose all that much time biking to work, but gain a lot in terms of free exercise, as well as enjoyment).
+- If you have nice scenery on your commute (vs. urban sprawl and intersections), biking to work can be very enjoyable. If you are taking pains to avoid traffic, enjoyment here is less of the adrenaline-filled variety (although there is a bit of that), and more the wind-in-your hair/sun-on-your-face, cruising through pretty scenery variety (cf. convertible cars).
+- If you can very occasionally access a car proper if you really need to (e.g., you are married and your spouse still has a car, or you have a roommate that is willing to give you a lift from time to time), many people can probably completely replace a car with an electric bike. Aside from being a cheaper purchase upfront, you save thousands of dollars a year (you don't have to pay for gas, oil changes/tire rotations, vehicle registration, and car insurance, which is the biggie). The fact that electric bicycles are mind-blowingly efficient energy-wise (especially if you pedal hard!), along with the fact that you don't have to register them and insure them, means that you save a lot of money if you can get away using one full-time. Pulling this off successfully does take some planning.
 
-Nonetheless, the romantic in me is on board with the idea that taking in lots of fresh air and natural beauty is healthy for mind and body, and it certainly can't be construed as a con.
+Mountain biking:
 
-##### Mountain biking involves superior novelty, staving off boredom
+- Generally safe if you use your brain (i.e., don't ride on sketchy trails right next to cliffs, or ride on any trails that are very much above your present skill level).
+- I think it is fair to say that mountain biking is the more fun activity overall. You certainly get more adrenaline thrills from mountain biking.
+- However, despite being the more fun activity overall, mountain biking has two practical disadvantages:
+  - While the net time opportunity cost of biking to work for cardio is fairly minimal, the time opportunity cost of mountain biking for cardio is much more severe. If your car commute is 18 minutes, bike commute is 25 minutes, and distance to mountain biking trails 10 minutes by car (these are my rough numbers), then assuming two mountain biking trips a week (three would be even worse, not better), to get equivalent amounts of cardio (`25 * 2 * 5 = 250 minutes/week`), the two options have the following net time opportunity costs:
+      - Biking to work: `(25 * 2 * 5) - (18 * 2 * 5) = 70 minutes`.
+      - Mountain biking: `(10 * 2 * 2) + (250) = 290 minutes`. (It's 310 minutes if the cardio time is split over three MTB trips a week = have to drive to/from trails three times, not two).
+  - Quite simply, if you bike to work, you can replace your car (if you plan effectively), while you still need a car in the mountain-biking case. Because of higher upfront purchase costs, higher operating costs (gas, oil, tires), plus yearly registration and insurance, there is thousands of dollars of monetary opportunity cost in not being able to forgo another car.
 
-Mountain biking trails have constant turns, lots of obstacles (like rocks and roots), frequent (and sometimes rapid) changes in elevation, and so on. Contrast all this novelty with riding on an open, paved road. Which environment do you think is likely to keep you interested? For me and my easily-bored brain, it's not even close.
+Due to these two lines of practical reasoning, while mountain biking still has my heart, biking to work is what I have actually settled on.
 
-Now, to be fair, riding around objects on the street (like crowds and urban features) is possible with some forms of cardio, but mostly too dangerous. Compare urban freeride in inline skating circles (as in [here](https://www.youtube.com/playlist?list=PLG0epWKWDn1ZDstULFH-m4nXtXr0BYF3E)). The world is your playground, but unlike on restricted-use trails, you share it with many more people, and have a lot more sources of potential risk.
+#### Why jumping rope when traveling?
 
-##### Mountain biking makes you live in the moment
-
-To be able to effectively deal with all that novelty that we just discussed, mountain biking actively demands one's attention -- all of it, more or less. Riding on a smooth street is not even close to the same in terms of forcing "being in the moment." Being in the moment is hugely beneficial, both in terms of increasing enjoyment, and helping you de-stress by temporarily forgetting all your problems and worries, with your mind instead laser-focused on the present.
-
-##### Mountain biking does not carry problematically high levels of risk
-
-While I would love to own a motorcycle, I have never been able to get over the high amounts of otherwise-preventable risk that motorcycles entail. To put things simply, I refuse to introduce the risk of serious injury or death in any activities I do, unless I absolutely can't avoid such.
-
-Fortunately, mountain biking of a non-downhill variety involves very little overall risk of serious injury (as long as you wear a helmet). While exercising on residential back roads vastly reduces the threat of being harmed by cars/the irresponsibility of others, exercising on trails completely eliminates the threat. (This isn't unique to mountain biking, by the way -- trail running also shares this advantage, for example).
-
-However, it is true that there are in general many more objects to collide with (notably, trees) on trails, while if you wipe out on pavement, it's mostly just abrasion and fall impact forces you have to deal with. It seems probable to me that the overall risk on tame to moderate single-track is comparable to moving fast on pavement, while proper downhill mountain biking is likely more dangerous to a substantial degree. So as long as you avoid the most dangerous forms of mountain biking, your risk of serious injury is quite low.
-
-##### Mountain biking scratches the adrenaline itch
-
-I have more to say here, but that will come on its own page eventually. For now, suffice it to say that mountain biking is an excellent activity for getting one's adrenaline fix.
-
-##### Summary/conclusion
-
-In a single sentence:
-
-I think mountain biking is a great activity since it lets you safely get good exercise while interfacing with nature and having lots of fun, mediated through novelty (turns, rocks/roots, changes in elevation, etc.) and adrenaline from traveling at speed in close proximity to obstacles.
-
-#### Why jumping rope when weather prevents mountain biking?
-
-If I can't be doing my preferred activity of mountain biking, then that means that I'm stuck inside due to seriously nasty weather. (I'll actually still go mountain biking in somewhat inclement weather -- things have to be pretty bad for me to stay in). No matter what, I find activities done inside to be less interesting overall, so as a general rule, I'd rather get things over with in less time. Hence HIIT.
+If I can't be doing my preferred activity of biking outside, then that means that I'm traveling. I still want to get cardio when I travel, but I'm probably more likely to want to spend as little time as possible exercising when traveling, since I can exercise any time, but it's not often that I travel (and have the opportunity to see new places on so on). This makes HIIT quite attractive.
 
 There are many possible HIIT activities that one can engage in. Here's a reasonably representative list:
 
@@ -286,21 +233,21 @@ There are many possible HIIT activities that one can engage in. Here's a reasona
 - Kettlebells ([example gear](https://physicalliving.com/14-kettlebells-compared-the-complete-kettlebell-review/) -- pick one company from this review, and then two weights appropriate for you. I would be at 20kg and 24kg bells at the moment, but I'm a large human at 6'5" and >200 pounds)
 - Burpees, pushups, core exercises (leg raises, flutter kicks) -- these activities require no gear.
 
-Sprint training is good for HIIT and requires no equipment, but it is high-impact, and can't be done inside super well (unless you have a track inside your house...). All of the above activities are relatively low impact, including jumping rope (at least if you do it right and minimize jump height).
+Sprint training is good for HIIT and requires no equipment, but it is high-impact. All of the above activities are relatively low impact, including jumping rope (at least if you do it right and minimize jump height).
 
 How then to decide what activity (or activities plural) to do? Here's some variables:
 
 1. Which activity burns the most calories?
 2. Which activity is a relatively full-body exercise?
 3. Which activity lets you have the most variety, novelty, and fun (variety and novelty are essential for fun)?
-4. Which activity can be done when traveling (since you can't mountain bike when travelling, it makes sense to have this indoor form of cardio be the travel cardio activity)?
+4. Which activity requires minimal bulky/heavy gear, such that it does not practically complicate traveling?
 
 In my opinion, jumping rope is the best pick:
 
 1. Jumping rope burns an insane number of calories.
 2. If you do it with weighted ropes (either mid or especially heavy weight ropes, as linked above), it is a full-body exercise.
 3. Jumping rope lets you have lots and lots of variety and have a lot of fun, once you get good at it: you can mix in different jumping patterns (boxer step, running in place, etc.), side-swipes, cross-overs (both ways), and double-unders. All this means that I never get bored of it at all.
-4. Jump ropes are quite portable.
+4. Jump ropes are quite portable when traveling. Battle ropes are less portable, and kettlebells are downright *un*-portable.
 
 {{% sidenote %}}
 [Crossrope](https://www.crossrope.com/) is a well-known weighted jump rope brand. They make good stuff --  I've tested it myself, having bought ropes personally with my own money.
@@ -318,7 +265,7 @@ What I'm getting at in all this is that it may take a while for the benefits of 
 
 ##### You don't have to pick just one HIIT exercise
 
-Personally, I do mostly stick with jumping rope. I just find it to be way more fun than any of the other options. But if you wish, you can add in more variety by doing some of the other HIIT options alongside jumping rope. Battle ropes and kettlebells also both allow for extreme variety in workouts, making them also very good choices.
+Personally, I do mostly stick with jumping rope. I just find it to be way more fun than any of the other options. But if you wish, you can add in more variety by doing some of the other HIIT options alongside jumping rope. Battle ropes and kettlebells also both allow for extreme variety in workouts, making them also very good choices. It's in traveling that jump ropes clearly shine, in my opinion.
 
 <!--
 Only doing a subset of these requires less gear overall, but I've found variety to be critical for two super-important reasons:
