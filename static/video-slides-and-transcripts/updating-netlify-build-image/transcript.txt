@@ -1,0 +1,319 @@
+00:00 - hello internet my name is stephen tamman
+00:03 - and today i want to go
+00:04 - over updating the build image for
+00:07 - sites on netlify so a couple weeks back
+00:11 - the netlify support people posted a
+00:14 - thread
+00:14 - uh introducing the topic of
+00:18 - updating the build image from i believe
+00:20 - it's 14.04 to 20.04 so that's
+00:25 - trustee to focal and uh the threads been
+00:28 - up a couple weeks and
+00:30 - there were some issues for some of us in
+00:32 - updating
+00:33 - um specifically regarding a ruby version
+00:36 - um so i'm coming to do the final update
+00:39 - for myself here
+00:40 - and one of the guys on the thread just
+00:42 - asked your
+00:44 - not ask said he was a little bit lost
+00:45 - and so i figured while i'm doing this i
+00:47 - may as well just record it
+00:49 - um so i'm just going to go bottom to top
+00:51 - on
+00:52 - basically where you go on the netlify
+00:54 - dashboard and what the things you should
+00:56 - do and what the order is so hopefully
+00:58 - this will help
+00:59 - uh you know and anyone else who maybe
+01:02 - hasn't done this before or you know
+01:04 - hasn't had to deal with the settings
+01:06 - you know it is probably a bit confusing
+01:08 - i mean i certainly was confused the
+01:10 - first time i did it
+01:11 - so when you start on your netlify
+01:14 - dashboard like this let me see i have
+01:15 - two sites on netlify right now
+01:18 - you can click on the site that you have
+01:21 - and then
+01:22 - on this page there will be a list of
+01:25 - deploys
+01:26 - so these are the builds of your site
+01:29 - in order at the top is the most recent
+01:31 - one and
+01:32 - as you scroll down you get less recent
+01:34 - ones so what you want to do is click on
+01:37 - this header here called production
+01:38 - deploys
+01:40 - now since we are going to be changing
+01:43 - the build version you probably don't
+01:45 - want it to go live
+01:46 - on your site immediately so the first
+01:49 - thing you should do is click this button
+01:50 - here called stop out up
+01:52 - stop auto publishing and what that will
+01:55 - do is it will lock your production
+01:56 - deploy
+01:57 - to the last one that was successful so
+02:00 - we're going to go ahead and do that for
+02:01 - this site
+02:02 - and now you should see that there's a
+02:04 - lock next to the published here
+02:07 - so now what we're going to go do is
+02:09 - we're going to go ahead and bump the
+02:10 - build
+02:10 - image so you're going to click on the
+02:12 - button that i just clicked on there
+02:14 - so on the deploys page for this and how
+02:18 - we got here from
+02:19 - my dashboard was um i clicked on the
+02:22 - site
+02:23 - and then i went and clicked on
+02:25 - production deploys
+02:27 - and then i clicked on deploy settings
+02:29 - from here
+02:30 - so once you're on this page you're going
+02:33 - to have to scroll down
+02:34 - until you find a section that says build
+02:38 - image selection
+02:39 - and so right now you see that i'm
+02:40 - running ubuntu trustee
+02:42 - 14.04 so this is the old build image
+02:46 - and i'm going to want to update this to
+02:48 - the newest one
+02:50 - now the latest stable one is 1604 but
+02:53 - if we're doing it i kind of figure we
+02:55 - may as well do it for the new one
+02:57 - so we're going to go ahead and select
+02:58 - that here and then we're going to press
+03:00 - save
+03:01 - now before we trigger a build i'm going
+03:04 - to go ahead and re-link
+03:06 - the repository that my site is being
+03:09 - built from
+03:10 - because one of the guys helping us debug
+03:13 - in the thread
+03:14 - had decided that some of the package
+03:17 - dependencies that we were having issues
+03:19 - with
+03:20 - were getting linked from the first time
+03:22 - that you linked the repository to
+03:23 - netlify
+03:24 - so some dependencies got set and
+03:28 - it's not perhaps the greatest
+03:29 - documentation because nowhere are you
+03:31 - seeing
+03:32 - where these versions are but he said
+03:35 - that the way that you fix this is to go
+03:38 - to the
+03:38 - bill in the build and deploy section go
+03:41 - to the one that says build settings
+03:44 - so we're on the same page the one that
+03:46 - we scrolled down on now that we've
+03:47 - picked
+03:48 - focal so 20.04 is the build image we're
+03:51 - going to go up
+03:52 - to the build settings section here now
+03:55 - you can see the github repository that
+03:57 - i'm deploying my site from
+03:58 - is this one here so i'm going to go
+04:00 - ahead and i'm just going to go
+04:02 - get rid of it and then i'm going to link
+04:03 - it again so i'm going to press edit
+04:05 - settings
+04:06 - and say link to a different repository
+04:08 - now i'm going to authenticate with
+04:10 - github
+04:11 - because my git repository is on github
+04:14 - so once we've authenticated
+04:17 - via the api here i'm going to go ahead
+04:20 - and select that same repository again
+04:23 - so i have quite a few repositories as
+04:25 - you can see but
+04:26 - we're going to search just for
+04:30 - the well okay that's not helpful we're
+04:32 - going to search for this one
+04:34 - the one that i'm deploying my site from
+04:37 - and going to be deploying the master
+04:41 - branch
+04:42 - and we're not going to change anything
+04:44 - different here these are
+04:45 - all the things that i had before the
+04:47 - public directory
+04:49 - and so i have just re-linked the build
+04:51 - repository for the site
+04:53 - and so when we do that it will take us
+04:57 - back to the deploy page here
+05:00 - and we just re-linked it uh
+05:03 - and we have updated the build image
+05:06 - all right well i paused for a second
+05:08 - there to let it finish
+05:10 - and if i go ahead and click on the
+05:12 - newest build
+05:13 - so if you remember we went ahead and
+05:15 - locked our builds
+05:16 - so we have the last published one is
+05:18 - still up and now you'll notice that
+05:19 - there's
+05:20 - one deployment ahead of this so this is
+05:22 - what we did
+05:23 - after we re-linked the repository it
+05:25 - went ahead and rebuilt the site
+05:27 - so if we go look at this now and we look
+05:29 - at the log
+05:30 - the deploy log here you'll see that it
+05:33 - said that
+05:33 - the build was successful and this is a
+05:36 - good thing
+05:37 - because i am not specifying any versions
+05:40 - so previously when i'd updated from the
+05:43 - trusty build image to the focal build
+05:45 - image
+05:46 - i was getting an error because it was
+05:49 - having problems installing an old
+05:51 - version of ruby
+05:52 - but now that we've re-linked the
+05:55 - repository
+05:56 - it is picking up the dependencies just
+05:58 - fine from
+06:00 - the focal build image so the defaults
+06:02 - there
+06:03 - and is building the site that way and in
+06:05 - fact because it's not trying to install
+06:08 - an
+06:08 - old dependency version i believe it was
+06:10 - ruby 2.3
+06:12 - it was installing it actually builds a
+06:14 - lot faster
+06:15 - because it's using the default versions
+06:18 - of you can see python here
+06:20 - node ruby php you know i'm building my
+06:23 - static site with the hugo static site
+06:26 - generator
+06:26 - but all of the dependencies aren't
+06:28 - taking up build time now
+06:30 - so what i'm going to go ahead and do now
+06:32 - is i'm just going to go ahead and do
+06:33 - exactly the same thing
+06:35 - for the other side that i run so
+06:38 - just going ahead and reviewing what we
+06:40 - do so you
+06:41 - go from your dashboard to the site and
+06:43 - then you click on production deploys
+06:46 - and then you stop auto publishing just
+06:48 - in case you break something
+06:50 - while you're trying to update then you
+06:53 - go to
+06:53 - deploy settings and you scroll down
+06:56 - until you find
+06:58 - build image and then you update the
+07:01 - build image
+07:02 - youtube whichever one you want one of
+07:04 - the newer ones i'm going to be doing
+07:06 - the most updated one so focal
+07:10 - and then we go ahead and re-link the
+07:12 - repository again
+07:14 - so you can see this one's a different
+07:15 - git repository but the same process as
+07:17 - we did last time
+07:20 - so again i'm going to authenticate with
+07:22 - github
+07:23 - because that's where i have my
+07:24 - repository
+07:26 - and once we've authenticated i'm going
+07:28 - to go down
+07:30 - and re-link exactly the same repository
+07:32 - that we had before
+07:34 - oops well i guess it was on the first
+07:36 - page all right
+07:38 - so here it is here's the repository and
+07:40 - all the builds gonna stay the same as it
+07:42 - was so again i'm using hugo as my static
+07:45 - site generator but some of this might be
+07:46 - different for you
+07:48 - if you're using a different one and so
+07:50 - once we press this deploy site button
+07:52 - you're going to see that it's going to
+07:54 - go ahead and start a build here
+07:56 - so i'm going to pause again and we'll
+07:57 - wait for this one to finish too
+07:59 - and then i'll make some closing comments
+08:02 - all right so now my second site here has
+08:04 - built and if we go
+08:06 - look at this deploy summary in the log
+08:08 - you'll see that we had
+08:10 - exactly the same sort of setup as on my
+08:13 - other site
+08:13 - so all the green checks and all of the
+08:16 - dependencies installed
+08:17 - and so that means that i've now updated
+08:20 - both of my sites to be using the new
+08:22 - build image
+08:23 - now the last thing that we want to do
+08:26 - and this is important so you don't want
+08:27 - to forget it
+08:28 - is to start auto publishing again so
+08:31 - next time you push a commit
+08:32 - to the linked repository that means that
+08:35 - netlify will run its continuous
+08:37 - integration to go ahead and build your
+08:39 - site
+08:40 - automatically so i'm going to go ahead
+08:42 - and
+08:43 - start it again on this site so now that
+08:45 - we've successfully published you'll see
+08:47 - that the lock went away
+08:48 - that means that next time something gets
+08:51 - pushed to the branch
+08:52 - the site will rebuild and so i'm going
+08:54 - to go ahead and do that
+08:56 - on my other site as well
+08:59 - so i'm going to click on production
+09:01 - deploys and then
+09:03 - start auto publishing all right so one
+09:06 - last thing i want to talk about in this
+09:08 - video and that
+09:09 - is the netlify.tamul file
+09:12 - that specifies the build settings here
+09:15 - so you can see
+09:16 - that i am on the github repository for
+09:19 - one of the sites that i just
+09:20 - bumped the build image for and i just
+09:23 - wanted to give folks an idea if they
+09:25 - already didn't know
+09:26 - about what this sort of thing looks like
+09:29 - so
+09:30 - you'll recognize these things from when
+09:32 - i was linking the repository
+09:34 - these are the defaults i believe for
+09:36 - hugo so this is the directory that we're
+09:38 - publishing the site out of
+09:39 - and this is the command that's going to
+09:42 - get run on netlify server
+09:44 - um and you can see here i'm actually
+09:45 - running a pretty out of date version of
+09:47 - hugo
+09:48 - because my theme has some uh
+09:51 - code that has been deprecated in later
+09:52 - versions but
+09:54 - uh really what i wanted to show here was
+09:56 - that if you have
+09:57 - a specific version of say ruby or php
+10:01 - or some other language that your site
+10:03 - relies on
+10:04 - you can actually set the version right
+10:06 - here
+10:07 - in the environment section and so
+10:10 - before i just came and updated the site
+10:13 - to build
+10:14 - by relinking i was actually specifying
+10:17 - a ruby version right here to get it to
+10:20 - build
+10:20 - because there was a problem with an
+10:23 - earlier ruby version
+10:25 - on the most recent build image so i was
+10:27 - just going to say that if you do need to
+10:29 - specify a version
+10:31 - rather than letting the environment pick
+10:33 - it when you relink the repository
+10:35 - this file right here is where you do it

@@ -1,0 +1,719 @@
+00:00 - hey guys my name is stephen tamman and
+00:03 - today i want to talk about
+00:05 - some of the cool subtitling that youtube
+00:08 - does
+00:08 - automatically for you when you upload
+00:10 - your videos so
+00:12 - after processing for a while youtube
+00:14 - will actually automatically generate
+00:16 - subtitles for your video and so this
+00:19 - video for example
+00:20 - contains all of our conversation in
+00:22 - english
+00:23 - and so you can see down here at the
+00:25 - bottom part of the video
+00:27 - you have a option for turning on
+00:30 - subtitles so when you turn on subtitles
+00:32 - and you start the video
+00:33 - you'll see that the word by word
+00:37 - the speech in the video will show up at
+00:40 - the bottom of the screen
+00:42 - and so that's useful enough on its own
+00:44 - but what many people might not know
+00:46 - is that youtube actually makes a full
+00:48 - transcript as well
+00:50 - and so to be able to match up the text
+00:53 - with the speech
+00:54 - of course the time information is
+00:55 - necessary but
+00:57 - you can actually open up the transcript
+01:00 - by clicking on the three dots here
+01:02 - underneath the video and clicking open
+01:04 - transcript
+01:06 - and so this transcript actually syncs
+01:09 - with the video as well
+01:10 - and so you can have both the subtitles
+01:12 - and the transcript at the same time
+01:14 - and so these things do operate slightly
+01:17 - differently though
+01:18 - because the subtitles as i said kind of
+01:20 - go a little bit word by word here
+01:22 - but the transcript goes line by line
+01:26 - but one of the big benefits of the
+01:28 - transcript versus subtitles
+01:30 - is that you can actually scroll in the
+01:33 - transcript you can
+01:34 - you can go back and pause the video and
+01:36 - and re-read some of what has been
+01:38 - discussed or you can even look ahead
+01:40 - and maybe jump to something that
+01:41 - interests you because when you click
+01:43 - here
+01:44 - it actually takes you right there in the
+01:46 - video and so this is actually hugely
+01:48 - beneficial
+01:49 - if you are trying to skim and find
+01:51 - something
+01:52 - however one of the pain points here
+01:56 - is that finding things as in with ctrl
+01:59 - f like this so if i look for the word
+02:01 - because
+02:02 - you can see that it does show up in the
+02:05 - transcript
+02:06 - but it's still not perhaps quite is
+02:09 - quite as seamless as you might want and
+02:12 - if you ever want to do anything more
+02:14 - powerful
+02:15 - you're kind of limited just having it in
+02:16 - the window here so
+02:18 - the other thing i want to cover in this
+02:20 - video um now that we've gone
+02:22 - over the automatic subtitles that you
+02:25 - can view on your videos
+02:26 - and the transcript that syncs along with
+02:28 - the video
+02:29 - um and not to diminish the utility of
+02:31 - these things i am
+02:33 - quite happy with the uh success with
+02:36 - which youtube
+02:37 - transcribes the videos it's not
+02:39 - completely perfect all the time
+02:40 - but it's within high enough accuracy
+02:42 - that it's eminently useful
+02:44 - so this is just gonna be a little bit
+02:47 - step above
+02:48 - uh what you can do automatically if you
+02:51 - want to
+02:52 - give a text file to your users so that
+02:54 - they can do perhaps some more advanced
+02:56 - things
+02:57 - so what we're actually going to do is
+02:58 - we're going to copy the text
+03:00 - of the transcript here so just scroll
+03:03 - down and copy the whole thing
+03:05 - and then we're actually going to paste
+03:06 - it into a text editor to clean it up a
+03:08 - bit
+03:09 - so i'm using the text editor visual
+03:10 - studio code um this is the text editor i
+03:13 - use and recommend
+03:14 - but you could also use something like
+03:16 - notepad plus plus
+03:17 - or any of other various options to do
+03:20 - similar things to what we're going to do
+03:21 - today
+03:23 - so when you first paste it into the text
+03:24 - editor you'll notice that the timestamps
+03:27 - are on lines above the text this is kind
+03:30 - of annoying
+03:31 - because typically how you'd want to do
+03:33 - this is you'd want to read
+03:34 - the first line then the second line the
+03:36 - third line but they're kind of broken up
+03:38 - here and that's not so great
+03:39 - so the first thing that you may want to
+03:41 - do if you do want to do
+03:43 - this sort of thing for your users is to
+03:45 - go ahead and move everything on the same
+03:47 - line
+03:48 - and so i'm going to give a little bit of
+03:50 - a crash course here into using
+03:52 - regular expressions to do this and so
+03:54 - what regular expressions are at a high
+03:56 - level
+03:57 - is they are a syntax language for
+04:00 - doing find and replace um so to open
+04:03 - this up in
+04:03 - visual studio code i press ctrl h and
+04:06 - that is the find and replace menu here
+04:08 - and you'll notice that i have this
+04:09 - little dot with a an
+04:11 - asterisk next to it and that is what you
+04:14 - need to highlight
+04:15 - if you want to do regular expression
+04:16 - stuff so
+04:18 - what i want to do is find every
+04:21 - line that is a time and then i want to
+04:24 - move the line after it
+04:26 - onto the same line as the time so that
+04:29 - way we'll have all the text
+04:30 - over to the right of the times and it
+04:33 - will be much easier to read
+04:34 - so to do this we need to match you see
+04:37 - here two digits
+04:38 - and then a colon and then another two
+04:40 - digits so it turns out the regular
+04:42 - expressions give you a way
+04:44 - to match a range of characters so for us
+04:47 - we want to match
+04:48 - any character 0 through 9. so
+04:51 - to do that you open a square bracket
+04:55 - and then do zero through nine and then
+04:57 - you close the square bracket
+04:59 - and so that will match exactly one
+05:01 - character
+05:02 - that is a digit so it so happens that
+05:06 - the numbers here because the video is
+05:07 - less than an hour all begin with two
+05:09 - digits exactly
+05:11 - so we're going to go ahead and match
+05:13 - exactly two digits
+05:15 - and so you can see highlighted here this
+05:17 - is one of the nice things about vs code
+05:19 - is that it actually highlights all the
+05:20 - matches before you do anything
+05:22 - and so okay now we're matching all two
+05:25 - digit clusters
+05:26 - but what we want to do is match two
+05:28 - digits a colon
+05:29 - another two digits and then a new line
+05:31 - so i'm just going to go ahead and type
+05:33 - that out
+05:33 - so we type out a colon and then we match
+05:36 - another two digits
+05:38 - with the same thing we did the first
+05:39 - time and then to match a new line you
+05:42 - use a backslash
+05:43 - to escape the character and then you
+05:45 - type n
+05:46 - so this is actually now matching all of
+05:49 - these
+05:50 - timestamps here and what we want to do
+05:53 - is take the timestamp and then move
+05:56 - everything
+05:56 - on the next line onto the same line as
+05:58 - it so
+06:00 - to preserve the text that we match so if
+06:03 - i were to go ahead and run this
+06:04 - right now right now i'm not i'm finding
+06:07 - all of this but i'm not replacing with
+06:08 - anything
+06:09 - so if i wanted to completely clear the
+06:10 - timestamps i would actually just do that
+06:13 - but it can be helpful to actually keep
+06:15 - the timestamps around
+06:17 - because that way your users will be able
+06:19 - to see exactly where in the video things
+06:21 - are
+06:21 - so like i said that's one way if you
+06:23 - want to completely clear the timestamps
+06:25 - you just replace
+06:26 - this regular expression with nothing but
+06:28 - what we want to do is a little bit more
+06:30 - advanced we actually want to keep the
+06:31 - timestamp
+06:32 - but then we want to move the text onto
+06:34 - the same line as it
+06:36 - so there are things called capture
+06:38 - groups in regular expressions
+06:40 - and the syntax for those are parentheses
+06:42 - so what we're going to do here
+06:44 - is put parentheses around the actual
+06:46 - timestamp so the two digits the colon
+06:48 - and then the next two digits
+06:50 - and we're going to go ahead and capture
+06:52 - that and what that means
+06:54 - is that if you use here in the replace
+06:58 - if you put a dollar sign and then the
+07:00 - number of the capture group so here we
+07:02 - only have one capture group so it's
+07:03 - captured group one
+07:04 - this will actually replace everything we
+07:08 - just did
+07:09 - so everything we just matched here
+07:11 - inside the parentheses
+07:13 - it will just replace it in the replace
+07:16 - text you have here
+07:17 - and this is what makes regular
+07:19 - expressions so much more powerful than
+07:21 - normal find and replace
+07:22 - because you get to define how you use
+07:26 - the text that you match and exactly what
+07:28 - you replace it with
+07:29 - so in our particular case we're probably
+07:32 - going to want to keep the numbers
+07:33 - and then we want to get rid of the new
+07:35 - line that's why we didn't include it in
+07:37 - the capture group
+07:39 - but maybe we'll stick a space after the
+07:41 - timestamp
+07:42 - so if we don't stick a space then all of
+07:44 - the text is going to get squashed right
+07:46 - next to the timestamps just like that
+07:47 - so that's not what we want so we could
+07:50 - just do one space but
+07:51 - i kind of like putting a dash in between
+07:54 - so i just added
+07:55 - space dash space after the time stamp
+07:59 - and that means that all of the text will
+08:01 - get moved onto
+08:02 - the lines with the timestamps but just
+08:04 - with a space in a dash in between here
+08:07 - alright so that is how you get your
+08:10 - timestamp file here as with
+08:13 - lines by line having the timestamp at
+08:17 - the left and then the text at the right
+08:18 - and so this
+08:19 - makes it much easier to read than when
+08:21 - you have the timestamps
+08:23 - between the lines of text so you could
+08:25 - go ahead and stop here
+08:27 - if you want to do a couple more advanced
+08:29 - things you might also think about
+08:31 - getting rid of filler words so one word
+08:34 - for example
+08:35 - that i sometimes have in my speech
+08:38 - it doesn't really contribute any value
+08:40 - because it just
+08:42 - is me catching my thoughts trying to
+08:44 - think about what to say next
+08:46 - is the word um so you might be tempted
+08:50 - to just take the word um and then
+08:51 - replace it with nothing
+08:53 - but the problem is it can sometimes show
+08:55 - up in words
+08:56 - so if we scroll until we find an example
+08:59 - [Music]
+09:01 - scrolling scrolling scrolling well
+09:05 - i believe there is an example somewhere
+09:07 - let me let me see
+09:09 - all right so here's an example that i
+09:11 - found it did take me a little bit there
+09:13 - so we have all of these ums that we've
+09:15 - highlighted but you can see here
+09:17 - that on line 407 we have the word
+09:20 - circumstances
+09:21 - which actually happens to contain the
+09:23 - letters u and m in it
+09:25 - so if we were to just go get rid of ohms
+09:27 - everywhere
+09:28 - by just replacing on the text there
+09:32 - well then you'll notice that that word
+09:34 - suddenly becomes circumstances which is
+09:37 - definitely not what we want
+09:39 - so we can be a little bit smarter by
+09:41 - just replacing the
+09:42 - ums that have spaces around them
+09:46 - now this will catch most things you'll
+09:48 - see here that will get rid of most of
+09:50 - the um's that we now have highlighted
+09:52 - but you see this um at the end of line
+09:55 - 452
+09:56 - well that's not getting matched because
+09:59 - there is a new line there so maybe if we
+10:02 - do
+10:03 - space and then new line as the matching
+10:06 - group
+10:07 - well you can see that now we're matching
+10:09 - the ums at the end of lines as well
+10:11 - so this actually should work for us if
+10:13 - we run this
+10:14 - so we're going to take space um
+10:17 - and then either match a space or a new
+10:19 - line and we replace
+10:21 - we're actually going to get rid of
+10:24 - all of the ohms now we will probably
+10:27 - actually want to replace these
+10:29 - with a space there because if we don't
+10:33 - then we're actually going to shift the
+10:34 - text right next to
+10:36 - the dash there like you see there so
+10:39 - what we probably want to do is actually
+10:41 - replace the regular expression that
+10:43 - we're going to use there
+10:44 - with a single space and then that will
+10:46 - actually offset it so that we keep
+10:49 - the spacing around the dashes and so now
+10:53 - if this regular expression may have
+10:55 - accidentally added a space places
+10:58 - because we may have had an
+11:01 - um in the middle of other text we can
+11:03 - actually just search for
+11:04 - two spaces and see if we have any
+11:07 - matches
+11:08 - for simply two spaces in a row and if
+11:10 - you do then you can replace those
+11:13 - and then your file will be completely um
+11:15 - free
+11:17 - for myself specifically i also find that
+11:20 - i
+11:20 - say the word write a lot and so as you
+11:23 - can see here highlighted
+11:25 - we have many cases of me just using this
+11:29 - as a filler word as well
+11:31 - now the more difficult thing about this
+11:33 - one is that sometimes the word write
+11:35 - actually does mean something in context
+11:39 - so these two cases here don't mean
+11:42 - anything
+11:43 - this one doesn't mean anything but here
+11:45 - you can see it's part of the word
+11:46 - righteousness so we might do that
+11:48 - the same thing we did before where we
+11:50 - were matching just on spaces
+11:52 - however it is possible here
+11:56 - for this word to actually mean something
+11:59 - in context
+12:00 - so let me see if i can find an example
+12:03 - of this as well
+12:05 - so here's a couple examples on line 137
+12:09 - we're using write as an adjective so
+12:11 - emphasizing is probably the right word
+12:13 - if we were to just get rid of the word
+12:16 - write everywhere
+12:16 - then that would get cut out and that's
+12:18 - not what we want we scroll up a little
+12:20 - bit here
+12:21 - then you'll see that we're also using it
+12:23 - here on line 93 so
+12:25 - seated at the right hand of god so if we
+12:28 - got rid of it everywhere
+12:29 - that one would get excised as well so
+12:31 - for other words like this
+12:33 - so right is one for me another one
+12:36 - is you know this is another filler
+12:40 - of another filler phrase for me
+12:44 - if you want to remove these things
+12:46 - you're going to have to go through
+12:47 - and just look at the highlights and
+12:48 - remove them yourself now the reason why
+12:51 - you might want to do this
+12:52 - is just to clean up the transcript sum
+12:54 - so you can get rid of all of these
+12:56 - things
+12:57 - and then if you actually combine all the
+12:59 - text over time
+13:00 - you could just make it into paragraphs
+13:02 - just based on what you did in the video
+13:05 - so it would take some editing but it
+13:07 - would still take an awful lot less time
+13:09 - than writing something from scratch and
+13:11 - so this sort of thing that i'm showing
+13:13 - here
+13:14 - with highlighting and finding and
+13:15 - replacing and using regular expressions
+13:18 - this is the sort of reason why
+13:20 - downloading
+13:21 - your transcript and putting it into a
+13:25 - text file
+13:26 - can let you and your users do some of
+13:28 - these things
+13:29 - that you can't quite do so well when you
+13:32 - just have the transcript interface
+13:34 - here on youtube and
+13:37 - so one last thing that i want to that i
+13:40 - want to talk about
+13:41 - regarding this having the transcript in
+13:44 - a text file
+13:45 - is that it allows users to much more
+13:47 - effectively search for things as well
+13:49 - so for one thing they can use regular
+13:51 - expressions when they search as we've
+13:52 - kind of gone over
+13:54 - but it's also way more streamlined than
+13:56 - kind of
+13:57 - searching on the page which kind of
+13:59 - works but when you're here
+14:01 - if i wanted to go look everywhere the
+14:03 - word eternal is used
+14:04 - in this transcript it's really easy i
+14:06 - just can cycle through the meetings and
+14:08 - then i can go read the
+14:09 - few lines above and below each usage to
+14:11 - get the context
+14:13 - and that sort of thing just isn't as
+14:14 - easy when you're on the youtube
+14:16 - interface
+14:17 - all right so another thing i would like
+14:19 - to discuss in this video
+14:21 - and this one's going to be a little bit
+14:22 - more advanced is what happens if you
+14:25 - want to
+14:25 - dynamically generate links to the
+14:28 - timestamps in the video for this
+14:30 - so youtube does support linking to
+14:32 - specific times in the video
+14:35 - if you right click on a video you see
+14:37 - you can copy
+14:38 - the video url at the current time and if
+14:41 - we go ahead
+14:42 - and paste this you'll see that the time
+14:44 - is given here
+14:45 - in seconds so if we want to copy this
+14:49 - then you see how we have this string
+14:51 - here
+14:52 - well let's go ahead and copy
+14:55 - everything here except for that time
+14:57 - there in seconds
+14:59 - and so for now we'll just keep this
+15:02 - aside for a moment
+15:03 - and we'll paste it there in a cell in a
+15:06 - google sheet here
+15:07 - so if we grab all of the timestamps that
+15:09 - we've now cleaned up a bit
+15:12 - and we grab all of this text and then we
+15:14 - paste it into a spreadsheet
+15:16 - let's see if it's possible for us to go
+15:18 - ahead and concatenate
+15:20 - the time in seconds here with this
+15:22 - string
+15:23 - to generate links to the times that we
+15:26 - want
+15:27 - so the way for us to do this is we're
+15:30 - going to have to split up
+15:32 - everything we see here and we're going
+15:33 - to have to get these things here where
+15:35 - you see
+15:36 - minutes colon seconds into a seconds
+15:39 - format that we can process
+15:41 - with math functions so the first thing
+15:43 - for us to do probably
+15:45 - is to go ahead and split up these
+15:46 - strings into multiple columns and so you
+15:49 - do that by
+15:50 - selecting the data and then doing split
+15:52 - text to columns
+15:54 - so now we have the numbers in this
+15:57 - column
+15:58 - and then a dash and then the text there
+16:01 - so let's go ahead
+16:02 - and let's go ahead and insert a few
+16:04 - columns there so we'll just get the
+16:05 - other stuff out of the way
+16:07 - and what we want to do now probably is
+16:09 - format this column is text
+16:11 - because that will let us do that will
+16:13 - let us do
+16:15 - substring things on it so here
+16:18 - we can extract the first part of the
+16:20 - string using a function
+16:22 - called regex extract and so the first
+16:25 - parameter to this is a string which we
+16:27 - pass that cell
+16:28 - and then we write a regular expression
+16:30 - here and the capture group in the
+16:31 - regular expression will be what
+16:33 - ends up showing up in this cell so we
+16:35 - want to first grab
+16:37 - the minutes here and so that's going to
+16:38 - be everything before the colon
+16:40 - so to do that we can just grab any
+16:42 - characters
+16:43 - and then match the colon and then we
+16:45 - don't need to capture the other ones
+16:46 - because we only have one thing in the
+16:48 - capture group here
+16:49 - so if we do that we'll see that right
+16:52 - now that's zero and that's what we want
+16:54 - but if we go and we paste this
+16:57 - for everything then as we scroll down
+17:00 - you'll see that this is actually
+17:01 - grabbing that first number there
+17:03 - so we can actually do a very similar
+17:05 - thing for grabbing the second capture
+17:07 - group
+17:08 - except we are now going to capture the
+17:10 - second bit
+17:11 - so rather than capturing the thing
+17:13 - before the colon we are going to capture
+17:15 - the thing after the cold
+17:17 - and then doing this you'll see
+17:20 - that now we can
+17:23 - capture the number of seconds as well
+17:26 - and
+17:29 - it looks like oops that did not work
+17:32 - i don't know exactly what i did there
+17:34 - but um
+17:35 - let's go ahead and try that again
+17:38 - [Music]
+17:40 - must have messed something up when i
+17:41 - copied it
+17:44 - very strange oops i think i know what
+17:47 - that was i think that's because
+17:49 - i was not pasting correctly i did ctrl
+17:51 - shift
+17:52 - select it all and then we're going to
+17:54 - paste and there we go now we're grabbing
+17:56 - the right values
+17:57 - okay so to get this as the times that we
+18:00 - want
+18:01 - we are going to go ahead and
+18:04 - multiply the minutes by 60 to get
+18:08 - the number of seconds in the minutes so
+18:10 - we're going to go ahead over to this
+18:11 - cell
+18:12 - multiply that number by 60 and then add
+18:15 - the number of seconds here
+18:16 - and this and that should not be
+18:19 - percentage that should just be a number
+18:23 - in fact that should not be a number we
+18:25 - should give it a number
+18:27 - with zero so we want an integer number
+18:30 - of seconds
+18:30 - so if we go and we do this
+18:34 - for everything in this column we are now
+18:37 - getting the number of seconds
+18:38 - just like youtube is expecting so i left
+18:40 - a blank column there
+18:42 - because now this string over here that
+18:44 - we went and got from youtube
+18:46 - we can actually go paste in here
+18:49 - and then copy that all the way down as
+18:52 - well
+18:53 - and then we can actually concatenate
+18:55 - these things
+18:56 - so we're going to take the text in this
+18:57 - column and then we're going to use
+18:59 - an ampersand and then we're going to
+19:01 - take what's in this column
+19:03 - and we're going to just stick them
+19:04 - together and here if we
+19:06 - actually expand this out you'll be able
+19:09 - to see
+19:10 - that we are going to grab all of the
+19:12 - timestamps here
+19:14 - um we go down we do this
+19:18 - all the way there and then
+19:21 - we are grabbing the timestamps and
+19:24 - so this is what we want to have links
+19:28 - embedded now what we could do after this
+19:32 - is we could paste these links
+19:36 - into the thing so if we
+19:39 - go ahead and get all of these we could
+19:42 - then
+19:43 - have links embedded just like this
+19:46 - into our text file all right so
+19:50 - now that we've gotten these youtube
+19:51 - links the next thing we'll want to do is
+19:53 - reconstruct the text
+19:55 - perhaps in html just as an example to
+19:58 - show you how you turn these links
+20:00 - into actual timestamps so if you look at
+20:03 - all these columns we probably have
+20:04 - everything we need here
+20:06 - so in this column here we have the
+20:08 - actual link
+20:09 - in this column here we have the
+20:10 - timestamp that we'll want to display
+20:12 - and then of course we have the other
+20:14 - columns here that
+20:16 - we can use just as we were using them
+20:18 - before
+20:19 - so if we scroll over a little bit let's
+20:21 - go ahead and write a formula
+20:23 - to get all of this displaying in an html
+20:26 - format that will work appropriately
+20:28 - so we're probably going to want to make
+20:29 - a link so we'll do a
+20:31 - href equals and then
+20:34 - this and here what we're going to want
+20:37 - to do
+20:38 - is concatenate what we were just doing
+20:42 - here
+20:44 - as a string with
+20:47 - what we have in the value of the youtube
+20:50 - links
+20:50 - and so we are going to go ahead and
+20:54 - concatenate it with that value and then
+20:58 - close the
+21:02 - i think we actually need to i apologize
+21:05 - for a second there it
+21:06 - lost my train of thought um so we
+21:08 - actually need to include quotes here
+21:10 - in the html so you do that by using
+21:13 - double quotes
+21:14 - and so we're going to double quote to
+21:16 - get the href part in quotes here
+21:18 - and then we stick in the link that we
+21:21 - dynamically generated there
+21:23 - and so where we are right now is we have
+21:24 - ahref equals
+21:26 - to a link in quotes and so what we're
+21:28 - going to want to do after that
+21:30 - is close the tag and keep going
+21:33 - okay so now we have the href tag
+21:36 - closed and then what we're going to want
+21:38 - to do is
+21:40 - concatenate with what we want to display
+21:43 - in the link and so to do that
+21:45 - we are going to go over and use the
+21:48 - timestamp that we generated here
+21:51 - okay so at this point we need to then
+21:54 - close the link tag which we will do with
+21:58 - the closing of a link the closing anchor
+22:01 - tag there
+22:02 - and then we're going to want to keep
+22:06 - going
+22:06 - in the text on each line so to do this
+22:10 - we're going to then concatenate with
+22:11 - what we had before
+22:13 - so we're then going to want to
+22:16 - concatenate
+22:16 - with space and then dash space
+22:20 - and then we can just tack on the end
+22:23 - here
+22:24 - for the h and then to keep things on
+22:26 - different lines in html
+22:28 - we may as well add a line break for good
+22:30 - measure
+22:32 - and so we'll do that with strings
+22:34 - because we're concatenating everything
+22:35 - here
+22:36 - and then let's see if this looks right
+22:38 - to us and if we do
+22:40 - then we'll go ahead and we'll do this
+22:42 - for all of the links
+22:43 - okay so we have a link a href
+22:47 - and we have the link in quotes then we
+22:49 - have the time stamp
+22:50 - and then a dash and then what it is and
+22:52 - then a new line that looks right
+22:54 - so let's go ahead and
+22:58 - come all the way down here and then
+23:01 - we'll do that
+23:02 - for all the lines so you see looks like
+23:05 - quite a bit more text here
+23:07 - but if we go down and then we copy all
+23:10 - the way up to the top
+23:11 - and then we go to an html file i save
+23:14 - this one a little bit beforehand
+23:16 - and we paste all of them then this looks
+23:19 - like what we want right so if we go
+23:22 - ahead and save this html file
+23:24 - let's see if it actually opens in the
+23:26 - browser how we expect it to
+23:28 - so we're going to click on demo.html and
+23:30 - see
+23:31 - if the browser opens it how we expect so
+23:34 - if you see we now made time stamp links
+23:36 - now let's go ahead and just click on one
+23:38 - see where it takes us
+23:40 - so you can see that one the link that we
+23:42 - just clicked on
+23:43 - here let me go back it will show purple
+23:44 - now since we clicked on
+23:46 - is for 318 so
+23:49 - 3 minutes and 18 seconds so 3 times 6
+23:53 - is 180 plus 18 should be
+23:56 - 198 and if we look in the time stamp
+23:59 - that is exactly what we have so the math
+24:01 - is right
+24:02 - and it opens up us at three minutes and
+24:05 - 18 seconds into the video
+24:07 - exactly what we want now this was just a
+24:10 - simple sample
+24:11 - showing how you can use the powers of a
+24:14 - of excel
+24:15 - or rather google sheets here to
+24:17 - concatenate to build
+24:18 - the sort of link text that you might
+24:20 - want now if you were to use something
+24:22 - like markdown you could of course build
+24:23 - markdown links with this
+24:25 - but this is just an idea showing you
+24:27 - that if you really want to get fancy
+24:29 - you can actually do some pretty cool
+24:31 - things with the transcripts that youtube
+24:33 - automatically generates
+24:34 - and then give those to your user so that
+24:36 - they can do things with them as well

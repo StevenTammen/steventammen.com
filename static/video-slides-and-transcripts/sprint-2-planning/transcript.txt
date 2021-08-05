@@ -1,0 +1,356 @@
+00:00 - hey guys my name is stephen tamman and
+00:02 - today
+00:03 - i'm going to be going over the sprint
+00:05 - planning for
+00:06 - sprint number two in the work
+00:08 - organization
+00:09 - of all the stuff i do out of my outside
+00:12 - of my job
+00:13 - so earlier this morning i made a video
+00:15 - uh going over the review and the retro
+00:17 - for the first sprint
+00:19 - um but this video here is going to be
+00:21 - talking about all of the work we have
+00:22 - upcoming
+00:23 - for the next two weeks in my cycle here
+00:26 - um so last sprint uh the burn down was
+00:29 - not real pretty because
+00:30 - i ended up not really doing many of
+00:33 - these things relating to the website
+00:34 - that i had planned
+00:35 - um so this sprint we'll see if maybe i
+00:38 - can uh
+00:39 - not wander so much in the things i work
+00:41 - on and get more of that stuff done
+00:44 - i mean if not you know uh no no harm
+00:46 - done you know i it can roll over
+00:48 - uh as it needs to you know because last
+00:51 - print for example i had the
+00:53 - uh the write-up of audio normalization
+00:57 - and cleaning up the audio on videos and
+00:59 - all of that stuff was necessary but i
+01:01 - just hadn't anticipated it beforehand
+01:03 - but at any rate today um all of these
+01:06 - things that you see here so
+01:08 - the order number 7 to 14 here these were
+01:10 - actually all tasks that we already went
+01:12 - over
+01:12 - from the sprint planning video the last
+01:14 - time so all of these things
+01:16 - are relating to the establishment of the
+01:19 - ministry website that i've been working
+01:20 - on
+01:20 - and in particular they're dealing with
+01:23 - the theme
+01:24 - so the website theme that i am coding um
+01:27 - you know open source
+01:28 - so that's what is behind uh
+01:31 - my ministry website so
+01:36 - um right here the site that we have
+01:39 - going up everything you see
+01:40 - in the sidebar and if we go to a page
+01:43 - that has content you'll see the
+01:45 - dynamically scrolling table of contents
+01:47 - and
+01:47 - all of that is corresponding to the
+01:50 - theme that i've built
+01:52 - so the thing is to document all of the
+01:55 - features for the theme here
+01:56 - um it's necessary for me to write that
+01:59 - up
+02:00 - um so that's what these tasks are and as
+02:03 - i mentioned
+02:03 - in the first print planning video the
+02:06 - reason why
+02:07 - these things are going to end up on my
+02:08 - personal website is because eventually i
+02:10 - may not be the only person using this
+02:12 - theme
+02:13 - and so rather than having many
+02:14 - documentation pages on
+02:16 - say this website here which is going
+02:19 - over
+02:20 - the uh you know just just the ministry
+02:23 - stuff so bible teaching
+02:24 - um well if i have the documentation on
+02:28 - a project page on my personal site then
+02:30 - if other people ever end up using this
+02:32 - then the documentation will already be
+02:34 - there and multiple people can link to it
+02:36 - so i'm not gonna really spend much more
+02:38 - time talking about these things
+02:40 - um you know we will open up the uh the
+02:42 - task board here you know all of these
+02:43 - tasks have remained essentially
+02:45 - unchanged just because i never really
+02:46 - started them last sprint
+02:48 - so they've all rolled over we've got the
+02:50 - hours and the efforts from those things
+02:52 - um now in this sprint um
+02:55 - now we have all of the tasks here for
+02:58 - the
+02:59 - the videos in the upcoming weeks here so
+03:01 - the sprints are two weeks long
+03:03 - so this first week we've got the
+03:05 - discussion group video so there's three
+03:06 - of those that
+03:07 - happen on saturdays and then lesson four
+03:10 - video and q a
+03:11 - lesson five video in q a and the second
+03:13 - discussion videos from next saturday as
+03:15 - well
+03:15 - you can see that i've already started um
+03:17 - because this happened earlier this
+03:18 - afternoon i've already done the prep and
+03:19 - we've already done the recordings here
+03:21 - i actually have them processing right at
+03:23 - the moment
+03:24 - but those are all the video tasks and in
+03:27 - fact
+03:28 - in future sprint plannings i really
+03:29 - probably won't talk about the all that
+03:31 - much because
+03:32 - i'm expecting the time and the hours now
+03:34 - that i've gotten a better feel for it
+03:36 - i'm expecting them to stay relatively
+03:38 - relatively stable and consistent
+03:40 - so the discussion groups we've efforted
+03:42 - them at five
+03:43 - um i have a chart here now
+03:47 - depending on the process
+03:50 - you have going you might have a
+03:52 - correspondency here you know we effort
+03:54 - things with fibonacci
+03:55 - numbers because the specificity
+03:59 - that we can task things at kind of
+04:02 - gets finer as the tasks are smaller so
+04:04 - when you have a really big task
+04:06 - it can be much more difficult to
+04:08 - estimate
+04:09 - you know how much effort it's going to
+04:11 - take um so that's why
+04:12 - as you get bigger as tasks get bigger we
+04:14 - get less precise
+04:16 - because it's much harder to estimate
+04:17 - things that are larger in size and you
+04:19 - can see the hour ranges
+04:20 - also proportionally get bigger so these
+04:22 - are what i've decided
+04:23 - um so for my my workflow here which is
+04:27 - all of my time x out you know external
+04:29 - to work
+04:30 - and uh working out and eating and all of
+04:33 - the other things that
+04:34 - are part of life this is this is the
+04:36 - time i'm gonna try to sink into
+04:37 - my personal project so you can see here
+04:39 - over in the
+04:41 - uh in the work details pane that i've
+04:43 - tasked myself at about 56 hours
+04:45 - for this friend that's including my work
+04:47 - time on weekends
+04:48 - so the time that i'm anticipating being
+04:50 - on task
+04:51 - uh working on things on weekends so that
+04:54 - puts me
+04:55 - well 52 hours over the course of two
+04:58 - weeks
+04:59 - so this is about actually it's about 20
+05:02 - uh what is that 28 hours a week of four
+05:05 - hours a day that's the capacity that
+05:07 - i've tasked myself at here as you can
+05:09 - see four hours per
+05:10 - day and that's going to be a little bit
+05:11 - less than four hours a day on weekdays
+05:13 - and
+05:13 - of course a little bit more than that on
+05:15 - weekends um so that's how this is going
+05:17 - to work here but
+05:18 - so 26 hours a week on top of my my
+05:20 - normal job but these are how the hour
+05:22 - breakdowns are stacking up and again
+05:24 - this is just what i'm using
+05:26 - um different teams may use slightly
+05:27 - different correspondences here
+05:29 - um and all of these things are
+05:31 - essentially estimates um but
+05:33 - you can see that these discussion group
+05:35 - tasks for the saturday videos because it
+05:37 - takes me
+05:38 - a good bit of time in post-processing to
+05:40 - put timestamps on them while those get a
+05:41 - bigger effort
+05:42 - they correspond to about seven hours of
+05:44 - work whereas each one of these smaller
+05:46 - videos so this video and this q a video
+05:48 - each of those are
+05:49 - under two and a half hours so those get
+05:51 - smaller efforts right
+05:53 - so you can see that that's the effort
+05:54 - breakdown so over here for sprint two
+05:57 - the next two week period from end of
+05:59 - july to beginning of august 2021
+06:01 - we've got 15 overall tasks 37 subtasks
+06:05 - the planned effort of 45. i mean we'll
+06:07 - see again how much i stick to this what
+06:08 - the burn down looks like at the end
+06:11 - but that's the gist of things so i
+06:13 - mentioned the capacity here
+06:15 - um and only other thing that i may want
+06:18 - to note here is i made a task here for
+06:20 - meetings as well
+06:21 - and so conventionally you don't really
+06:22 - track this in the effort tracking
+06:24 - because it's not like it's really work
+06:25 - you accomplish this is sort of the meta
+06:27 - stuff
+06:27 - so i gave myself one and a half hours
+06:29 - here for sprint planning i was
+06:31 - organizing everything pulling it into
+06:32 - this sprint making this video
+06:34 - posting this video review in retro this
+06:36 - is going to be the task for next week so
+06:38 - i did a review and retro video earlier
+06:40 - today but
+06:40 - that was from the last sprint and then
+06:42 - backlog refinement at some point
+06:44 - throughout here
+06:44 - i'll probably want to go to the wider
+06:46 - backlog so if i
+06:48 - open this up here i might look at the
+06:52 - let me pull out the menu i might look at
+06:54 - the bigger backlog
+06:55 - that's external to the sprint because
+06:57 - i've already actually sequenced a fair
+06:59 - bit of the work that is going to need to
+07:00 - get done later so you can see here
+07:02 - that i have some stuff from sprint 1
+07:05 - that is there and then
+07:06 - all of this other stuff from sprint 2
+07:08 - and then down here we just have the
+07:10 - iteration path as just my project in
+07:12 - general
+07:13 - so this is all the combined work
+07:15 - repositories that i have i have like
+07:17 - three or four of them right now my two
+07:18 - websites the website theme and then a
+07:20 - keyboard project
+07:21 - but all of these things i have in the
+07:23 - backlog for me to pull in in the future
+07:26 - well it takes time to organize things
+07:27 - and get them
+07:28 - in what we call the ready state in agile
+07:31 - software development
+07:32 - which basically means you're ready to
+07:34 - pull it into a sprint to work on it um
+07:35 - so getting things in the ready state
+07:37 - that's what backlog refinement is and
+07:39 - typically do that sometime in the middle
+07:40 - of the sprint you know as you're
+07:42 - you get more information about things
+07:44 - that you can uh uh sort of
+07:46 - estimate the size of and see if you're
+07:48 - ready see if you've
+07:49 - got dependent dependent task done um
+07:53 - so i'll be doing that as well um so
+07:55 - that's really all all there is to it i
+07:56 - mean i don't think in the future
+07:58 - that these uh sprint planning videos are
+07:59 - going to be super long
+08:01 - as i say in future videos i'm probably
+08:03 - just going to basically say yep this is
+08:04 - the video stuff
+08:05 - um you know if we look at the backlog
+08:07 - for the sprint well
+08:08 - the first few tasks are always just
+08:10 - going to be the uh
+08:11 - across two weeks is going to be a total
+08:13 - of 10 videos so one two three
+08:15 - four you know that's the uh the videos
+08:18 - and the q and a videos of my own
+08:19 - production and then three videos
+08:21 - per saturday um so for a total of 10
+08:23 - over two weeks
+08:24 - um so the 10 videos it a little over two
+08:27 - hours of pop for the videos you know
+08:28 - maybe
+08:29 - 11 hours of total of total time for the
+08:31 - videos
+08:32 - well then there's everything else on top
+08:33 - of that and that's going to be generally
+08:34 - what's more interesting because
+08:36 - the things that i work on on top of this
+08:38 - consistent time drain
+08:40 - will be the things that change from time
+08:41 - to time but the reason why this video
+08:43 - isn't going to drag on as i say is
+08:44 - because we already talked about all this
+08:46 - stuff
+08:46 - in the last sprint planning and i just
+08:48 - didn't get to it so none of the tasks
+08:50 - that i have
+08:51 - yet to do have really changed that much
+08:53 - they're just rolling over into this next
+08:55 - sprint
+08:56 - so there you have it um we look at the
+08:58 - task board i've tasked myself a little
+09:00 - bit under
+09:01 - the total capacity i have this is
+09:03 - actually not a typical
+09:05 - on my work teams we typically task
+09:07 - ourselves in our sprints to maybe
+09:09 - 85 or 90 with the understanding that
+09:12 - stuff comes up
+09:12 - there's unexpected situations um you
+09:15 - know maybe you get dragged over to help
+09:16 - someone else and stuff and
+09:18 - we don't actually we don't actually set
+09:19 - our capacity to full eight hours a day
+09:21 - either
+09:22 - so typically at work on development days
+09:24 - we set ourselves at six and a half
+09:25 - because you have to answer email and you
+09:28 - know do
+09:28 - do training and administrative things
+09:31 - you know all of that takes time as well
+09:33 - but even there we don't ask ourselves
+09:36 - all the way out just because
+09:38 - it's dangerous if you do if you rely on
+09:40 - that because
+09:41 - well what what happens if something
+09:42 - comes up so you just leave a little bit
+09:43 - of a buffer for uncertainty and i did
+09:45 - better at that
+09:46 - this time i think so you know with the
+09:48 - remaining days left in the sprint i've
+09:49 - got 52
+09:50 - so that's you know 4 times 13 here so 13
+09:54 - more days left in this sprint
+09:56 - and that gives me you know a little bit
+09:58 - of a buffer here
+09:59 - so that hopefully i'll be able to
+10:01 - complete the tasks i've laid out for
+10:02 - myself
+10:03 - um and once we get to the end of this
+10:04 - there'll just be a few more things left
+10:06 - to do on that website and then hopefully
+10:07 - i'll ping the mailing list and go ahead
+10:09 - and launch completely
+10:10 - so that's the goal um we'll see it might
+10:13 - be possible in the future for me to trim
+10:14 - a bit of time off of the video
+10:16 - preparation as well
+10:17 - as i get a little bit more familiar with
+10:20 - it but i really think that the hours
+10:22 - that we have here
+10:23 - are going to stay reasonably consistent
+10:26 - as we go from sprint to sprint
+10:28 - so that's all i got today
+10:32 - and next time we will be posting a video
+10:35 - talking about the review and the retro
+10:37 - of this sprint so we'll see
+10:39 - exactly how many of these tasks i
+10:41 - managed to complete in the two-week
+10:42 - period
+10:43 - so thanks for watching and we'll catch
+10:45 - you next time
