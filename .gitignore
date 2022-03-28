@@ -2,3 +2,6 @@
 org/drafts/
 content/drafts/
 static/drafts/
+
+# Ignore Python virtual environment folder (for the preprocessor application)
+.venv/

@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html>
+ <head>
+  <title>Slides</title>
+  <meta charset="utf-8">
+  <link
+  rel="stylesheet"
+  href="https://unpkg.com/littlefoot/dist/littlefoot.css"
+/>
+  <style>
+   @import url(https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic);
+   @import url(https://fonts.googleapis.com/css?family=Ubuntu+Mono:400,700,400italic);
+
+   body { 
+    font-family: 'Georgia';
+   }
+
+   h1, h2, h3, h4, h5, h6 {
+    font-family: 'Verdana';
+    font-weight: bold;
+   }
+
+   /* Style h5 and h6 titles on slides the same as h4 */
+   h4, h5, h6 {
+    display: block;
+    font-size: 20px;
+    margin-block-start: 1.33em;
+    margin-block-end: 1.33em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+   }
+
+   /*
+    Don't need extra padding when headers aren't in a special content section
+    with the special content section name in a strong tag (when the header is
+    the very first thing in the sepcial content section div). Too much space otherwise
+   */
+   .special-content h4:first-child,
+   .special-content h5:first-child,
+   .special-content h6:first-child
+    {
+      margin-top: 0px;
+    }
+
+   .remark-code, .remark-inline-code {
+    font-family: 'Ubuntu Mono';
+   }
+   
+   .footer {
+    position: absolute;
+    bottom: 5px;
+    right: 50px;
+    height: 40px;
+    width: 800px;
+    color: #006400;
+   }
+
+   a {
+    color: #3b8bba;
+    text-decoration: none;
+  }
+
+  /* Special content sections */
+
+  .special-content {
+    border-radius: 5px;
+    padding: 20px 10px 20px 10px;
+  }
+
+  .special-content >  .special-content {
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+
+  .special-content > strong {
+    display: block;
+    text-align: center;
+    border-bottom: 1px solid black;
+    margin-top: -15px;
+  }
+
+  .special-content.cautionary-note {
+    background: #ffe6e6;
+  }
+
+  .special-content.technical-discussion {
+    background: #ffe0cc;
+  }
+
+  .special-content.sidenote {
+    background: #fffae6;
+  }
+
+  .special-content.application {
+    background: #ebfaeb;
+  }
+
+  .special-content.indirect-reasoning {
+    background: #e6f5ff;
+  }
+
+  .special-content.example {
+    background: #f2e6ff;
+  }
+
+  .special-content.post-hoc-note {
+    background: #ffe6f2;
+  }
+
+  .special-content.quote {
+    background: #e6e6e6;
+  }
+
+  .special-content.scripture {
+    background: #f2e6d9;
+  }
+
+
+  /* Littlefoot footnotes */
+
+  .littlefoot__button {
+    background-color: #dddddd;
+    color: #777777;
+    height: 1rem;
+    padding: 0rem 0.8rem;
+    margin: 0rem 0.1rem;
+    border: none;
+    border-radius: 10px;
+    vertical-align: middle;
+    display: inline-flex;
+    align-items: center; 
+  }
+  </style>
+	<script>
+		var refTagger = {
+			settings: {
+				addLogosLink: true,
+				bibleVersion: "NASB",
+				convertHyperlinks: true,
+				logosLinkIcon: "light",			
+				socialSharing: [],
+				tagChapters: true
+			}
+		};
+	</script>
+ </head>
+ <body>
+  <textarea id="source">
+
+class: center, middle
+
+### 28: Python virtual environments, VSCode launch configurations, packages w/ pip and requirements.txt
+
+---
+
+
+#### Outline
+
+- [Our bug from yesterday: a Vim browser extension](#3)
+- [Python virtual environments (in VSCode)](#4)
+- [Setting up a launch configuration in VSCode](#5)
+- [Python packages, the Python package index, and pip](#6)
+- [Package dependencies at the project level, requirements.txt](#7)
+- [Preview: Git (with Git bash), SourceTree, and GitHub (remote repository host)](#8)
+
+---
+
+
+#### Our bug from yesterday: a Vim browser extension
+
+- If anyone else uses Chrome Remote Desktop with Vimium active, you have been warned!
+
+---
+
+
+#### Python virtual environments (in VSCode)
+
+- Virtual environments at a high level -- sandboxing project packages so that they don;t interfere with each other
+- In VSCode specifically: https://jasonmurray.org/posts/2020/vscodepythonvenv/
+- In the integrated terminal, run:
+  - `python -m venv .venv`
+  - And then `./.venv/Scripts/activate` to activate the virtual environment
+
+---
+
+
+#### Setting up a launch configuration in VSCode
+
+- https://code.visualstudio.com/docs/python/debugging#_set-configuration-options
+
+Example:
+
+```json
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "configurations": [
+        {
+            "name": "Preprocess",
+            "type": "python",
+            "request": "launch",
+            "program": "main.py",
+            "console": "integratedTerminal"
+        }
+    ]
+}
+```
+
+---
+
+
+#### Python packages, the Python package index, and pip
+
+- https://pypi.org/
+- https://www.w3schools.com/python/python_pip.asp
+- `pip` is a package manager for Python, just like `choco` is a package manager for Windows.
+
+Example:
+
+- Let's say you want to build a URL from a file path. URLs don't have spaces (conventionally), and usually follow a specific format. To get strings in a format, we can download a package and use it: https://pypi.org/project/python-slugify/
+
+---
+
+
+#### Python packages, the Python package index, and pip
+
+Let's say we had a simple program like the following
+
+```python
+
+import slugify
+
+def make_url(input_string):
+  return slugify.slugify(input_string)
+
+```
+
+You can also just import the function directly (`from slugify import slugify` = in the format of `from module_name import function_name`), and then you don't need to worry about the module name when invoking the method.
+
+---
+
+
+#### Package dependencies at the project level, requirements.txt
+
+- It's not as hard as you might think
+- https://note.nkmk.me/en/python-pip-install-requirements/
+  - First: `pip freeze > requirements.txt`
+  - Then when installing your program somewhere else: `pip install -r requirements.txt`
+
+---
+
+
+#### Preview: Git (with Git bash), SourceTree, and GitHub (remote repository host)
+
+- Git is a version control system. There are other options too, but Git is probably the most popular.
+- Version control systems track the changes you make to files over time, and are absolutely essential to the software development process, especially when working on a team of developers.
+- Today we will just be downloading and setting up a couple tools. We will get into specifics in our next lesson
+
+
+
+
+<!-- Footnote List -->
+<div class="footnotes">
+<ol>
+
+  </ol>
+</div>
+  
+
+---
+
+
+#### Outline
+
+- [Our bug from yesterday: a Vim browser extension](#3)
+- [Python virtual environments (in VSCode)](#4)
+- [Setting up a launch configuration in VSCode](#5)
+- [Python packages, the Python package index, and pip](#6)
+- [Package dependencies at the project level, requirements.txt](#7)
+- [Preview: Git (with Git bash), SourceTree, and GitHub (remote repository host)](#8)
+
+
+
+  </textarea>
+  <script src="https://remarkjs.com/downloads/remark-latest.min.js">
+  </script>
+  <script>
+   var slideshow = remark.create({ ratio: "16:9" });
+  </script>
+<script
+src="https://unpkg.com/littlefoot/dist/littlefoot.js"
+type="application/javascript"
+></script>
+<script type="application/javascript"> littlefoot.default({
+    activateOnHover: true,
+    dismissOnUnhover: true,
+    hoverDelay: 200,
+    buttonTemplate: `
+    <button
+    aria-label="Footnote <% number %>"
+    class="littlefoot__button"
+    id="<% reference %>"
+    />
+    <% number %>
+    </button>
+    `,
+  }) </script>
+  <script>
+   function downloadJSAtOnload() {
+    var element = document.createElement("script");
+    element.src = "https://api.reftagger.com/v2/RefTagger.js";
+    document.body.appendChild(element);
+   }
+   window.addEventListener("load", downloadJSAtOnload, false);
+  </script>
+ </body>
+</html>

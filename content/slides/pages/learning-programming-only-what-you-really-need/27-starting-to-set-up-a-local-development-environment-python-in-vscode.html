@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html>
+ <head>
+  <title>Slides</title>
+  <meta charset="utf-8">
+  <link
+  rel="stylesheet"
+  href="https://unpkg.com/littlefoot/dist/littlefoot.css"
+/>
+  <style>
+   @import url(https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic);
+   @import url(https://fonts.googleapis.com/css?family=Ubuntu+Mono:400,700,400italic);
+
+   body { 
+    font-family: 'Georgia';
+   }
+
+   h1, h2, h3, h4, h5, h6 {
+    font-family: 'Verdana';
+    font-weight: bold;
+   }
+
+   /* Style h5 and h6 titles on slides the same as h4 */
+   h4, h5, h6 {
+    display: block;
+    font-size: 20px;
+    margin-block-start: 1.33em;
+    margin-block-end: 1.33em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+   }
+
+   /*
+    Don't need extra padding when headers aren't in a special content section
+    with the special content section name in a strong tag (when the header is
+    the very first thing in the sepcial content section div). Too much space otherwise
+   */
+   .special-content h4:first-child,
+   .special-content h5:first-child,
+   .special-content h6:first-child
+    {
+      margin-top: 0px;
+    }
+
+   .remark-code, .remark-inline-code {
+    font-family: 'Ubuntu Mono';
+   }
+   
+   .footer {
+    position: absolute;
+    bottom: 5px;
+    right: 50px;
+    height: 40px;
+    width: 800px;
+    color: #006400;
+   }
+
+   a {
+    color: #3b8bba;
+    text-decoration: none;
+  }
+
+  /* Special content sections */
+
+  .special-content {
+    border-radius: 5px;
+    padding: 20px 10px 20px 10px;
+  }
+
+  .special-content >  .special-content {
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+
+  .special-content > strong {
+    display: block;
+    text-align: center;
+    border-bottom: 1px solid black;
+    margin-top: -15px;
+  }
+
+  .special-content.cautionary-note {
+    background: #ffe6e6;
+  }
+
+  .special-content.technical-discussion {
+    background: #ffe0cc;
+  }
+
+  .special-content.sidenote {
+    background: #fffae6;
+  }
+
+  .special-content.application {
+    background: #ebfaeb;
+  }
+
+  .special-content.indirect-reasoning {
+    background: #e6f5ff;
+  }
+
+  .special-content.example {
+    background: #f2e6ff;
+  }
+
+  .special-content.post-hoc-note {
+    background: #ffe6f2;
+  }
+
+  .special-content.quote {
+    background: #e6e6e6;
+  }
+
+  .special-content.scripture {
+    background: #f2e6d9;
+  }
+
+
+  /* Littlefoot footnotes */
+
+  .littlefoot__button {
+    background-color: #dddddd;
+    color: #777777;
+    height: 1rem;
+    padding: 0rem 0.8rem;
+    margin: 0rem 0.1rem;
+    border: none;
+    border-radius: 10px;
+    vertical-align: middle;
+    display: inline-flex;
+    align-items: center; 
+  }
+  </style>
+	<script>
+		var refTagger = {
+			settings: {
+				addLogosLink: true,
+				bibleVersion: "NASB",
+				convertHyperlinks: true,
+				logosLinkIcon: "light",			
+				socialSharing: [],
+				tagChapters: true
+			}
+		};
+	</script>
+ </head>
+ <body>
+  <textarea id="source">
+
+class: center, middle
+
+### 27: Starting to set up a local development environment - Python in VSCode
+
+---
+
+
+#### Outline
+
+- [Chrome remote desktop](#3)
+- [Command line basics](#4)
+- [Package managers](#5)
+- [Downloading Python with package manager](#6)
+- [System environment variables, PATH](#7)
+- [Text editor: VSCode](#8)
+- [Python in VSCode](#9)
+
+---
+
+
+#### Chrome remote desktop
+
+- Setting it up, figuring out how to use it, etc.
+- One of the options for letting someone else remotely control you computer. Great for IT help for friends and family too, if you have become a go-to computer help person. (OTOH, if you hate constantly getting roped into helping people with their computers, you may not want to tell people of this option!)
+- Makes it easiest to get a new developer set up, since someone experienced can run through the setup steps directly. Installing and configuring things can be a larger barrier than first apparent to getting new developers up and running, and it can be really discouraging to want to learn programming hands-on only to get blocked for hours or days by obscure configuration-related errors. (New people don't have as much general debugging/troubleshooting experience either, making these errors a bigger deal for them than for seasoned veteran programmers who will just shrug and instantly Google them).
+- Package management and configuration management are some of the most unpleasant parts of software engineering, IMO. Having people start with them is thus less than ideal.
+
+---
+
+
+#### Command line basics
+
+- No need to spend lots of time getting into messy details regarding operating systems and shells, etc. For our purposes, we'll just start by navigating around the file system on the command line.
+- Three starting commands:
+  - ls
+  - cd
+  - clear
+
+---
+
+
+#### Package managers
+
+- Let you manage and update software from the command line
+- Popular with software developers for managing development packages and frameworks, and really shine there. Many also support normal applications too (like browsers, text editors, etc.).
+- Can be scripted like all other command-line programs, but also support updating all installed software at the same time in bulk (so they are already inherently advantageous relative to many other installation management approaches). Manual update wizards can be a thing of the past.
+- For example: Chocolatey on Windows, Homebrew on Mac, various on Linux (e.g., `apt` on Ubuntu)
+- https://community.chocolatey.org/courses/installation/installing?method=install-from-powershell-v3
+
+---
+
+
+#### Downloading Python with package manager
+
+- https://community.chocolatey.org/packages/python
+- Automatically grabs the most recent version, sets up environment variables properly.
+- I don't remember if the Python .exe/.msi GUI installer wizard makes everything "just work" out of the box (PATH environment variable, etc.), since I've installed Python via `choco` on the last several computers I've worked on. Maybe?
+
+---
+
+
+#### System environment variables, PATH
+
+- Environment variables for an operating system are kind of analogous to variables that live within a function's scope.
+- You can only run executable files that are "on your PATH" = specified in the system environment variable called PATH. It is a list of file locations that are (or contain) executable files = programs that can be executed.
+- A common gotcha that can cause issues is that after installing something in a shell, you have to either reload environment variables with a command or exit out of the shell and open a new instance for the PATH environment variable to get updated after you install something. Otherwise the shell will say that it can't find the new thing that you want to run.
+
+---
+
+
+#### Text editor: VSCode
+
+- Text editors with good plugin support and Integrated Development Environments (IDEs) proper are more-or-less interchangeable nowadays. IDEs (or the text editor plugins that have "IDE-like" functionality) statically analyze all the code in your project and let you do some useful things like renaming a variable everywhere in your codebase, or jumping to where a function is defined, even if it is in a different file from the one you are presently in.
+- Using something that lots of other people use means good plugin support and good out-of-the-box defaults. So I'd recommend that most people use something that is pretty popular and well-maintained.
+- I use VSCode (https://code.visualstudio.com/) professionally in my job, and I think it's pretty great.
+- We'll go over some recommended plugins and such later, as well as useful hotkeys
+
+---
+
+
+#### Python in VSCode
+
+- Install the Python plugin and its related things (PyLance). On top of syntax highlighting and so on, lets you jump to functions and packages instantly, which is useful.
+- https://code.visualstudio.com/docs/python/python-tutorial
+- You might compare this setup with a full-on Python IDE like PyCharm (https://www.jetbrains.com/pycharm/)
+
+
+
+
+<!-- Footnote List -->
+<div class="footnotes">
+<ol>
+
+  </ol>
+</div>
+  
+
+---
+
+
+#### Outline
+
+- [Chrome remote desktop](#3)
+- [Command line basics](#4)
+- [Package managers](#5)
+- [Downloading Python with package manager](#6)
+- [System environment variables, PATH](#7)
+- [Text editor: VSCode](#8)
+- [Python in VSCode](#9)
+
+
+
+  </textarea>
+  <script src="https://remarkjs.com/downloads/remark-latest.min.js">
+  </script>
+  <script>
+   var slideshow = remark.create({ ratio: "16:9" });
+  </script>
+<script
+src="https://unpkg.com/littlefoot/dist/littlefoot.js"
+type="application/javascript"
+></script>
+<script type="application/javascript"> littlefoot.default({
+    activateOnHover: true,
+    dismissOnUnhover: true,
+    hoverDelay: 200,
+    buttonTemplate: `
+    <button
+    aria-label="Footnote <% number %>"
+    class="littlefoot__button"
+    id="<% reference %>"
+    />
+    <% number %>
+    </button>
+    `,
+  }) </script>
+  <script>
+   function downloadJSAtOnload() {
+    var element = document.createElement("script");
+    element.src = "https://api.reftagger.com/v2/RefTagger.js";
+    document.body.appendChild(element);
+   }
+   window.addEventListener("load", downloadJSAtOnload, false);
+  </script>
+ </body>
+</html>
