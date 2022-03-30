@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html>
+ <head>
+  <title>Slides</title>
+  <meta charset="utf-8">
+  <link
+  rel="stylesheet"
+  href="https://unpkg.com/littlefoot/dist/littlefoot.css"
+/>
+  <style>
+   @import url(https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic);
+   @import url(https://fonts.googleapis.com/css?family=Ubuntu+Mono:400,700,400italic);
+
+   body { 
+    font-family: 'Georgia';
+   }
+
+   h1, h2, h3, h4, h5, h6 {
+    font-family: 'Verdana';
+    font-weight: bold;
+   }
+
+   /* Style h5 and h6 titles on slides the same as h4 */
+   h4, h5, h6 {
+    display: block;
+    font-size: 20px;
+    margin-block-start: 1.33em;
+    margin-block-end: 1.33em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+   }
+
+   /*
+    Don't need extra padding when headers aren't in a special content section
+    with the special content section name in a strong tag (when the header is
+    the very first thing in the sepcial content section div). Too much space otherwise
+   */
+   .special-content h4:first-child,
+   .special-content h5:first-child,
+   .special-content h6:first-child
+    {
+      margin-top: 0px;
+    }
+
+   .remark-code, .remark-inline-code {
+    font-family: 'Ubuntu Mono';
+   }
+   
+   .footer {
+    position: absolute;
+    bottom: 5px;
+    right: 50px;
+    height: 40px;
+    width: 800px;
+    color: #006400;
+   }
+
+   a {
+    color: #3b8bba;
+    text-decoration: none;
+  }
+
+  /* Special content sections */
+
+  .special-content {
+    border-radius: 5px;
+    padding: 20px 10px 20px 10px;
+  }
+
+  .special-content >  .special-content {
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+
+  .special-content > strong {
+    display: block;
+    text-align: center;
+    border-bottom: 1px solid black;
+    margin-top: -15px;
+  }
+
+  .special-content.cautionary-note {
+    background: #ffe6e6;
+  }
+
+  .special-content.technical-discussion {
+    background: #ffe0cc;
+  }
+
+  .special-content.sidenote {
+    background: #fffae6;
+  }
+
+  .special-content.application {
+    background: #ebfaeb;
+  }
+
+  .special-content.indirect-reasoning {
+    background: #e6f5ff;
+  }
+
+  .special-content.example {
+    background: #f2e6ff;
+  }
+
+  .special-content.post-hoc-note {
+    background: #ffe6f2;
+  }
+
+  .special-content.quote {
+    background: #e6e6e6;
+  }
+
+  .special-content.scripture {
+    background: #f2e6d9;
+  }
+
+
+  /* Littlefoot footnotes */
+
+  .littlefoot__button {
+    background-color: #dddddd;
+    color: #777777;
+    height: 1rem;
+    padding: 0rem 0.8rem;
+    margin: 0rem 0.1rem;
+    border: none;
+    border-radius: 10px;
+    vertical-align: middle;
+    display: inline-flex;
+    align-items: center; 
+  }
+  </style>
+	<script>
+		var refTagger = {
+			settings: {
+				addLogosLink: true,
+				bibleVersion: "NASB",
+				convertHyperlinks: true,
+				logosLinkIcon: "light",			
+				socialSharing: [],
+				tagChapters: true
+			}
+		};
+	</script>
+ </head>
+ <body>
+  <textarea id="source">
+
+class: center, middle
+
+### 29: A conceptual introduction to version control
+
+---
+
+
+#### Outline
+
+- [Foreword: version control can be hard to understand, and that's OK](#3)
+- [Defining terms in version control by analogy](#4)
+- [Repositories, commits, pushing, and pulling](#5)
+- [Branches](#6)
+- [Work items/tasks/product backlog items (PBIs)](#7)
+- [Merging](#8)
+- [Pull requests](#9)
+- [Even as complex as all of this has been, we've still made some simplifications](#10)
+- [Some other jargon and miscellaneous notes](#11)
+
+---
+
+
+#### Foreword: version control can be hard to understand, and that's OK
+
+If you find version control hard to wrap your head around for the first little bit, I wouldn't sweat it. It will be pretty tricky until things click and you have an "aha moment."
+
+Many new developers have a hard time figuring out the differences between repositories, branches, pull requests, and commits, so you may want to pay special attention to our discussion of these concepts.
+
+---
+
+
+#### Defining terms in version control by analogy
+
+Let's use an analogy: let's say you run a business alongside several business partners, with each of you having a local ledger where you keep track of your business finances, with a master copy of your business' overall accounts kept at a secure bank. The bank's copy is the "real one" under law (so if you get audited, it is what is referenced as the authentic "current version" of the record). This situation is rather parallel to version control in code, so we'll define all the relevant terms based off this analogy:
+
+---
+
+
+#### Repositories, commits, pushing, and pulling
+
+**Repository**: a record (ledger) of business financial transactions. Each co-owner of your company has their own repository, and the main repository is the one at the bank.
+
+**Commit**: some action taken that is added to a repository (an individual's ledger or the shared one at the bank). A commit here might be something like "bought 500 units of new inventory for $10,000". A commit represents a single, discrete change in state.
+
+**Push**: one of the business owners takes their local repository (individual business ledger) to the bank (remote repository) to update the shared ledger with their most recent financial activity.
+
+**Pull**: One of the business owners goes to the bank and updates their local copy to reflect the overall history of all the financial history. Their local activity is still there, but everybody else's financial activity has now been added to it.
+
+Everything making sense so far?
+
+---
+
+
+#### Branches
+
+Now things will get more complex.
+
+On top of there being all these different business ledgers (repositories) floating around, now let's also say that each ledger is further subdivided into sections. Every ledger contains one "main section" that represents the overall financial record, but before certain groups of financial transactions (that is, groups of commits) go through (i.e., are pulled into the formal record), they are tracked separately. Basically, they are treated as pending until the transactions clear. You might think of these sections as representing pending business deals that are almost certainly going to go through, but some additional negotiation on contract specifics is required before they become final and get pulled into the main record.
+
+**Branch**: A section in an individual ledger. By convention, the branch representing the overall final record is often called "master" (although some people are now also calling it "main" due to some unfortunate slavery associations with the former word -- most people probably won't bat an eyelash at either name). Also by convention, no individual co-owner will have deals that go directly into the permanent record, but will always have a different branch for each new business deal, in case one of them ends up having issues. Generally speaking, the most up-to-date information relating to a specific pending business deal will be located in the branches (sections in the ledgers) of the individual business owners (=local repositories) relating to the specific pending business deal, but from time to time, someone will push, so that the bank (remote repository) has a record of the open pending business deals too.
+
+---
+
+
+#### Work items/tasks/product backlog items (PBIs)
+
+**Work Item**: each individual pending business deal is typically tracked on its own branch, so that the pending business deals don't interfere with each other. Each one of these goals will usually be achieved through a collection of one or more commits targeted at the specific business dealing, typically with a very definite purpose in mind. For example, in business, the goals might be like "acquire X company" or "sell stockpiled supply to bring market prices down." Each one of these things might ultimately need multiple transactions to coordinate the work being done, but together kind of represent "one thing". Hence why the whole specific business deal is tracked on its own separate branch.
+
+---
+
+
+#### Merging
+
+**Merging**: in the process of making a business deal, your company's assets and liabilities might change due to the actions of your business' co-owners. Let's say you are in charge of acquisitions for your company, and therefore the acquisition budget. Your current business deal might depend on you having a certain amount of capital on hand therein, but what happens if Jeff, one of the other co-owners, uses some of the company's money in that budget for a really important internal research project? Suddenly, you now need to reconcile changes in the global business ledger with your pending business deal (local branch corresponding to a task). Most of the time, you won't have to scrap your pending deal entirely, but you'll need to figure out how to square what new thing you are trying to accomplish with the changes in the company's overall ledger. This process is known as "merging", and it usually involves combining your new pending branch with the master branch. (Although occasionally you might need to reconcile the accounts for two pending business deals, if you decide to combine them into only one branch).
+
+It is actually common to have merging be easy, with no input needed on your part. If Jeff were to take money from the R&D budget, for example, it would not mess with the acquisition budget that is important for your new deal (even though you'd still want to know about Jeff's expenditure and pull information concerning it into your own ledger). But if there are conflicts, merging will involve reconciling the two records that now conflict in some area, and this can sometimes get really messy and gross. An ounce of prevention is worth a pound of cure here, so it would be advisable to tell your co-owners to temporarily keep their hands off your acquisition budget, if you know you'll be dealing with it a lot for your current business deal.
+
+**Merge conflicts**: the specific areas leading to some form of conflict when merging two branches. Merge conflicts arise when two different records (ledgers) are trying to do something different with the same resources. (E.g., the acquisition budget from above).
+
+---
+
+
+#### Pull requests
+
+**Pull request**: once a business deal (work item/task/etc.) has been completed and all contract negotiations have been finalized and looked-over (the relevant person has pushed such that the business deal has been inked into the bank's version of the ledger so that some or all people in your company have been able to give it a look and approve it), a request is made to incorporate the new deal into the **main section of the bank's official ledger** (to write it into stone in the official final record). Note the emphasis. Pull requests are typically always against the master branch in the bank's copy of the ledger.
+
+---
+
+
+#### Even as complex as all of this has been, we've still made some simplifications
+
+Believe it or not, we've actually made quite a few simplifications here:
+
+- In a real production environment, there are actually usually several branches that all correspond to some "final-ish" version of the ledger. All of these might have pull requests against them, rather than just having a single master branch. It is common to have no branch called master, and instead have three (dev, test, production) or four (dev, integration, test, production) main branches. If none of this means anything to you, that's fine, don't worry about it for now. Just know that in the real world, usually the bank will actually have several different copies of the shared ledger, all of which might end up being slightly different. As a normal developer, you will probably still mostly be interfacing with a single ledger at the bank (and it will likely be called "dev"). So just pretend that the master from our above conversation is dev, and you're good to go.
+- Sometimes people rewrite history, and change the record of what happened in the ledgers everywhere. Obviously this can cause lots of issues (what happens if someone goes forward with an out-of-date ledger?), and is usually avoided if at all possible. But sometimes it needs to happen anyway because life. This is called rebasing, and usually ends up being excessively complex and error-prone. In simple terms, rebase bad.
+
+---
+
+
+#### Some other jargon and miscellaneous notes
+
+**Cloning**: the first time you as an individual stop by the bank to acquire a local copy of a ledger, that is called cloning the repository.
+
+**Ignoring files**: let's say that your company has an internal fund for helping out employees (or their spouses) with medical costs from cancer. Employees at your company can voluntarily elect to donate to this internal fund. It is not material to your business applications, so you don't want it being tracked as part of your business' overall assets. Therefore, you would specify that you want this thing specifically to be ignored in all the ledgers floating around everywhere. You would specify this in a document called `.gitignore`, which exists solely to tell ledgers to not worry about certain areas that aren't relevant.
+
+**Unstaged changes**: work that has been completed but not yet committed can be in one of two states. It can either be unstaged (so that if you commit, it won't show up in the commit), or staged, meaning that it will be part of the next commit. It is common to stage all of your current changes when committing, but sometimes, after making a set of changes, you might want to have two or more separate commits to better organize the work that you did into discrete chunks.
+
+**Diffs**: comparisons between two different versions of the company ledger, to highlight where the differences are. By convention, things highlighted red are deletions, and things highlighted green are additions.
+
+
+
+
+<!-- Footnote List -->
+<div class="footnotes">
+<ol>
+
+  </ol>
+</div>
+  
+
+---
+
+
+#### Outline
+
+- [Foreword: version control can be hard to understand, and that's OK](#3)
+- [Defining terms in version control by analogy](#4)
+- [Repositories, commits, pushing, and pulling](#5)
+- [Branches](#6)
+- [Work items/tasks/product backlog items (PBIs)](#7)
+- [Merging](#8)
+- [Pull requests](#9)
+- [Even as complex as all of this has been, we've still made some simplifications](#10)
+- [Some other jargon and miscellaneous notes](#11)
+
+
+
+  </textarea>
+  <script src="https://remarkjs.com/downloads/remark-latest.min.js">
+  </script>
+  <script>
+   var slideshow = remark.create({ ratio: "16:9" });
+  </script>
+<script
+src="https://unpkg.com/littlefoot/dist/littlefoot.js"
+type="application/javascript"
+></script>
+<script type="application/javascript"> littlefoot.default({
+    activateOnHover: true,
+    dismissOnUnhover: true,
+    hoverDelay: 200,
+    buttonTemplate: `
+    <button
+    aria-label="Footnote <% number %>"
+    class="littlefoot__button"
+    id="<% reference %>"
+    />
+    <% number %>
+    </button>
+    `,
+  }) </script>
+  <script>
+   function downloadJSAtOnload() {
+    var element = document.createElement("script");
+    element.src = "https://api.reftagger.com/v2/RefTagger.js";
+    document.body.appendChild(element);
+   }
+   window.addEventListener("load", downloadJSAtOnload, false);
+  </script>
+ </body>
+</html>
