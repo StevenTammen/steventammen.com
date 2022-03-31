@@ -31,27 +31,16 @@ In an attempt to head off such problems, it is my opinion that it makes sense to
 
 ### Timestamps
 
--
 - [00:00](https://www.youtube.com/watch?v=S0bxBX6ZBWE&t=0s) - Introduction
--
 - [05:23](https://www.youtube.com/watch?v=S0bxBX6ZBWE&t=323s) - Chrome remote desktop
--
 - [06:15](https://www.youtube.com/watch?v=S0bxBX6ZBWE&t=375s) - Versions of programming languages, Python specifically
--
 - [10:02](https://www.youtube.com/watch?v=S0bxBX6ZBWE&t=602s) - Configuration management is unpleasant and is easy to mess up
--
 - [13:10](https://www.youtube.com/watch?v=S0bxBX6ZBWE&t=790s) - Command line basics
--
 - [20:16](https://www.youtube.com/watch?v=S0bxBX6ZBWE&t=1216s) - Package managers
--
 - [27:15](https://www.youtube.com/watch?v=S0bxBX6ZBWE&t=1635s) - System environment variables, PATH
--
 - [29:40](https://www.youtube.com/watch?v=S0bxBX6ZBWE&t=1780s) - Downloading Python with package manager
--
 - [40:57](https://www.youtube.com/watch?v=S0bxBX6ZBWE&t=2457s) - Text editor: VSCode
--
 - [44:06](https://www.youtube.com/watch?v=S0bxBX6ZBWE&t=2646s) - Python in VSCode
--
 - [50:20](https://www.youtube.com/watch?v=S0bxBX6ZBWE&t=3020s) - Bugs relating to the Chrome Remote Desktop connection - can skip unless you're interested in watching the debugging process
 
 {{% content %}}
@@ -2647,3 +2636,147 @@ Believe it or not, we've actually made quite a few simplifications here:
 <a href="https://www.youtube.com/watch?v=ftm2cyYTabg&t=5145">1:25:45</a> - that that's where we'll cut for today and uh we'll talk to everyone again when we pick up next time<br/>
 
 {{% /transcript %}}
+
+## 30: Practical coding examples with version control (Git), setting up an SSH key pair
+
+### Video
+
+{{% video
+src=""
+
+playlist="https://www.youtube.com/playlist?list=PLQ-N5KyJUu_VqG38oglZEEw17b_ZQ13On"
+
+video=""
+
+audio=""
+
+slides="https://www.steventammen.com/slides/pages/learning-programming-only-what-you-really-need/"
+%}}
+
+### Summary
+
+### Timestamps
+
+{{% content %}}
+
+### Content
+
+#### Debugging
+
+- Getting unstuck, if we need it.
+
+<!-- --- -->
+
+#### Example of a repository
+
+- https://github.com/StevenTammen/bibledocs.org
+
+<!-- --- -->
+
+#### Example of a branch
+
+- https://github.com/StevenTammen/bibledocs.org/branches
+
+<!-- --- -->
+
+#### Example of a pull request
+
+- https://github.com/StevenTammen/bibledocs.org/pull/24
+
+<!-- --- -->
+
+#### Example commits
+
+- https://github.com/StevenTammen/bibledocs.org/pull/24/commits
+
+<!-- --- -->
+
+#### Example diffs
+
+- https://github.com/StevenTammen/bibledocs.org/pull/24/commits
+
+<!-- --- -->
+
+#### SSH keys
+
+When you connect to a remote repository, you need to be authenticated -- would a bank let just anyone see the company ledger, and especially modify it? No, right?
+
+You could authenticate with a password each time you wanted to push or pull, but that's kind of inconvenient. Fancy business owners might have ID cards they can scan at an RF-signal card reader to get them access to their important company vault quickly. We can do something very similar as developers working on a repository.
+
+Our "ID cards" are called SSH keys, and they are basically a matched-pair of authentication hashes. You can think of them in the exact same terms as our RF-signal card and card reader example. The card reader has a set of people whose chips it "knows", and whenever they scan, it lets them in. So too here.
+
+The very first time, however, we will have to "go to security" and get them to register our card with the card reader. That's what we are going to do now.
+
+<!-- --- -->
+
+#### Git Bash, OpenSSH, SourceTree, and GitHub
+
+Here's an outline of the steps:
+
+1. Open Git Bash and `cd` into your home directory.
+2. Use OpenSSH to generate a public/private key pair
+3. Add your private key to SourceTree
+4. Add your public key to GitHub
+5. Test things out to make sure they are functioning properly
+
+We'll get to step (4) here, and then talk about setting up a remote repository to test with (5).
+
+<!-- --- -->
+
+#### Connecting a remote version control repository with a local one
+
+There are two approaches to connecting a remote version control repository with a local one. You can either start locally and connect to a remote repo after-the-fact, or start with a remote repo, clone it down, and only then begin working.
+
+In my opinion, the latter approach is easier, as all you have to do is clone (you don't have to worry about setting up remote refs). It truly doesn't matter that much, but we'll be going through the latter approach together.
+
+<!-- --- -->
+
+#### Start remote, clone local (my preferred option)
+
+Easy to do with just SourceTree, no command-line required.
+
+<!-- --- -->
+
+#### Start local, connect to remote
+
+- `git init`
+- `git add .`
+- `git commit -m "Initial commit."`
+- Create a repo on GitHub
+- `git remote add origin git@github.com:UserName/repo-name.git`
+- `git push -u origin master`
+
+{{% /content %}}
+
+{{% transcript %}}
+
+### Video/audio transcript
+
+{{% /transcript %}}
+
+
+
+
+<!--
+
+#### Make a new repository
+
+#### Make a couple initial commits
+
+#### Push changes
+
+#### Make remote changes
+
+#### Pull changes
+
+#### Make a branch
+
+#### Make a couple new commits
+
+#### Open a pull request
+
+#### Resolve merge conflicts
+
+#### Get pull request actually merged in
+
+-->

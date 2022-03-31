@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html>
+ <head>
+  <title>Slides</title>
+  <meta charset="utf-8">
+  <link
+  rel="stylesheet"
+  href="https://unpkg.com/littlefoot/dist/littlefoot.css"
+/>
+  <style>
+   @import url(https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic);
+   @import url(https://fonts.googleapis.com/css?family=Ubuntu+Mono:400,700,400italic);
+
+   body { 
+    font-family: 'Georgia';
+   }
+
+   h1, h2, h3, h4, h5, h6 {
+    font-family: 'Verdana';
+    font-weight: bold;
+   }
+
+   /* Style h5 and h6 titles on slides the same as h4 */
+   h4, h5, h6 {
+    display: block;
+    font-size: 20px;
+    margin-block-start: 1.33em;
+    margin-block-end: 1.33em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+   }
+
+   /*
+    Don't need extra padding when headers aren't in a special content section
+    with the special content section name in a strong tag (when the header is
+    the very first thing in the sepcial content section div). Too much space otherwise
+   */
+   .special-content h4:first-child,
+   .special-content h5:first-child,
+   .special-content h6:first-child
+    {
+      margin-top: 0px;
+    }
+
+   .remark-code, .remark-inline-code {
+    font-family: 'Ubuntu Mono';
+   }
+   
+   .footer {
+    position: absolute;
+    bottom: 5px;
+    right: 50px;
+    height: 40px;
+    width: 800px;
+    color: #006400;
+   }
+
+   a {
+    color: #3b8bba;
+    text-decoration: none;
+  }
+
+  /* Special content sections */
+
+  .special-content {
+    border-radius: 5px;
+    padding: 20px 10px 20px 10px;
+  }
+
+  .special-content >  .special-content {
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+
+  .special-content > strong {
+    display: block;
+    text-align: center;
+    border-bottom: 1px solid black;
+    margin-top: -15px;
+  }
+
+  .special-content.cautionary-note {
+    background: #ffe6e6;
+  }
+
+  .special-content.technical-discussion {
+    background: #ffe0cc;
+  }
+
+  .special-content.sidenote {
+    background: #fffae6;
+  }
+
+  .special-content.application {
+    background: #ebfaeb;
+  }
+
+  .special-content.indirect-reasoning {
+    background: #e6f5ff;
+  }
+
+  .special-content.example {
+    background: #f2e6ff;
+  }
+
+  .special-content.post-hoc-note {
+    background: #ffe6f2;
+  }
+
+  .special-content.quote {
+    background: #e6e6e6;
+  }
+
+  .special-content.scripture {
+    background: #f2e6d9;
+  }
+
+
+  /* Littlefoot footnotes */
+
+  .littlefoot__button {
+    background-color: #dddddd;
+    color: #777777;
+    height: 1rem;
+    padding: 0rem 0.8rem;
+    margin: 0rem 0.1rem;
+    border: none;
+    border-radius: 10px;
+    vertical-align: middle;
+    display: inline-flex;
+    align-items: center; 
+  }
+  </style>
+	<script>
+		var refTagger = {
+			settings: {
+				addLogosLink: true,
+				bibleVersion: "NASB",
+				convertHyperlinks: true,
+				logosLinkIcon: "light",			
+				socialSharing: [],
+				tagChapters: true
+			}
+		};
+	</script>
+ </head>
+ <body>
+  <textarea id="source">
+
+class: center, middle
+
+### 30: Practical coding examples with version control (Git), setting up an SSH key pair
+
+---
+
+
+#### Outline
+
+- [Debugging](#3)
+- [Example of a repository](#4)
+- [Example of a branch](#5)
+- [Example of a pull request](#6)
+- [Example commits](#7)
+- [Example diffs](#8)
+- [SSH keys](#9)
+- [Git Bash, OpenSSH, SourceTree, and GitHub](#10)
+- [Connecting a remote version control repository with a local one](#11)
+- [Start remote, clone local (my preferred option)](#12)
+- [Start local, connect to remote](#13)
+
+---
+
+
+#### Debugging
+
+- Getting unstuck, if we need it.
+
+---
+
+
+#### Example of a repository
+
+- https://github.com/StevenTammen/bibledocs.org
+
+---
+
+
+#### Example of a branch
+
+- https://github.com/StevenTammen/bibledocs.org/branches
+
+---
+
+
+#### Example of a pull request
+
+- https://github.com/StevenTammen/bibledocs.org/pull/24
+
+---
+
+
+#### Example commits
+
+- https://github.com/StevenTammen/bibledocs.org/pull/24/commits
+
+---
+
+
+#### Example diffs
+
+- https://github.com/StevenTammen/bibledocs.org/pull/24/commits
+
+---
+
+
+#### SSH keys
+
+When you connect to a remote repository, you need to be authenticated -- would a bank let just anyone see the company ledger, and especially modify it? No, right?
+
+You could authenticate with a password each time you wanted to push or pull, but that's kind of inconvenient. Fancy business owners might have ID cards they can scan at an RF-signal card reader to get them access to their important company vault quickly. We can do something very similar as developers working on a repository.
+
+Our "ID cards" are called SSH keys, and they are basically a matched-pair of authentication hashes. You can think of them in the exact same terms as our RF-signal card and card reader example. The card reader has a set of people whose chips it "knows", and whenever they scan, it lets them in. So too here.
+
+The very first time, however, we will have to "go to security" and get them to register our card with the card reader. That's what we are going to do now.
+
+---
+
+
+#### Git Bash, OpenSSH, SourceTree, and GitHub
+
+Here's an outline of the steps:
+
+1. Open Git Bash and `cd` into your home directory.
+2. Use OpenSSH to generate a public/private key pair
+3. Add your private key to SourceTree
+4. Add your public key to GitHub
+5. Test things out to make sure they are functioning properly
+
+We'll get to step (4) here, and then talk about setting up a remote repository to test with (5).
+
+---
+
+
+#### Connecting a remote version control repository with a local one
+
+There are two approaches to connecting a remote version control repository with a local one. You can either start locally and connect to a remote repo after-the-fact, or start with a remote repo, clone it down, and only then begin working.
+
+In my opinion, the latter approach is easier, as all you have to do is clone (you don't have to worry about setting up remote refs). It truly doesn't matter that much, but we'll be going through the latter approach together.
+
+---
+
+
+#### Start remote, clone local (my preferred option)
+
+Easy to do with just SourceTree, no command-line required.
+
+---
+
+
+#### Start local, connect to remote
+
+- `git init`
+- `git add .`
+- `git commit -m "Initial commit."`
+- Create a repo on GitHub
+- `git remote add origin git@github.com:UserName/repo-name.git`
+- `git push -u origin master`
+
+
+
+
+<!-- Footnote List -->
+<div class="footnotes">
+<ol>
+
+  </ol>
+</div>
+  
+
+---
+
+
+#### Outline
+
+- [Debugging](#3)
+- [Example of a repository](#4)
+- [Example of a branch](#5)
+- [Example of a pull request](#6)
+- [Example commits](#7)
+- [Example diffs](#8)
+- [SSH keys](#9)
+- [Git Bash, OpenSSH, SourceTree, and GitHub](#10)
+- [Connecting a remote version control repository with a local one](#11)
+- [Start remote, clone local (my preferred option)](#12)
+- [Start local, connect to remote](#13)
+
+
+
+  </textarea>
+  <script src="https://remarkjs.com/downloads/remark-latest.min.js">
+  </script>
+  <script>
+   var slideshow = remark.create({ ratio: "16:9" });
+  </script>
+<script
+src="https://unpkg.com/littlefoot/dist/littlefoot.js"
+type="application/javascript"
+></script>
+<script type="application/javascript"> littlefoot.default({
+    activateOnHover: true,
+    dismissOnUnhover: true,
+    hoverDelay: 200,
+    buttonTemplate: `
+    <button
+    aria-label="Footnote <% number %>"
+    class="littlefoot__button"
+    id="<% reference %>"
+    />
+    <% number %>
+    </button>
+    `,
+  }) </script>
+  <script>
+   function downloadJSAtOnload() {
+    var element = document.createElement("script");
+    element.src = "https://api.reftagger.com/v2/RefTagger.js";
+    document.body.appendChild(element);
+   }
+   window.addEventListener("load", downloadJSAtOnload, false);
+  </script>
+ </body>
+</html>
