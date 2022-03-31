@@ -2650,7 +2650,7 @@ video=""
 
 audio=""
 
-slides="https://www.steventammen.com/slides/pages/learning-programming-only-what-you-really-need/"
+slides="https://www.steventammen.com/slides/pages/learning-programming-only-what-you-really-need/#30-practical-coding-examples-with-version-control-git-setting-up-an-ssh-key-pair"
 %}}
 
 ### Summary
