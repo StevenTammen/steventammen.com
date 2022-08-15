@@ -25,6 +25,7 @@ Just now though, I decided it was about time for me to at least get the ball rol
 Other recent content (note especially the page on buying a house):
 
 - [On buying a house](/pages/on-buying-a-house/)
+- [Computer Security When Studying Abroad](/random-ramblings/august-2022/08-15-22-computer-security-when-studying-abroad)
 - [Issues I have with the American public school system](/pages/issues-i-have-with-the-american-public-school-system/)
 - [Mountain Biking](/pages/mountain-biking/)
 - [A long, completely justified rant against Equifax](/pages/a-long-completely-justified-rant-against-equifax/)
