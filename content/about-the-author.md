@@ -18,7 +18,7 @@ title: About the Author
 
 ## Basics
 
-My name is Steven Tammen. I currently work in Warner Robins Georgia as a civilian employee of the [402 Software Engineering Group (SWEG)](https://www.linkedin.com/company/402d-sweg/), United States Air Force. My team in particular does full-stack web applications with C# ([ASP.NET Core](https://docs.microsoft.com/en-us/aspnet/core/introduction-to-aspnet-core)) on the backend and [Angular](https://angular.io/) on the frontend.
+My name is Steven Tammen. I currently work in Warner Robins Georgia as a civilian employee of the [AFSC Software Directorate](https://www.linkedin.com/company/afsc-software/), United States Air Force. My team in particular does full-stack web applications with C# ([ASP.NET Core](https://docs.microsoft.com/en-us/aspnet/core/introduction-to-aspnet-core)) on the backend and [Angular](https://angular.io/) on the frontend. At present, I am an assistant project manager, and help coordinate all the work for a group of ~18 software developers that are split into three separate scrum teams.
 
 <!-- TODO: explain why work at Air force position vs. something else, like a higher paying job in industry -->
 
@@ -32,21 +32,25 @@ My intellectual interests center in large part around optimization and the pursu
 
 Here’s some of the things I enjoy in my time outside of work:
 
+- Theorycrafting about exercise and nutrition. I do follow some of my theories too (so do work out reasonably regularly and eat pretty healthy... as generalizations), but it is honestly the *process* of trying to optimize these things that I find the most fun. ([Relevant xkcd](https://xkcd.com/1445/)).
+- I'm not big on watching sports, playing video games, or doing stuff on social media, so most of my relaxation time/time spent trying to unwind is taken up by consuming fiction. Books, audiobooks, movies, TV shows, anime---that sort of thing.
+
+
 <!-- Driving -- even though I mostly only drive to and from work, the grocery store, and mountain biking trails (rather than, say, spending lots of time on a closed track or in the twisties), I still enjoy it a great deal and find it relaxing. (See [/reviews/blah/](http://blah) for a review of the vehicle that I drive, and [/pages/transportation-options](http://blah) for a discussion of maximizing the enjoyability of everyday transportation). -->
 
 <!-- Electric skateboarding?? -->
 
-* Driving fast cars.
+<!-- * Driving fast cars.
 * Mountain biking.
 * Biking to work.
-* Strength training: bench, squat, deadlift, OHP, chin-ups, etc. <!-- (See [/pages/strength-training](http://blah) for a discussion of my views on lifting heavy things). -->
-* Playing around with keyboard-based computer workflow to become more efficient. <!-- (See [/pages/keyboard-workflow](http://blah) for my thoughts on the topic). -->
-* Playing around with voice-recognition-based computer workflow to become more efficient. <!-- (See [/pages/voice-recognition-workflow](http://blah) for my thoughts on the topic). -->
-* Research and writing in various areas (culminating in what you see on this site).
+* Strength training: bench, squat, deadlift, OHP, chin-ups, etc. <!-- (See [/pages/strength-training](http://blah) for a discussion of my views on lifting heavy things).
+* Playing around with keyboard-based computer workflow to become more efficient. <!-- (See [/pages/keyboard-workflow](http://blah) for my thoughts on the topic).
+* Playing around with voice-recognition-based computer workflow to become more efficient. <!-- (See [/pages/voice-recognition-workflow](http://blah) for my thoughts on the topic).
+* Research and writing in various areas (culminating in what you see on this site). -->
 
 <!-- If you want to read me nerding out over why I spend all my time on the above things rather than other options, [this page is for you](http://blah). -->
 
-I’m also a Christian, and spend a lot of time on things relating to my faith. As already linked above, if you are interested, I [run a separate ministry site](https://www.bibledocs.org/) for all of my writings related to Christianity.
+I'm also a Christian, and spend a lot of time on things relating to my faith. As already linked above, if you are interested, I [run a separate ministry site](https://www.bibledocs.org/) for all of my writings related to Christianity.
 
 ## Contact
 
@@ -58,7 +62,6 @@ In general, I check my email most frequently. But what works for you works for m
 - Facebook: <https://www.facebook.com/steventammen>
 - Twitter: <https://twitter.com/StevenTammen>
 - Reddit: <https://www.reddit.com/user/StevenTammen>
-- Discord Username: Steven#2424
 
 ## Declaration of biases
 
@@ -78,28 +81,28 @@ I am proud to support our servicemembers. Our military and especially our govern
 
 ### Other organizational and institutional entanglements
 
-I am a member of the [Phi Beta Kappa Society](https://www.pbk.org/) back from when I graduated college, although I am not actively involved.
+I suppose I graduated college as a member of the [Phi Beta Kappa Society](https://www.pbk.org/), although I auto-delete their marketing emails, if that says anything about how much I care about it.
 
 Other than that, I do not have any other organizational or institutional entanglements. So, for example, I am not an active member of any advocacy groups, lobbyist groups, or corporate boards that might create conflicts of interest.
 
 ### Politics
 
-I am a member of neither political party in America. I certainly have opinions, but find politics distasteful, and am essentially apolitical. As a generalization, I dislike politicians, although I do recognize that the job of political leadership is necessary, and also difficult and thankless.
+I am a member of neither political party in America. I certainly have opinions, but find modern politics decidedly distasteful in general. In broad strokes, I dislike politicians (of all political persuasions) and view them as generally dishonest and problematically narcissistic, although I do recognize that the job of political leadership is necessary, and also difficult and thankless.
 
 Rather than getting personally tied up in politics, I instead attempt to live my individual life in accordance with integrity and justice, and let the wider issues fall where they may.
 
 ### Media sources
 
-I read multiple sides of most issues from publications across the political spectrum (e.g., the New York Times, Fox News). Usually the truth (inasmuch as the actual truth *ever* really shows up in the news) lies somewhere in the middle.
+I read multiple sides of most issues from publications across the political spectrum (e.g., the New York Times, Fox News). Usually the truth (inasmuch as the actual truth *ever* really shows up in the mainstream media) lies somewhere in the middle.
 
-I am not very fond of the mainstream media due to widespread bias and lack of journalistic rigor (e.g., basic fact-checking). I often find the writing of non-affiliated individuals to be more insightful.
+I am not very fond of mainstream media sources due to widespread bias and lack of journalistic rigor (e.g., basic fact-checking). I often find the writing of non-affiliated individuals to be much less biased and much more insightful.
 
 ### Religion
 
-I am a Christian. While by choice I do not belong to any particular denomination or group, my beliefs can probably be fairly labeled as belonging to the classification of “non-denominational evangelical.”
+I am a Christian. While by choice I do not belong to any particular denomination or group, my beliefs can probably be fairly labeled as belonging to the classification of "non-denominational evangelical."
 
 Despite being a Christian, I disagree with much done in the name of Christianity via organized religion. In fact, I generally view most of what passes for Christianity today as quite misguided.
 
-I [run a separate site](https://www.bibledocs.org/) that contains all of my writings on Christianity, if you’d like to read more about what exactly it is that I believe.
+I [run a separate site](https://www.bibledocs.org/) that contains all of my writings on Christianity, if you'd like to read more about what exactly it is that I believe.
 
-I don’t mix my Christianity with my politics because I don’t do politics.
+I don't mix my Christianity with my politics because I don't do politics.
